@@ -1,0 +1,442 @@
+{
+  "doc_id": "RFP-2026-8-PR-CASCADE-Updated-with-QAs-1",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/19e7c1f3-0506-42aa-a91b-c2ce8d3e92e9/scratchpad/dev_doc2/RFP-2026-8-PR-CASCADE-Updated-with-QAs-1.pdf",
+  "n_pages": 13,
+  "text_extractable": true,
+  "backend": "qwen3-vl-32b",
+  "backend_key": "qwen3-vl-32b:vision",
+  "model": "QuantTrio/Qwen3-VL-32B-Instruct-AWQ",
+  "modality": "vision",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T22:27:52+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 47.11,
+      "prompt_tokens": 29003,
+      "completion_tokens": 442,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 57.67,
+      "prompt_tokens": 22515,
+      "completion_tokens": 968,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        10,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 24.21,
+      "prompt_tokens": 16030,
+      "completion_tokens": 296,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 36.4,
+      "prompt_tokens": 18133,
+      "completion_tokens": 569,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 53.56,
+      "prompt_tokens": 27402,
+      "completion_tokens": 643,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "18th September 2026",
+      "raw": "18th September 2026",
+      "page": 4,
+      "quote": "18th September 2026 | Applications deadline\nAll applications must be submitted via this form.",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": false,
+        "best_score": 97.8
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "4th September 2026",
+      "raw": "4th September 2026",
+      "page": 4,
+      "quote": "4th September 2026 | Questions deadline. All questions must be sent only to tender@bettercotton.org with the RFP Reference in the Subject line.",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": false,
+        "best_score": 98.6
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "tender@bettercotton.org",
+      "email": "tender@bettercotton.org",
+      "phone": null,
+      "title": null,
+      "page": 1,
+      "quote": "You may submit questions to tender@bettercotton.org - RFP n# 2026-8-PR-CASCADE until 4th September 2026, noting that the final submission deadline for bids is the 18th September 2026.",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "All applications must be submitted via this form. After submitting your details through the form, you will receive a separate email to upload your supporting documents to a secure platform.",
+      "page": 1,
+      "quote": "All applications must be submitted via this form until 18th September 2026. After submitting your details through the form, you will receive a separate email to upload your supporting documents to a secure platform.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 1,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 78.1
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "Project duration from 28/09/2026 to 18/12/2026, with no renewal options specified. The timeline is fixed with deliverables due by 18th December 2026, and no mention of extensions or renewals.",
+      "page": 1,
+      "quote": "Start date: 28/09/2026\nEnd date: 18/12/2026",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "The Better Cotton Initiative (BCI) is seeking proposals for a Training Cascade Review Survey to evaluate the effectiveness of its training cascade model for delivering capacity strengthening to BCI farmers. The scope, detailed under 'Scope of Work' on page 3, includes: (1) a benchmarking review of existing capacity strengthening models for other ISEAL standards; (2) co-design and execution of an online survey for Programme Partners; and (3) conducting webinars and up to two face-to-face consultations (though Q6 on page 8 clarifies these consultations are now to be conducted remotely). The review will focus on 11 direct BCI countries (Benin, China, Côte d’Ivoire, Egypt, India, Mali, Mozambique, Pakistan, Tajikistan, Türkiye, Uzbekistan) and up to 60 Programme Partners, as confirmed in Q10 (page 9) and Q21 (page 12).",
+      "page": 3,
+      "quote": "Scope of Work\nThis review will enable BCI, as part of its ISEAL five-year review of capacity strengthening, to decide what to retain, adapt, or redesign in the training cascade model — recognising that the answer may differ by country — and how the Behaviour Change Wheel or similar behaviour change approach should be integrated. For the purposes of this review, the cascade is effective if knowledge reaches farmers with reasonable rigour, is understood by them, and contributes alongside other capability, opportunity and motivation factors to increased practice adoption. We need to avoid the simplistic assumption that the cascade is effective simply because training sessions are delivered.\n\nThe review should therefore explore how the training delivered by Partners interacts with other components of behaviour change approaches including the enabling environment (Opportunity) and motivation of farmers as these will also be key determinants of practice adoption. However, the delivery of training on specific topics as evidenced through annually collected Results Indicators currently provides the best proxy data source available to compare with practice adoption outcomes.\n\nBCI will therefore provide the consultant with relevant existing data at kick-off, including anonymised assurance findings and practice adoption indicators, and survey findings should be checked against these. Options for change should be assessed for their expected impact on farmer practice adoption, cost and effort to implement, and feasibility across differing country contexts.\n\nBCI is in the process of updating the training cascades in producer countries that were part of the BCI programme in 2021 and creating new cascades for those countries that have been recently onboarded such as Côte d’Ivoire and Benin. Building on these cascade updates, the expected outputs of this project will be:\n\n• A benchmarking review of existing CS models for other ISEAL standards, particularly those operating in the agricultural sector to highlight best practices being implemented by other standards that could be utilised by BCI, to enhance the effectiveness of BCI’s cascade model – including how other standards use digital tools or AI based approaches to deliver capacity strengthening directly to farmers – and which will inform the options presented in the final report.\n\n• Co-design and run an online survey of Programme Partners (translated as needed) covering: how the cascade operates in practice, where knowledge transfer weakens, actual use of the Behaviour Change Wheel or similar, what digital channels PPs and farmers currently use and PP views on the feasibility of digital delivery direct to farmers in their context, and what PPs would change. The consultant will review BCI’s suggested questions and propose amendments for BCI approval prior to launch. Responses are confidential to the consultant with BCI only receiving anonymised responses.\n\n• Conduct webinars and up to two face-to-face consultations: with Programme Partners, to test and deepen survey findings and explore any discrepancies with existing BCI data; and separately with Country Teams, to gather their perspectives on the PP descriptions",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Initial details must be submitted on the form found in the link provided.",
+        "Proposals must be a maximum of 5 pages (excluding CVs).",
+        "Proposals must include an overview of relevant experience.",
+        "Proposals must include a proposed methodology and timeline.",
+        "Proposals must include a detailed and transparent budget in EUROS, including time allocation and day rates."
+      ],
+      "page": 5,
+      "quote": "Please note that we have changed our RFP submission protocol, and this is now in two phases; • Phase 1: Initial details will be submitted on the form found in this link. • Phase 2: You will receive an email with live links to upload relevant documents (please check your Spam and Junk folders) Proposals responding to this Request for Proposals should be a maximum of 5 pages (excluding CVs), and include the following: • Overview of relevant experience • Proposed methodology and timeline • Detailed and transparent budget, in EUROS, including time allocation and day rates",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Technical Evaluation Criteria",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Demonstrated understanding of this RFP",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Quality and clarity of the proposed approach and methodology",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Feasibility of the proposed activity plan and timeline, and appropriateness of time allocated to delivering each task",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Relevant professional experience of the proposed consultant(s)",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Quality and relevance of the sample work submitted",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Financial Evaluation Criteria",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Quality and clarity of budget provided, and level of detail included",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Alignment of the budget to the activity timeline detailed in the technical proposal",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Value for money",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Adherence to the available budget",
+          "weight": null,
+          "unit": null
+        }
+      ],
+      "page": 6,
+      "quote": "Evaluation Criteria\nProposals will be evaluated based on the following criteria:\nTechnical Evaluation Criteria\n• Demonstrated understanding of this RFP\n• Quality and clarity of the proposed approach and methodology\n• Feasibility of the proposed activity plan and timeline, and appropriateness of time allocated to delivering each task\n• Relevant professional experience of the proposed consultant(s)\n• Quality and relevance of the sample work submitted\nFinancial Evaluation Criteria\n• Quality and clarity of budget provided, and level of detail included\n• Alignment of the budget to the activity timeline detailed in the technical proposal\n• Value for money\n• Adherence to the available budget",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 6,
+        "found_on_page": 6,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "no numeric scoring formula, judged qualitatively based on 'value for money' and 'alignment of the budget to the activity timeline' under Financial Evaluation Criteria",
+      "page": 6,
+      "quote": "Financial Evaluation Criteria\n• Quality and clarity of budget provided, and level of detail included\n• Alignment of the budget to the activity timeline detailed in the technical proposal\n• Value for money\n• Adherence to the available budget",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 6,
+        "found_on_page": 6,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "At least 5 years' experience evaluating or designing farmer training, extension, or training-of-trainers programmes in smallholder and medium farm agriculture. Also required: demonstrated survey design and analysis experience, including working across languages, and experience producing practical recommendations for programme improvement (not academic research alone).",
+      "page": 5,
+      "quote": "Required Skills & Knowledge\nSkills, Knowledge and Experience\nEssential\nAt least 5 years' experience evaluating or designing farmer training, extension, or training-of-trainers programmes in smallholder and medium farm agriculture\nDemonstrated survey design and analysis experience, including working across languages\nExperience producing practical recommendations for programme improvement (not academic research alone)",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": false,
+      "value": null,
+      "unit": "count",
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Responses to the online survey are confidential to the consultant, with BCI only receiving anonymised responses.",
+        "Existing data provided at kick-off includes anonymised assurance findings and practice adoption indicators.",
+        "The successful consultant is expected to primarily focus on survey responses, and existing data is to be used as context setting, not as the primary analysis focus."
+      ],
+      "page": 3,
+      "quote": "The consultant will review BCI’s suggested questions and propose amendments for BCI approval prior to launch. Responses are confidential to the consultant with BCI only receiving anonymised responses.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 113083,
+    "completion_tokens": 2918,
+    "cost_usd": 0.0,
+    "latency_s": 218.95,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T22:31:45+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 11,
+    "fields_absent": 6,
+    "evidence": {
+      "verified": 10,
+      "wrong_page": 0,
+      "unverified": 1,
+      "no_quote": 0,
+      "absent": 6
+    },
+    "groundedness": 0.909,
+    "hallucination_rate": 0.091
+  }
+}

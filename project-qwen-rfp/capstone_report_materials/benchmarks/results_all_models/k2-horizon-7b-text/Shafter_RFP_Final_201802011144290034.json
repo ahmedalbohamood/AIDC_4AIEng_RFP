@@ -1,0 +1,463 @@
+{
+  "doc_id": "Shafter_RFP_Final_201802011144290034",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/Shafter_RFP_Final_201802011144290034.pdf",
+  "n_pages": 40,
+  "text_extractable": true,
+  "backend": "k2-horizon-7b",
+  "backend_key": "k2-horizon-7b:text",
+  "model": "IFM/K2-Horizon-7B",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T08:14:02+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        16,
+        17
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 13.14,
+      "prompt_tokens": 5498,
+      "completion_tokens": 464,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        9,
+        12,
+        13,
+        17,
+        18,
+        21
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.78,
+      "prompt_tokens": 4623,
+      "completion_tokens": 230,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        10,
+        11,
+        13,
+        14,
+        22,
+        23
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 8.82,
+      "prompt_tokens": 4701,
+      "completion_tokens": 307,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        9,
+        21,
+        25
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 10.84,
+      "prompt_tokens": 3252,
+      "completion_tokens": 399,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        13,
+        14,
+        16,
+        21,
+        23,
+        24,
+        25,
+        28,
+        29,
+        31,
+        35,
+        36,
+        37
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 21.11,
+      "prompt_tokens": 10387,
+      "completion_tokens": 700,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 10,
+      "quote": "Proposals are to be submitted in sealed packages by March 1, 2018 at 5:00 PM PST. Late submissions will not be accepted.",
+      "confidence": 0.99,
+      "value": "March 1, 2018 at 5:00 PM PST",
+      "raw": "Proposals are to be submitted in sealed packages by March 1, 2018 at 5:00 PM PST. Late submissions will not be accepted.",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 7,
+      "quote": "Additional inquires or requests for clarification will be accepted until February 16, 2018 at 5:00 PM (PST).",
+      "confidence": 0.99,
+      "value": "February 16, 2018 at 5:00 PM (PST)",
+      "raw": "Additional inquires or requests for clarification will be accepted until February 16, 2018 at 5:00 PM (PST).",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 7,
+      "quote": "Contact: James L. Zervis Title: Director of Administrative Services Email: jzervis@shafter.com Phone: (661) 746-5043",
+      "confidence": 0.99,
+      "name": "James L. Zervis",
+      "email": "jzervis@shafter.com",
+      "phone": "(661) 746-5043",
+      "title": "Director of Administrative Services",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 10,
+      "quote": "Proposers are required to submit TWO (2) hard copies and TWO (2) electronic copies of the proposal (including both technical and cost proposal) in a sealed package that is clearly labeled with the proposer's company name and the RFP name.",
+      "confidence": 0.99,
+      "value": "Sealed package with TWO (2) hard copies and TWO (2) electronic copies, delivered to City of Shafter, James Zervis, Director of Administrative Services, 336 Pacific Avenue, Shafter, CA 93263",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": false,
+        "best_score": 99.6
+      }
+    },
+    "contract_term": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 17,
+      "quote": "The project scope for procurement and implementation of software solutions is briefly described in the chart below. Specific functionality within each category listed below is more thoroughly described in Attachment 13 (Functional Requirements).",
+      "confidence": 0.9,
+      "value": "The City is procuring an ERP system and implementation services covering Financials (General Ledger, Purchasing/Contracts, Accounts Payable, Accounts Receivable/Misc. Billing, Utility Billing, Cashiering, Project/Grant Accounting, Fixed Assets, Budget Prep, Vendor Self Service) and Human Resources/Payroll (Personnel Administration, Applicant Tracking & Hiring (optional), Position Control, Benefit Administration, Leave Management, Time Entry/Scheduling, Payroll, Employee Self-Service, Employee/Travel Reimbursement), plus implementation services including project management, system design and documentation, testing, and training, and hosting/software-as-a-service options.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 17,
+        "found_on_page": 17,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 10,
+      "quote": "Proposers are required to submit TWO (2) hard copies and TWO (2) electronic copies of the proposal (including both technical and cost proposal) in a sealed package that is clearly labeled with the proposer's company name and the RFP name.  Hard copies of the proposal must include a submittal letter signed by an authorized agent of each firm involved in the proposal.  The letter should include appropriate contact information for each firm.",
+      "confidence": 0.9,
+      "value": [
+        "Submit TWO (2) hard copies and TWO (2) electronic copies of the proposal (including both technical and cost proposal) in a sealed package that is clearly labeled with the proposer's company name and the RFP name.",
+        "Hard copies of the proposal must include a submittal letter signed by an authorized agent of each firm involved in the proposal.",
+        "The letter should include appropriate contact information for each firm."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 13,
+      "quote": "Proposers are expected to warrant both software and implementation of all positive responses (every response except \"N\" and \"I\").",
+      "confidence": 0.9,
+      "value": [
+        "Proposers are expected to warrant both software and implementation of all positive responses (every response except \"N\" and \"I\")."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 13,
+        "found_on_page": 13,
+        "exact": false,
+        "best_score": 96.9
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 9,
+      "quote": "The criteria that will be used to evaluate proposals may include, but are not limited to the following: Cost Response to Attachment 13 (Functional Requirements) Software Demonstrations Implementation Approach Past Experience with Similar Organizations and References Proposed Integration to Other Modules / Systems in RFP Scope Technical Compatibility Proposed Hosting Services and Service Level Guarantees Overall Understanding of the City’s Needs and Project Risk Mitigation Project Management Approach Compliance with Contract Terms and Conditions",
+      "confidence": 0.9,
+      "value": [
+        {
+          "category": "Cost",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Response to Attachment 13 (Functional Requirements)",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Software Demonstrations",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Implementation Approach",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Past Experience with Similar Organizations and References",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Proposed Integration to Other Modules / Systems in RFP Scope",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Technical Compatibility",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Proposed Hosting Services and Service Level Guarantees",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Overall Understanding of the City’s Needs and Project Risk Mitigation",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Project Management Approach",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Compliance with Contract Terms and Conditions",
+          "weight": null,
+          "unit": null
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 16,
+      "quote": "Proposers should submit their price proposal in a separate and sealed packet according to the format provided in Attachment 14 (Cost) to this RFP.",
+      "confidence": 0.95,
+      "value": "Price proposal must be submitted in a separate and sealed packet using the format in Attachment 14 (Cost). All pricing must be submitted as fixed by milestone; costs listed as 'to-be-determined', 'estimated', or similar will not be scored. All service costs must be provided on a task or completion basis with costs assigned to each milestone, deliverable and/or task. All pricing (including travel) must be a fixed fee or included in the implementation milestones.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 23,
+      "quote": "General Liability - Vendor shall maintain commercial general liability insurance with coverage at least as broad as Insurance Services Office form CG 00 01, in an amount not less than one million dollars ($1,000,000) per occurrence, two million dollars ($2,000,000) general aggregate, for bodily injury, personal injury, and property damage, including without limitation, blanket contractual liability. Vendor's general liability policies shall be primary and non-contributory, and be endorsed using Insurance Services Office form CG 20 10 to provide that City and its officers, officials, employees, and agents shall be additional insureds under such policies.",
+      "confidence": 0.95,
+      "value": [
+        {
+          "coverage_type": "General Liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "General Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "general aggregate"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 35,
+      "quote": "Please provide at least five (5) references for past projects that include products and services similar to those proposed for this RFP, including at least one city in California.",
+      "confidence": 0.95,
+      "value": 5,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 35,
+        "found_on_page": 35,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 36,
+      "quote": "Security - What security tools are provided in software? Identify data encryption approach used Does system support active directory? Does system support single sign on?",
+      "confidence": 0.95,
+      "value": [
+        "Vendor must identify security tools provided in software",
+        "Vendor must identify data encryption approach used",
+        "Vendor must state whether system supports active directory",
+        "Vendor must state whether system supports single sign on"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 36,
+        "found_on_page": 36,
+        "exact": false,
+        "best_score": 98.8
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 8,
+      "quote": "Up to three proposers elevated and notified for software demonstrations",
+      "confidence": 0.95,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 28461,
+    "completion_tokens": 2100,
+    "cost_usd": 0.0,
+    "latency_s": 60.69,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T08:15:03+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 13,
+    "fields_absent": 4,
+    "evidence": {
+      "verified": 13,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 4
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

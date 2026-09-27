@@ -1,0 +1,433 @@
+{
+  "doc_id": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/40d4e0e3-55b7-4205-8f85-c4a551f22edb/scratchpad/new4_docs/AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2).pdf",
+  "n_pages": 38,
+  "text_extractable": true,
+  "backend": "qwen3.5-9b",
+  "backend_key": "qwen3.5-9b:text",
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-20T12:36:53+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        8,
+        9,
+        10,
+        11,
+        17
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 8.91,
+      "prompt_tokens": 4669,
+      "completion_tokens": 549,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        8,
+        13,
+        16,
+        17,
+        19,
+        25
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.58,
+      "prompt_tokens": 4250,
+      "completion_tokens": 263,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        10,
+        12,
+        13,
+        14,
+        19,
+        20
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.62,
+      "prompt_tokens": 4136,
+      "completion_tokens": 132,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        11,
+        14,
+        15,
+        16,
+        21
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 5.85,
+      "prompt_tokens": 4154,
+      "completion_tokens": 348,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        20,
+        21,
+        22,
+        25,
+        26,
+        28,
+        30,
+        31,
+        36
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 13.4,
+      "prompt_tokens": 10851,
+      "completion_tokens": 764,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Closing Date and Time: September 9, 2026 before 2:00:00 PM MT",
+      "confidence": 0.99,
+      "value": "September 9, 2026 before 2:00:00 PM MT",
+      "raw": "Closing Date and Time: September 9, 2026 before 2:00:00 PM MT",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 96.7
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Question Closing Time: September 2, 2026 before 2:00:00 PM MT",
+      "confidence": 0.99,
+      "value": "September 2, 2026 before 2:00:00 PM MT",
+      "raw": "Question Closing Time: September 2, 2026 before 2:00:00 PM MT",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 96.7
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 10,
+      "quote": "All questions shall be directed to: Olds College 4500 50 Street Olds, AB Purchasing Department purchasing@oldscollege.ca",
+      "confidence": 0.99,
+      "name": "Olds College Purchasing Department",
+      "email": "purchasing@oldscollege.ca",
+      "phone": null,
+      "title": null,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 8,
+      "quote": "Proponents must submit an electronic copy by email. Submissions must be clearly marked with the Proponent's name and address, the Proposal name and number and the Closing Date and Time. Proposals shall be addressed to: Olds College Purchasing Department 4500 - 50 Street Olds, AB T4H 1R6 submissions@oldscollege.ca",
+      "confidence": 0.99,
+      "value": "Email to submissions@oldscollege.ca",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 8,
+      "quote": "Olds College will enter a contract for services for five (5) years. There will also be the opportunity to renew the contract for two (2) separate three (3) years renewals, based solely on the College's discretion. The total contract term, if optional renewals are activated, may be up to a maximum of a eleven (11) years period.",
+      "confidence": 0.95,
+      "value": "5 years with two optional 3-year renewals (maximum 11 years)",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 19,
+      "quote": "Detailed LMS System Requirements Functional Requirements - Student Experience and Quality Instruction Development & Management of Learning Content Assessment",
+      "confidence": 0.85,
+      "value": "LMS Platform & Support including Development & Management of Learning Content, Assessment, and other functional requirements as detailed in Section D",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 19,
+        "found_on_page": 19,
+        "exact": false,
+        "best_score": 94.9
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": [
+        "null"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": [
+        "null"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 15,
+      "quote": "A. Company Experience 15 B. Staff/Resource Experience 5 C. Proposed Solution and Approach 40 D. Pricing 40 E. Reference Checks and Interview 100",
+      "confidence": 0.95,
+      "value": [
+        {
+          "category": "A. Company Experience",
+          "weight": 15,
+          "unit": "points"
+        },
+        {
+          "category": "B. Staff/Resource Experience",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "C. Proposed Solution and Approach",
+          "weight": 40,
+          "unit": "points"
+        },
+        {
+          "category": "D. Pricing",
+          "weight": 40,
+          "unit": "points"
+        },
+        {
+          "category": "E. Reference Checks and Interview",
+          "weight": 100,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 15,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 81.2
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 25,
+      "quote": "Olds College agrees to pay the price of the fees for the Services as specified in Schedule \"A\".",
+      "confidence": 0.9,
+      "value": "Fixed-price, 5-year term, pricing remains same throughout Renewal Term",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 25,
+        "found_on_page": 25,
+        "exact": false,
+        "best_score": 97.9
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 13,
+      "quote": "Comprehensive General Liability insurance in an amount of not less than two million dollars ($2,000,000) inclusive per occurrence against third party claims for bodily injury, personal injury, and property damage (including loss of use thereof).",
+      "confidence": 0.9,
+      "value": [
+        {
+          "coverage_type": "Comprehensive General Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Insurance on property of others",
+          "amount": null,
+          "currency": null,
+          "basis": "all risks"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 13,
+        "found_on_page": 13,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 17,
+      "quote": "Proponents should provide three references, where their company has provided the goods and services similar to those outlined in this RFP",
+      "confidence": 0.9,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 17,
+        "found_on_page": 17,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 21,
+      "quote": "Ability to adhere to Province of Alberta information privacy standards (POPA)",
+      "confidence": 0.9,
+      "value": [
+        "Ability to adhere to Province of Alberta information privacy standards (POPA)",
+        "Proponents must be able to provide a HECVAT cybersecurity & privacy assessment.",
+        "SAML based Single Sign-On (SSO) integration",
+        "State whether the platform supports \"local\" Multi-Factor Authentication (MFA) support or whether MFA is dependent on the above SSO integration"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "page": 21,
+      "quote": "Preference will be given to a Canadian host location",
+      "confidence": 0.9,
+      "value": "Canadian host location",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 14,
+      "quote": "RFP Evaluations & product demos September 10 - November 15, 2026",
+      "confidence": 0.9,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 14,
+        "found_on_page": 14,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 28060,
+    "completion_tokens": 2056,
+    "cost_usd": 0.0,
+    "latency_s": 35.36,
+    "errors": 0
+  },
+  "finished_at": "2026-09-20T12:37:28+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 13,
+    "fields_absent": 4,
+    "evidence": {
+      "verified": 12,
+      "wrong_page": 0,
+      "unverified": 1,
+      "no_quote": 0,
+      "absent": 4
+    },
+    "groundedness": 0.923,
+    "hallucination_rate": 0.077
+  }
+}

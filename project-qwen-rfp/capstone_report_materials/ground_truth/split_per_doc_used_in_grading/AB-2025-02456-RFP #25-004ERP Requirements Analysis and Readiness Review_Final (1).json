@@ -1,0 +1,133 @@
+{
+  "doc_id": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+  "annotator": "GPT-5.6 Sol source-grounded review, revised 2026-09-22",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "May 14, 2025, 2:00 PM MST",
+      "difficulty": "hard",
+      "note": "Cover and RFP Timetable / Submission section."
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "April 17, 2025, 2:00 PM MST",
+      "difficulty": "easy",
+      "note": "Section 1.4 RFP Timetable."
+    },
+    "rfp_contact": {
+      "present": true,
+      "value": "Indra Ghosh, Supervisor of Purchasing and Treasury; PublicBids@rockyview.ca",
+      "difficulty": "medium",
+      "note": "Section 1.2 RFP Contact."
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Electronic submission by email to PublicBids@rockyview.ca; proposal in PDF.",
+      "difficulty": "easy",
+      "note": "Section 1.5 Submission of Proposals."
+    },
+    "contract_term": {
+      "present": true,
+      "value": "From official acceptance until December 31, 2025; renewable in one-year increments, with total term not to exceed 3 years.",
+      "difficulty": "hard",
+      "note": "Section 1.3 Type of Contract for Deliverables."
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Consulting engagement to assess Rocky View County's ERP requirements and organizational/technology/data/process readiness, document functional and technical requirements, develop the future ERP RFP scope, and advise the County during ERP vendor evaluation and selection.",
+      "difficulty": "medium",
+      "note": "Appendix D, Sections A1-A3; project phases include readiness assessment, RFP development, and evaluation/advisory support."
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Completed and signed Submission Form (Appendix B).",
+        "Completed Pricing Schedule (Appendix D / Appendix C instructions).",
+        "Completed Mandatory Evaluation Table with Yes/No responses covering scope understanding, methodology, schedule, team, similar work, budgetary control, and required insurance/documents/references."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix D Section B."
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "value": null,
+      "difficulty": "hard",
+      "note": "No separate mandatory technical solution-requirements section is stated; this procurement is for ERP consulting/advisory services. Do not convert rated methodology/experience criteria into technical mandatories."
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "criterion": "Proponent Experience and Qualifications",
+          "weight": 10
+        },
+        {
+          "criterion": "Service Team Qualifications and Experience",
+          "weight": 25
+        },
+        {
+          "criterion": "Client References and Past Experience",
+          "weight": 10
+        },
+        {
+          "criterion": "Work Plan, Methodology, and Quality Assurance",
+          "weight": 30
+        },
+        {
+          "criterion": "Pricing",
+          "weight": 25
+        }
+      ],
+      "difficulty": "medium",
+      "note": "Appendix D Section C; total weighting 100%."
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "difficulty": "hard",
+      "note": "No explicit numeric minimum score to advance. Mandatory Yes/No items may disqualify, but there is no numeric rated-score cutoff."
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Complete the Pricing Schedule; provide unit prices and total/lump-sum bid in CAD. Rates are all-inclusive of labour, materials, travel, insurance, delivery/setup and overhead, with sales taxes itemized separately. Pricing is weighted 25%.",
+      "difficulty": "medium",
+      "note": "Appendix C Pricing and Appendix D Pricing/Professional Fees."
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": null,
+      "difficulty": "easy",
+      "note": "An insurance certificate is referenced as required, but the PDF does not state a minimum insurance coverage type/amount. Do not invent a dollar minimum."
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Project Manager (and backup Project Manager) must have at least 5 years of experience on ERP-related projects and must have led at least 2 ERP projects from readiness assessment through implementation within the last 7 years. Project team members must have at least 3 years of experience on ERP-related projects, with readiness-assessment-through-implementation experience within the last 7 years. Relevant professional qualifications/certifications and public-sector/municipal ERP experience are evaluated.",
+      "difficulty": "hard",
+      "note": "Appendix D rated criteria, Team Qualifications and Experience. This RFP contains explicit minimum experience requirements for the Project Manager and project team."
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "difficulty": "easy",
+      "note": "Minimum three similar/identical client references, preferably public sector, for services within the last seven years."
+    },
+    "data_security_requirements": {
+      "present": false,
+      "value": null,
+      "difficulty": "hard",
+      "note": "The consultant must assess the County's data security/governance and cloud-security readiness, but the RFP does not impose a named security/privacy compliance standard on the consultant's own hosted solution."
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "difficulty": "hard",
+      "note": "The scope asks the consultant to assess data-residency requirements for a future ERP; it does not prescribe where the consultant must host/process County data."
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "difficulty": "easy",
+      "note": "Section 2.6 states a second-level presentation/interview may be conducted for all or shortlisted proponents."
+    }
+  }
+}

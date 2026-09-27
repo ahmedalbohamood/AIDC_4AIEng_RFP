@@ -1,0 +1,284 @@
+{
+  "doc_id": "RFP CP-730126 Generative AI RFP (4)",
+  "backend": "lift-vision-singlecall",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "August 12, 2025",
+      "raw": "d) Proposals due August 12, 2025",
+      "page": 5,
+      "quote": "d) Proposals due August 12, 2025",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "July 25, 2025",
+      "raw": "b) Written inquiries up to July 25, 2025",
+      "page": 5,
+      "quote": "b) Written inquiries up to July 25, 2025",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "USask",
+      "email": null,
+      "phone": null,
+      "title": null,
+      "page": 5,
+      "quote": "To contact USask or ask questions in relation to this RFP, Proponents must register with USask's public procurement portal at https://usask.bonfirehub.ca (the \"Portal\") and initiate the communication electronically through the Opportunity Q&A.",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "online Bonfire Portal at: https://usask.bonfirehub.ca",
+      "page": 5,
+      "quote": "Proposals must be submitted through the online Bonfire Portal at: https://usask.bonfirehub.ca",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "maximum potential Contract period of ten (10) years, or for subsequent project stages, or re-tender the Generative Artificial Intelligence (AI) Software.",
+      "page": 14,
+      "quote": "USask reserves the right to extend the Contract for one additional three-year and one additional two-year extension, for a maximum potential Contract period of ten (10) years, or for subsequent project stages, or re-tender the Generative Artificial Intelligence (AI) Software.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Generative Artificial Intelligence (AI) Software",
+      "page": 1,
+      "quote": "Commodity: Generative Artificial Intelligence (AI) Software",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "A table of contents of all presented material.",
+        "An outline of your corporate structure and ownership, complete with a list of the names of all the owners of the company and/or officers of the corporation, and a company organizational chart.",
+        "A complete description of the duration and extent of your company's experience, competence and reliability in handling similar projects.",
+        "A list of proposed personnel, corresponding job function, title, qualifications and experience required to facilitate any subsequent Contract.",
+        "A clear indication of services that will be provided.",
+        "The pricing structure, in Canadian dollars (see Section 2.4 – Pricing structure), for all proposed equipment and/or services.",
+        "A sample of Proponent's service/maintenance agreement.",
+        "Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available.",
+        "A summary of sustainability initiatives (see Section 2.3 – Sustainability).",
+        "A summary of any value added benefits or in-kind contributions, any opportunities for recognition, must be approved under University Policy #5.07 see website: https://policies.usask.ca/policies/advancement/gift-in-kind-identification-and-appraisal.php#AuthorizationandApproval Discounts, \"in-kind\" contributions, value added benefits or incentives in the form of laboratory consumables and/or chemicals cannot be considered as the University has contracts in place for these commodities.",
+        "A clear indication of services that will be brokered to third parties, including usage of any USask in-house services.",
+        "Completed Validation of Proposal and Acceptance of Contractual Provisions (see Appendix A).",
+        "Completed pricing structure in electronic format (Appendix D – Pricing Structure).",
+        "Completed HECVAT or Software As a Service Form (Appendix E – Software as a Service Vendor Form)",
+        "Disclosure of any and all judgments, pending or expected litigation, or other real or potential reversals which might materially affect the viability or stability of the Proponent's organization; or warrant that no such condition is known to exist."
+      ],
+      "page": 11,
+      "quote": "a) A table of contents of all presented material. b) An outline of your corporate structure and ownership, complete with a list of the names of all the owners of the company and/or officers of the corporation, and a company organizational chart. c) A complete description of the duration and extent of your company's experience, competence and reliability in handling similar projects. d) A list of proposed personnel, corresponding job function, title, qualifications and experience required to facilitate any subsequent Contract. e) A clear indication of services that will be provided. f) The pricing structure, in Canadian dollars (see Section 2.4 – Pricing structure), for all proposed equipment and/or services. g) A sample of Proponent's service/maintenance agreement. h) Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available. i) A summary of sustainability initiatives (see Section 2.3 – Sustainability). j) A summary of any value added benefits or in-kind contributions, any opportunities for recognition, must be approved under University Policy #5.07 see website: https://policies.usask.ca/policies/advancement/gift-in-kind-identification-and-appraisal.php#AuthorizationandApproval Discounts, \"in-kind\" contributions, value added benefits or incentives in the form of laboratory consumables and/or chemicals cannot be considered as the University has contracts in place for these commodities. k) A clear indication of services that will be brokered to third parties, including usage of any USask in-house services. l) Completed Validation of Proposal and Acceptance of Contractual Provisions (see Appendix A). m) Completed pricing structure in electronic format (Appendix D – Pricing Structure). n) Completed HECVAT or Software As a Service Form (Appendix E – Software as a Service Vendor Form) o) Disclosure of any and all judgments, pending or expected litigation, or other real or potential reversals which might materially affect the viability or stability of the Proponent's organization; or warrant that no such condition is known to exist.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "a) TECHNICAL & AI PLATFORM SERVICES",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "b) OPTIONAL SERVICES",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "c) PROFESSIONAL SERVICES",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "d) PROPONENT QUALIFICATIONS",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "e) SUPPORT & MANAGEMENT",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "f) COST",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "g) UNIVERSITY BENEFIT & SUSTAINABILITY",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "h) INDIGENOUS PARTICIPATION",
+          "weight": 5,
+          "unit": "points"
+        }
+      ],
+      "page": 8,
+      "quote": "a) TECHNICAL & AI PLATFORM SERVICES 30 b) OPTIONAL SERVICES 5 c) PROFESSIONAL SERVICES 5 d) PROPONENT QUALIFICATIONS 10 e) SUPPORT & MANAGEMENT 10 f) COST 30 g) UNIVERSITY BENEFIT & SUSTAINABILITY 5 h) INDIGENOUS PARTICIPATION 5 TOTAL OF 100 Points",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing structure must be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Pricing structure quoted should be DDP Incoterms 2010 USask.",
+      "page": 12,
+      "quote": "Pricing structure must be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Pricing structure quoted should be DDP Incoterms 2010 USask.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability Insurance",
+          "amount": 5000000,
+          "currency": "CAD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Cybersecurity Liability Insurance",
+          "amount": 5000000,
+          "currency": "CAD",
+          "basis": "per occurrence"
+        }
+      ],
+      "page": 15,
+      "quote": "1. Commercial General Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for bodily injury (including death) and damage to property including loss of use thereof. 2. Cybersecurity Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for cybercrime hacking, viruses, worms, denial of service attacks, data breach and ransomware liability insurance.",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "unit": "references",
+      "page": 11,
+      "quote": "h) Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available.",
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 7,
+      "quote": "Proponents may be contacted after the RFP closing to arrange for presentations to clarify Proposals, product demonstrations and/or an inspection of their operations. This may or may not be requested.",
+      "confidence": 1.0,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Demonstrated ability to work in a large university environment or an organization of similar complexity. Relevant experience, competence, and reliability in handling similar projects.",
+      "page": 9,
+      "quote": "Demonstrated ability to work in a large university environment or an organization of similar complexity. Relevant experience, competence, and reliability in handling similar projects.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Compliance with Intellectual Property and Privacy Regulations",
+        "Security and Data Protection Requirements",
+        "Infrastructure Protection",
+        "Cybersecurity Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for cybercrime hacking, viruses, worms, denial of service attacks, data breach and ransomware liability insurance.",
+        "Self-Assessment Questionnaire-D for Service Provider s (SAQ-D) along with Attestation of Compliance (AOC) or Report of Compliance (ROC) signed off by a Qualified Security Assessor (QSA)."
+      ],
+      "page": 8,
+      "quote": "Compliance with Intellectual Property and Privacy Regulations; Security and Data Protection Requirements; Infrastructure Protection; Cybersecurity Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for cybercrime hacking, viruses, worms, denial of service attacks, data breach and ransomware liability insurance.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "Is your organisation able to restrict the jurisdiction where university data is stored?",
+      "page": 28,
+      "quote": "Is your organisation able to restrict the jurisdiction where university data is stored?",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    }
+  },
+  "totals": {
+    "wall_clock_s": 81.27,
+    "prompt_tokens": 27063,
+    "completion_tokens": 2763,
+    "cost_usd": 0.0
+  }
+}

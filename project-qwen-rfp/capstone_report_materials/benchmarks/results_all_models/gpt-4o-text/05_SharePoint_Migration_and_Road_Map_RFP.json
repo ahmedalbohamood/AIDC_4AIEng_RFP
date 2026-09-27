@@ -1,0 +1,387 @@
+{
+  "doc_id": "05_SharePoint_Migration_and_Road_Map_RFP",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/05_SharePoint_Migration_and_Road_Map_RFP.pdf",
+  "n_pages": 23,
+  "text_extractable": true,
+  "backend": "gpt-4o",
+  "backend_key": "gpt-4o:text",
+  "model": "gpt-4o",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:29:24+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        23
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 1.93,
+      "prompt_tokens": 4901,
+      "completion_tokens": 256,
+      "cost_usd": 0.014812
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        9,
+        10,
+        11,
+        13,
+        16,
+        19
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.7,
+      "prompt_tokens": 4562,
+      "completion_tokens": 223,
+      "cost_usd": 0.013635
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.55,
+      "prompt_tokens": 4444,
+      "completion_tokens": 302,
+      "cost_usd": 0.01413
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        18
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 0.78,
+      "prompt_tokens": 2187,
+      "completion_tokens": 57,
+      "cost_usd": 0.006038
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 5.78,
+      "prompt_tokens": 8598,
+      "completion_tokens": 601,
+      "cost_usd": 0.027505
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Closing Date and Time: April 18, 2025 at 4:00pm",
+      "confidence": 1.0,
+      "value": "2025-04-18T16:00:00-07:00",
+      "raw": "April 18, 2025 at 4:00pm",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "raw": null,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "Requests for clarifications or additional information related to this Request for Proposal should be directed, in writing, to the following person: Shiree Worden Records and Information Management Coordinator sworden@rdck.bc.ca",
+      "confidence": 1.0,
+      "name": "Shiree Worden",
+      "email": "sworden@rdck.bc.ca",
+      "phone": null,
+      "title": "Records and Information Management Coordinator",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 4,
+      "quote": "A digital PDF format of the Proposal submission may be sent by e-mail to: sworden@rdck.bc.ca.",
+      "confidence": 1.0,
+      "value": "Email to sworden@rdck.bc.ca",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 9,
+      "quote": "The RDCK is seeking proposals to develop a comprehensive road map and readiness assessment for migrating its records and information management from on-premise file servers to Microsoft SharePoint Online. This engagement will serve as a foundational phase before full implementation and will focus on providing a phased, vendor-neutral migration plan, assessing our current environment, identifying risks, estimating costs for migration and licensing, and providing recommendations for records management, compliance, and governance strategies.",
+      "confidence": 1.0,
+      "value": "The RDCK is seeking proposals to develop a comprehensive road map and readiness assessment for migrating its records and information management from on-premise file servers to Microsoft SharePoint Online. This engagement will serve as a foundational phase before full implementation and will focus on providing a phased, vendor-neutral migration plan, assessing our current environment, identifying risks, estimating costs for migration and licensing, and providing recommendations for records management, compliance, and governance strategies.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 4,
+      "quote": "A digital PDF format of the Proposal submission may be sent by e-mail to: sworden@rdck.bc.ca. The RDCK email server has about a 10mb file size limit. Proponents are to ensure that they have gotten a confirmation of receipt of email prior to the closing time. Larger submissions should be broken down into 2 or more emails or arrangements should be made ahead of time for file transfer by ftp. Proponents wishing to send or deliver a Proposal submission in paper format to the RDCK should submit one printed copy in a SEALED enveloped CLEARLY MARKED \"Request for Proposal-SharePoint Migration and Roadmap Development”.",
+      "confidence": 1.0,
+      "value": [
+        "A digital PDF format of the Proposal submission may be sent by e-mail to: sworden@rdck.bc.ca.",
+        "Proponents are to ensure that they have gotten a confirmation of receipt of email prior to the closing time.",
+        "Larger submissions should be broken down into 2 or more emails or arrangements should be made ahead of time for file transfer by ftp.",
+        "Proponents wishing to send or deliver a Proposal submission in paper format to the RDCK should submit one printed copy in a SEALED enveloped CLEARLY MARKED \"Request for Proposal-SharePoint Migration and Roadmap Development”."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": [],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": [],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 15,
+      "quote": "The Consultant must provide the RDCK with a certificate of insurance upon execution of this Agreement in a form acceptable to the Chief Financial Officer of the Regional District and shall, during the Term of this Agreement, take out and maintain the following insurance coverage: (i) comprehensive commercial general liability insurance against claims for bodily injury, death or property damage arising out of this Agreement or the provision of the Services in the amount of $ 2,000,000 dollars per occurrence with a maximum deductible of $5,000; (ii) professional liability coverage in the amount of $ 1,000,000 dollars per claim and with a maximum deductible of $50,000; (iii) Technology Errors and Omissions Insurance and Network Security in the amount of $2,000,000 dollars per occurrence; (iv) Data Liability Insurance in an amount of no less than $2 million;",
+      "confidence": 1.0,
+      "value": [
+        {
+          "coverage_type": "comprehensive commercial general liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "professional liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Technology Errors and Omissions Insurance and Network Security",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Data Liability Insurance",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": null
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 15,
+        "found_on_page": 15,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 16,
+      "quote": "Such insurance shall be primary coverage and not additional to and shall not seek contribution from any other insurance policies available to the RDCK and include coverage for claims resulting from: (A) network risks such as data breaches; (B) unauthorized access; (C) theft of confidential information; (D) invasion of privacy; (E) destruction, alteration or damage to electronic information; (F) intellectual property infringement such as copyright, trademarks, service marks and trade dress.",
+      "confidence": 1.0,
+      "value": [
+        "network risks such as data breaches",
+        "unauthorized access",
+        "theft of confidential information",
+        "invasion of privacy",
+        "destruction, alteration or damage to electronic information",
+        "intellectual property infringement such as copyright, trademarks, service marks and trade dress"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 24692,
+    "completion_tokens": 1439,
+    "cost_usd": 0.07612,
+    "latency_s": 13.74,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:29:38+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 7,
+    "fields_absent": 10,
+    "evidence": {
+      "verified": 7,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 10
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "doc_id": "07_Student_Global_Payment_System_RFP",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/07_Student_Global_Payment_System_RFP.pdf",
+  "n_pages": 34,
+  "text_extractable": true,
+  "backend": "gpt-4o",
+  "backend_key": "gpt-4o:text",
+  "model": "gpt-4o",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:29:49+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        29
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.79,
+      "prompt_tokens": 5308,
+      "completion_tokens": 308,
+      "cost_usd": 0.01635
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        12,
+        20
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.53,
+      "prompt_tokens": 4770,
+      "completion_tokens": 300,
+      "cost_usd": 0.014925
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        9,
+        11,
+        18,
+        21,
+        24,
+        29
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.17,
+      "prompt_tokens": 4953,
+      "completion_tokens": 357,
+      "cost_usd": 0.015953
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        11,
+        12,
+        24,
+        26
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.55,
+      "prompt_tokens": 4582,
+      "completion_tokens": 604,
+      "cost_usd": 0.017495
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        15,
+        16,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        33
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 9.11,
+      "prompt_tokens": 11601,
+      "completion_tokens": 1435,
+      "cost_usd": 0.043353
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 4,
+      "quote": "Closing Date 11:00:00 Mountain Time (Alberta) on April 28th, 2025",
+      "confidence": 1.0,
+      "value": "2025-04-28T11:00:00-06:00",
+      "raw": "11:00:00 Mountain Time (Alberta) on April 28th, 2025",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 4,
+      "quote": "Deadline for Questions April 11th, 2025",
+      "confidence": 1.0,
+      "value": "2025-04-11",
+      "raw": "April 11th, 2025",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "RFP Manager Sabeel Khan Senior Procurement Specialist, SCM Email: sabkhan@ucalgary.ca",
+      "confidence": 1.0,
+      "name": "Sabeel Khan",
+      "email": "sabkhan@ucalgary.ca",
+      "phone": null,
+      "title": "Senior Procurement Specialist, SCM",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 9,
+      "quote": "A digital version of the Proponent’s Proposal, signed by the Proponent’s authorized representative, must be submitted and received through the University of Calgary’s online bidding system at MERX.com. This submission shall be deemed the Proponent’s Proposal of record. Emailed, faxed, or hard copy Proposals will not be considered.",
+      "confidence": 1.0,
+      "value": "MERX.com",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 4,
+      "quote": "Contract Term  Three (3) years  Additional Contract Term  Two (2) renewal options for one (1) year each at the discretion of the University of Calgary.  The maximum term of the contract with extensions shall be no more than five (5) years.",
+      "confidence": 1.0,
+      "value": "3 years with two optional 1-year renewals",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 20,
+      "quote": "The Student Global Payment System (SGPS) Project is expected to deliver significant benefits across multiple areas of the university, improving operational efficiency, student experience and academic outcomes. Key benefits include the following:  (a) Enhanced Student Experience (b) Operational transparency and tracking (c) Reduce operational costs in Office of the Registrar (d) Data Integration (e) Scalability (f) Improve revenue management (g) Reduce operational costs in Finance (h) Enhance efficiency in refund processing (i) Improve emergency and award funding payouts (j) Reduce chargebacks and claw backs (k) Support University of Calgary’s strategic growth (l) Enable credit card processing for domestic and international tuition and residence.",
+      "confidence": 1.0,
+      "value": "The Student Global Payment System (SGPS) Project aims to improve operational efficiency, student experience, and academic outcomes by enhancing student experience, operational transparency, and tracking, reducing operational costs, and enabling credit card processing for tuition and residence.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 9,
+      "quote": "Any Proposals submitted in response to this RFP shall comply with any Proposal submission requirements set out in Appendix A to this RFP and shall include completed versions of the RFP Signature Form, the Pricing Information Form and the Reference Form respectively set out in Schedules A, B and C to this RFP.",
+      "confidence": 1.0,
+      "value": [
+        "completed versions of the RFP Signature Form",
+        "completed versions of the Pricing Information Form",
+        "completed versions of the Reference Form"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 18,
+      "quote": "The integrated payment solution must support various digital payment methods for both domestic and international students.",
+      "confidence": 1.0,
+      "value": [
+        "The integrated payment solution must support various digital payment methods for both domestic and international students.",
+        "The integrated solution must have the capability to: - Pre-populate specified payment amount. - Prevent over-payment.",
+        "The system supports Sanctions Against Specified Countries, and assist students from sanctioned countries with fee payments.",
+        "The system automatically posts payments payment posting to the student account in PeopleSoft and provide real-time updates on the PeopleSoft Student Portal upon fund verification / guarantee.",
+        "The integrated system supports faster Refund processing for domestic and international students, or their financial supporters without a processing fee.",
+        "The system has the ability to restrict award payouts as e-transfer as CAD (Canadian Dollars) and Canadian bank account only.",
+        "Payment system is integrated with RBC UCalgary bank account and automates reconciliation in real-time or near-real-time for payments, and refunds.",
+        "PeopleSoft Student Portal integration as either embedded vendor portal or as external link. System supports ability to apply UCalgary-approved branding",
+        "Cloud based (Software as a Service) solution Reference Architecture required."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 18,
+        "found_on_page": 18,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 24,
+      "quote": "The following evaluation criteria will be employed in the assessment of the Proposals. Please respond to the following requirements and provide any relevant supporting documentation. STAGE II – PROPONENT RESPONSES Weight Compliance with RFP Terms and Conditions Yes/No Completion of Proponent Response Workbook – Schedule E Yes/No Vendor Overview 4 References 5 Business Requirements 32 Cost to Student 3 Student Experience 4 Payment 9 Refund and Payout 6 Reconciliation Process and Automation 3 Reporting and Analytics 1 Integration 2 Testing and Quality Assurance 1 Compliance 2 Implementation and Support 1 Information Technology (IT) Requirements 19 Sustainability 3 PCI Requirement & PCI Responsibility Matrix 5 Country & Currencies 1 Processing Times 2 DRP & BCP, Enterprise Overview Diagram, Standards & Certifications, Data Centre Locations, Innovative Solution 4 Implementation Plan 5 Price (Schedule A) 20 Subtotal for Stage II 100 STAGE III – DEMONSTRATION AND PRESENTATION",
+      "confidence": 1.0,
+      "value": [
+        {
+          "category": "Compliance with RFP Terms and Conditions",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Completion of Proponent Response Workbook – Schedule E",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Vendor Overview",
+          "weight": 4,
+          "unit": "points"
+        },
+        {
+          "category": "References",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "Business Requirements",
+          "weight": 32,
+          "unit": "points"
+        },
+        {
+          "category": "Cost to Student",
+          "weight": 3,
+          "unit": "points"
+        },
+        {
+          "category": "Student Experience",
+          "weight": 4,
+          "unit": "points"
+        },
+        {
+          "category": "Payment",
+          "weight": 9,
+          "unit": "points"
+        },
+        {
+          "category": "Refund and Payout",
+          "weight": 6,
+          "unit": "points"
+        },
+        {
+          "category": "Reconciliation Process and Automation",
+          "weight": 3,
+          "unit": "points"
+        },
+        {
+          "category": "Reporting and Analytics",
+          "weight": 1,
+          "unit": "points"
+        },
+        {
+          "category": "Integration",
+          "weight": 2,
+          "unit": "points"
+        },
+        {
+          "category": "Testing and Quality Assurance",
+          "weight": 1,
+          "unit": "points"
+        },
+        {
+          "category": "Compliance",
+          "weight": 2,
+          "unit": "points"
+        },
+        {
+          "category": "Implementation and Support",
+          "weight": 1,
+          "unit": "points"
+        },
+        {
+          "category": "Information Technology (IT) Requirements",
+          "weight": 19,
+          "unit": "points"
+        },
+        {
+          "category": "Sustainability",
+          "weight": 3,
+          "unit": "points"
+        },
+        {
+          "category": "PCI Requirement & PCI Responsibility Matrix",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "Country & Currencies",
+          "weight": 1,
+          "unit": "points"
+        },
+        {
+          "category": "Processing Times",
+          "weight": 2,
+          "unit": "points"
+        },
+        {
+          "category": "DRP & BCP, Enterprise Overview Diagram, Standards & Certifications, Data Centre Locations, Innovative Solution",
+          "weight": 4,
+          "unit": "points"
+        },
+        {
+          "category": "Implementation Plan",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "Price (Schedule A)",
+          "weight": 20,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 27,
+      "quote": "All costs pertaining to this RFP must be included in the Pricing Information Form in the Proponent Response Workbook – Pricing Info (Schedule A) worksheet. Other costs may not be accepted by the University of Calgary.",
+      "confidence": 1.0,
+      "value": "All costs pertaining to this RFP must be included in the Pricing Information Form in the Proponent Response Workbook – Pricing Info (Schedule A) worksheet.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 27,
+        "found_on_page": 27,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 21,
+      "quote": "Insurance: At its own expense and without limiting its liabilities herein, the Supplier shall ensure its operations under a contract of either Comprehensive or Commercial General Liability with insurers licensed in Alberta in an amount of not less than $2,000,000 per occurrence (annual general aggregate, if any, of not less than $2,000,000) insuring against bodily injury, personal injury and property damage or loss.",
+      "confidence": 1.0,
+      "value": [
+        {
+          "coverage_type": "Comprehensive or Commercial General Liability",
+          "amount": 2000000,
+          "currency": "CAD",
+          "basis": "per occurrence"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 24,
+      "quote": "References 5",
+      "confidence": 1.0,
+      "value": 5,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 23,
+      "quote": "(a) University of Calgary information shall only be stored on electronic computing devices that are current in their malware and anti-virus software and security patches and that are protected by a firewall; (b) All-access to University of Calgary information electronically shall be via a unique user ID that is not shared with other individuals and a password that is not reused for other accounts; (c) University of Calgary information shall not be downloaded onto a portable device, such as laptop computers, PDAs, and USB drives unless such data is protected with strong encryption; (d) University of Calgary information transmitted electronically must be encrypted in transmission unless otherwise authorized by the University of Calgary; (e) It is preferred that transmission, transportation, and storage of University of Calgary information be within the geographical location of this Agreement (i.e., Calgary, Alberta, Canada); however, exceptions will be considered on written confirmation from the University of Calgary; (f) When University of Calgary information is no longer required to perform the Deliverables and is no longer required to be maintained by applicable law or the terms of the Agreement entered into between the University of Calgary and the successful Proponent, the University of Calgary shall instruct the successful Proponent to securely destroy such information whenever such destruction is practicable or to return the University of Calgary information within 30 calendar days of the request in a standard database document format readily accessible to the University of Calgary at no additional charge; (g) If the successful Proponent retains backups of the University of Calgary information, such backups shall be maintained in conformity with the Security Requirements; (h) The successful Proponent shall use best efforts to implement security patches and patches applicable to the Deliverables as soon as possible upon discovery of the security issue. The successful Proponent shall immediately notify the University of Calgary of the nature of any; (i) security issues arising in respect to the University of Calgary’s use of the Deliverables so that the University of Calgary can take action to minimize any risks from such security issues; (j) Prior to providing Deliverables that require access to, the transmission of and/or storage of University of Calgary information, the successful Proponent shall provide a third-party certification verifying its ability to comply with the Security Requirements. Acceptable third party certification includes, but is not limited to, SOC 2 Report, ISO 27001 Certification, and Cloud Security Alliance STAR certification.",
+      "confidence": 1.0,
+      "value": [
+        "University of Calgary information shall only be stored on electronic computing devices that are current in their malware and anti-virus software and security patches and that are protected by a firewall",
+        "All-access to University of Calgary information electronically shall be via a unique user ID that is not shared with other individuals and a password that is not reused for other accounts",
+        "University of Calgary information shall not be downloaded onto a portable device, such as laptop computers, PDAs, and USB drives unless such data is protected with strong encryption",
+        "University of Calgary information transmitted electronically must be encrypted in transmission unless otherwise authorized by the University of Calgary",
+        "It is preferred that transmission, transportation, and storage of University of Calgary information be within the geographical location of this Agreement (i.e., Calgary, Alberta, Canada); however, exceptions will be considered on written confirmation from the University of Calgary",
+        "When University of Calgary information is no longer required to perform the Deliverables and is no longer required to be maintained by applicable law or the terms of the Agreement entered into between the University of Calgary and the successful Proponent, the University of Calgary shall instruct the successful Proponent to securely destroy such information whenever such destruction is practicable or to return the University of Calgary information within 30 calendar days of the request in a standard database document format readily accessible to the University of Calgary at no additional charge",
+        "If the successful Proponent retains backups of the University of Calgary information, such backups shall be maintained in conformity with the Security Requirements",
+        "The successful Proponent shall use best efforts to implement security patches and patches applicable to the Deliverables as soon as possible upon discovery of the security issue. The successful Proponent shall immediately notify the University of Calgary of the nature of any",
+        "security issues arising in respect to the University of Calgary’s use of the Deliverables so that the University of Calgary can take action to minimize any risks from such security issues",
+        "Prior to providing Deliverables that require access to, the transmission of and/or storage of University of Calgary information, the successful Proponent shall provide a third-party certification verifying its ability to comply with the Security Requirements. Acceptable third party certification includes, but is not limited to, SOC 2 Report, ISO 27001 Certification, and Cloud Security Alliance STAR certification"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "wrong_page",
+        "claimed_page": 23,
+        "found_on_page": 22,
+        "exact": false,
+        "best_score": 96.2
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "page": 23,
+      "quote": "It is preferred that transmission, transportation, and storage of University of Calgary information be within the geographical location of this Agreement (i.e., Calgary, Alberta, Canada); however, exceptions will be considered on written confirmation from the University of Calgary;",
+      "confidence": 1.0,
+      "value": "It is preferred that transmission, transportation, and storage of University of Calgary information be within the geographical location of this Agreement (i.e., Calgary, Alberta, Canada); however, exceptions will be considered on written confirmation from the University of Calgary;",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "wrong_page",
+        "claimed_page": 23,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 24,
+      "quote": "As outlined in Article 7 – Evaluation of Proposals, sub section 7.3 (c) – Stage III, UCalgary will shortlist the Proponents and conduct Presentation / Demonstration. The maximum marks to be awarded for Stage III is 30.",
+      "confidence": 1.0,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 31214,
+    "completion_tokens": 3004,
+    "cost_usd": 0.108075,
+    "latency_s": 22.14,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:30:25+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 13,
+      "wrong_page": 2,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

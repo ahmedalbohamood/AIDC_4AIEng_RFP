@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# The corpus: RFPs may be procurement-sensitive, and they are large.
+docs/
+*.pdf
+
+# Outputs
+results/
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Runtime state - actual documents users uploaded through the live app, not
+# source or a reproducible artifact.
+uploads/
+
+# A local pdf/build cache and a node subproject nested in here.
+.docling_cache/
+docx_build/node_modules/
+
+# Junk: an empty accidental file and a zip duplicating the tracked folder
+# right next to it.
+/true
+/capstone_report_materials.zip
+

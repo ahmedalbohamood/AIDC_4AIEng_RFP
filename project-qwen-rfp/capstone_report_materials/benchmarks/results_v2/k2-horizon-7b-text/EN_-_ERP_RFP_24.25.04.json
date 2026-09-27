@@ -1,0 +1,436 @@
+{
+  "doc_id": "EN_-_ERP_RFP_24.25.04",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/40d4e0e3-55b7-4205-8f85-c4a551f22edb/scratchpad/gt_docs/EN_-_ERP_RFP_24.25.04.pdf",
+  "n_pages": 27,
+  "text_extractable": true,
+  "backend": "k2-horizon-7b",
+  "backend_key": "k2-horizon-7b:text",
+  "model": "IFM/K2-Horizon-7B",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-20T11:30:31+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        14,
+        22,
+        25,
+        26
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 9.58,
+      "prompt_tokens": 5653,
+      "completion_tokens": 345,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        11,
+        18,
+        25
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.98,
+      "prompt_tokens": 4349,
+      "completion_tokens": 190,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        7,
+        16,
+        20,
+        22,
+        26
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 16.42,
+      "prompt_tokens": 4033,
+      "completion_tokens": 629,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        7,
+        13,
+        16,
+        22,
+        23
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.21,
+      "prompt_tokens": 4442,
+      "completion_tokens": 274,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        13,
+        15,
+        20,
+        22,
+        23,
+        25
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 14.54,
+      "prompt_tokens": 7597,
+      "completion_tokens": 539,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline: April 14, 2025 11:59:59 PM PST",
+      "confidence": 0.99,
+      "value": "April 14, 2025 11:59:59 PM PST",
+      "raw": "Submission Deadline: April 14, 2025 11:59:59 PM PST",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 5,
+      "quote": "Deadline for Questions March 17, 2025 11:59:59 PM PST",
+      "confidence": 0.99,
+      "value": "March 17, 2025 11:59:59 PM PST",
+      "raw": "Deadline for Questions March 17, 2025 11:59:59 PM PST",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "Jeremy Elliott procurement@cowichantribes.com",
+      "confidence": 0.99,
+      "name": "Jeremy Elliott",
+      "email": "procurement@cowichantribes.com",
+      "phone": null,
+      "title": null,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 5,
+      "quote": "Proposals are to be submitted directly through the BCBid platform where the RFP is posted. No physical submission will be accepted unless specifically requested.",
+      "confidence": 0.99,
+      "value": "BCBid platform",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 5,
+      "quote": "The term of the licensing and support agreement is to be for a period of five years, with an option in favour of Cowichan Tribes to extend the agreement on the same terms and conditions.",
+      "confidence": 0.95,
+      "value": "Five-year licensing and support agreement, with an option for Cowichan Tribes to extend the agreement on the same terms and conditions.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 18,
+      "quote": "The deliverables for this RFP are detailed in the table below.",
+      "confidence": 0.9,
+      "value": "The RFP seeks proposals for an Enterprise Resource Planning (ERP) system, including a signed submission form, narrative response, pricing sheet, and requirements responses, with the deliverables detailed in Appendix B Section A.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 18,
+        "found_on_page": 18,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 22,
+      "quote": "C. MANDATORY SUBMISSION REQUIREMENTS \nEach Proposal must also consist of the following components: \n1. The Proposal must be received by the Submission Deadline indicated in 1.4 RFP \nTimetable and must be submitted using the submission method set out in 1.5 \nSubmission of Proposals. \n2. The Proposal must be in English. \n3. A completed Submission Form in PDF format which is signed by an authorized \nrepresentative of the proponent described in Appendix C. \n4. A completed Narrative Response in PDF format which follows the table contents in \nAppendix B – Section A. \n5. A completed Pricing Excel Workbook described in Appendix B – Section G.  Template \nfor workbook provided. \n6. A completed Requirements Excel Workbook.  Instructions are in the provided \nrequirements workbook.",
+      "confidence": 0.99,
+      "value": [
+        "The Proposal must be received by the Submission Deadline indicated in 1.4 RFP Timetable and must be submitted using the submission method set out in 1.5 Submission of Proposals.",
+        "The Proposal must be in English.",
+        "A completed Submission Form in PDF format which is signed by an authorized representative of the proponent described in Appendix C.",
+        "A completed Narrative Response in PDF format which follows the table contents in Appendix B – Section A.",
+        "A completed Pricing Excel Workbook described in Appendix B – Section G. Template for workbook provided.",
+        "A completed Requirements Excel Workbook. Instructions are in the provided requirements workbook."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 22,
+      "quote": "D. MANDATORY TECHNICAL REQUIREMENTS \nThe following sets out the mandatory technical requirements of the proponent and the proposed \nsolution: \n1. Support for organizations operating in Canada including support for Canadian taxes and \nCanadian Payroll. \n2. Vendor has experience implementing solutions for First Nations in Canada. \n3. The solution must be hosted in Canada and stores all data within Canada. \n4. Implementation vendor(s) can demonstrate they have at least five years' experience \nimplementing Finance, HR, Payroll, and Asset Management solutions. \n5. Solution is cloud based. \n6. The solutions are SOC2 Type 2 compliant or equivalent.   \nFailure to meet the mandatory technical will result in disqualification from consideration.",
+      "confidence": 0.99,
+      "value": [
+        "Support for organizations operating in Canada including support for Canadian taxes and Canadian Payroll.",
+        "Vendor has experience implementing solutions for First Nations in Canada.",
+        "The solution must be hosted in Canada and stores all data within Canada.",
+        "Implementation vendor(s) can demonstrate they have at least five years' experience implementing Finance, HR, Payroll, and Asset Management solutions.",
+        "Solution is cloud based.",
+        "The solutions are SOC2 Type 2 compliant or equivalent."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 23,
+      "quote": "Criteria Category Weighting (Points) Threshold Functional Fit (Requirements Worksheet) 35 28 (80%) Narrative Proposal 20 14 (70%) Pricing (see Section G below) 15 10.5 (70%) Vendor Demonstration 30 21 (70%) Total Points 100",
+      "confidence": 0.95,
+      "value": [
+        {
+          "category": "Functional Fit (Requirements Worksheet)",
+          "weight": 35,
+          "unit": "points"
+        },
+        {
+          "category": "Narrative Proposal",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Pricing (see Section G below)",
+          "weight": 15,
+          "unit": "points"
+        },
+        {
+          "category": "Vendor Demonstration",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "Total Points",
+          "weight": 100,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "page": 23,
+      "quote": "Cowichan Tribes may disqualify a vendor that does not meet the threshold noted for each category.",
+      "confidence": 0.9,
+      "value": 28,
+      "unit": "points",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 23,
+      "quote": "Proponents should submit their pricing information by completing the attached Pricing Sheet and including it in their proposals.  This includes details for implementing and supporting the solution over a 5-year period.",
+      "confidence": 0.9,
+      "value": "Pricing must be submitted on the attached Pricing Sheet (Excel workbook) included in the proposal, covering implementation and support over a 5-year period. Rates must be in Canadian funds, inclusive of all applicable duties and taxes, and all-inclusive of all labour, material, travel, insurance, delivery, installation, set-up, and overhead costs.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": [],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "page": 22,
+      "quote": "Vendor has experience implementing solutions for First Nations in Canada.",
+      "confidence": 0.9,
+      "value": "Experience implementing solutions for First Nations in Canada; implementation vendor(s) must demonstrate at least five years' experience implementing Finance, HR, Payroll, and Asset Management solutions.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 22,
+      "quote": "Reference Checks: Cowichan Tribes will follow up with the references you submitted.  Details on reference submission requirements are in section 10 of the Narrative response.",
+      "confidence": 0.9,
+      "value": 2,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 22,
+      "quote": "The solutions are SOC2 Type 2 compliant or equivalent.",
+      "confidence": 0.9,
+      "value": [
+        "SOC2 Type 2 compliant or equivalent"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "page": 22,
+      "quote": "The solution must be hosted in Canada and stores all data within Canada.",
+      "confidence": 0.9,
+      "value": "Data must be hosted in Canada and all data stored within Canada.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 8,
+      "quote": "At the conclusion of the evaluation, Cowichan Tribes will conduct a cumulative assessment and invite the top two or three vendors to provide a demonstration at their discretion.",
+      "confidence": 0.9,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 26074,
+    "completion_tokens": 1977,
+    "cost_usd": 0.0,
+    "latency_s": 52.74,
+    "errors": 0
+  },
+  "finished_at": "2026-09-20T11:31:24+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 16,
+    "fields_absent": 1,
+    "evidence": {
+      "verified": 16,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 1
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

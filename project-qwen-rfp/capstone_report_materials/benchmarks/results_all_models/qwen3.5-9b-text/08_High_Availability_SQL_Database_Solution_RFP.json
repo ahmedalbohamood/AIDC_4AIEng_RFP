@@ -1,0 +1,451 @@
+{
+  "doc_id": "08_High_Availability_SQL_Database_Solution_RFP",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/08_High_Availability_SQL_Database_Solution_RFP.pdf",
+  "n_pages": 174,
+  "text_extractable": true,
+  "backend": "qwen3.5-9b",
+  "backend_key": "qwen3.5-9b:text",
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:44:34+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        11,
+        109,
+        163
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 8.23,
+      "prompt_tokens": 4672,
+      "completion_tokens": 501,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        30,
+        56,
+        72,
+        135,
+        151
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.46,
+      "prompt_tokens": 4782,
+      "completion_tokens": 180,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        16,
+        32,
+        33,
+        35,
+        106
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.29,
+      "prompt_tokens": 4446,
+      "completion_tokens": 373,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        8,
+        17,
+        18,
+        107,
+        110
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.29,
+      "prompt_tokens": 3819,
+      "completion_tokens": 381,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        10,
+        16,
+        17,
+        19,
+        25,
+        37,
+        46,
+        57,
+        90,
+        92,
+        101,
+        102,
+        108,
+        113,
+        125,
+        166,
+        167,
+        173
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 18.46,
+      "prompt_tokens": 10801,
+      "completion_tokens": 1093,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline:  June 19, 2025 at 4:00 PM Eastern Time(ET)",
+      "confidence": 0.95,
+      "value": "June 19, 2025 at 4:00 PM Eastern Time (ET)",
+      "raw": "Submission Deadline:  June 19, 2025 at 4:00 PM Eastern Time(ET)",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 98.4
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 4,
+      "quote": "Deadline for Questions  Wednesday, June 4, 2025  4:00 PM local time",
+      "confidence": 0.95,
+      "value": "Wednesday, June 4, 2025 4:00 PM local time",
+      "raw": "Deadline for Questions  Wednesday, June 4, 2025  4:00 PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "Paul Barbazza  Procurement and Contract Specialist  Email: Paul.Barbazza@ttc.ca",
+      "confidence": 0.95,
+      "name": "Paul Barbazza",
+      "email": "Paul.Barbazza@ttc.ca",
+      "phone": null,
+      "title": "Procurement and Contract Specialist",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 4,
+      "quote": "Proposals must be submitted through TTC’s online Bonfire portal at:  https://ttc.bonfirehub.ca/opportunities/92757",
+      "confidence": 0.95,
+      "value": "https://ttc.bonfirehub.ca/opportunities/92757",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 4,
+      "quote": "The term of the agreement is to be for a period of one (one) year (the \"Initial Term\"), with an option in favour of TTC to extend the Agreement on the same terms and conditions for one (1) additional two (2) year extension.",
+      "confidence": 0.95,
+      "value": "1 year initial term with one optional 2-year extension",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": false,
+        "best_score": 99.1
+      }
+    },
+    "scope_of_deliverables": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 16,
+      "quote": "1. Proponent Submission Form (Appendix C) Each Proposal must include a Proponent Submission Form (Appendix C) completed and signed by an authorized representative of the Proponent.\n2. Mandatory Technical Requirements Submission Form (Appendix D) Each Proposal must include a completed Mandatory Technical Requirements Submission Form (Appendix D) that complies with the instructions contained in the RFP, and that provides all requested information.\n3. Pricing Submission Form (Appendix F) Each Proposal must include a completed Pricing Submission Form (Appendix F) that complies with the instructions contained in the RFP, and that provides all requested pricing information.",
+      "confidence": 0.95,
+      "value": [
+        "Proponent Submission Form (Appendix C)",
+        "Mandatory Technical Requirements Submission Form (Appendix D)",
+        "Pricing Submission Form (Appendix F)"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 106,
+      "quote": "Appendix D – Mandatory Technical Requirements Submission Form (Q-09JX) Pass/Fail Each Proposal must include a Mandatory Technical Requirements Submission Form completed according to the instructions set out below as well as the instructions in Part 4 of the RFP.",
+      "confidence": 0.95,
+      "value": [
+        "Appendix D – Mandatory Technical Requirements Submission Form (Q-09JX)"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 106,
+        "found_on_page": 106,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 18,
+      "quote": "Stage 2: Rated Criteria 80 60% (48 overall points) 1. Overall Experience 20 2. Project Schedule & Approach 20 3. Solution Capability 20 4. Training Services 10 5. Warranty, Support, and Maintenance 10",
+      "confidence": 0.95,
+      "value": [
+        {
+          "category": "Overall Experience",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Project Schedule & Approach",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Solution Capability",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Training Services",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "Warranty, Support, and Maintenance",
+          "weight": 10,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 18,
+        "found_on_page": 18,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "page": 18,
+      "quote": "Stage 2: Rated Criteria 80 60% (48 overall points)",
+      "confidence": 0.95,
+      "value": 60,
+      "unit": "percent",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 18,
+        "found_on_page": 18,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 16,
+      "quote": "Each Proposal must include a completed Pricing Submission Form (Appendix F) that complies with the instructions contained in the RFP, and that provides all requested pricing information.",
+      "confidence": 0.95,
+      "value": "Pricing Submission Form (Appendix F)",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 101,
+      "quote": "Professional Liability Insurance in the amount of One Million Dollars ($1,000,000.00) covering actual or alleged acts, errors or omissions committed by the Supplier, Supplier Subcontractors or their respective agents or employees, arising out of the performance of this Agreement. The policy coverage will also extend to include personal injury, bodily injury and property damage from the performance of professional service or arising out of the program.",
+      "confidence": 0.95,
+      "value": [
+        {
+          "coverage_type": "Professional Liability Insurance",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Computer Security and Privacy Liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Commercial general liability coverage",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per occurrence or accident"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 101,
+        "found_on_page": 101,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "page": 37,
+      "quote": "The Supplier shall provide a Technical Lead to provide overall design, configuration, and integrations of the Solution. The Technical Lead shall, as a minimum, have the qualification set out below: a) Two (2) or more years of SQL database implementation experience; b) Two (2) years of experience related to implementation of SQL database projects of similar scope; and c) Experience with all aspects of integration, quality assurance and testing pertaining to SQL database implementations.",
+      "confidence": 0.95,
+      "value": "Two (2) or more years of SQL database implementation experience; Two (2) years of experience related to implementation of SQL database projects of similar scope; Experience with all aspects of integration, quality assurance and testing pertaining to SQL database implementations.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 37,
+        "found_on_page": 37,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 113,
+      "quote": "The Proponent should provide three (3) references.",
+      "confidence": 0.95,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 113,
+        "found_on_page": 113,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 90,
+      "quote": "As part of their commitment to safeguard TTC records, the supplier shall implement network segmentation using the principles described in the Purdue Model IEC-62443. The supplier shall establish and maintain network segmentation controls that align with industry best practices. This includes: a) Clearly defined network zones based on logical boundaries, such as departments, functions, or system types b) Access controls such as firewalls, VLANs, or VPNs to regulate traffic flow between network segments and restrict unauthorized communication",
+      "confidence": 0.95,
+      "value": [
+        "Implement network segmentation using the principles described in the Purdue Model IEC-62443.",
+        "Establish and maintain network segmentation controls that align with industry best practices.",
+        "Clearly defined network zones based on logical boundaries, such as departments, functions, or system types.",
+        "Access controls such as firewalls, VLANs, or VPNs to regulate traffic flow between network segments and restrict unauthorized communication."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 90,
+        "found_on_page": 90,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 10,
+      "quote": "The Proponent will bear all costs associated with or incurred in the preparation and presentation of its Proposal, including, if applicable, costs incurred for interviews or demonstrations.",
+      "confidence": 0.95,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 28520,
+    "completion_tokens": 2528,
+    "cost_usd": 0.0,
+    "latency_s": 42.74,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:45:19+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 15,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

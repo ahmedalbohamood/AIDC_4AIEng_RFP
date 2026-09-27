@@ -1,0 +1,419 @@
+{
+  "doc_id": "02_Certification_Testing_Platform_and_Services_RFP",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/02_Certification_Testing_Platform_and_Services_RFP.pdf",
+  "n_pages": 15,
+  "text_extractable": true,
+  "backend": "k2-horizon-7b",
+  "backend_key": "k2-horizon-7b:text",
+  "model": "IFM/K2-Horizon-7B",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:56:46+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 11.71,
+      "prompt_tokens": 5823,
+      "completion_tokens": 408,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.49,
+      "prompt_tokens": 3871,
+      "completion_tokens": 228,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        11
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 28.48,
+      "prompt_tokens": 4922,
+      "completion_tokens": 1051,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        9,
+        10,
+        11,
+        14
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 9.31,
+      "prompt_tokens": 4415,
+      "completion_tokens": 329,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 9.96,
+      "prompt_tokens": 8467,
+      "completion_tokens": 315,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Closing Time and Date: 2:00:00 PM – Pacific Time on May 7, 2025",
+      "confidence": 0.99,
+      "value": "2:00:00 PM – Pacific Time on May 7, 2025",
+      "raw": "Submission Closing Time and Date: 2:00:00 PM – Pacific Time on May 7, 2025",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 2,
+      "quote": "All enquiries regarding any aspect of this RFP should be directed to the Contact Person by email not less than five business days before the Closing Date and Time.",
+      "confidence": 0.99,
+      "value": "not less than five business days before the Closing Date and Time",
+      "raw": "All enquiries regarding any aspect of this RFP should be directed to the Contact Person by email not less than five business days before the Closing Date and Time.",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 2,
+      "quote": "CONTACT PERSON Widya Dhani Procurement Services Email: procurement@worksafebc.com",
+      "confidence": 0.99,
+      "name": "Widya Dhani",
+      "email": "procurement@worksafebc.com",
+      "phone": null,
+      "title": "Procurement Services",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 2,
+      "quote": "SUBMISSION THROUGH BC BID To access BC Bid, you will need to register for an account. To register, you will need a Business BCeID, a process which could take up to several weeks. For more information, please go to https://www.bcbid.gov.bc.ca/",
+      "confidence": 0.99,
+      "value": "BC Bid (https://www.bcbid.gov.bc.ca/)",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 5,
+      "quote": "The initial term of the Contract is expected to be for three years.  WorkSafeBC will have the right in its sole discretion to renew the Contract for up to two further three-year term.",
+      "confidence": 0.99,
+      "value": "3 years with two optional 3-year renewals",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 1,
+      "quote": "The purpose of this RFP is to invite Respondents to submit their Proposal for delivering an end-to-end solution for exam development and administration that includes a web-based testing platform, online invigilation, competency framework development and exam psychometric support services, as well as related implementation, support and maintenance services to WorkSafeBC.",
+      "confidence": 0.99,
+      "value": "WorkSafeBC is buying an end-to-end exam development and administration solution: a web-based testing platform, online invigilation, competency framework development, exam psychometric support, plus implementation, support and maintenance services.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 8,
+      "quote": "4.2 PROPOSAL SUBMISSION REQUIREMENTS AND INSTRUCTIONS. Respondents must provide their submission to WorkSafeBC via BC Bid as follows: (a) Electronic submissions via BC Bid must meet the following requirements: (i) submissions must be made using Microsoft Office 2007 or later or Adobe PDF format; (ii) each file should be less than 20MB. Failure by any Respondent to comply with this restriction may result in information not being received by WorkSafeBC and may result in a non-compliant Proposal by the Respondent; and (iii) ZIP or like files will not be accepted. (b) All information in a Proposal must be provided as part of the Proposal submission. Respondents may not include hyperlinks or website addresses in their Proposal to information that forms part of their Proposal. WorkSafeBC reserves the right not to review any information provided by this means, and may result in a non-compliant Proposal by the Respondent.",
+      "confidence": 0.95,
+      "value": [
+        "Submissions must be made using Microsoft Office 2007 or later or Adobe PDF format",
+        "Each file should be less than 20MB",
+        "ZIP or like files will not be accepted",
+        "All information in a Proposal must be provided as part of the Proposal submission; hyperlinks or website addresses to information that forms part of the Proposal are not permitted"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 7,
+      "quote": "3.1 SERVICES. WorkSafeBC is seeking to partner with a qualified Respondent who can provide an end-to-end solution that is required for managing the data and processes for administrating the examination, and awarding certification to workers to support WorkSafeBC in its role as the regulatory authority in various training and certified programs. The Solution must include the following: (a) Assessment Services: ... (iv) Has tools and functionalities that provide statistical analysis of assessments (i.e., psychometric analysis of exam and test bank items), reporting and data analytics capabilities, item writing/review, and item banking; and (v) Has the ability to do daily data transfer of participant registration details and test results to WorkSafeBC's Microsoft Dynamics 365 platform. (b) Invigilation Services: Online invigilation services integrated into the assessment process, maintaining exam integrity and security using advanced monitoring technologies. The Respondent should have the capacity and technical capabilities to develop, administer, and proctor examinations through the Solution. (c) Competency Framework Development: Develop tailored competency frameworks (i.e., job analysis to develop the exam) aligned with WorkSafeBC's strategic goals and industry standards. (d) Exam Psychometric Support: Incorporate psychometric principles into exam design, development, and analysis, ensuring validity, reliability, and fairness in evaluation. This includes item design and analysis, standard setting, and comprehensive score reporting. In addition, the Contractor will conduct and report psychometric data analyses to support an ongoing evaluation of the exams. (e) Implementation of the Solution: Initial technical guidance to set up and configure the Solution, testing, training, onboarding, integration setup with Microsoft Dynamics 365, and other services related to a successful implementation. (f) Support and Maintenance Services: Provide ongoing technical support with the establishment of a service level agreement setting out mandatory response and target resolution times for support requests. Support services include assisting WorkSafeBC to utilize existing and newly released features of the Solution when WorkSafeBC seeks advice for optimizing its certification processes. Maintenance services include the maintenance and continuous improvement of the Solution, including security features and supporting hardware infrastructure.",
+      "confidence": 0.9,
+      "value": [
+        "Assessment Services: web-based testing platform with tools and functionalities that provide statistical analysis of assessments (i.e., psychometric analysis of exam and test bank items), reporting and data analytics capabilities, item writing/review, and item banking",
+        "Assessment Services: ability to do daily data transfer of participant registration details and test results to WorkSafeBC's Microsoft Dynamics 365 platform",
+        "Invigilation Services: online invigilation services integrated into the assessment process, maintaining exam integrity and security using advanced monitoring technologies; capacity and technical capabilities to develop, administer, and proctor examinations through the Solution",
+        "Competency Framework Development: develop tailored competency frameworks (i.e., job analysis to develop the exam) aligned with WorkSafeBC's strategic goals and industry standards",
+        "Exam Psychometric Support: incorporate psychometric principles into exam design, development, and analysis, ensuring validity, reliability, and fairness in evaluation, including item design and analysis, standard setting, and comprehensive score reporting; conduct and report psychometric data analyses to support ongoing evaluation of the exams",
+        "Implementation of the Solution: initial technical guidance to set up and configure the Solution, testing, training, onboarding, integration setup with Microsoft Dynamics 365, and other services related to a successful implementation",
+        "Support and Maintenance Services: ongoing technical support with a service level agreement setting out mandatory response and target resolution times for support requests; maintenance and continuous improvement of the Solution, including security features and supporting hardware infrastructure"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": false,
+        "best_score": 91.9
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 9,
+      "quote": "Evaluation Criteria Weight Company Profile, Qualifications, and Experience 10% Competency Framework Development & Exam Psychometric Capabilities 25% Solution Capabilities 15% Onboarding and Implementation 5% Support and Maintenance 5% Innovation and Value-Add Features and Functionalities 5% IT Security Requirements 15% Pricing 20% Total: 100%",
+      "confidence": 0.99,
+      "value": [
+        {
+          "category": "Company Profile, Qualifications, and Experience",
+          "weight": 10,
+          "unit": "%"
+        },
+        {
+          "category": "Competency Framework Development & Exam Psychometric Capabilities",
+          "weight": 25,
+          "unit": "%"
+        },
+        {
+          "category": "Solution Capabilities",
+          "weight": 15,
+          "unit": "%"
+        },
+        {
+          "category": "Onboarding and Implementation",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "Support and Maintenance",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "Innovation and Value-Add Features and Functionalities",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "IT Security Requirements",
+          "weight": 15,
+          "unit": "%"
+        },
+        {
+          "category": "Pricing",
+          "weight": 20,
+          "unit": "%"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": [],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": [],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 9,
+      "quote": "Phase three - Demonstration: Based on the results of the phase two evaluation, WorkSafeBC will select and invite the top two scoring Respondents from phase two evaluation to participate in phase three. In the event that there are two or more tied scores, WorkSafeBC reserves the right to increase or decrease the number of Respondents invited to present.",
+      "confidence": 0.95,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 27498,
+    "completion_tokens": 2331,
+    "cost_usd": 0.0,
+    "latency_s": 65.95,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:57:56+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 10,
+    "fields_absent": 7,
+    "evidence": {
+      "verified": 10,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 7
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

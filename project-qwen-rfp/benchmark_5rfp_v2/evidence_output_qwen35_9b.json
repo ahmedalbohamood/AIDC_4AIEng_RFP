@@ -1,0 +1,86 @@
+{
+  "aggregate_evidence_counts": {
+    "verified": 63,
+    "wrong_page": 0,
+    "unverified": 8,
+    "no_quote": 0,
+    "absent": 14
+  },
+  "fields_asserted_present_total": 71,
+  "grounded_n": 63,
+  "hallucination_n": 8,
+  "groundedness_pct": 88.7,
+  "hallucination_pct": 11.3,
+  "per_doc_summary": {
+    "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)": {
+      "fields_returned": 17,
+      "fields_asserted_present": 13,
+      "fields_absent": 4,
+      "evidence": {
+        "verified": 11,
+        "wrong_page": 0,
+        "unverified": 2,
+        "no_quote": 0,
+        "absent": 4
+      },
+      "groundedness": 0.846,
+      "hallucination_rate": 0.154
+    },
+    "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)": {
+      "fields_returned": 17,
+      "fields_asserted_present": 13,
+      "fields_absent": 4,
+      "evidence": {
+        "verified": 12,
+        "wrong_page": 0,
+        "unverified": 1,
+        "no_quote": 0,
+        "absent": 4
+      },
+      "groundedness": 0.923,
+      "hallucination_rate": 0.077
+    },
+    "City of Medicine Hat - LMS tender": {
+      "fields_returned": 17,
+      "fields_asserted_present": 17,
+      "fields_absent": 0,
+      "evidence": {
+        "verified": 16,
+        "wrong_page": 0,
+        "unverified": 1,
+        "no_quote": 0,
+        "absent": 0
+      },
+      "groundedness": 0.941,
+      "hallucination_rate": 0.059
+    },
+    "EN_-_ERP_RFP_24.25.04": {
+      "fields_returned": 17,
+      "fields_asserted_present": 16,
+      "fields_absent": 1,
+      "evidence": {
+        "verified": 15,
+        "wrong_page": 0,
+        "unverified": 1,
+        "no_quote": 0,
+        "absent": 1
+      },
+      "groundedness": 0.938,
+      "hallucination_rate": 0.062
+    },
+    "RFP CP-730126 Generative AI RFP (4)": {
+      "fields_returned": 17,
+      "fields_asserted_present": 12,
+      "fields_absent": 5,
+      "evidence": {
+        "verified": 9,
+        "wrong_page": 0,
+        "unverified": 3,
+        "no_quote": 0,
+        "absent": 5
+      },
+      "groundedness": 0.75,
+      "hallucination_rate": 0.25
+    }
+  }
+}

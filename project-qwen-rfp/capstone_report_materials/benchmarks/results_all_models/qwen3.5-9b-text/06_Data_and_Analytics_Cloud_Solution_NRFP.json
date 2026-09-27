@@ -1,0 +1,426 @@
+{
+  "doc_id": "06_Data_and_Analytics_Cloud_Solution_NRFP",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/06_Data_and_Analytics_Cloud_Solution_NRFP.pdf",
+  "n_pages": 43,
+  "text_extractable": true,
+  "backend": "qwen3.5-9b",
+  "backend_key": "qwen3.5-9b:text",
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:42:24+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        31
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.45,
+      "prompt_tokens": 5324,
+      "completion_tokens": 439,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        28,
+        34,
+        43
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.45,
+      "prompt_tokens": 4753,
+      "completion_tokens": 178,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        10,
+        38,
+        40
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.63,
+      "prompt_tokens": 4611,
+      "completion_tokens": 258,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        6,
+        8,
+        9,
+        40,
+        41,
+        42
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 5.71,
+      "prompt_tokens": 4812,
+      "completion_tokens": 329,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        7,
+        10,
+        13,
+        15,
+        21,
+        22,
+        30,
+        34,
+        35,
+        40,
+        41,
+        42
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 12.72,
+      "prompt_tokens": 9017,
+      "completion_tokens": 738,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "May 30, 2025 12:00 pm PT",
+      "confidence": 0.99,
+      "value": "May 30, 2025 12:00 pm PT",
+      "raw": "CLOSING DATE AND TIME: May 30, 2025 12:00 pm PT",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "May 21, 2025 12:00 pm PT",
+      "confidence": 0.99,
+      "value": "May 21, 2025 12:00 pm PT",
+      "raw": "DEADLINE DATE FOR ENQUIRIES: May 21, 2025 12:00 pm PT",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 1,
+      "quote": "Joyce Lee",
+      "confidence": 0.99,
+      "name": "Joyce Lee",
+      "email": null,
+      "phone": null,
+      "title": "Strategic Supply Management",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 1,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 0.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 1,
+      "quote": "https://icbc.bonfirehub.ca/portal",
+      "confidence": 0.99,
+      "value": "https://icbc.bonfirehub.ca/portal",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 43,
+      "quote": "a 5-year contract with the option to renew and extend the Contract for one additional 2-year renewal term at ICBC's sole discretion",
+      "confidence": 0.95,
+      "value": "5-year contract with the option to renew and extend the Contract for one additional 2-year renewal term at ICBC's sole discretion",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 43,
+        "found_on_page": 43,
+        "exact": false,
+        "best_score": 99.2
+      }
+    },
+    "scope_of_deliverables": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 38,
+      "quote": "Proponents are to download the provided Forms and Questionnaires from Bonfire, complete them and then upload them as part of their submission. Proponents are to submit the documents listed below as part of their Proposal and label the documents with the suggested files names.",
+      "confidence": 0.95,
+      "value": [
+        "Executive Summary of Proposal (maximum 3 pages)",
+        "Proponent Corporate Information (Form 1)",
+        "Account Team Member (Form 2)",
+        "Pricing (Form 3)",
+        "Privacy Assessment (Form 4)",
+        "Completed Mandatory Requirements Questionnaire (Q-69HI)",
+        "Evidence of compliance with Mandatory Requirements"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 38,
+        "found_on_page": 38,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": [],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 40,
+      "quote": "Evaluation Criteria\nMinimum\nScore\nWeighting\nSolution Requirements\n•\nBusiness Requirements Questionnaire\n32 points\n45 points\nImplementation and Support Team\n•\nAppendix B Proposal\n20 points\nPricing, including value-added services\n\n35 points\nTotal\n\n100 points",
+      "confidence": 0.95,
+      "value": [
+        {
+          "category": "Solution Requirements",
+          "weight": 45,
+          "unit": "points"
+        },
+        {
+          "category": "Implementation and Support Team",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Pricing, including value-added services",
+          "weight": 35,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 40,
+        "found_on_page": 40,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "page": 40,
+      "quote": "All Proponents who do not meet the above minimum score requirement will be eliminated from this NRFP.",
+      "confidence": 0.95,
+      "value": 32,
+      "unit": "points",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 40,
+        "found_on_page": 40,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 40,
+      "quote": "Pricing, including value-added services",
+      "confidence": 0.95,
+      "value": "Pricing details should be provided on Form 3 only.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 40,
+        "found_on_page": 40,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": [
+        {
+          "coverage_type": "General Liability",
+          "amount": null,
+          "currency": null,
+          "basis": null
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 30,
+      "quote": "All cloud services must adhere to the zero-trust approach and follow a recognized security standard such as ISO 27001.",
+      "confidence": 0.95,
+      "value": [
+        "All cloud services must adhere to the zero-trust approach and follow a recognized security standard such as ISO 27001.",
+        "Data protection in transit",
+        "Asset protection and resilience",
+        "Separation between tenants as well as users",
+        "Governance frameworks",
+        "Operational security practices",
+        "Personnel security",
+        "Secure development practices",
+        "Supply chain security",
+        "Identity authentication and authorization with clear role-based access and support for MFA",
+        "External interface protection",
+        "Secure service administration",
+        "Ongoing audit information",
+        "Transparent and secure use service",
+        "Comprehensive logging allowing for the clear identification of users, their access, creation, modifications, and destruction of ICBC data in a transparent manner along with actionable diagnostics.",
+        "Ability to integrate with a security monitoring solution (i.e. Splunk)",
+        "Cloud-based firewall solution"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 30,
+        "found_on_page": 30,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "page": 22,
+      "quote": "Be hosted on Amazon Web Services (AWS) Canada;",
+      "confidence": 0.95,
+      "value": "Be hosted on Amazon Web Services (AWS) Canada;",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 41,
+      "quote": "Shortlisted Proponents, including both the OEM and SI, are expected to present their proposals in-person at an ICBC office in the Lower Mainland.",
+      "confidence": 0.95,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 41,
+        "found_on_page": 41,
+        "exact": false,
+        "best_score": 99.3
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 28517,
+    "completion_tokens": 1942,
+    "cost_usd": 0.0,
+    "latency_s": 33.96,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:42:58+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 12,
+    "fields_absent": 5,
+    "evidence": {
+      "verified": 11,
+      "wrong_page": 0,
+      "unverified": 1,
+      "no_quote": 0,
+      "absent": 5
+    },
+    "groundedness": 0.917,
+    "hallucination_rate": 0.083
+  }
+}

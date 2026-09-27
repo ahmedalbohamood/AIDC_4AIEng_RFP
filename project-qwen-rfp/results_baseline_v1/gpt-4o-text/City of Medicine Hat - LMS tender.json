@@ -1,0 +1,464 @@
+{
+  "doc_id": "City of Medicine Hat - LMS tender",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/City of Medicine Hat - LMS tender.pdf",
+  "n_pages": 34,
+  "text_extractable": true,
+  "backend": "gpt-4o",
+  "backend_key": "gpt-4o:text",
+  "model": "gpt-4o",
+  "modality": "text",
+  "started_at": "2026-09-16T13:06:41+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        11,
+        12,
+        15,
+        17
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 5.81,
+      "prompt_tokens": 5903,
+      "completion_tokens": 297,
+      "cost_usd": 0.017728
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        12,
+        21,
+        23,
+        27,
+        33
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 11.5,
+      "prompt_tokens": 3761,
+      "completion_tokens": 385,
+      "cost_usd": 0.013253
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        12,
+        20,
+        21,
+        24,
+        31
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 22.7,
+      "prompt_tokens": 4312,
+      "completion_tokens": 898,
+      "cost_usd": 0.01976
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        8,
+        20,
+        21,
+        24,
+        28,
+        30
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 11.07,
+      "prompt_tokens": 4352,
+      "completion_tokens": 360,
+      "cost_usd": 0.01448
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        10,
+        14,
+        18,
+        20,
+        22,
+        23,
+        24,
+        25,
+        29,
+        31,
+        32
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 16.35,
+      "prompt_tokens": 9286,
+      "completion_tokens": 747,
+      "cost_usd": 0.030685
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline: May 28, 2026 2:00 PM local time",
+      "confidence": 1.0,
+      "value": "2026-05-28T14:00:00-06:00",
+      "raw": "May 28, 2026 2:00 PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 4,
+      "quote": "Deadline for Questions  \nMay 21, 2026 4:00 PM local time",
+      "confidence": 1.0,
+      "value": "2026-05-21T16:00:00-06:00",
+      "raw": "May 21, 2026 4:00 PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "For the purposes of this invitation, the RFP Contact is:  \nJoanne Bruneau-Carter, joabru@medicinehat.ca",
+      "confidence": 1.0,
+      "name": "Joanne Bruneau-Carter",
+      "email": "joabru@medicinehat.ca",
+      "phone": null,
+      "title": null,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 5,
+      "quote": "Proposals must be submitted to the City’s online bidding system \nportal at:  https://medicinehat.bidsandtenders.ca/Module",
+      "confidence": 1.0,
+      "value": "https://medicinehat.bidsandtenders.ca/Module",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 4,
+      "quote": "The term of the agreement is to be for a period of five (5) years, with an option in favour of the City to extend the agreement on the same terms and conditions annually for an additional two (2) years.",
+      "confidence": 1.0,
+      "value": "5 years with an option to extend annually for an additional 2 years",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 33,
+      "quote": "Scope of Work RFP CMH26-85 – Learning Management System (LMS) Data Migration • Migration of users, organization hierarchy. • Vendor to provide mapping templates, test plan, and reconciliation process. Testing • SIT (system/integration testing) and UAT with City test scripts; defect triage; performance testing; accessibility verification. Training & Change Management • Admin training (advanced and day-to-day), instructor training, manager training, and learner quick guides. • Training materials in editable formats (PowerPoint/Word/PDF); short video tutorials preferred. Go-Live & Hypercare • Cutover plan, rollback criteria, and communication plan. • Hypercare for at least 30 days post go-live with defined response/resolution targets. 4) Support & SLAs Includes support channels, SLA response/resolution timelines, maintenance windows, release schedules. 5) Deliverables & Milestones Covers project plan, design, sandbox configuration, migration, UAT, training, go-live, and hypercare. 6) Roles & Responsibilities",
+      "confidence": 1.0,
+      "value": "The City of Medicine Hat is seeking proposals for a Learning Management System (LMS) that includes data migration, testing, training, go-live support, and ongoing service and support. The deliverables include migration of users and organization hierarchy, system and integration testing, training for various roles, and hypercare support post go-live.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 33,
+        "found_on_page": 33,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 21,
+      "quote": "1. Submission Form (Appendix B)  Each proposal must include a Submission Form (Appendix B) completed and signed by an  authorized representative of the proponent.  2. Pricing (Appendix C)  Each proposal must include pricing information that complies with the instructions contained in  Appendix C - Pricing.",
+      "confidence": 1.0,
+      "value": [
+        "Submission Form (Appendix B) completed and signed by an authorized representative of the proponent.",
+        "Pricing information that complies with the instructions contained in Appendix C - Pricing."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 31,
+      "quote": "Assessments & Quizzes: Create, deliver and manage assessments, quizzes, and  surveys.   Learning Catalog & Search: Browsable catalog, tags, filters, keyword search;  configurable enrollment flows and approvals.   Learning Path: Create learning paths either mandated or recommended (optional).  Certifications & Compliance: Issuance and management of certifications, including  integration with compliance tracking. Certification paths, renewal/recertification windows,  grace periods, automated reassignments; audit-ready records.  Real-time Updates: Real-time content updates and notifications for learners.  Content creation: Course development platform standards & formats: Support SCORM  1.2/2004, xAPI (Tin Can), video, PDF, and web content. Optional: AICC, cmi5.   Gamification: Badges, points, leaderboards (configurable).  Integrations:   Integration and compatibility: integrate with other systems (e.g. content authoring  tools, third-party apps like Microsoft Viva, SharePoint, Email/Outlook, Unit4 Enterprise  Resource Planning System/HRIS and Finance System), with robust API support. Bi  directional data sync for organizational structure, roles, employment status, and learning  completions.  API Support: Robust API support for integration with other city systems, data sources,  and Learning Tools Interoperability (LTI). (Note if need middleware). API documentation  required.  Interoperability: Support for SCORM, xAPI, AICC, and LTI standards for seamless  content integration.  Technical Requirements:   Security & Privacy: Ensure data security. Ensure all sensitive data is encrypted both at  rest and in transit to protect against unauthorized access.  Single Sign On (SSO) and/or Multi-Factor Authentication (MFA): Secure login with  single sign-on or multi-factor authentication.  Vendor Cybersecurity Compliance: Compliance with industry security best practices  (SOC2, ISO, etc.)  PIPA Compliance: Vendor server preferred within Canada to comply with  PIPA. Incident Response Plan: Vendor has an incident response plan.",
+      "confidence": 1.0,
+      "value": [
+        "Create, deliver and manage assessments, quizzes, and surveys.",
+        "Browsable catalog, tags, filters, keyword search; configurable enrollment flows and approvals.",
+        "Create learning paths either mandated or recommended (optional).",
+        "Issuance and management of certifications, including integration with compliance tracking. Certification paths, renewal/recertification windows, grace periods, automated reassignments; audit-ready records.",
+        "Real-time content updates and notifications for learners.",
+        "Course development platform standards & formats: Support SCORM 1.2/2004, xAPI (Tin Can), video, PDF, and web content. Optional: AICC, cmi5.",
+        "Badges, points, leaderboards (configurable).",
+        "Integrate with other systems (e.g. content authoring tools, third-party apps like Microsoft Viva, SharePoint, Email/Outlook, Unit4 Enterprise Resource Planning System/HRIS and Finance System), with robust API support. Bi directional data sync for organizational structure, roles, employment status, and learning completions.",
+        "Robust API support for integration with other city systems, data sources, and Learning Tools Interoperability (LTI). API documentation required.",
+        "Support for SCORM, xAPI, AICC, and LTI standards for seamless content integration.",
+        "Ensure data security. Ensure all sensitive data is encrypted both at rest and in transit to protect against unauthorized access.",
+        "Secure login with single sign-on or multi-factor authentication.",
+        "Compliance with industry security best practices (SOC2, ISO, etc.)",
+        "Vendor server preferred within Canada to comply with PIPA. Incident Response Plan: Vendor has an incident response plan."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 31,
+        "found_on_page": 31,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 24,
+      "quote": "G. RATED CRITERIA\nThe following sets out the categories, weightings, and descriptions of the rated criteria of the RFP. Proponents who do not meet a minimum threshold score for a category will not proceed to the next stage of the evaluation process.\nProduct Demonstration:\nThe evaluation will be conducted in two stages. In Stage 1, all proposals will be evaluated against the rated criteria for a subtotal of 100 points, including a technical component worth 50 points. Proponents must achieve a minimum technical score of 35 out of 50 points to meet the technical threshold.\nThe top-ranked proponents that meet the technical threshold, up to a maximum of six, may be invited to participate in Stage 2, at the City’s discretion. Stage 2 will consist of a product demonstration.\nStage 2 demonstrations will be scored out of 30 points and added to the Stage 1 scores to determine the final ranking (Total = 130 points).\nRated Criteria Category\nWeighting\n(Points)\nMinimum\nThreshold\nStage 1 Initial Evaluation\nTechnical Capability (Appendix E) – Initial\n50\n35",
+      "confidence": 1.0,
+      "value": [
+        {
+          "category": "Technical Capability (Appendix E) – Initial",
+          "weight": 50,
+          "unit": "points"
+        },
+        {
+          "category": "Stage 2 Product Demonstration",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "Pricing",
+          "weight": 15,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "page": 24,
+      "quote": "Proponents must achieve a minimum technical score of 35 out of 50 points to meet the technical threshold.",
+      "confidence": 1.0,
+      "value": 35,
+      "unit": "points",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 20,
+      "quote": "Proponents should provide the information requested under section 3 below (“Required Pricing Information”) by completing the attached form and including it in their proposals.",
+      "confidence": 0.9,
+      "value": "Proponents should provide the information requested under section 3 below (“Required Pricing Information”) by completing the attached form and including it in their proposals.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 22,
+      "quote": "2.2.1. Commercial General Liability Insurance in respect to the Services and operations of the Contractor for bodily injury and/or property damage with policy limits. Not less than Two Million Dollars ($2,000,000.00) per occurrence with a property damage deductible not exceeding Two Thousand Five Hundred ($2,500.00) Dollars.",
+      "confidence": 0.9,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Professional Errors and Omissions Liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Cyber Liability Insurance",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Automobile Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "page": 25,
+      "quote": "Vendor Experience & References • Relevant LMS experience: years providing this service, implementations, Municipal/government implementations, references similar in scope & size over last 5 years (minimum of 3), roles & responsibilities – both the implementation & support teams’ resumes that will be assigned to this project.",
+      "confidence": 0.9,
+      "value": "Relevant LMS experience: years providing this service, implementations, Municipal/government implementations, references similar in scope & size over last 5 years (minimum of 3), roles & responsibilities – both the implementation & support teams’ resumes that will be assigned to this project.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 25,
+        "found_on_page": 25,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 25,
+      "quote": "references similar in scope & size over last 5 years (minimum of 3)",
+      "confidence": 0.9,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 25,
+        "found_on_page": 25,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 31,
+      "quote": "Security & Privacy: Ensure data security. Ensure all sensitive data is encrypted both at rest and in transit to protect against unauthorized access. Single Sign On (SSO) and/or Multi-Factor Authentication (MFA): Secure login with single sign-on or multi-factor authentication. Vendor Cybersecurity Compliance: Compliance with industry security best practices (SOC2, ISO, etc.) PIPA Compliance: Vendor server preferred within Canada to comply with PIPA. Incident Response Plan: Vendor has an incident response plan.",
+      "confidence": 0.9,
+      "value": [
+        "Ensure all sensitive data is encrypted both at rest and in transit",
+        "Secure login with single sign-on or multi-factor authentication",
+        "Compliance with industry security best practices (SOC2, ISO, etc.)",
+        "Vendor server preferred within Canada to comply with PIPA",
+        "Vendor has an incident response plan"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 31,
+        "found_on_page": 31,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "page": 31,
+      "quote": "PIPA Compliance: Vendor server preferred within Canada to comply with PIPA.",
+      "confidence": 0.9,
+      "value": "Vendor server preferred within Canada to comply with PIPA.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 31,
+        "found_on_page": 31,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 24,
+      "quote": "The top-ranked proponents that meet the technical threshold, up to a maximum of six, may be invited to participate in Stage 2, at the City’s discretion. Stage 2 will consist of a product demonstration.",
+      "confidence": 0.9,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 27614,
+    "completion_tokens": 2687,
+    "cost_usd": 0.095905,
+    "latency_s": 67.42,
+    "errors": 0
+  },
+  "finished_at": "2026-09-16T13:07:55+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 17,
+    "fields_absent": 0,
+    "evidence": {
+      "verified": 17,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 0
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

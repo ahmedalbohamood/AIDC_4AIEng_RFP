@@ -1,0 +1,437 @@
+{
+  "doc_id": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2).pdf",
+  "n_pages": 38,
+  "text_extractable": true,
+  "backend": "qwen3-vl-32b",
+  "backend_key": "qwen3-vl-32b:vision",
+  "model": "QuantTrio/Qwen3-VL-32B-Instruct-AWQ",
+  "modality": "vision",
+  "started_at": "2026-09-16T13:21:15+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        8,
+        9,
+        10,
+        11,
+        17
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 35.93,
+      "prompt_tokens": 17193,
+      "completion_tokens": 531,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        8,
+        13,
+        16,
+        17,
+        19,
+        25
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 38.41,
+      "prompt_tokens": 17118,
+      "completion_tokens": 636,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        10,
+        12,
+        13,
+        14,
+        19,
+        20
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 23.92,
+      "prompt_tokens": 17105,
+      "completion_tokens": 218,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        11,
+        14,
+        15,
+        16,
+        21
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 27.66,
+      "prompt_tokens": 17123,
+      "completion_tokens": 330,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        20,
+        21,
+        22,
+        25,
+        26,
+        28,
+        30,
+        31,
+        36
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 90.05,
+      "prompt_tokens": 40291,
+      "completion_tokens": 915,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Closing Date and Time: September 9, 2026 before 2:00:00 PM MT",
+      "confidence": 1.0,
+      "value": "September 9, 2026 before 2:00:00 PM MT",
+      "raw": "September 9, 2026 before 2:00:00 PM MT",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 96.7
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Question Closing Time: September 2, 2026 before 2:00:00 PM MT",
+      "confidence": 1.0,
+      "value": "September 2, 2026 before 2:00:00 PM MT",
+      "raw": "September 2, 2026 before 2:00:00 PM MT",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 96.7
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 10,
+      "quote": "All questions shall be directed to: Olds College 4500 50 Street Olds, AB Purchasing Department purchasing@oldscollege.ca",
+      "confidence": 1.0,
+      "name": "Olds College Purchasing Department",
+      "email": "purchasing@oldscollege.ca",
+      "phone": null,
+      "title": "Purchasing Department",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 8,
+      "quote": "Proponents must submit an electronic copy by email. Submissions must be clearly marked with the Proponent’s name and address, the Proposal name and number and the Closing Date and Time. Proposals will NOT be accepted by facsimile transmission or in-person hard copy submissions. Proposals shall be addressed to: Olds College Purchasing Department 4500 - 50 Street Olds, AB T4H 1R6 submissions@oldscollege.ca",
+      "confidence": 1.0,
+      "value": "Email to submissions@oldscollege.ca with clear marking of proponent's name, address, proposal name/number, and closing date/time. No facsimile or in-person submissions accepted.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 8,
+      "quote": "3.3.2 Olds College will enter a contract for services for five (5) years. There will also be the opportunity to renew the contract for two (2) separate three (3) years renewals, based solely on the College’s discretion.\n3.3.3 The total contract term, if optional renewals are activated, may be up to a maximum of a eleven (11) years period.",
+      "confidence": 0.95,
+      "value": "5 years with two optional 3-year renewals (maximum 11 years)",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 19,
+      "quote": "SECTION D – SCOPE OF WORK & PRICING SCHEDULE - SPECIFICATIONS\nSCOPE OF WORK\nDetailed LMS System Requirements\nFunctional Requirements - Student Experience and Quality Instruction\n#1 Development & Management of Learning Content\n• Contains a course organizational structure and ability to manage courses (e.g. templates)\n  o Ability to copy course templates and share internally\n  o Ability to copy course content from one course to another\n• Ability to develop course learning materials in the system\n  o Access to a repository of learning documents and tools\n  o Authoring tools for developing content within the LMS - presentations, videos, discussion boards, etc.\n  o Ability to easily link media in courses\n• Ability to incorporate existing content into the system\n  o Supports integration and use of Google Drive and Documents\n• Ensures calendar functionality (including ease of integration with various external calendars) for individual students’ comprehensive activities and milestones\n• Supports integration of external learning content (eg. digital textbooks such as Vital Source, McGraw-Hill)\n• Directly supports H5P\n#2 Assessment\n• Ability to develop and manage gradebooks in an efficient manner\n  o Weighted grading, outcome-based rubrics, etc.\n• Student access to grade information\n• Access to a variety of assessment templates and tools\n  o Ability to build various types of quiz questions to measure knowledge and skills in various ways, including interactive questions types.\n• Ability to develop assessment tools\n• Ability for students to submit work in multiple formats via the system\n  o E.g. Written documents, videos, pictures\n• Ability for instructors to provide timely formative and summative feedback",
+      "confidence": 0.95,
+      "value": "The scope of deliverables includes a Learning Management System (LMS) platform and support services, with detailed requirements for development and management of learning content (e.g., course templates, authoring tools, media integration, calendar functionality, external content support) and assessment (e.g., gradebooks, quizzes, student submissions, feedback). These are specified in Section D – Scope of Work & Pricing Schedule - Specifications on page 19.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 19,
+        "found_on_page": 19,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 12,
+      "quote": "Proposals should be prepared concisely (edit as applicable: in 30 pages or less) and in the order below. All Proposals should have every page numbered in sequential order.",
+      "confidence": 1.0,
+      "value": [
+        "Proposals should be prepared concisely (edit as applicable: in 30 pages or less) and in the order below.",
+        "All Proposals should have every page numbered in sequential order."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 12,
+        "found_on_page": 12,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 20,
+      "quote": "Technical Requirements\n#1 Accessibility\n• System that prioritizes ease of use and straightforward navigation",
+      "confidence": 1.0,
+      "value": [
+        "System that prioritizes ease of use and straightforward navigation"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": false,
+        "best_score": 98.1
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 15,
+      "quote": "Scored (Desirable) Criteria\nA. Company Experience\nB. Staff/Resource Experience\nC. Proposed Solution and Approach\nD. Pricing\n• Total Cost of Proposal (see Section D - Pricing Schedule for breakdown)\nE. Reference Checks and Interview\n• Outcome of reference checks - satisfactory\nTotal Points Available\nMaximum Points\n15\n5\n40\n40\nyes/no\n100",
+      "confidence": 1.0,
+      "value": [
+        {
+          "category": "Company Experience",
+          "weight": 15,
+          "unit": "points"
+        },
+        {
+          "category": "Staff/Resource Experience",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "Proposed Solution and Approach",
+          "weight": 40,
+          "unit": "points"
+        },
+        {
+          "category": "Pricing",
+          "weight": 40,
+          "unit": "points"
+        },
+        {
+          "category": "Reference Checks and Interview",
+          "weight": null,
+          "unit": "yes/no"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 15,
+        "found_on_page": 15,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 13,
+      "quote": "Proponents shall submit pricing in their Proposal, as requested in Schedule D - Scope of Work and Pricing Schedule, as follows: • in Canadian dollars, and • Prices must remain fixed and applicable to all goods and services, as detailed within this RFP, throughout the entire term of the 5 year agreement.",
+      "confidence": 0.95,
+      "value": "Proponents shall submit pricing in their Proposal, as requested in Schedule D - Scope of Work and Pricing Schedule, as follows: • in Canadian dollars, and • Prices must remain fixed and applicable to all goods and services, as detailed within this RFP, throughout the entire term of the 5 year agreement.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 13,
+        "found_on_page": 13,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 13,
+      "quote": "Comprehensive General Liability insurance in an amount of not less than two million dollars ($2,000,000) inclusive per occurrence against third party claims for bodily injury, personal injury, and property damage (including loss of use thereof). Such insurance shall cover all operations of the insured and include, but not being limited to: products and completed operations liability, blanket written contractual liability, owners and contractors protective liability, owners and employees as additional insured, and",
+      "confidence": 0.95,
+      "value": [
+        {
+          "coverage_type": "Comprehensive General Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 13,
+        "found_on_page": 13,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 17,
+      "quote": "Proponents should provide three references, where their company has provided the goods and services similar to those outlined in this RFP, including: • name and title; • name of company; • phone number and email address; • types of goods and services provided; and • duration and value of agreement.",
+      "confidence": 0.95,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 17,
+        "found_on_page": 17,
+        "exact": false,
+        "best_score": 96.7
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 21,
+      "quote": "Maintaining data security standards to safeguard sensitive learning materials and learner information • Safeguards against data breaches • Ability to adhere to Province of Alberta information privacy standards (POPA) • Proponents must be able to provide a HECVAT cybersecurity & privacy assessment. • SAML based Single Sign-On (SSO) integration • State whether the platform supports “local” Multi-Factor Authentication (MFA) support or whether MFA is dependent on the above SSO integration",
+      "confidence": 0.95,
+      "value": [
+        "Maintaining data security standards to safeguard sensitive learning materials and learner information",
+        "Safeguards against data breaches",
+        "Ability to adhere to Province of Alberta information privacy standards (POPA)",
+        "Proponents must be able to provide a HECVAT cybersecurity & privacy assessment.",
+        "SAML based Single Sign-On (SSO) integration",
+        "State whether the platform supports “local” Multi-Factor Authentication (MFA) support or whether MFA is dependent on the above SSO integration"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "page": 21,
+      "quote": "Preference will be given to a Canadian host location",
+      "confidence": 0.95,
+      "value": "Preference will be given to a Canadian host location",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 14,
+      "quote": "RFP Evaluations & product demos September 10 - November 15, 2026",
+      "confidence": 0.95,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 14,
+        "found_on_page": 14,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 108830,
+    "completion_tokens": 2630,
+    "cost_usd": 0.0,
+    "latency_s": 215.96,
+    "errors": 0
+  },
+  "finished_at": "2026-09-16T13:25:00+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 15,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

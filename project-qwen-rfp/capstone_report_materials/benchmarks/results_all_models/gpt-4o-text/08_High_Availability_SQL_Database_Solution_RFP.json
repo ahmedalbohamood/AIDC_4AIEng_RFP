@@ -1,0 +1,454 @@
+{
+  "doc_id": "08_High_Availability_SQL_Database_Solution_RFP",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/08_High_Availability_SQL_Database_Solution_RFP.pdf",
+  "n_pages": 174,
+  "text_extractable": true,
+  "backend": "gpt-4o",
+  "backend_key": "gpt-4o:text",
+  "model": "gpt-4o",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:30:25+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        11,
+        109,
+        163
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.79,
+      "prompt_tokens": 5204,
+      "completion_tokens": 391,
+      "cost_usd": 0.01692
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        30,
+        56,
+        72,
+        135,
+        151
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.32,
+      "prompt_tokens": 4787,
+      "completion_tokens": 198,
+      "cost_usd": 0.013947
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        16,
+        32,
+        33,
+        35,
+        106
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.01,
+      "prompt_tokens": 4512,
+      "completion_tokens": 320,
+      "cost_usd": 0.01448
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        8,
+        17,
+        18,
+        107,
+        110
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.69,
+      "prompt_tokens": 4169,
+      "completion_tokens": 342,
+      "cost_usd": 0.013843
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        10,
+        16,
+        17,
+        19,
+        25,
+        37,
+        46,
+        57,
+        90,
+        92,
+        101,
+        102,
+        108,
+        113,
+        125,
+        166,
+        167,
+        173
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 9.28,
+      "prompt_tokens": 11490,
+      "completion_tokens": 1370,
+      "cost_usd": 0.042425
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline:  June 19, 2025 at 4:00 PM Eastern Time (ET)",
+      "confidence": 1.0,
+      "value": "2025-06-19T16:00:00-05:00",
+      "raw": "June 19, 2025 at 4:00 PM Eastern Time (ET)",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 4,
+      "quote": "Deadline for Questions  Wednesday, June 4, 2025  4:00 PM local time",
+      "confidence": 1.0,
+      "value": "2025-06-04T16:00:00-05:00",
+      "raw": "June 4, 2025  4:00 PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "For the purposes of this procurement process, the “RFP Contact” will be:   Paul Barbazza \n\nProcurement and Contract Specialist  \nEmail: Paul.Barbazza@ttc.ca \nTo contact TTC in relation to this RFP, Proponents must register with TTC’s public purchasing portal at https://ttc.bonfirehub.ca/opportunities/92757 (the “TTC’s Bonfire Portal”) and initiate the communication electronically through the Question-and-Answer function.",
+      "confidence": 1.0,
+      "name": "Paul Barbazza",
+      "email": "Paul.Barbazza@ttc.ca",
+      "phone": null,
+      "title": "Procurement and Contract Specialist",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 4,
+      "quote": "Proposals must be submitted through TTC’s online Bonfire portal at: https://ttc.bonfirehub.ca/opportunities/92757",
+      "confidence": 1.0,
+      "value": "TTC’s online Bonfire portal at: https://ttc.bonfirehub.ca/opportunities/92757",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 4,
+      "quote": "The term of the agreement is to be for a period of one (one) year (the “Initial Term”), with an option in favour of TTC to extend the Agreement on the same terms and conditions for one (1) additional two (2) year extension.",
+      "confidence": 1.0,
+      "value": "1 year with one optional 2-year renewal",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 30,
+      "quote": "The Supplier shall supply and deliver the Implementation of a High Availability SQL Database Solution in compliance with Article 9 Confidentiality, Privacy and Security Requirements of the Agreement, and Schedule 3.01 - TTC Policies, specifically",
+      "confidence": 1.0,
+      "value": "The Supplier shall supply and deliver the Implementation of a High Availability SQL Database Solution in compliance with Article 9 Confidentiality, Privacy and Security Requirements of the Agreement, and Schedule 3.01 - TTC Policies, specifically",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 30,
+        "found_on_page": 30,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 16,
+      "quote": "1. Proponent Submission Form (Appendix C) Each Proposal must include a Proponent Submission Form (Appendix C) completed and signed by an authorized representative of the Proponent. 2. Mandatory Technical Requirements Submission Form (Appendix D) Each Proposal must include a completed Mandatory Technical Requirements Submission Form (Appendix D) that complies with the instructions contained in the RFP, and that provides all requested information. 3. Pricing Submission Form (Appendix F) Each Proposal must include a completed Pricing Submission Form (Appendix F) that complies with the instructions contained in the RFP, and that provides all requested pricing information.",
+      "confidence": 1.0,
+      "value": [
+        "Proponent Submission Form (Appendix C) completed and signed by an authorized representative of the Proponent.",
+        "Mandatory Technical Requirements Submission Form (Appendix D) that complies with the instructions contained in the RFP, and that provides all requested information.",
+        "Pricing Submission Form (Appendix F) that complies with the instructions contained in the RFP, and that provides all requested pricing information."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 16,
+      "quote": "D. MANDATORY TECHNICAL REQUIREMENTS As noted directly above, Proponents must submit the Mandatory Technical Requirements Submission Form (Appendix D). The Mandatory Technical Requirements Submission Form (Appendix D) includes the mandatory technical requirements that the Proponent must",
+      "confidence": 1.0,
+      "value": [
+        "Submit the Mandatory Technical Requirements Submission Form (Appendix D)."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 18,
+      "quote": "3. Evaluation Stages and Weights\n\nThe following sets out the categories, weightings and descriptions of the rated criteria of the RFP. Proposals will be evaluated during Stages 2 and 3 in accordance with the criteria set out below.\n\nStage\nWeighting\n(Overall\npoints)\nMinimum Threshold\nStage 1: Mandatory Technical Requirements\nN/A\nPass/Fail\nStage 2: Rated Criteria\n80\n60%\n(48 overall points)\n\n1. Overall Experience\n20\n2. Project Schedule & Approach\n20\n3. Solution Capability\n20\n4. Training Services\n10\n5. Warranty, Support, and Maintenance\n10\nEvaluation Gate – The top four (4) Proponents who meet the minimum scoring threshold from Stage 2 scores will move forward\nStage 3: Pricing\n20\nN/A\nTotal\n100",
+      "confidence": 1.0,
+      "value": [
+        {
+          "category": "Overall Experience",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Project Schedule & Approach",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Solution Capability",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Training Services",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "Warranty, Support, and Maintenance",
+          "weight": 10,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 18,
+        "found_on_page": 18,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "page": 7,
+      "quote": "Proponents will be required to meet a minimum threshold of 60% in Stage 2 in order to be eligible to participate in subsequent stages in the evaluation process.",
+      "confidence": 1.0,
+      "value": 48,
+      "unit": "points",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 16,
+      "quote": "By submission of a Proposal in response to this RFP, the Proponent is agreeing to comply with the requirements identified in Appendix A, at the fees identified in the Proponent's price Proposal submitted in Pricing Submission Form (Appendix F) if selected as the Supplier.",
+      "confidence": 0.9,
+      "value": "Pricing Submission Form (Appendix F)",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 101,
+      "quote": "Supplier will have and maintain in force, and will provide certificates of insurance evidencing:\n(a) Professional Liability Insurance in the amount of One Million Dollars ($1,000,000.00) covering actual or alleged acts, errors or omissions committed by the Supplier, Supplier Subcontractors or their respective agents or employees, arising out of the performance of this Agreement. The policy coverage will also extend to include personal injury, bodily injury and property damage from the performance of professional service or arising out of the program.\n(b) Computer Security and Privacy Liability in the amount of One Million Dollars ($1,000,000.00) covering actual or alleged acts, errors or omissions committed by the Supplier, Supplier Subcontractors or their respective agents or employees. The policy will also extend to include the intentional, fraudulent or criminal acts of the Supplier, Supplier Subcontractors or their respective agents or employees. The policy will expressly provide, but not be limited to, coverage for the following perils:\n(i) unauthorized use/access of a computer system;\n(ii) defense of any regulatory action involving a breach of privacy;\n(iii) failure to protect Confidential Information (personal and commercial information) from disclosure; and\n(iv) notification costs, whether or not required by statute.\n(c) Commercial general liability coverage against all claims for bodily injury (including death) and property damage in an amount of not less than One Million Dollars ($1,000,000.00) for any one occurrence or accident for all claims arising out of bodily injury, including death, and damage to property of others (including TTC). Such insurance shall include,\n(i) contractual liability;\n(ii) cross liability and severability of interests clause; and\n(iii) specify that it is primary coverage and not contributory with or in excess of any insurance maintained by TTC.",
+      "confidence": 0.95,
+      "value": [
+        {
+          "coverage_type": "Professional Liability Insurance",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": null
+        },
+        {
+          "coverage_type": "Computer Security and Privacy Liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": null
+        },
+        {
+          "coverage_type": "Commercial general liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 101,
+        "found_on_page": 101,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "page": 37,
+      "quote": "The Technical Lead shall, as a minimum, have the qualification set out below:\na) Two (2) or more years of SQL database implementation experience;\nb) Two (2) years of experience related to implementation of SQL database projects of similar scope; and\nc) Experience with all aspects of integration, quality assurance and testing pertaining to SQL database implementations.",
+      "confidence": 0.9,
+      "value": "Two (2) or more years of SQL database implementation experience; Two (2) years of experience related to implementation of SQL database projects of similar scope; Experience with all aspects of integration, quality assurance and testing pertaining to SQL database implementations.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 37,
+        "found_on_page": 37,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 113,
+      "quote": "The Proponent should provide three (3) references.",
+      "confidence": 0.9,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 113,
+        "found_on_page": 113,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 90,
+      "quote": "As part of their commitment to safeguard TTC records, the supplier shall implement network segmentation using the principles described in the Purdue Model IEC-62443. The supplier shall establish and maintain network segmentation controls that align with industry best practices. This includes:\na) Clearly defined network zones based on logical boundaries, such as departments, functions, or system types\nb) Access controls such as firewalls, VLANs, or VPNs to regulate traffic flow between network segments and restrict unauthorized communication\nVerification of security controls must be in writing to TTC through a SOC 2 Type II report, ISO 27K certification report or other document attesting to the industry standard security controls in the hosted provider environment, on all Deliverables components including TTC records in the Supplier's care. TTC requires these security controls be included by the Supplier in the Deliverables, in addition to any legislative, regulatory and information security industry standards, and at no additional cost to TTC:\na) The Supplier will provide a SOC 2 Type II or other substantially similar report after the evaluation process that shows that the Supplier is qualified for the contract to be awarded.\nb) For the duration of the Agreement or unless otherwise negotiated in writing, the Supplier will provide TTC, annually at a minimum, SSAE SOC 2 Type II reports or other substantially similar reports detailing security controls in the Deliverables. Reports will be protected as confidential information in TTC's care and are to be submitted only to a designated TTC contact (to be provided during contract negotiation as pre-condition of award).\nc) The electronic transfer of confidential information between the Supplier and TTC shall be performed through secure TTC approved mechanisms with appropriate access security controls. Additionally, any approved physical media, such as USB storage, external hard drive, CD-ROMs, etc., must be encrypted while in transit.\nd) The Supplier’s security posture shall be assessed to assure they meet or exceed all TTC information security requirements, legal and regulatory as part of the contract negotiation process.\ne) The supplier shall undergo a full cybersecurity review as outlined in this document for each new product or service that does not fall within the scope initial or subsequent procurement contract.",
+      "confidence": 0.95,
+      "value": [
+        "Implement network segmentation using the principles described in the Purdue Model IEC-62443.",
+        "Verification of security controls must be in writing to TTC through a SOC 2 Type II report, ISO 27K certification report.",
+        "Provide a SOC 2 Type II or other substantially similar report after the evaluation process.",
+        "Provide TTC, annually at a minimum, SSAE SOC 2 Type II reports or other substantially similar reports.",
+        "Electronic transfer of confidential information must be performed through secure TTC approved mechanisms.",
+        "Supplier’s security posture shall be assessed to assure they meet or exceed all TTC information security requirements.",
+        "Supplier shall undergo a full cybersecurity review for each new product or service."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 90,
+        "found_on_page": 90,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 30162,
+    "completion_tokens": 2621,
+    "cost_usd": 0.101615,
+    "latency_s": 21.09,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:31:23+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 15,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

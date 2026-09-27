@@ -1,0 +1,113 @@
+=== date ===
+Sun Sep 27 07:16:59 UTC 2026
+
+=== hostname ===
+aidc-t04
+
+=== pwd ===
+/home/ubuntu/aidc/project-qwen-rfp/benchmark_5rfp_v2
+
+=== python3 --version ===
+Python 3.10.12
+
+=== docker --version ===
+Docker version 27.2.1, build 9e34c9b
+
+=== kubectl version --client ===
+Client Version: v1.36.4+k3s1
+Kustomize Version: v5.8.1
+
+=== nvidia-smi ===
+Sun Sep 27 07:17:00 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.12              Driver Version: 550.90.12      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A6000               Off |   00000000:00:06.0 Off |                  Off |
+| 30%   28C    P8             28W /  300W |   42405MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A   4111127      C   VLLM::EngineCore                            42398MiB |
++-----------------------------------------------------------------------------------------+
+
+=== docker ps -a ===
+CONTAINER ID   IMAGE                                                      COMMAND                  CREATED       STATUS       PORTS     NAMES
+6f86f9068df6   nvcr.io/nvidia/k8s/dcgm-exporter:3.3.9-3.6.1-ubuntu22.04   "/usr/local/dcgm/dcg…"   3 weeks ago   Up 2 weeks             dcgm-exporter
+56a20d2bc5c6   quay.io/prometheus/node-exporter:v1.8.2                    "/bin/node_exporter …"   3 weeks ago   Up 2 weeks             node-exporter
+
+=== kubectl get pods,deploy,svc -A ===
+NAMESPACE     NAME                                          READY   STATUS                   RESTARTS      AGE
+abdulaziz     pod/prober                                    0/1     ContainerStatusUnknown   0             19d
+abdulaziz     pod/verify-loadgen-1631580                    0/1     Completed                0             16d
+ahmed         pod/grafana-5b66456c-gdqm2                    1/1     Running                  0             3h25m
+ahmed         pod/k2-vllm-5cb4cdcf68-pwjd2                  1/1     Running                  0             5h8m
+ahmed         pod/loadgen                                   0/1     Completed                0             16d
+ahmed         pod/prometheus-85fcdb4f79-w7mxr               1/1     Running                  0             3h53m
+ahmed         pod/rfp-backend-5689c49fc7-wcb7h              1/1     Running                  0             5h56m
+ahmed         pod/rfp-combined-bf7f95f65-cz5vs              1/1     Running                  0             4h39m
+ahmed         pod/rfp-frontend-69d89489d-s8ph9              1/1     Running                  0             6h35m
+default       pod/pod-a                                     0/1     ContainerStatusUnknown   0             20d
+default       pod/pod-b                                     0/1     Pending                  0             20d
+default       pod/pod-c                                     0/1     ContainerStatusUnknown   0             20d
+faisal        pod/impossible-cpu                            0/1     Pending                  0             18d
+kube-system   pod/coredns-54996dc9b4-5cj89                  1/1     Running                  1 (17d ago)   22d
+kube-system   pod/local-path-provisioner-77b9867795-86flk   1/1     Running                  1 (17d ago)   22d
+kube-system   pod/metrics-server-6dc596dfb8-jfmg9           1/1     Running                  1 (17d ago)   22d
+kube-system   pod/nvidia-device-plugin-daemonset-pjgjb      1/1     Running                  1 (17d ago)   18d
+kube-system   pod/svclb-traefik-90239a1a-6sft7              2/2     Running                  2 (17d ago)   22d
+kube-system   pod/traefik-59b7647586-dhp27                  1/1     Running                  1 (17d ago)   22d
+team          pod/alert-inbox-6fd9bd597f-4fpwn              1/1     Running                  0             26h
+team          pod/alert-inbox-6fd9bd597f-lsm4r              0/1     Error                    0             12d
+team          pod/alert-inbox-6fd9bd597f-qgh57              0/1     Error                    0             39h
+team          pod/grafana-7575fbf844-5dpmd                  0/1     Completed                0             13d
+team          pod/grafana-7575fbf844-c74m5                  0/1     ContainerStatusUnknown   1             39h
+team          pod/grafana-7575fbf844-tvw8x                  1/1     Running                  0             26h
+team          pod/health-shim-84864658b-4swdv               0/1     ContainerStatusUnknown   1             39h
+team          pod/health-shim-84864658b-f2x2s               0/1     Completed                0             16d
+team          pod/health-shim-84864658b-xvgqr               1/1     Running                  0             26h
+team          pod/prometheus-7c4bdd8885-5wsnd               1/1     Running                  0             26h
+team          pod/prometheus-7c4bdd8885-7bnlh               0/1     Completed                0             16d
+team          pod/prometheus-7c4bdd8885-qnkh9               0/1     Completed                0             39h
+
+NAMESPACE     NAME                                     READY   UP-TO-DATE   AVAILABLE   AGE
+ahmed         deployment.apps/grafana                  1/1     1            1           25h
+ahmed         deployment.apps/k2-vllm                  1/1     1            1           26h
+ahmed         deployment.apps/prometheus               1/1     1            1           25h
+ahmed         deployment.apps/rfp-backend              1/1     1            1           25h
+ahmed         deployment.apps/rfp-combined             1/1     1            1           4h40m
+ahmed         deployment.apps/rfp-frontend             1/1     1            1           25h
+kube-system   deployment.apps/coredns                  1/1     1            1           22d
+kube-system   deployment.apps/local-path-provisioner   1/1     1            1           22d
+kube-system   deployment.apps/metrics-server           1/1     1            1           22d
+kube-system   deployment.apps/traefik                  1/1     1            1           22d
+team          deployment.apps/alert-inbox              1/1     1            1           12d
+team          deployment.apps/grafana                  1/1     1            1           13d
+team          deployment.apps/health-shim              1/1     1            1           16d
+team          deployment.apps/prometheus               1/1     1            1           16d
+team          deployment.apps/vllm                     0/0     0            0           18d
+
+NAMESPACE     NAME                     TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
+ahmed         service/grafana          ClusterIP      10.43.114.137   <none>        3000/TCP                     25h
+ahmed         service/k2-vllm          ClusterIP      10.43.252.109   <none>        8000/TCP                     26h
+ahmed         service/prometheus       ClusterIP      10.43.145.179   <none>        9090/TCP                     25h
+ahmed         service/rfp-backend      ClusterIP      10.43.41.28     <none>        8420/TCP                     25h
+ahmed         service/rfp-combined     ClusterIP      10.43.32.133    <none>        8420/TCP                     4h40m
+ahmed         service/rfp-frontend     ClusterIP      10.43.184.82    <none>        80/TCP                       25h
+default       service/kubernetes       ClusterIP      10.43.0.1       <none>        443/TCP                      22d
+kube-system   service/kube-dns         ClusterIP      10.43.0.10      <none>        53/UDP,53/TCP,9153/TCP       22d
+kube-system   service/metrics-server   ClusterIP      10.43.1.129     <none>        443/TCP                      22d
+kube-system   service/traefik          LoadBalancer   10.43.229.11    10.0.0.159    80:30603/TCP,443:32443/TCP   22d
+team          service/alert-inbox      ClusterIP      10.43.29.244    <none>        8080/TCP                     12d
+team          service/grafana          NodePort       10.43.32.80     <none>        3000:30300/TCP               13d
+team          service/prometheus       ClusterIP      10.43.67.104    <none>        9090/TCP                     16d
+team          service/team-serving     NodePort       10.43.190.66    <none>        8000:30800/TCP               18d
+team          service/vllm-engine      ClusterIP      10.43.34.228    <none>        8000/TCP                     16d

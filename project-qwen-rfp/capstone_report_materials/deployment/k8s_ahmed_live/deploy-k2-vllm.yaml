@@ -1,0 +1,108 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "2"
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"k2-vllm","namespace":"ahmed"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"k2-vllm"}},"template":{"metadata":{"labels":{"app":"k2-vllm"}},"spec":{"containers":[{"args":["--model=IFM/K2-Horizon-7B","--served-model-name=IFM/K2-Horizon-7B","--max-model-len=32768","--gpu-memory-utilization=0.90","--trust-remote-code"],"image":"vllm/vllm-openai:latest","name":"vllm","ports":[{"containerPort":8000}],"readinessProbe":{"httpGet":{"path":"/health","port":8000},"periodSeconds":5},"resources":{"limits":{"nvidia.com/gpu":1},"requests":{"nvidia.com/gpu":1}},"startupProbe":{"failureThreshold":60,"httpGet":{"path":"/health","port":8000},"periodSeconds":10},"volumeMounts":[{"mountPath":"/root/.cache/huggingface","name":"hf-cache"}]}],"volumes":[{"hostPath":{"path":"/home/ubuntu/.cache/huggingface","type":"Directory"},"name":"hf-cache"}]}}}}
+  creationTimestamp: "2026-09-26T05:13:42Z"
+  generation: 4
+  name: k2-vllm
+  namespace: ahmed
+  resourceVersion: "862551"
+  uid: e8601136-0089-4ed7-b9b2-7a35bae3dc47
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: k2-vllm
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: k2-vllm
+    spec:
+      containers:
+      - args:
+        - --model=IFM/K2-Horizon-7B
+        - --served-model-name=IFM/K2-Horizon-7B
+        - --max-model-len=32768
+        - --gpu-memory-utilization=0.90
+        - --trust-remote-code
+        - --chat-template=/etc/k2-template/chat_template.jinja
+        image: vllm/vllm-openai:latest
+        imagePullPolicy: Always
+        name: vllm
+        ports:
+        - containerPort: 8000
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /health
+            port: 8000
+            scheme: HTTP
+          periodSeconds: 5
+          successThreshold: 1
+          timeoutSeconds: 1
+        resources:
+          limits:
+            nvidia.com/gpu: "1"
+          requests:
+            nvidia.com/gpu: "1"
+        startupProbe:
+          failureThreshold: 60
+          httpGet:
+            path: /health
+            port: 8000
+            scheme: HTTP
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 1
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /root/.cache/huggingface
+          name: hf-cache
+        - mountPath: /etc/k2-template
+          name: chat-template
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
+      volumes:
+      - hostPath:
+          path: /home/ubuntu/.cache/huggingface
+          type: Directory
+        name: hf-cache
+      - configMap:
+          defaultMode: 420
+          name: k2-chat-template
+        name: chat-template
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2026-09-26T05:13:42Z"
+    lastUpdateTime: "2026-09-27T00:36:27Z"
+    message: ReplicaSet "k2-vllm-5cb4cdcf68" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  - lastTransitionTime: "2026-09-27T02:12:47Z"
+    lastUpdateTime: "2026-09-27T02:12:47Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  observedGeneration: 4
+  readyReplicas: 1
+  replicas: 1
+  terminatingReplicas: 0
+  updatedReplicas: 1

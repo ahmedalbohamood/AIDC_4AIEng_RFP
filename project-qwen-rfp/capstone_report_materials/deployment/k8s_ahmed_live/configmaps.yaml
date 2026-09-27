@@ -1,0 +1,103 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  data:
+    prom.yaml: |
+      apiVersion: 1
+      datasources:
+        - name: Prometheus
+          uid: prom
+          type: prometheus
+          access: proxy
+          url: http://prometheus:9090
+          isDefault: true
+  kind: ConfigMap
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","data":{"prom.yaml":"apiVersion: 1\ndatasources:\n  - name: Prometheus\n    uid: prom\n    type: prometheus\n    access: proxy\n    url: http://prometheus:9090\n    isDefault: true\n"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"grafana-datasource","namespace":"ahmed"}}
+    creationTimestamp: "2026-09-26T05:27:58Z"
+    name: grafana-datasource
+    namespace: ahmed
+    resourceVersion: "830700"
+    uid: c9916885-adda-4110-b1dc-3e309e1e4e38
+- apiVersion: v1
+  data:
+    chat_template.jinja: |
+      {{- bos_token }}
+      {%- for message in messages %}
+      {{- '<|ifm|im_start|>' + message['role'] + '\n' }}
+      {%- if message['content'] is string %}
+      {{- message['content'] }}
+      {%- else %}
+      {%- for part in message['content'] %}
+      {{- part.text if part.text is defined else part }}
+      {%- endfor %}
+      {%- endif %}
+      {{- '<|ifm|im_end|>\n' }}
+      {%- endfor %}
+      {%- if add_generation_prompt %}
+      {{- '<|ifm|im_start|>assistant\n' }}
+      {%- endif %}
+  kind: ConfigMap
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","data":{"chat_template.jinja":"{{- bos_token }}\n{%- for message in messages %}\n{{- '\u003c|ifm|im_start|\u003e' + message['role'] + '\\n' }}\n{%- if message['content'] is string %}\n{{- message['content'] }}\n{%- else %}\n{%- for part in message['content'] %}\n{{- part.text if part.text is defined else part }}\n{%- endfor %}\n{%- endif %}\n{{- '\u003c|ifm|im_end|\u003e\\n' }}\n{%- endfor %}\n{%- if add_generation_prompt %}\n{{- '\u003c|ifm|im_start|\u003eassistant\\n' }}\n{%- endif %}\n"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"k2-chat-template","namespace":"ahmed"}}
+    creationTimestamp: "2026-09-27T00:33:37Z"
+    name: k2-chat-template
+    namespace: ahmed
+    resourceVersion: "859649"
+    uid: 0a5f29eb-4fd5-4f66-9931-7391709d2312
+- apiVersion: v1
+  data:
+    ca.crt: |
+      -----BEGIN CERTIFICATE-----
+      MIIBeDCCAR2gAwIBAgIBADAKBggqhkjOPQQDAjAjMSEwHwYDVQQDDBhrM3Mtc2Vy
+      dmVyLWNhQDE3ODg1MzYwNjkwHhcNMjYwOTA0MTQzNDI5WhcNMzYwOTAxMTQzNDI5
+      WjAjMSEwHwYDVQQDDBhrM3Mtc2VydmVyLWNhQDE3ODg1MzYwNjkwWTATBgcqhkjO
+      PQIBBggqhkjOPQMBBwNCAAS0X9hNjMQVmpy7Z93TDlypV7/uX9lQVfX7hXX/Sd/v
+      cWJzBWjDpcHtieg41qcgw9s67hBsP3k/xB7TuriDtYBmo0IwQDAOBgNVHQ8BAf8E
+      BAMCAqQwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUybBjqkk2d5ywXoavmTB3
+      RCiDVCEwCgYIKoZIzj0EAwIDSQAwRgIhAPIJXJJTG9NmOEaQz/Gc2T8j4PA0hwY+
+      ZfXCJUJ47yO8AiEAoY9cvWnjSsAAaHldGnAsOjE+uHyA6GsRQXP+kybRKzE=
+      -----END CERTIFICATE-----
+  kind: ConfigMap
+  metadata:
+    annotations:
+      kubernetes.io/description: Contains a CA bundle that can be used to verify the
+        kube-apiserver when using internal endpoints such as the internal service
+        IP or kubernetes.default.svc. No other usage is guaranteed across distributions
+        of Kubernetes clusters.
+    creationTimestamp: "2026-09-06T12:41:18Z"
+    name: kube-root-ca.crt
+    namespace: ahmed
+    resourceVersion: "62707"
+    uid: 4a717027-5ef2-428d-994a-5745f29f7b5f
+- apiVersion: v1
+  data:
+    prometheus.yml: |
+      global:
+        scrape_interval: 15s
+      scrape_configs:
+        - job_name: k2-vllm
+          metrics_path: /metrics
+          static_configs:
+            - targets: ["k2-vllm:8000"]
+        - job_name: rfp-combined
+          metrics_path: /metrics
+          static_configs:
+            - targets: ["rfp-combined:8420"]
+  kind: ConfigMap
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","data":{"prometheus.yml":"global:\n  scrape_interval: 15s\nscrape_configs:\n  - job_name: k2-vllm\n    metrics_path: /metrics\n    static_configs:\n      - targets: [\"k2-vllm:8000\"]\n  - job_name: rfp-combined\n    metrics_path: /metrics\n    static_configs:\n      - targets: [\"rfp-combined:8420\"]\n"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"prom-config","namespace":"ahmed"}}
+    creationTimestamp: "2026-09-26T05:27:58Z"
+    name: prom-config
+    namespace: ahmed
+    resourceVersion: "864043"
+    uid: d472b212-4bad-4817-a229-3eb8236aeccf
+kind: List
+metadata:
+  resourceVersion: ""

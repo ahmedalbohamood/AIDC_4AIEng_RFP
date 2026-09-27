@@ -1,0 +1,451 @@
+{
+  "doc_id": "04_Data_Centre_Download_Integration_Services_RFP",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/16130bdd-dd8a-487f-b340-f16eeecad45f/scratchpad/lift_docs/04_Data_Centre_Download_Integration_Services_RFP.pdf",
+  "n_pages": 10,
+  "text_extractable": true,
+  "backend": "lift",
+  "backend_key": "lift:vision",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "retrieval": "selected",
+  "started_at": "2026-09-22T10:25:28+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 15.6,
+      "prompt_tokens": 21899,
+      "completion_tokens": 332,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.92,
+      "prompt_tokens": 17698,
+      "completion_tokens": 136,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 15.48,
+      "prompt_tokens": 15588,
+      "completion_tokens": 476,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 10.71,
+      "prompt_tokens": 21806,
+      "completion_tokens": 229,
+      "cost_usd": 0.0
+    },
+    "commercial_pricing": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 12.67,
+      "prompt_tokens": 22052,
+      "completion_tokens": 272,
+      "cost_usd": 0.0
+    },
+    "commercial_compliance": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 17.17,
+      "prompt_tokens": 22054,
+      "completion_tokens": 446,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "September 19, 2025 at 2:00 PM Pacific Time",
+      "raw": "September 19, 2025 at 2:00 PM Pacific Time",
+      "page": 1,
+      "quote": "Closing Time: Proposal must be received electronically before 2:00 PM Pacific Time on: September 19, 2025",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "September 12, 2025",
+      "raw": "September 12, 2025",
+      "page": 1,
+      "quote": "All enquiries related to this Request for Proposals, including any requests for information and clarification, are to be submitted by September 12, 2025",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "procurement@bc-er.ca",
+      "email": "procurement@bc-er.ca",
+      "phone": null,
+      "title": null,
+      "page": 1,
+      "quote": "procurement@bc-er.ca",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "electronically to https://procurement.bc-er.ca/",
+      "page": 1,
+      "quote": "Proposals must be submitted electronically. To: https://procurement.bc-er.ca/",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "expected to run over several weeks from the commencement date",
+      "page": 8,
+      "quote": "This project is expected to run over several weeks from the commencement date, depending on complexity and the availability of BCER stakeholders.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "CSV Download Integration Services for Data Centre, including status reports, monthly invoicing, and participation in scheduled meetings.",
+      "page": 1,
+      "quote": "CSV Download Integration Services for Data Centre",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Table of contents with page numbers.",
+        "Executive summary.",
+        "The body of the proposal in accordance with the above content requirements, to a maximum length of 12 pages.",
+        "Section outlining fulfilment of mandatory criteria (including independence and objectivity statement).",
+        "Summary of proponent's qualifications (highlighting certifications like PMP, CDMP).",
+        "Summary of proponent's relevant experience (data governance, Dataedo, etc.).",
+        "Proposed approach and methodology (including stakeholder engagement and reporting).",
+        "Proposed resources and availability (confirming part-time willingness and identifying constraints).",
+        "Costs (hourly rates) provided in Canadian dollars (CAD) with a clear breakdown.",
+        "Resume(s) providing concise bios for all proposed personnel."
+      ],
+      "page": 8,
+      "quote": "a) Table of contents with page numbers. b) Executive summary. c) The body of the proposal in accordance with the above content requirements, to a maximum length of 12 pages. 1. Section outlining fulfilment of mandatory criteria... 2. Summary of proponent's qualifications... 3. Summary of proponent's relevant experience... 4. Proposed approach and methodology... 5. Proposed resources and availability... 6. Costs (hourly rates) provided in Canadian dollars (CAD)... 7. Resume(s)",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "The Proponent must confirm that any personal information received, collected or held over the course of the review will be stored and used only in Canada.",
+        "The Proposal must contain an independence and objectivity statement confirming the Proponent is free of any actual or perceived conflict of interest and free of bias with respect to the BCER, its officers and employees."
+      ],
+      "page": 9,
+      "quote": "The Proponent must confirm that any personal information received, collected or held over the course of the review will be stored and used only in Canada. The Proposal must contain an independence and objectivity statement confirming the Proponent is free of any actual or perceived conflict of interest and free of bias with respect to the BCER, its officers and employees.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Proponent's Corporate Location",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "Proponent's Qualifications",
+          "weight": 10,
+          "unit": "%"
+        },
+        {
+          "category": "Proponent's Relevant Experience",
+          "weight": 50,
+          "unit": "%"
+        },
+        {
+          "category": "Proposed Approach and Resource Availability",
+          "weight": 20,
+          "unit": "%"
+        },
+        {
+          "category": "Pricing",
+          "weight": 15,
+          "unit": "%"
+        }
+      ],
+      "page": 10,
+      "quote": "Proponent's Corporate Location 5%; Proponent's Qualifications 10%; Proponent's Relevant Experience 50%; Proposed Approach and Resource Availability 20%; Pricing 15%.",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 10,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 55.2
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing is evaluated as 15% of the total score. Costs must be provided in Canadian dollars (CAD) with a clear breakdown of hourly rates and estimated effort. Prices are firm for the entire contract period. Currency is CAD, inclusive of duty, and exclusive of taxes.",
+      "page": 10,
+      "quote": "Pricing: Total cost in CAD, including hourly rates and estimated effort; Cost-effectiveness relative to proposed value and deliverables; Transparency and clarity of pricing structure (Weight: 15%)",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": false,
+        "best_score": 93.4
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": null,
+      "unit": null,
+      "page": 6,
+      "quote": "Review, interviews, and reference checks as required",
+      "confidence": 0.8,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 6,
+        "found_on_page": 6,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 8,
+      "quote": "Proponent will work iteratively, providing regular check-ins or demos",
+      "confidence": 0.9,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Proponents should demonstrate expertise in the following areas: Experience with TIBCO Data Virtualization, similar data virtualization platforms or extensive experience with REST and SOAP webservices; Handling and transformation of JSON and XML data structures; Front-end and back-end development experience (e.g., JavaScript, Python, Node.js, or similar); Experience delivering secure, accessible, and performant public-facing digital services; Public sector or open data platform experience is an asset",
+      "page": 7,
+      "quote": "Proponents should demonstrate expertise in the following areas: Experience with TIBCO Data Virtualization, similar data virtualization platforms or extensive experience with REST and SOAP webservices; Handling and transformation of JSON and XML data structures; Front-end and back-end development experience (e.g., JavaScript, Python, Node.js, or similar); Experience delivering secure, accessible, and performant public-facing digital services; Public sector or open data platform experience is an asset",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "The Proponent must confirm that any personal information received, collected or held over the course of the review will be stored and used only in Canada.",
+        "The solution will need to securely manage the TDV login requirements such that the functionality/links can be made available publicly.",
+        "Alignment with BCER's accessibility, performance, and security standards"
+      ],
+      "page": 9,
+      "quote": "The Proponent must confirm that any personal information received, collected or held over the course of the review will be stored and used only in Canada.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "The Proponent must confirm that any personal information received, collected or held over the course of the review will be stored and used only in Canada.",
+      "page": 9,
+      "quote": "The Proponent must confirm that any personal information received, collected or held over the course of the review will be stored and used only in Canada.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 121097,
+    "completion_tokens": 1891,
+    "cost_usd": 0.0,
+    "latency_s": 79.55,
+    "errors": 0
+  },
+  "finished_at": "2026-09-22T10:26:52+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 14,
+      "wrong_page": 0,
+      "unverified": 1,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 0.933,
+    "hallucination_rate": 0.067
+  }
+}

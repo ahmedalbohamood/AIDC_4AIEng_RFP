@@ -1,0 +1,407 @@
+{
+  "doc_id": "03_Asset_Management_GIS_IT_Consulting_RFP",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/16130bdd-dd8a-487f-b340-f16eeecad45f/scratchpad/lift_docs/03_Asset_Management_GIS_IT_Consulting_RFP.pdf",
+  "n_pages": 24,
+  "text_extractable": true,
+  "backend": "lift",
+  "backend_key": "lift:vision",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "retrieval": "selected",
+  "started_at": "2026-09-22T10:20:56+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        18
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 21.65,
+      "prompt_tokens": 30269,
+      "completion_tokens": 435,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        6,
+        7,
+        10,
+        13,
+        16,
+        17,
+        18
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 8.75,
+      "prompt_tokens": 19798,
+      "completion_tokens": 139,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        14,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 32.38,
+      "prompt_tokens": 23962,
+      "completion_tokens": 1004,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 10.48,
+      "prompt_tokens": 19728,
+      "completion_tokens": 212,
+      "cost_usd": 0.0
+    },
+    "commercial_pricing": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        23,
+        24
+      ],
+      "ok": false,
+      "error": "unparseable JSON: Expecting ',' delimiter: line 1 column 4150 (char 4149)",
+      "latency_s": 169.1,
+      "prompt_tokens": 56676,
+      "completion_tokens": 6144,
+      "cost_usd": 0.0
+    },
+    "commercial_compliance": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        22,
+        23,
+        24
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 20.44,
+      "prompt_tokens": 30430,
+      "completion_tokens": 473,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "Friday May 9, 2025, 11:00:00 AM local time",
+      "raw": "Friday May 9, 2025, 11:00:00 AM local time",
+      "page": 1,
+      "quote": "Submission Deadline: Friday May 9, 2025, 11:00:00 AM local time",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "Friday April 25, 2025, 11:00:00 AM",
+      "raw": "Friday April 25, 2025, 11:00:00 AM",
+      "page": 3,
+      "quote": "Deadline for Questions Friday April 25, 2025, 11:00:00 AM",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Matthew Miller",
+      "email": "mmiller@sylvansummervillages.ca",
+      "phone": null,
+      "title": "Manager of Public Works",
+      "page": 3,
+      "quote": "Matthew Miller Manager of Public Works Summer Villages on Sylvan Lake mmiller@sylvansummervillages.ca",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Email to mmiller@sylvansummervillages.ca in PDF format",
+      "page": 4,
+      "quote": "Proposals must be submitted with the project clearly identified in the subject line of an email. Hard copy submissions will not be accepted. Each submission must be in PDF format. Submissions by other methods will not be accepted. The proposal and any supplementary documents must be emailed to: mmiller@sylvansummervillages.ca",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "IT Consulting for Implementation and Update of Munisoft PubWorks and ESRI ArcGIS (AMS) for Summervillages on Sylvan Lake, including implementation, data updates, process development, training, and ongoing maintenance.",
+      "page": 1,
+      "quote": "IT Consulting for Implementation and Update of Munisoft PubWorks and ESRI ArcGIS (AMS)",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Submission Form (Appendix B) completed and signed by an authorized representative of the respondent.",
+        "Pricing information that complies with the instructions contained in Pricing (Appendix C).",
+        "Evidence of Safety Program and Insurance: valid copy of a current WCB clearance letter.",
+        "Evidence of Safety Program and Insurance: valid copy of an Alberta Certificate of Recognition (COR or SECOR or other Industry Partner certificate) or other evidence of an active workplace safety program.",
+        "Evidence of Safety Program and Insurance: valid certificate of insurance with coverage not less than Two (2) Million dollars.",
+        "Conflict of Interest declaration regarding preparation of quotation and performance of contractual obligations.",
+        "Confirmation that employees working on the City's network are willing to sign a Non-Disclosure Agreement and complete a security clearance.",
+        "Disclosure of whether the company and/or software has ever had a security breach or experienced a cybersecurity event.",
+        "Confirmation that mandatory requirements apply to any sub-contractors or 3rd Party.",
+        "Confirmation that Villages data stored on the Proponent's servers must be on Canadian data centers.",
+        "Confirmation that Villages data stored on the Proponent's servers must be physically or logically separated from other clients' data."
+      ],
+      "page": 23,
+      "quote": "1. Submission Form (Appendix B) Each quotation must include a Submission Form (Appendix B) completed and signed by an authorized representative of the respondent. 2. Pricing (Appendix C) Each quotation must include pricing information that complies with the instructions contained in Pricing (Appendix C). 3. Other Mandatory Submission Requirements Evidence of Safety Program and Insurance Upon notice of intent to negotiate, the Proponent will be required to supply: A valid copy of a current WCB clearance letter... Provide evidence of an active safety program... A valid certificate of insurance with coverage not less than Two (2) Million dollars... D. MANDATORY TECHNICAL REQUIREMENTS M-1 Proponent must confirm employees working on the City's network are willing to sign a Non-Disclosure Agreement and complete a security clearance. M-2 Proponent must confirm they will use Microsoft Teams or Virtual Private Network (VPN) to access any software on the City's network. M-3 Proponent must disclose whether their company and/or software has ever had a security breach... M-4 Proponent must confirm all mandatory requirements which apply to the Proponent will also apply to any sub-contractors or 3rd Party... M-5 Villages data stored on the Proponent's servers must be on Canadian data centers. M-6 Villages data stored on the Proponent's servers must be physically or logically separated from other clients' data.",
+      "confidence": 14,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Proponent must confirm employees working on the City's network are willing to sign a Non-Disclosure Agreement and complete a security clearance.",
+        "Proponent must confirm they will use Microsoft Teams or Virtual Private Network (VPN) to access any software on the City's network.",
+        "Proponent must disclose whether their company and/or software has ever had a security breach or experienced a cybersecurity event that compromised the system or client base.",
+        "Proponent must confirm all mandatory requirements which apply to the Proponent will also apply to any sub-contractors or 3rd Party.",
+        "Villages data stored on the Proponent's servers must be on Canadian data centers.",
+        "Villages data stored on the Proponent's servers must be physically or logically separated from other clients' data."
+      ],
+      "page": 23,
+      "quote": "D. MANDATORY TECHNICAL REQUIREMENTS M-1 Proponent must confirm employees working on the City's network are willing to sign a Non-Disclosure Agreement and complete a security clearance. M-2 Proponent must confirm they will use Microsoft Teams or Virtual Private Network (VPN) to access any software on the City's network. M-3 Proponent must disclose whether their company and/or software has ever had a security breach or experienced a cybersecurity event that compromised the system or client base. If yes, describe the nature of the breach(es) or event and how it was resolved. M-4 Proponent must confirm all mandatory requirements which apply to the Proponent will also apply to any sub-contractors or 3rd Party and that the amount of information shared with sub-contractors must be limited to the minimum amount required for the specific purpose. M-5 Villages data stored on the Proponent's servers must be on Canadian data centers. M-6 Villages data stored on the Proponent's servers must be physically or logically separated from other clients' data.",
+      "confidence": 24,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "wrong_page",
+        "claimed_page": 23,
+        "found_on_page": 24,
+        "exact": false,
+        "best_score": 92.2
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Project Price - As per appendix C",
+          "weight": 35,
+          "unit": "%"
+        },
+        {
+          "category": "Project Understanding/Approach/Schedule",
+          "weight": 20,
+          "unit": "%"
+        },
+        {
+          "category": "Team Members Qualifications & Expertise",
+          "weight": 30,
+          "unit": "%"
+        },
+        {
+          "category": "Relevant Past Experience",
+          "weight": 15,
+          "unit": "%"
+        }
+      ],
+      "page": 17,
+      "quote": "Project Price - As per appendix C 35%; Project Understanding/Approach/Schedule 20%; Team Members Qualifications & Expertise 30%; Relevant Past Experience 15%.",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 17,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 71.5
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Minimum of one year experience; 2 years experience; 3-4 years experience; > 5 years experience; more than 10 years experience",
+      "page": 17,
+      "quote": "Minimum of one year experience; 2 years experience; 3-4 years experience; > 5 years experience; more than 10 years experience.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 17,
+        "found_on_page": 17,
+        "exact": false,
+        "best_score": 93.7
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Proponent must confirm employees working on the City's network are willing to sign a Non-Disclosure Agreement and complete a security clearance.",
+        "Proponent must confirm they will use Microsoft Teams or Virtual Private Network (VPN) to access any software on the City's network.",
+        "Proponent must disclose whether their company and/or software has ever had a security breach or experienced a cybersecurity event that compromised the system or client base.",
+        "Villages data stored on the Proponent's servers must be on Canadian data centers.",
+        "Villages data stored on the Proponent's servers must be physically or logically separated from other clients' data."
+      ],
+      "page": 23,
+      "quote": "M-1 Proponent must confirm employees working on the City's network are willing to sign a Non-Disclosure Agreement and complete a security clearance. M-2 Proponent must confirm they will use Microsoft Teams or Virtual Private Network (VPN) to access any software on the City's network. M-3 Proponent must disclose whether their company and/or software has ever had a security breach or experienced a cybersecurity event that compromised the system or client base. M-5 Villages data stored on the Proponent's servers must be on Canadian data centers. M-6 Villages data stored on the Proponent's servers must be physically or logically separated from other clients' data.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "Villages data stored on the Proponent's servers must be on Canadian data centers.",
+      "page": 24,
+      "quote": "M-5 Villages data stored on the Proponent's servers must be on Canadian data centers.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": false,
+        "best_score": 98.8
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 180863,
+    "completion_tokens": 8407,
+    "cost_usd": 0.0,
+    "latency_s": 262.8,
+    "errors": 1
+  },
+  "finished_at": "2026-09-22T10:25:28+00:00",
+  "summary": {
+    "fields_returned": 13,
+    "fields_asserted_present": 11,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 9,
+      "wrong_page": 1,
+      "unverified": 1,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 0.909,
+    "hallucination_rate": 0.091
+  }
+}

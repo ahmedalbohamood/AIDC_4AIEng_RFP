@@ -1,0 +1,515 @@
+{
+  "doc_id": "RFP CP-730126 Generative AI RFP (4)",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/RFP CP-730126 Generative AI RFP (4).pdf",
+  "n_pages": 33,
+  "text_extractable": true,
+  "backend": "qwen3.5-9b",
+  "backend_key": "qwen3.5-9b:text",
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-25T15:27:25+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16,
+        21,
+        24
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.18,
+      "prompt_tokens": 9808,
+      "completion_tokens": 371,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        14,
+        15,
+        16,
+        21,
+        26
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 5.23,
+      "prompt_tokens": 6818,
+      "completion_tokens": 278,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 42.11,
+      "prompt_tokens": 9233,
+      "completion_tokens": 2674,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        23,
+        26
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 8.84,
+      "prompt_tokens": 8223,
+      "completion_tokens": 502,
+      "cost_usd": 0.0
+    },
+    "commercial_pricing": {
+      "pages_shown": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        23,
+        26,
+        27
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 24.55,
+      "prompt_tokens": 9976,
+      "completion_tokens": 1513,
+      "cost_usd": 0.0
+    },
+    "commercial_compliance": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        19,
+        20,
+        23,
+        28,
+        29
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 11.63,
+      "prompt_tokens": 11490,
+      "completion_tokens": 643,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "August 12, 2025",
+      "raw": "August 12, 2025",
+      "page": 5,
+      "quote": "d) Proposals due August 12, 2025",
+      "confidence": 0.95,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "July 25, 2025",
+      "raw": "July 25, 2025",
+      "page": 5,
+      "quote": "b) Written inquiries up to July 25, 2025",
+      "confidence": 0.95,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Dennis Orellana",
+      "email": null,
+      "phone": null,
+      "title": "Procurement Services Lead",
+      "page": 4,
+      "quote": "Attention: Dennis Orellana Procurement Services Lead",
+      "confidence": 0.95,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "https://usask.bonfirehub.ca",
+      "page": 5,
+      "quote": "Proposals must be submitted through the online Bonfire Portal at: https://usask.bonfirehub.ca",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "Commence on or around September 1, 2025 and remain in effect until August 31, 2030, with options to extend for one additional three-year and one additional two-year extension, for a maximum potential Contract period of ten (10) years.",
+      "page": 4,
+      "quote": "The term of Contract shall commence on or around September 1, 2025 and shall remain in effect until August 31, 2030, unless otherwise terminated in accordance with the terms outlined herein. USask reserves the right to extend the Contract for one additional three year and one additional two year extension, for a maximum potential Contract period of ten (10) years, or for subsequent project stages, or re-tender the Generative Artificial Intelligence (AI) Software.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "A table of contents of all presented material.",
+        "An outline of your corporate structure and ownership, complete with a list of the names of all the owners of the company and/or officers of the corporation, and a company organizational chart.",
+        "A complete description of the duration and extent of your company's experience, competence and reliability in handling similar projects.",
+        "A list of proposed personnel, corresponding job function, title, qualifications and experience required to facilitate any subsequent Contract.",
+        "A clear indication of services that will be provided.",
+        "The pricing structure, in Canadian dollars (see Section 2.4 – Pricing structure), for all proposed equipment and/or services.",
+        "A sample of Proponent's service/maintenance agreement.",
+        "Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available.",
+        "A summary of sustainability initiatives (see Section 2.3 – Sustainability).",
+        "A summary of any value added benefits or in-kind contributions, any opportunities for recognition, must be approved under University Policy #5.07 see website: https://policies.usask.ca/policies/advancement/gift-in-kind-identification-and-appraisal.php#AuthorizationandApproval Discounts, in-kind contributions, value added benefits or incentives in the form of laboratory consumables and/or chemicals cannot be considered as the University has contracts in place for these commodities.",
+        "A clear indication of services that will be brokered to third parties, including usage of any USask in-house services.",
+        "Completed Validation of Proposal and Acceptance of Contractual Provisions (see Appendix A). Proposals shall automatically be deemed to include Proponent's agreement to the preferred Contractual Provisions which shall be incorporated by reference in the Contract, unless expressly and specifically indicated otherwise.",
+        "Completed pricing structure in electronic format (Appendix D – Pricing Structure).",
+        "Completed HECVAT or Software As A Service Form (Appendix E – Software as a Service Vendor Form)",
+        "Disclosure of any and all judgments, pending or expected litigation, or other real or potential reversals which might materially affect the viability or stability of the Proponent's organization; or warrant that no such condition is known to exist.",
+        "Proposals must be dated and signed in the firm or corporate name and must bear the signature of an officer or agent duly authorized to execute contracts for the Proponent. The Proponent's name must be fully stated. Where Proposals are signed by an agent of the Proponent, evidence of authority to act as the Proponent's agent shall accompany the Proposal.",
+        "Joint Proposals must be dated and signed in the firm or corporate name of the primary Proponent and must bear the signature of a principal duly authorized to execute contracts for the primary Proponent. The primary Proponent will be responsible for all the duties and obligations of the RFP process and the execution of any subsequent Contract.",
+        "Proposals shall constitute valid and irrevocable offers which are open for acceptance by USask for a period of sixty (120) days following the closing date and time specified in Section 1.6 – Closing Date and Time.",
+        "Mandatory contractual provisions cannot be modified in the Proponent's Proposal and shall be deemed to be specifically incorporated by reference in any Proposal submitted by the Proponent(s).",
+        "Preferred contractual provisions are desirable to USask but may be modified upon request. A Proponent may reject or make changes to the preferred contractual provisions by explicitly stating so in their Proposal.",
+        "UNLESS A PROPONENT EXPRESSLY AND SPECIFICALLY PROVIDES OTHERWISE IN THEIR WRITTEN SUBMISSION, THE PROPOSAL SHALL AUTOMATICALLY BE DEEMED TO INCLUDE THE PROPONENT'S AGREEMENT TO THE PREFERRED CONTRACTUAL PROVISIONS OF THIS RFP.",
+        "IF A PROPONENT CANNOT ACCEPT ANY OF THESE PROVISIONS, THE PROPONENT MUST SET OUT THE OBJECTION IN THEIR PROPOSAL.",
+        "FAILING WHICH, ALL PREFERRED CONTRACTUAL PROVISIONS SHALL BE INCORPORATED BY REFERENCE IN THE CONTRACT.",
+        "Proponent confirms that its Proposal has taken into consideration all information provided in the RFP including all attachments and subsequent addenda (if any).",
+        "Proponent confirms the validity period of its irrevocable Proposal is one hundred and twenty (120) days from the closing date.",
+        "Proponent accepts without modification all Contractual Provisions outlined in Section 3.0 and the Conditions included.",
+        "The Proponent shall meet the insurance requirements as set forth below and which shall be valid for the duration of the Contract. The Proponent shall provide certificates of insurance, duly signed by an authorized representative of the insurer, as evidence of coverage, upon request.",
+        "The Service Provider shall obtain and cover the costs for all permits, licenses and certificates of inspection necessary for the execution of the Service, including liability for all applicable taxes; shall give notices and comply with all laws, ordinances, codes, rules and regulations bearing on the conduct of the Service; and shall pay all fees required by law.",
+        "The Proponent must be the direct provider of the services. Proposals from third-party resellers, intermediaries, or distributors will not be considered. The Proponent must demonstrate direct ownership, management, and delivery of the Services outlined in this RFP without reliance on external resellers.",
+        "Proponents must demonstrate the capacity to meet the following requirements during the anticipated term of the Master Services Agreement (if awarded), expected to be 5 years:"
+      ],
+      "page": 11,
+      "quote": "In order to receive a uniform format of responses from all Proponents, the following guidelines for formatting the Proposal have been outlined. 2.1 GENERAL OUTLINE a) A table of contents of all presented material. b) An outline of your corporate structure and ownership, complete with a list of the names of all the owners of the company and/or officers of the corporation, and a company organizational chart. c) A complete description of the duration and extent of your company's experience, competence and reliability in handling similar projects. d) A list of proposed personnel, corresponding job function, title, qualifications and experience required to facilitate any subsequent Contract. e) A clear indication of services that will be provided. f) The pricing structure, in Canadian dollars (see Section 2.4 – Pricing structure), for all proposed equipment and/or services. g) A sample of Proponent's service/maintenance agreement. h) Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available. i) A summary of sustainability initiatives (see Section 2.3 – Sustainability). j) A summary of any value added benefits or in-kind contributions, any opportunities for recognition, must be approved under University Policy #5.07 see website: https://policies.usask.ca/policies/advancement/gift-in-kind-identification-and-appraisal.php#AuthorizationandApproval Discounts, in-kind contributions, value added benefits or incentives in the form of laboratory consumables and/or chemicals cannot be considered as the University has contracts in place for these commodities. k) A clear indication of services that will be brokered to third parties, including usage of any USask in-house services. l) Completed Validation of Proposal and Acceptance of Contractual Provisions (see Appendix A). Proposals shall automatically be deemed to include Proponent's agreement to the preferred Contractual Provisions which shall be incorporated by reference in the Contract, unless expressly and specifically indicated otherwise. m) Completed pricing structure in electronic format (Appendix D – Pricing Structure). n) Completed HECVAT or Software As A Service Form (Appendix E – Software as a Service Vendor Form) o) Disclosure of any and all judgments, pending or expected litigation, or other real or potential reversals which might materially affect the viability or stability of the Proponent's organization; or warrant that no such condition is known to exist. 2.2 SIGNING AUTHORITY Proposals must be dated and signed in the firm or corporate name and must bear the signature of an officer or agent duly authorized to execute contracts for the Proponent. The Proponent's name must be fully stated. Where Proposals are signed by an agent of the Proponent, evidence of authority to act as the Proponent's agent shall accompany the Proposal. Joint Proposals must be dated and signed in the firm or corporate name of the primary Proponent and must bear the signature of a principal duly authorized to execute contracts for the primary Proponent. The primary Proponent will be responsible for all the duties and obligations of the RFP process and the execution of any subsequent Contract. 1.16 IRREVOCABLE OFFER Proposals shall constitute valid and irrevocable offers which are open for acceptance by USask for a period of sixty (120) days following the closing date and time specified in Section 1.6 – Closing Date and Time. 1.18 CONTRACTUAL OBLIGATION USask has outlined both mandatory and preferred contractual provisions (see Section 3.0 – Contractual Provisions and Appendix B – Validation of Proposal and Acceptance of Contractual Provisions) that will govern the selection of a Proponent(s) and any subsequent Contract issued. These contractual terms will be incorporated into any Contract between the successful Proponent(s) and USask. Mandatory contractual provisions cannot be modified in the Proponent's Proposal and shall be deemed to be specifically incorporated by reference in any Proposal submitted by the Proponent(s). Preferred contractual provisions are desirable to USask but may be modified upon request. A Proponent may reject or make changes to the preferred contractual provisions by explicitly stating so in their Proposal. The change will be considered in the selection process. Preferred contractual provisions not explicitly rejected or amended by a Proponent, shall be incorporated by reference in any submitted Proposal without further opportunity to comment or amend by the Proponent. UNLESS A PROPONENT EXPRESSLY AND SPECIFICALLY PROVIDES OTHERWISE IN THEIR WRITTEN SUBMISSION, THE PROPOSAL SHALL AUTOMATICALLY BE DEEMED TO INCLUDE THE PROPONENT'S AGREEMENT TO THE PREFERRED CONTRACTUAL PROVISIONS OF THIS RFP. IF A PROPONENT CANNOT ACCEPT ANY OF THESE PROVISIONS, THE PROPONENT MUST SET OUT THE OBJECTION IN THEIR PROPOSAL. FAILING WHICH, ALL PREFERRED CONTRACTUAL PROVISIONS SHALL BE INCORPORATED BY REFERENCE IN THE CONTRACT. APPENDIX A: VALIDATION OF PROPOSAL AND ACCEPTANCE OF CONTRACTUAL PROVISIONS A.1 Proponent confirms that its Proposal has taken into consideration all information provided in the RFP including all attachments and subsequent addenda (if any). A.2 Proponent confirms the validity period of its irrevocable Proposal is one hundred and twenty (120) days from the closing date. A.3 Proponent accepts without modification all Contractual Provisions outlined in Section 3.0 and the Conditions included. 3.11 INSURANCE The Service Provider shall meet the insurance requirements as set forth below and which shall be valid for the duration of the Contract. The Service Provider shall provide certificates of insurance, duly signed by an authorized representative of the insurer, as evidence of coverage, upon request. 3.12 PERMITS, LICENSES, NOTICES, LAWS AND RULES The Service Provider shall obtain and cover the costs for all permits, licenses and certificates of inspection necessary for the execution of the Service, including liability for all applicable taxes; shall give notices and comply with all laws, ordinances, codes, rules and regulations bearing on the conduct of the Service; and shall pay all fees required by law. APPENDIX B: BACKGROUND/ SCOPE OF SERVICE B.1 Background ... The Proponent must be the direct provider of the services. Proposals from third-party resellers, intermediaries, or distributors will not be considered. The Proponent must demonstrate direct ownership, management, and delivery of the Services outlined in this RFP without reliance on external resellers. Proponents must demonstrate the capacity to meet the following requirements during the anticipated term of the Master Services Agreement (if awarded), expected to be 5 years:",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 11,
+        "found_on_page": 11,
+        "exact": false,
+        "best_score": 95.6
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "TECHNICAL & AI PLATFORM SERVICES",
+          "weight": 30,
+          "unit": "Points"
+        },
+        {
+          "category": "OPTIONAL SERVICES",
+          "weight": 5,
+          "unit": "Points"
+        },
+        {
+          "category": "PROFESSIONAL SERVICES",
+          "weight": 5,
+          "unit": "Points"
+        },
+        {
+          "category": "PROONENT QUALIFICATIONS",
+          "weight": 10,
+          "unit": "Points"
+        },
+        {
+          "category": "SUPPORT & MANAGEMENT",
+          "weight": 10,
+          "unit": "Points"
+        },
+        {
+          "category": "COST",
+          "weight": 30,
+          "unit": "Points"
+        },
+        {
+          "category": "UNIVERSITY BENEFIT & SUSTAINABILITY",
+          "weight": 5,
+          "unit": "Points"
+        },
+        {
+          "category": "INDIGENOUS PARTICIPATION",
+          "weight": 5,
+          "unit": "Points"
+        }
+      ],
+      "page": 8,
+      "quote": "Proposals shall be evaluated based on the following criteria: Point Weighting a) TECHNICAL & AI PLATFORM SERVICES 30 b) OPTIONAL SERVICES 5 c) PROFESSIONAL SERVICES 5 d) PROPONENT QUALIFICATIONS 10 e) SUPPORT & MANAGEMENT 10 f) COST 30 g) UNIVERSITY BENEFIT & SUSTAINABILITY 5 h) INDIGENOUS PARTICIPATION 5 TOTAL OF 100 Points",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 8,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 62.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": "Points",
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing structure must be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Pricing structure quoted should be DDP Incoterms 2010 USask. Costs should be inclusive of all relevant elements including, but not limited to the following: Pricing structure in Canadian funds. Taxes, shown separately if applicable. Duty, if applicable. Pricing formula(e). D.D.P. Incoterms 2010 terms. Installation charges. Maintenance fees. Upgrades. Training. Value added benefits. Pricing structure is exclusive of Goods and Services Tax (GST) and Provincial Sales Tax (PST). Pricing structure should be firm for five (5) Year(s) of this Contract. The Service Provider must be prepared to provide a complete pricing structure schedule to all departments and/or participating universities and affiliates per Appendix F – USask Affiliates and SAEC. Adjustments increasing pricing structure shall be permitted in accordance with substantiated changes in the Service Provider's costs. Increases in pricing structure shall be not greater than the rise in the Consumer Price Index (CPI). Adjustments decreasing pricing structure should be applied throughout the term of this Contract. The Service Provider shall notify USask in writing of any proposed pricing structure changes for Contract services, no less than thirty (30) days prior to planned implementation of pricing structure changes. Vendors should provide a detailed breakdown of the price per user subscription. Additionally, they should indicate whether any volume discounts are available based on the number of users. Pricing structure should be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Optional Extension Year Pricing. TIERED PRICING MODEL (IF APPLICABLE). User Licensing Pricing Tiers Pricing. Cost Types Year 1 Year 2 Year 3 Year 4 Year 5 Total Individual Subscription Per Year Token Based Pricing Model Enterprise Management Per Year Implementation Training Additional/Other (Please Describe). Cost Types Year 6 Year 7 Year 8 Year 9 Year 10 Total Individual Subscription Per Year Token Based Pricing Model Enterprise Management Per Year OPTIONAL SERVICE AND SUPPORT FEES # Role of Individual/Position Title Hourly Rate. Include additional explanation of costs and list assumptions that could influence the cost of change request pricing. List explanations and assumptions",
+      "page": 12,
+      "quote": "Pricing structure must be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Pricing structure quoted should be DDP Incoterms 2010 USask. Costs should be inclusive of all relevant elements including, but not limited to the following: Pricing structure in Canadian funds. Taxes, shown separately if applicable. Duty, if applicable. Pricing formula(e). D.D.P. Incoterms 2010 terms. Installation charges. Maintenance fees. Upgrades. Training. Value added benefits. Pricing structure is exclusive of Goods and Services Tax (GST) and Provincial Sales Tax (PST). Pricing structure should be firm for five (5) Year(s) of this Contract. The Service Provider must be prepared to provide a complete pricing structure schedule to all departments and/or participating universities and affiliates per Appendix F – USask Affiliates and SAEC. Adjustments increasing pricing structure shall be permitted in accordance with substantiated changes in the Service Provider's costs. Increases in pricing structure shall be not greater than the rise in the Consumer Price Index (CPI). Adjustments decreasing pricing structure should be applied throughout the term of this Contract. The Service Provider shall notify USask in writing of any proposed pricing structure changes for Contract services, no less than thirty (30) days prior to planned implementation of pricing structure changes. Vendors should provide a detailed breakdown of the price per user subscription. Additionally, they should indicate whether any volume discounts are available based on the number of users. Pricing structure should be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Optional Extension Year Pricing. TIERED PRICING MODEL (IF APPLICABLE). User Licensing Pricing Tiers Pricing. Cost Types Year 1 Year 2 Year 3 Year 4 Year 5 Total Individual Subscription Per Year Token Based Pricing Model Enterprise Management Per Year Implementation Training Additional/Other (Please Describe). Cost Types Year 6 Year 7 Year 8 Year 9 Year 10 Total Individual Subscription Per Year Token Based Pricing Model Enterprise Management Per Year OPTIONAL SERVICE AND SUPPORT FEES # Role of Individual/Position Title Hourly Rate. Include additional explanation of costs and list assumptions that could influence the cost of change request pricing. List explanations and assumptions",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 12,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 85.5
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability Insurance",
+          "amount": 5000000,
+          "currency": "CAD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Cybersecurity Liability Insurance",
+          "amount": 5000000,
+          "currency": "CAD",
+          "basis": "per occurrence"
+        }
+      ],
+      "page": 15,
+      "quote": "Commercial General Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for bodily injury (including death) and damage to property including loss of use thereof. Such insurance shall include coverage for broad form property damage, contractual liability, completed operations, product liability and non-owned automobiles. Such insurance shall also include USask as an additional insured and shall contain a cross liability clause. Cybersecurity Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for cybercrime hacking, viruses, worms, denial of service attacks, data breach and ransomware liability insurance.",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 15,
+        "found_on_page": 15,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "unit": "references",
+      "page": 11,
+      "quote": "Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available.",
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 11,
+        "found_on_page": 11,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 7,
+      "quote": "Proponents may be contacted after the RFP closing to arrange for presentations to clarify Proposals, product demonstrations and/or an inspection of their operations. This may or may not be requested.",
+      "confidence": 0.95,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Proponents must provide a completed USask SaaS Form or alternatively a Higher Education Community Vendor Assessment Toolkit (HECVAT) with their proposal. This includes demonstrating comprehensive data protection strategies such as encryption, regular security audits, and compliance with industry best practices for data security.",
+        "The Service Provider, during and after the term of this Contract, agrees that it shall maintain in confidence and use only on behalf of USask in furtherance of its contractual duties and obligations, or in the enforcement of the terms of this Contract, any and all Confidential Information provided to it by USask or developed by the Service Provider in connection with performance of this Contract. Confidential Information shall not be disclosed by the Service Provider unless authorized in writing by USask.",
+        "All personal information obtained by or disclosed to the Service Provider by USask for the purpose of providing the Service under the terms of this Contract shall be used for the purpose(s) for which it is obtained or disclosed, and shall not be used or further disclosed by the Service Provider, except as required by law, or as authorized in writing by USask. The Service Provider will take all reasonable measures to protect the personal information, and will immediately notify USask in the event of unauthorized access, use or disclosure of personal information and take all reasonable steps to recover the information and prevent a recurrence. All personal information shall be returned to USask or destroyed upon request, and shall, at minimum, be destroyed upon the completion of the Contract.",
+        "Is the service compliant with any security standards or regulations? (i.e. PCI DSS, ISO, SSAE, CSA STAR)",
+        "How often does your organization review and update its security policies? What are the timelines for notification of any changes to your organization's security policies?",
+        "What is your organization's security incident response plan? What are the timelines for notifying the university if there is breach or security incident?"
+      ],
+      "page": 23,
+      "quote": "Security and Data Protection Requirements: The ability to meet or exceed the University of Saskatchewan's security requirements. Proponents must provide a completed USask SaaS Form or alternatively a Higher Education Community Vendor Assessment Toolkit (HECVAT) with their proposal. This includes demonstrating comprehensive data protection strategies such as encryption, regular security audits, and compliance with industry best practices for data security.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 55548,
+    "completion_tokens": 5981,
+    "cost_usd": 0.0,
+    "latency_s": 99.56,
+    "errors": 0
+  },
+  "finished_at": "2026-09-25T15:29:32+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 12,
+    "fields_absent": 5,
+    "evidence": {
+      "verified": 10,
+      "wrong_page": 0,
+      "unverified": 2,
+      "no_quote": 0,
+      "absent": 5
+    },
+    "groundedness": 0.833,
+    "hallucination_rate": 0.167
+  }
+}

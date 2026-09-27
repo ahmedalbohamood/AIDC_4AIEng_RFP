@@ -1,0 +1,453 @@
+{
+  "doc_id": "08_High_Availability_SQL_Database_Solution_RFP",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/08_High_Availability_SQL_Database_Solution_RFP.pdf",
+  "n_pages": 174,
+  "text_extractable": true,
+  "backend": "k2-horizon-7b",
+  "backend_key": "k2-horizon-7b:text",
+  "model": "IFM/K2-Horizon-7B",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T08:03:21+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        11,
+        109,
+        163
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 11.08,
+      "prompt_tokens": 4409,
+      "completion_tokens": 397,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        30,
+        56,
+        72,
+        135,
+        151
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.73,
+      "prompt_tokens": 4511,
+      "completion_tokens": 268,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        16,
+        32,
+        33,
+        35,
+        106
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.16,
+      "prompt_tokens": 4196,
+      "completion_tokens": 251,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        8,
+        17,
+        18,
+        107,
+        110
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.71,
+      "prompt_tokens": 3591,
+      "completion_tokens": 276,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        10,
+        16,
+        17,
+        19,
+        25,
+        37,
+        46,
+        57,
+        90,
+        92,
+        101,
+        102,
+        108,
+        113,
+        125,
+        166,
+        167,
+        173
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 37.32,
+      "prompt_tokens": 10166,
+      "completion_tokens": 1292,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline:  June 19, 2025 at 4:00 PM Eastern Time\n(ET)",
+      "confidence": 0.99,
+      "value": "June 19, 2025 at 4:00 PM Eastern Time (ET)",
+      "raw": "Submission Deadline:  June 19, 2025 at 4:00 PM Eastern Time\n(ET)",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 4,
+      "quote": "Deadline for Questions  Wednesday, June 4, 2025  \n4:00 PM local time",
+      "confidence": 0.99,
+      "value": "Wednesday, June 4, 2025 4:00 PM local time",
+      "raw": "Deadline for Questions  Wednesday, June 4, 2025  \n4:00 PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "Paul Barbazza \n\nProcurement and Contract Specialist  \nEmail: Paul.Barbazza@ttc.ca",
+      "confidence": 0.99,
+      "name": "Paul Barbazza",
+      "email": "Paul.Barbazza@ttc.ca",
+      "phone": null,
+      "title": "Procurement and Contract Specialist",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 4,
+      "quote": "Proposals must be submitted through TTC’s online Bonfire portal at: \nhttps://ttc.bonfirehub.ca/opportunities/92757 \nSubmissions by other methods will not be accepted.",
+      "confidence": 0.99,
+      "value": "TTC’s online Bonfire portal at https://ttc.bonfirehub.ca/opportunities/92757",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 4,
+      "quote": "The term of the agreement is to be for a period of one (one) year (the “Initial Term”), with an option in favour of TTC to extend the Agreement on the same terms and conditions for one (1) additional two (2) year extension.",
+      "confidence": 0.95,
+      "value": "1 year initial term with an option to extend for one additional 2-year term",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 30,
+      "quote": "The Supplier shall supply and deliver the Implementation of a High Availability SQL Database Solution in compliance with the technical and operating environments as listed in Section 3.1.2. Current Technical Environment.",
+      "confidence": 0.9,
+      "value": "Implementation of a High Availability SQL Database Solution, delivered in phases (SOW 1 covering phases 1-5, SOW 2 covering ongoing services under Phase 6: Operational Warranty, Support and Maintenance), integrated with current and future TTC IT systems, with work performed after business hours (2:00 AM to 5:30 AM ET, Mon-Fri) and subject to TTC security policies.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 30,
+        "found_on_page": 30,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 16,
+      "quote": "Each Proposal must include a Proponent Submission Form (Appendix C) completed and signed by an authorized representative of the Proponent.",
+      "confidence": 0.99,
+      "value": [
+        "Proponent Submission Form (Appendix C) completed and signed by an authorized representative of the Proponent",
+        "Mandatory Technical Requirements Submission Form (Appendix D) that complies with the instructions contained in the RFP, and that provides all requested information",
+        "Pricing Submission Form (Appendix F) that complies with the instructions contained in the RFP, and that provides all requested pricing information"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 16,
+      "quote": "The Mandatory Technical Requirements Submission Form (Appendix D) includes the mandatory technical requirements that the Proponent must",
+      "confidence": 0.99,
+      "value": [
+        "Mandatory Technical Requirements Submission Form (Appendix D) completed according to the instructions set out below as well as the instructions in Part 4 of the RFP",
+        "Proposals that do not demonstrate compliance with the mandatory technical requirements contained in this document will be excluded from further consideration"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 18,
+      "quote": "Stage 2: Rated Criteria 80 60% (48 overall points) 1. Overall Experience 20 2. Project Schedule & Approach 20 3. Solution Capability 20 4. Training Services 10 5. Warranty, Support, and Maintenance 10",
+      "confidence": 0.95,
+      "value": [
+        {
+          "category": "1. Overall Experience",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "2. Project Schedule & Approach",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "3. Solution Capability",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "4. Training Services",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "5. Warranty, Support, and Maintenance",
+          "weight": 10,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 18,
+        "found_on_page": 18,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "page": 18,
+      "quote": "Stage 2: Rated Criteria 80 60% (48 overall points)",
+      "confidence": 0.95,
+      "value": 60,
+      "unit": "%",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 18,
+        "found_on_page": 18,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 19,
+      "quote": "Proponents should provide the information requested in accordance with Appendix F General Instruction tab (“Required Pricing Information”) by completing the attached form and including it in their Proposals.",
+      "confidence": 0.9,
+      "value": "Pricing must be submitted on the Pricing Submission Form (Appendix F) as part of the Proposal; pricing is scored via a relative pricing formula and is worth 20 points of the total score.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 19,
+        "found_on_page": 19,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 101,
+      "quote": "Supplier will have and maintain in force, and will provide certificates of insurance evidencing: (a) Professional Liability Insurance in the amount of One Million Dollars ($1,000,000.00) covering actual or alleged acts, errors or omissions committed by the Supplier, Supplier Subcontractors or their respective agents or employees, arising out of the performance of this Agreement. The policy coverage will also extend to include personal injury, bodily injury and property damage from the performance of professional service or arising out of the program. (b) Computer Security and Privacy Liability in the amount of One Million Dollars ($1,000,000.00) covering actual or alleged acts, errors or omissions committed by the Supplier, Supplier Subcontractors or their respective agents or employees. The policy will also extend to include the intentional, fraudulent or criminal acts of the Supplier, Supplier Subcontractors or their respective agents or employees. The policy will expressly provide, but not be limited to, coverage for the following perils: (i) unauthorized use/access of a computer system; (ii) defense of any regulatory action involving a breach of privacy; (iii) failure to protect Confidential Information (personal and commercial information) from disclosure; and (iv) notification costs, whether or not required by statute. (c) Commercial general liability coverage against all claims for bodily injury (including death) and property damage in an amount of not less than One Million Dollars ($1,000,000.00) for any one occurrence or accident for all claims arising out of bodily injury, including death, and damage to property of others (including TTC). Such insurance shall include, (i) contractual liability; (ii) cross liability and severability of interests clause; and (iii) specify that it is primary coverage and not contributory with or in excess of any insurance maintained by TTC.",
+      "confidence": 0.9,
+      "value": [
+        {
+          "coverage_type": "Professional Liability Insurance",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "One Million Dollars ($1,000,000.00)"
+        },
+        {
+          "coverage_type": "Computer Security and Privacy Liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "One Million Dollars ($1,000,000.00)"
+        },
+        {
+          "coverage_type": "Commercial general liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "not less than One Million Dollars ($1,000,000.00) for any one occurrence or accident"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 101,
+        "found_on_page": 101,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "page": 37,
+      "quote": "The Supplier shall provide a Technical Lead to provide overall design, configuration, and integrations of the Solution. The Technical Lead shall, as a minimum, have the qualification set out below: a) Two (2) or more years of SQL database implementation experience; b) Two (2) years of experience related to implementation of SQL database projects of similar scope; and c) Experience with all aspects of integration, quality assurance and testing pertaining to SQL database implementations.",
+      "confidence": 0.9,
+      "value": "Technical Lead must have at least 2 years of SQL database implementation experience and 2 years of experience implementing SQL database projects of similar scope, plus experience with integration, quality assurance and testing for SQL database implementations.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 37,
+        "found_on_page": 37,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 113,
+      "quote": "The Proponent should provide three (3) references.",
+      "confidence": 0.9,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 113,
+        "found_on_page": 113,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 108,
+      "quote": "Attestation: As an outsourced provider of a cloud solution, the Proponent must attest that at the time of this submission, it fully complies with industry standard certifications as outlined in Appendix B - Form of Agreement, Exhibit A to Schedule 9.04 TTC Information Security and Privacy Requirements, Section 1.03. One (1) of the following options is acceptable: 1. Service Organization Controls (SOC) 2 Type II audit report: Proponents should possess a SOC 2 Type II audit report; or 2. International Organization for Standardization (ISO) 27001 certificate: Proponents should possess a valid ISO 27001 certificate; or 3. Government of Canada Security Control Profile for Cloud-Based GC IT Services for Protected B, PBMM letter of compliance; or 4. US Federal Risk and Authorization Management Program (FedRAMP) for moderate impact information systems letter of compliance; or 5. CloudSecurity Alliance (CSA) – Level 2 CSA STAR certificate \"Non-Compliant - None of the above\" response will result in the submission being excluded from further consideration.",
+      "confidence": 0.9,
+      "value": [
+        "SOC 2 Type II audit report",
+        "ISO 27001 certificate",
+        "Government of Canada Security Control Profile for Cloud-Based GC IT Services for Protected B, PBMM letter of compliance",
+        "FedRAMP for moderate impact information systems letter of compliance",
+        "CloudSecurity Alliance (CSA) – Level 2 CSA STAR certificate"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 108,
+        "found_on_page": 108,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 26873,
+    "completion_tokens": 2484,
+    "cost_usd": 0.0,
+    "latency_s": 71.0,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T08:04:49+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 15,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

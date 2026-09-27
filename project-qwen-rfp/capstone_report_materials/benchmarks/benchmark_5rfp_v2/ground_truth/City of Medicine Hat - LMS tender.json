@@ -1,0 +1,171 @@
+{
+  "doc_id": "City of Medicine Hat - LMS tender",
+  "annotator": "GPT-5.6 Sol source-grounded review, revised 2026-09-22",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "May 28, 2026, 2:00 PM local time",
+      "difficulty": "hard",
+      "note": "Cover and Section 1.4 Key Dates."
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "May 21, 2026, 4:00 PM local time",
+      "difficulty": "easy",
+      "note": "Section 1.4 Key Dates."
+    },
+    "rfp_contact": {
+      "present": true,
+      "value": "Joanne Bruneau-Carter; joabru@medicinehat.ca. RFP communications must be initiated through the City's bids&tenders 'Submit a Question' function.",
+      "difficulty": "medium",
+      "note": "Section 1.2 RFP Contact."
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Submit through the City of Medicine Hat online bidding system at medicinehat.bidsandtenders.ca; other submission methods are not accepted.",
+      "difficulty": "easy",
+      "note": "Section 1.5.1."
+    },
+    "contract_term": {
+      "present": true,
+      "value": "5-year base term plus annual extension options for an additional 2 years; maximum 7 years.",
+      "difficulty": "hard",
+      "note": "Section 1.3.2 Term of Contract."
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Provide a modern, secure corporate LMS for about 1,500 employees and other learners, supporting onboarding, compliance/safety training, professional development, certifications, content delivery/creation, assessments, analytics/reporting, integrations with Microsoft 365/Azure AD and City enterprise systems, implementation/migration, training and ongoing support.",
+      "difficulty": "medium",
+      "note": "Invitation and attached Scope of Work."
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Completed and signed Submission Form (Appendix B).",
+        "Pricing information compliant with Appendix C."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix D Section D explicitly lists these mandatory submission requirements. Other proposal-content items are requested/rated but are not in the formal mandatory-submission section."
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Comply with the attached Functional Requirements / Scope of Work.",
+        "Encrypt sensitive data at rest and in transit.",
+        "Support SSO and/or MFA.",
+        "Follow industry security best practices such as SOC 2 / ISO.",
+        "Address PIPA/public-sector privacy obligations and maintain an incident-response plan.",
+        "Maintain business continuity/disaster recovery and data-retention controls.",
+        "Integrate with City systems including Azure AD/Entra ID, Microsoft 365 and ERP/Unit4."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix D Section E makes technical requirements mandatory by reference; this list contains the technical obligations visible in the PDF itself and does not invent requirements from the external Excel appendix."
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "criterion": "Technical Capability (Stage 1)",
+          "weight": 50,
+          "threshold": "35/50"
+        },
+        {
+          "criterion": "Vendor Experience & References",
+          "weight": 15
+        },
+        {
+          "criterion": "Implementation & Support",
+          "weight": 20
+        },
+        {
+          "criterion": "Pricing",
+          "weight": 15
+        },
+        {
+          "criterion": "Product Demonstration (Stage 2)",
+          "weight": 30
+        }
+      ],
+      "difficulty": "medium",
+      "note": "Stage 1 subtotal is 100 points; Stage 2 demo adds 30, for 130 total."
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "value": 35,
+      "difficulty": "hard",
+      "note": "Minimum technical score is 35 out of 50 points (70%) in Stage 1. The numeric value remains 35 to preserve the benchmark field's number type."
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Use the Proposal Compensation/Pricing form. Prices in CAD, exclusive of GST; separate one-time implementation costs from annual recurring costs. Include licensing, implementation/configuration/migration/testing/go-live, security/integration, training/documentation, support/maintenance and five-year costs. Pricing is worth 15 points.",
+      "difficulty": "medium",
+      "note": "Appendix C and Proposal Form."
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage": "Commercial General Liability",
+          "minimum": "CAD 2,000,000 per occurrence; property-damage deductible <= CAD 2,500"
+        },
+        {
+          "coverage": "Employer's Liability",
+          "minimum": "CAD 2,000,000 per employee per accidental injury/death (or contingent employer's liability)"
+        },
+        {
+          "coverage": "Professional Errors & Omissions",
+          "minimum": "CAD 1,000,000 per claim; aggregate >= CAD 2,000,000; deductible <= CAD 25,000; 12-month maintenance period"
+        },
+        {
+          "coverage": "Cyber Liability (where applicable)",
+          "minimum": "CAD 2,000,000 per occurrence"
+        },
+        {
+          "coverage": "Automobile Liability",
+          "minimum": "CAD 2,000,000 per occurrence"
+        }
+      ],
+      "difficulty": "easy",
+      "note": "Appendix D Pre-Conditions of Award, Certificate of Insurance."
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Relevant LMS experience, years providing the service, LMS implementations including municipal/government implementations, similar-scope references from the last 5 years, and resumes/roles for implementation and support teams. No explicit minimum years of vendor experience is stated.",
+      "difficulty": "hard",
+      "note": "Rated criteria: Vendor Experience & References."
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "difficulty": "easy",
+      "note": "Rated criteria require a minimum of 3 references similar in scope and size over the last 5 years."
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Encrypt sensitive data at rest and in transit.",
+        "SSO and/or MFA.",
+        "Industry security best practices / SOC 2 or ISO-type compliance.",
+        "PIPA/public-sector privacy compliance.",
+        "Incident response plan.",
+        "Business continuity/disaster recovery plan.",
+        "Clear data-retention policy.",
+        "Cybersecurity Vendor Assessment before award."
+      ],
+      "difficulty": "hard",
+      "note": "Scope of Work and pre-condition cybersecurity assessment."
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "Vendor server / hosting in Canada is preferred to support PIPA compliance; Canadian residency is stated as a preference, not an absolute mandatory requirement.",
+      "difficulty": "hard",
+      "note": "Scope of Work, Technical Requirements."
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "difficulty": "easy",
+      "note": "Stage 2 is a scored product demonstration (30 points); up to six top-ranked proponents meeting the technical threshold may be invited."
+    }
+  }
+}

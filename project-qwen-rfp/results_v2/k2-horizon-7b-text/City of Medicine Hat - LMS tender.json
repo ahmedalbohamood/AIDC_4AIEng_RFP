@@ -1,0 +1,442 @@
+{
+  "doc_id": "City of Medicine Hat - LMS tender",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/40d4e0e3-55b7-4205-8f85-c4a551f22edb/scratchpad/new4_docs/City of Medicine Hat - LMS tender.pdf",
+  "n_pages": 34,
+  "text_extractable": true,
+  "backend": "k2-horizon-7b",
+  "backend_key": "k2-horizon-7b:text",
+  "model": "IFM/K2-Horizon-7B",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-20T12:49:55+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        11,
+        12,
+        15,
+        17
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 10.36,
+      "prompt_tokens": 5120,
+      "completion_tokens": 363,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        12,
+        21,
+        23,
+        27,
+        33
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.81,
+      "prompt_tokens": 3493,
+      "completion_tokens": 243,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        12,
+        20,
+        21,
+        24,
+        31
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.61,
+      "prompt_tokens": 4009,
+      "completion_tokens": 231,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        8,
+        20,
+        21,
+        24,
+        28,
+        30
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.87,
+      "prompt_tokens": 3852,
+      "completion_tokens": 166,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        10,
+        14,
+        18,
+        20,
+        22,
+        23,
+        24,
+        25,
+        29,
+        31,
+        32
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 36.02,
+      "prompt_tokens": 8106,
+      "completion_tokens": 1280,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline: May 28, 2026 2:00 PM local time",
+      "confidence": 0.99,
+      "value": "May 28, 2026 2:00 PM local time",
+      "raw": "May 28, 2026 2:00 PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 4,
+      "quote": "Deadline for Questions May 21, 2026 4:00 PM local time",
+      "confidence": 0.99,
+      "value": "May 21, 2026 4:00 PM local time",
+      "raw": "May 21, 2026 4:00 PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "For the purposes of this invitation, the RFP Contact is: Joanne Bruneau-Carter, joabru@medicinehat.ca",
+      "confidence": 0.99,
+      "name": "Joanne Bruneau-Carter",
+      "email": "joabru@medicinehat.ca",
+      "phone": null,
+      "title": null,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 5,
+      "quote": "Proposals must be submitted to the City’s online bidding system portal at: https://medicinehat.bidsandtenders.ca/Module Submissions by other methods will not be accepted.",
+      "confidence": 0.99,
+      "value": "https://medicinehat.bidsandtenders.ca/Module",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 4,
+      "quote": "The term of the agreement is to be for a period of five (5) years, with an option in favour of the City to extend the agreement on the same terms and conditions annually for an additional two (2) years.",
+      "confidence": 100.0,
+      "value": "5 years with an option in favour of the City to extend the agreement on the same terms and conditions annually for an additional two (2) years",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 21,
+      "quote": "Refer to the attached Scope of Work & Functional Requirements for further information.",
+      "confidence": 100.0,
+      "value": "The City is procuring a Learning Management System (LMS) from a single legal entity; the deliverables are defined in the attached Scope of Work & Functional Requirements (Appendix D, Section A), with mandatory technical requirements in Section E. The proposal pricing form (Appendix C) indicates costs should include all licensing, implementation, configuration, training, and support necessary to meet the requirements outlined in the Scope of Work.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 21,
+      "quote": "D. MANDATORY SUBMISSION REQUIREMENTS 1. Submission Form (Appendix B) Each proposal must include a Submission Form (Appendix B) completed and signed by an authorized representative of the proponent. 2. Pricing (Appendix C) Each proposal must include pricing information that complies with the instructions contained in Appendix C - Pricing. 3. Bid Security N/A 4. Other Mandatory Submission Requirements N/A",
+      "confidence": 0.95,
+      "value": [
+        "Submission Form (Appendix B) completed and signed by an authorized representative of the proponent",
+        "Pricing information that complies with the instructions contained in Appendix C - Pricing"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 21,
+      "quote": "E. MANDATORY TECHNICAL REQUIREMENTS Refer to the Functional Requirements, Scope of Work, and the Evaluation Criteria",
+      "confidence": 0.9,
+      "value": [
+        "Refer to the Functional Requirements, Scope of Work, and the Evaluation Criteria"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 24,
+      "quote": "Rated Criteria Category Weighting (Points) Minimum Threshold Stage 1 Initial Evaluation Technical Capability (Appendix E) – Initial 50 35",
+      "confidence": 0.9,
+      "value": [
+        {
+          "category": "Technical Capability (Appendix E) – Initial",
+          "weight": 50,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": false,
+        "best_score": 98.5
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "page": 24,
+      "quote": "Proponents must achieve a minimum technical score of 35 out of 50 points to meet the technical threshold.",
+      "confidence": 0.9,
+      "value": 35,
+      "unit": "points out of 50",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 20,
+      "quote": "Proponents should provide the information requested under section 3 below (“Required Pricing Information”) by completing the attached form and including it in their proposals.",
+      "confidence": 0.9,
+      "value": "Pricing must be provided on the attached Proposal Form (Appendix C – Pricing, section 1(a)), included in the proposals. Rates must be in Canadian funds, inclusive of all applicable duties and taxes except GST, which should be itemized separately (section 1(b)). Rates quoted must be all-inclusive and must include all labour and material costs, all travel and carriage costs, all insurance costs, all COVID-19 related costs, all costs of delivery, all costs of installation and set-up, including any pre-delivery inspection charges, and all other overhead, including any fees or other charges required by law (section 1(c)). The effects (if any) of any addenda issued must be included in all pricing (section 1(d)).",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 22,
+      "quote": "The Contractor shall maintain, in full force the following insurance: 2.2.1. Commercial General Liability Insurance in respect to the Services and operations of the Contractor for bodily injury and/or property damage with policy limits. Not less than Two Million Dollars ($2,000,000.00) per occurrence with a property damage deductible not exceeding Two Thousand Five Hundred ($2,500.00) Dollars. The insurance shall include, to the satisfaction of the City: 2.2.1.1 The City of Medicine Hat as an Additional Insured; 2.2.1.2 Standard non-owned automobile liability; 2.2.1.3 Broad Form Products and Completed Operations Liability; 2.2.1.4 Cross liability; 2.2.1.5 Employer’s liability insurance with limits of liability of not less than two million dollars ($2,000,000.00) per employee for each accidental injury to, or death of, an employee of the Consultant or of a sub-consultant, engaged in the Services; Or Contingent Employer’s liability 2.2.2. Professional Errors and Omissions Liability Insurance in respect to the Services with policy limits of not less than One Million Dollars ($1,000,000.00) per claim with a 12-month maintenance period, a deductible of not more than $25,000 and with an aggregate limit of not less than $2,000,000.",
+      "confidence": 0.9,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Employer's Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per employee"
+        },
+        {
+          "coverage_type": "Professional Errors and Omissions Liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Professional Errors and Omissions Liability - aggregate",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "aggregate limit"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "page": 25,
+      "quote": "Vendor Experience & References • Relevant LMS experience: years providing this service, implementations, Municipal/government implementations, references similar in scope & size over last 5 years (minimum of 3), roles & responsibilities – both the implementation & support teams’ resumes that will be assigned to this project.",
+      "confidence": 0.9,
+      "value": "Relevant LMS experience: years providing this service, implementations, Municipal/government implementations, references similar in scope & size over last 5 years (minimum of 3), roles & responsibilities – both the implementation & support teams’ resumes that will be assigned to this project.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 25,
+        "found_on_page": 25,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 25,
+      "quote": "references similar in scope & size over last 5 years (minimum of 3)",
+      "confidence": 0.9,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 25,
+        "found_on_page": 25,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 31,
+      "quote": "Security & Privacy: Ensure data security. Ensure all sensitive data is encrypted both at rest and in transit to protect against unauthorized access. Single Sign On (SSO) and/or Multi-Factor Authentication (MFA): Secure login with single sign-on or multi-factor authentication. Vendor Cybersecurity Compliance: Compliance with industry security best practices (SOC2, ISO, etc.) PIPA Compliance: Vendor server preferred within Canada to comply with PIPA. Incident Response Plan: Vendor has an incident response plan.",
+      "confidence": 0.9,
+      "value": [
+        "Ensure all sensitive data is encrypted both at rest and in transit to protect against unauthorized access.",
+        "Secure login with single sign-on or multi-factor authentication.",
+        "Compliance with industry security best practices (SOC2, ISO, etc.)",
+        "PIPA Compliance: Vendor server preferred within Canada to comply with PIPA.",
+        "Vendor has an incident response plan."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 31,
+        "found_on_page": 31,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "page": 31,
+      "quote": "PIPA Compliance: Vendor server preferred within Canada to comply with PIPA.",
+      "confidence": 0.9,
+      "value": "Vendor server preferred within Canada to comply with PIPA.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 31,
+        "found_on_page": 31,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 24,
+      "quote": "The top-ranked proponents that meet the technical threshold, up to a maximum of six, may be invited to participate in Stage 2, at the City’s discretion. Stage 2 will consist of a product demonstration. Stage 2 demonstrations will be scored out of 30 points and added to the Stage 1 scores to determine the final ranking (Total = 130 points).",
+      "confidence": 0.9,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 24580,
+    "completion_tokens": 2283,
+    "cost_usd": 0.0,
+    "latency_s": 64.67,
+    "errors": 0
+  },
+  "finished_at": "2026-09-20T12:51:01+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 17,
+    "fields_absent": 0,
+    "evidence": {
+      "verified": 17,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 0
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

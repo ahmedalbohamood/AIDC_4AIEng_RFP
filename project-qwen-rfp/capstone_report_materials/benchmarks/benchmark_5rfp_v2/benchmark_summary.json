@@ -1,0 +1,56 @@
+{
+  "model": "datalab-to/lift",
+  "endpoint": "http://127.0.0.1:8200/v1",
+  "documents": 5,
+  "fields_per_document": 17,
+  "total_fields": 85,
+  "correct": 36,
+  "partial": 38,
+  "wrong": 9,
+  "missing": 2,
+  "accuracy": 0.4235,
+  "adjusted_accuracy": 0.6471,
+  "groundedness": 0.87,
+  "hallucination_rate": 0.13,
+  "prompt_tokens": 874213,
+  "completion_tokens": 22978,
+  "total_tokens": 897191,
+  "average_latency_seconds": 168.17,
+  "median_latency_seconds": 121.64,
+  "difficulty_breakdown": {
+    "easy": {
+      "total": 25,
+      "correct": 13,
+      "partial": 11,
+      "wrong": 1,
+      "missing": 0,
+      "accuracy": 0.52
+    },
+    "medium": {
+      "total": 20,
+      "correct": 7,
+      "partial": 10,
+      "wrong": 3,
+      "missing": 0,
+      "accuracy": 0.35
+    },
+    "hard": {
+      "total": 40,
+      "correct": 16,
+      "partial": 17,
+      "wrong": 5,
+      "missing": 2,
+      "accuracy": 0.4
+    }
+  },
+  "cluster_failures": 1,
+  "malformed_json_errors": 1,
+  "possible_grader_mismatches": 12,
+  "fastest_document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+  "slowest_document": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+  "ground_truth_modified": false,
+  "old_results_modified": false,
+  "prompt_tuned": false,
+  "manual_corrections": false,
+  "lift_left_running": true
+}

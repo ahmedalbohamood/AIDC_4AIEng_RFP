@@ -1,0 +1,394 @@
+{
+  "doc_id": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/40d4e0e3-55b7-4205-8f85-c4a551f22edb/scratchpad/new4_docs/AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1).pdf",
+  "n_pages": 39,
+  "text_extractable": true,
+  "backend": "k2-horizon-7b",
+  "backend_key": "k2-horizon-7b:text",
+  "model": "IFM/K2-Horizon-7B",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-20T12:47:22+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        16,
+        26,
+        27
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 11.91,
+      "prompt_tokens": 4923,
+      "completion_tokens": 374,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        9,
+        15,
+        20,
+        28,
+        34
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 10.51,
+      "prompt_tokens": 4354,
+      "completion_tokens": 378,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        6,
+        19,
+        21,
+        23,
+        29,
+        33
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 5.6,
+      "prompt_tokens": 4399,
+      "completion_tokens": 190,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        19,
+        23,
+        25,
+        26,
+        31
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 17.28,
+      "prompt_tokens": 4257,
+      "completion_tokens": 637,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        8,
+        13,
+        19,
+        22,
+        24,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 21.3,
+      "prompt_tokens": 8405,
+      "completion_tokens": 738,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline:   May 14, 2025, 2.00 PM MST Alberta Time",
+      "confidence": 100.0,
+      "value": "May 14, 2025, 2.00 PM MST Alberta Time",
+      "raw": "May 14, 2025, 2.00 PM MST Alberta Time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 4,
+      "quote": "Deadline for Questions \n April 17, 2025, 2 PM MST",
+      "confidence": 100.0,
+      "value": "April 17, 2025, 2 PM MST",
+      "raw": "April 17, 2025, 2 PM MST",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "For the purposes of this procurement process, the “RFP Contact” will be  Indra Ghosh, Supervisor \nof Purchasing and Treasury.  \nPublicBids@rockyview.ca",
+      "confidence": 100.0,
+      "name": "Indra Ghosh",
+      "email": "PublicBids@rockyview.ca",
+      "phone": null,
+      "title": "Supervisor of Purchasing and Treasury",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 5,
+      "quote": "Proposals must be addressed to:   \nPurchasing Department  \nRocky View County \nAttention: Indra Ghosh, \nEmail: PublicBids@rockyview.ca",
+      "confidence": 100.0,
+      "value": "Email: PublicBids@rockyview.ca",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 4,
+      "quote": "The agreement resulting from this RFP shall be in effect from the date of official acceptance by the County until December 31, 2025, subject to the following: (a) When mutually agreeable between the County and the successful proponent, this agreement may be renewed under the same terms and conditions for a period of up to one (1) additional year and said option to renew this agreement for an additional one (1) year period, shall be in effect for each year thereafter for a total period not to exceed three (3) years.",
+      "confidence": 0.95,
+      "value": "Base duration: from date of official acceptance by the County until December 31, 2025. Renewal options: up to one (1) additional year, with an option to renew for an additional one (1) year period thereafter, for a total period not to exceed three (3) years.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 20,
+      "quote": "Rocky View County is embarking on a transformative journey to enhance operational efficiency and streamline business processes. To pursue this goal, the County is seeking proposals from experienced and qualified consultants to conduct a comprehensive Enterprise Resource Planning (ERP) Requirements Analysis and Readiness Review, followed by the development of a Request for Proposal (RFP) document (Scope of work) in collaboration with the County's appointed project team members, and to serve as an advisor for the ERP evaluation and selection process.",
+      "confidence": 0.95,
+      "value": "The County is buying a comprehensive ERP Requirements Analysis and Readiness Review, followed by development of an RFP (scope of work) document for a new ERP system, and advisory services for the ERP evaluation and selection process.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 29,
+      "quote": "Proponents are instructed to complete the Submission Form set out in Appendix B of this RFP and include it in their proposal submission. The Submission Form is to be signed by an authorized representative of the proponent.",
+      "confidence": 0.95,
+      "value": [
+        "Submission Form completed and included in proposal submission, signed by an authorized representative of the proponent (Appendix B)",
+        "Pricing Schedule completed as set out in Section F of Appendix D and included in proposal submission (instructions in Appendix C)",
+        "Mandatory Evaluation Table completed and submitted for the proposal; any 'No' answers result in automatic disqualification unless justification satisfies the evaluation committee"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 29,
+        "found_on_page": 29,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": [],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 31,
+      "quote": "Pricing Evaluation will be on the Unit rate and the total cost basis • pricing formula: {(Submitted cost /Lowest cost) *Weight i.e. 25%} • A modular pricing template has been provided in the Appendix “C” Total Points 0-5 100 Points will be assigned for each criterion based on the information provided in the proponent’s submission.  Scoring will be consistently applied by the County’s evaluation team using the specified scoring system noted below.  Points will be awarded on a scale of 0 to 5 as noted below. Score Description 0 UNACCEPTABLE: The proposal is non-compliant or does not satisfy any requirements of the criterion. 1 POOR:  Addresses the requirements of the criterion but lacking in critical areas. 2 MARGINAL:  Meets some requirements to a minimum acceptable level. 3 SATISFACTORY:  Average capabilities and performance and meets most of the requirements of the criterion. 4 ABOVE AVERAGE:  Meets most if not all requirements of the criterion. 5 SUPERIOR:  Exceeds the requirements of the criterion. The County will have the sole discretion to award up to the maximum number of points for each noted criterion.  By submitting a proposal, the proponent acknowledges and agrees that the County has and is hereby entitled to exercise its sole discretion to award the points for the evaluation of the noted criteria and the proponent waives any right to contest in any legal proceedings the decision of the County to award points in respect of the noted criteria. EVALUATION CRITERIA GUIDELINES: Each Proposal submission shall include, but not limited to, the following information: Proponent’s Qualifications and Experience (VALUE: 10%) This criterion evaluates the Proponent's overall experience and qualifications in delivering similar projects or services. It assesses the Proponent’s track record, industry experience, and demonstrated ability to successfully execute projects of comparable scope and complexity. ( ) Proponents shall provide an overview of their company’s business history, number of years in operation, experience, membership/affiliation with professional associations, financial stability, number of personnel employed, and any notable awards or recognition achieved by the firm in the field of providing similar or identical services as those described herein. ( ) Proponents shall demonstrate the firm’s in-depth knowledge and understanding of the mandates, organizational structure, services, and operations of municipal government entities, and provide, in detail, their firm’s qualifications relative to providing ERP consulting services within a municipal environment for commercial ERP systems such as Oracle, SAP, Microsoft Dynamics, etc.",
+      "confidence": 0.9,
+      "value": [
+        {
+          "category": "Pricing",
+          "weight": 25,
+          "unit": "%"
+        },
+        {
+          "category": "Proponent’s Qualifications and Experience",
+          "weight": 10,
+          "unit": "%"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 31,
+        "found_on_page": 31,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 19,
+      "quote": "Proponents are to complete the Pricing Schedule as set out in Section F of Appendix D of this RFP and include it in their proposal. The Pricing Schedule must be completed by filling in the blank spaces under the headings “Unit Price” and “Total Bid” for each item and filling in the blank space for the overall “Total Bid” amount.",
+      "confidence": 0.9,
+      "value": "Pricing must be presented on the Pricing Schedule (Section F of Appendix D) with Unit Price and Total Bid for each item plus an overall Total Bid; rates in Canadian ($) funds, all-inclusive of all labour, equipment, material, travel, insurance, delivery, installation, overhead and other costs, with applicable sales taxes itemized separately. Pricing is submitted as part of the proposal (not separately from the technical proposal).",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 19,
+        "found_on_page": 19,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": [],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "page": 32,
+      "quote": "The Proponent’s appointed Project Manager (and back-up Project Manager) shall have a minimum of five (5) years of experience on ERP-related projects, with demonstrated experience in having led a minimum of two (2) ERP projects from readiness assessment through to implementation within the last seven (7) year period. Preference will be given to Project Managers with professional project management certification(s) from recognized, accredited 3rd party organizations (i.e. the Project Management Institute (PMI)) or post-secondary academic institutions. (b) Project team members must have a minimum of three (3) years of experience on ERP-related projects, with demonstrated experience in readiness assessment through to implementation within the last seven (7) year period.",
+      "confidence": 0.9,
+      "value": "Project Manager (and back-up): minimum 5 years ERP-related experience, having led at least 2 ERP projects from readiness assessment through implementation within the last 7 years; preference for PMI or post-secondary academic project management certification. Project team members: minimum 3 years ERP-related experience with readiness assessment through implementation within the last 7 years. Domain: ERP consulting for public sector/municipal clients.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 32,
+        "found_on_page": 32,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 33,
+      "quote": "Proponents shall provide a MINIMUM OF THREE (3) (preferably PUBLIC SECTOR) client references for whom they have provided SIMILAR/ IDENTICAL SERVICES WITHIN THE LAST SEVEN (7) YEARS.",
+      "confidence": 0.9,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 33,
+        "found_on_page": 33,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": [],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 26,
+      "quote": "Vendor Shortlisting and Demonstration Preparation: The RFP Evaluation Committee will select the Vendors that will be shortlisted to provide a product demonstration and assist the County in clarifying any outstanding queries with shortlisted Vendors prior to the product demonstration process.",
+      "confidence": 0.9,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 26,
+        "found_on_page": 26,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 26338,
+    "completion_tokens": 2317,
+    "cost_usd": 0.0,
+    "latency_s": 66.6,
+    "errors": 0
+  },
+  "finished_at": "2026-09-20T12:48:42+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 12,
+    "fields_absent": 5,
+    "evidence": {
+      "verified": 12,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 5
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

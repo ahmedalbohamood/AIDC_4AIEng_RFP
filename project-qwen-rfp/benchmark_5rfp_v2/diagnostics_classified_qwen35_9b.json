@@ -1,0 +1,705 @@
+[
+  {
+    "document": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+    "field": "submission_deadline",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "May 14, 2025, 2:00 PM MST",
+    "lift_present": true,
+    "lift_value": "May 14, 2025, 2:00 PM MST",
+    "grade": "partial",
+    "why": "right date, but INVENTED a time not in the source: 'May 14, 2025, 2:00 PM MST'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+    "field": "questions_deadline",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "April 17, 2025, 2:00 PM MST",
+    "lift_present": true,
+    "lift_value": "April 17, 2025, 2 PM MST",
+    "grade": "partial",
+    "why": "right date, but INVENTED a time not in the source: 'April 17, 2025, 2 PM MST'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+    "field": "submission_method",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "Electronic submission by email to PublicBids@rockyview.ca; proposal in PDF.",
+    "lift_present": true,
+    "lift_value": "Email: PublicBids@rockyview.ca",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the requirement for proposals to be in PDF format and does not explicitly state 'electronic submission'.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+    "field": "scope_of_deliverables",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Consulting engagement to assess Rocky View County's ERP requirements and organizational/technology/data/process readiness, document functional and technical requirements, develop the future ERP RFP scope, and advise the County during ERP vendor evaluation and selection.",
+    "lift_present": true,
+    "lift_value": "Rocky View County seeks to select a proponent for the County's ERP Requirements Analysis and Readiness Review, as further described in Section A of Appendix D of this RFP.",
+    "grade": "wrong",
+    "why": "llm-judge: The model's answer is missing several key facts, including documenting requirements, developing the ERP RFP scope, and advising during vendor evaluation.",
+    "likely_reason": "long narrative mismatch",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+    "field": "pricing_structure",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Complete the Pricing Schedule; provide unit prices and total/lump-sum bid in CAD. Rates are all-inclusive of labour, materials, travel, insurance, delivery/setup and overhead, with sales taxes itemized separately. Pricing is weighted 25%.",
+    "lift_present": true,
+    "lift_value": "Pricing is one of five (5) criteria of the RFP that proponents will be evaluated on for which points will be awarded on a scale of 0 to 5 and will carry a weighting of 25% of the total RFP score. Pricing Evaluation will be on the Unit rate and the total cost basis. pricing formula: {(Submitted cost /Lowest cost) *Weight i.e. 25%}. The Proponent shall provide a TASK-FEE SCHEDULE (Unit price and Lump-sum price structure) showing the following, at a minimum: (a) Proposed Professional Fees (PER PROJECT PHASE) to complete the work described herein, including any required Sub-Consultants. (b) Estimated expenses/disbursements for each phase of the project. (c) Service fees and rates shall be inclusive of all labour, materials, equipment, tools, consumables, indirect costs, insurance, Workers' Compensation, Vacation Pay Assessment, Canada Pension Plan, Employment Insurance, and all other payroll burdens, together with all applicable transportation and set-up costs to and from the job site(s), the Proponent's overhead and profit, and any other costs detailed or implied in these documents (except as otherwise specified). Rates must be provided in Canadian ($) funds, inclusive of all applicable duties and taxes except for applicable sales taxes, which should be itemized separately.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the fact about completing the Pricing Schedule.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+    "field": "vendor_experience_required",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "Project Manager (and backup Project Manager) must have at least 5 years of experience on ERP-related projects and must have led at least 2 ERP projects from readiness assessment through implementation within the last 7 years. Project team members must have at least 3 years of experience on ERP-related projects, with readiness-assessment-through-implementation experience within the last 7 years. Relevant professional qualifications/certifications and public-sector/municipal ERP experience are evaluated.",
+    "lift_present": true,
+    "lift_value": "no stated minimum years or project count for the firm; however, the Project Manager must have a minimum of five (5) years of experience on ERP-related projects, with demonstrated experience in having led a minimum of two (2) ERP projects from readiness assessment through to implementation within the last seven (7) year period. Project team members must have a minimum of three (3) years of experience on ERP-related projects, with demonstrated experience in readiness assessment through to implementation within the last seven (7) year period. Preference will be given to Project Managers with professional project management certification(s) from recognized, accredited 3rd party organizations (i.e. the Project Management Institute (PMI)) or post-secondary academic institutions.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the evaluation of public-sector/municipal ERP experience and partially addresses the evaluation of professional qualifications/certifications.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+    "field": "data_security_requirements",
+    "difficulty": "hard",
+    "ground_truth_present": false,
+    "ground_truth_value": null,
+    "lift_present": true,
+    "lift_value": [
+      "Security measures and compliance requirements for cloud data storage and transmission",
+      "security protocols and measures necessary to safeguard sensitive information stored within the ERP system. This encompasses role-based access controls, data encryption, audit trails, and compliance with data protection regulations."
+    ],
+    "grade": "wrong",
+    "why": "HALLUCINATED a value where none exists: ['Security measures and compliance requirements for cloud data storage and transmission', 'security protocols and measures necessary to safeguard sensitive information stored within the ERP system. This encompasses role-based access controls, data encryption, audit trails, and compliance with data protection regulations.']",
+    "likely_reason": "over-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "submission_deadline",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "September 9, 2026, before 2:00 PM MT",
+    "lift_present": true,
+    "lift_value": "September 9, 2026 before 2:00:00 PM MT",
+    "grade": "partial",
+    "why": "right date, but INVENTED a time not in the source: 'September 9, 2026 before 2:00:00 PM MT'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "questions_deadline",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "September 2, 2026, before 2:00 PM MT",
+    "lift_present": true,
+    "lift_value": "September 2, 2026 before 2:00:00 PM MT",
+    "grade": "partial",
+    "why": "right date, but INVENTED a time not in the source: 'September 2, 2026 before 2:00:00 PM MT'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "rfp_contact",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Olds College Purchasing Department; purchasing@oldscollege.ca",
+    "lift_present": true,
+    "lift_value": null,
+    "grade": "partial",
+    "why": "expected 'Olds College Purchasing Department; purchasing@oldscollege.ca' not clearly matched in {'present': True, 'name': 'purchasing@oldscollege.ca', 'email': 'purchasing@oldscollege.ca', 'phone': None, 'title': None, 'page': 10, 'quote': 'All questions shall be directed to: Olds College 4500 50 Street Olds, AB Purchasing Department purchasing@oldscollege.ca', 'confidence': 0.99, '_field_type': 'contact', '_evidence': {'status': 'verified', 'claimed_page': 10, 'found_on_page': 10, 'exact': True, 'best_score': 100.0}}",
+    "likely_reason": "extraction error",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "submission_method",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "Submit an electronic copy by email to submissions@oldscollege.ca.",
+    "lift_present": true,
+    "lift_value": "electronic copy by email",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the specific email address 'submissions@oldscollege.ca'.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "contract_term",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "5-year base term starting approximately February 1, 2027, plus two separate 3-year renewal options; maximum 11 years.",
+    "lift_present": true,
+    "lift_value": "5-year initial term with options to renew for two separate 3-year renewals, total term up to a maximum of 11 years",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the specific start date of 'approximately February 1, 2027'.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "scope_of_deliverables",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Enhance Olds College's LMS capabilities either through improved third-party support for its existing Moodle LMS or through a new LMS platform, including implementation/migration, integrations, accessibility, analytics, AI features, security, training and ongoing support.",
+    "lift_present": true,
+    "lift_value": "Olds College is purchasing an LMS Platform & Support service, divided into Section D - Scope of Work & Pricing Schedule, which includes modules, content management, assessment, communication, accessibility, mobile access, AI tools, data analytics, integrations, security, implementation, ongoing support, and pricing.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer partially addresses the LMS platform options and omits training.",
+    "likely_reason": "long narrative mismatch",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "mandatory_submission_requirements",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": [
+      "Completed and signed Proposal Certification Document (Section C, Item 9)."
+    ],
+    "lift_present": false,
+    "lift_value": [
+      "null"
+    ],
+    "grade": "wrong",
+    "why": "model said absent, but the field is genuinely in the document",
+    "likely_reason": "present/absent classification error",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "mandatory_technical_requirements",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": [
+      "WCAG-accessible and usable LMS.",
+      "Mobile learning access.",
+      "Integration with Ellucian Banner and support for APIs/external integrations.",
+      "Security controls protecting learner data; safeguards against breaches; compliance with Alberta POPA; HECVAT cybersecurity/privacy assessment; SAML SSO and MFA support.",
+      "Data migration/import/export capability.",
+      "Cloud-based LMS.",
+      "Analytics/reporting capabilities.",
+      "Customer support and implementation/transition support."
+    ],
+    "lift_present": false,
+    "lift_value": [
+      "null"
+    ],
+    "grade": "wrong",
+    "why": "model said absent, but the field is genuinely in the document",
+    "likely_reason": "present/absent classification error",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "pricing_structure",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Pricing in CAD; prices must remain fixed for the 5-year base agreement. Provide implementation/enhancement one-time costs, training/data migration/implementation costs, and annual LMS licensing/support costs for Years 1-5 with modules/options separately priced; GST shown separately.",
+    "lift_present": true,
+    "lift_value": "Pricing is scored at 40 points. The evaluation criteria table lists 'Pricing' with a weight of 40 points. The pricing schedule requires submission of 'Implementation Costs' (One-Time Implementation or Enhancement costs) and 'Ongoing LMS Licensing and/or Support Costs' (Annual Software Subscription and/or Ongoing Support Costs). Prices must remain fixed and applicable to all goods and services throughout the entire term of the 5 year agreement. Pricing is submitted in Canadian dollars.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing details on training/data migration costs, separate pricing for modules/options, and GST shown separately.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "insurance_requirements",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": [
+      {
+        "coverage": "Comprehensive General Liability",
+        "minimum": "CAD 2,000,000 per occurrence (RFP Section 5.1)"
+      },
+      {
+        "coverage": "General Liability in attached Services Agreement",
+        "minimum": "CAD 5,000,000 per occurrence unless waived/changed by Olds College"
+      }
+    ],
+    "lift_present": true,
+    "lift_value": [
+      {
+        "coverage_type": "Comprehensive General Liability insurance",
+        "amount": 2000000,
+        "currency": "USD",
+        "basis": "per occurrence"
+      },
+      {
+        "coverage_type": "Insurance on property of others",
+        "amount": null,
+        "currency": null,
+        "basis": "all risks"
+      }
+    ],
+    "grade": "partial",
+    "why": "llm-judge: coverage=50% - The model's answer captures the 'Comprehensive General Liability' coverage but uses USD instead of CAD, and it does not capture the 'General Liability in attached Services Agreement' coverage.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "vendor_experience_required",
+    "difficulty": "hard",
+    "ground_truth_present": false,
+    "ground_truth_value": null,
+    "lift_present": true,
+    "lift_value": "no stated minimum years or project count; qualitative requirements include: a brief company history including length of time in business and number of years providing goods/services requested; experience in providing LMS systems and support or support for existing Moodle LMS; experience working with post-secondary institutions previously, including with institutions that utilize Ellucian Banner",
+    "grade": "wrong",
+    "why": "HALLUCINATED a value where none exists: 'no stated minimum years or project count; qualitative requirements include: a brief company history including length of time in business and number of years providing goods/services requested; experience in providing LMS systems and support or support for existing Moodle LMS; experience working with post-secondary institutions previously, including with institutions that utilize Ellucian Banner'",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+    "field": "data_hosting_residency",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "Cloud-based system; Canadian host location is preferred, not mandatory.",
+    "lift_present": false,
+    "lift_value": null,
+    "grade": "wrong",
+    "why": "model said absent, but the field is genuinely in the document",
+    "likely_reason": "present/absent classification error",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "submission_deadline",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "May 28, 2026, 2:00 PM local time",
+    "lift_present": true,
+    "lift_value": "May 28, 2026 2:00 PM local time",
+    "grade": "partial",
+    "why": "right date, but INVENTED a time not in the source: 'May 28, 2026 2:00 PM local time'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "questions_deadline",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "May 21, 2026, 4:00 PM local time",
+    "lift_present": true,
+    "lift_value": "May 21, 2026 4:00 PM local time",
+    "grade": "partial",
+    "why": "right date, but INVENTED a time not in the source: 'May 21, 2026 4:00 PM local time'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "rfp_contact",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Joanne Bruneau-Carter; joabru@medicinehat.ca. RFP communications must be initiated through the City's bids&tenders 'Submit a Question' function.",
+    "lift_present": true,
+    "lift_value": null,
+    "grade": "partial",
+    "why": "expected \"Joanne Bruneau-Carter; joabru@medicinehat.ca. RFP communications must be initiated through the City's bids&tenders 'Submit a Question' function.\" not clearly matched in {'present': True, 'name': 'Joanne Bruneau-Carter', 'email': 'joabru@medicinehat.ca', 'phone': None, 'title': None, 'page': 4, 'quote': 'Joanne Bruneau-Carter, joabru@medicinehat.ca', 'confidence': 0.99, '_field_type': 'contact', '_evidence': {'status': 'verified', 'claimed_page': 4, 'found_on_page': 4, 'exact': True, 'best_score': 100.0}}",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "submission_method",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "Submit through the City of Medicine Hat online bidding system at medicinehat.bidsandtenders.ca; other submission methods are not accepted.",
+    "lift_present": true,
+    "lift_value": "https://medicinehat.bidsandtenders.ca/Module",
+    "grade": "wrong",
+    "why": "llm-judge: The model's answer only partially matches the URL and misses the named system and exclusivity of submission methods.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "contract_term",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "5-year base term plus annual extension options for an additional 2 years; maximum 7 years.",
+    "lift_present": true,
+    "lift_value": "5 years with an option to extend annually for an additional two years",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the fact about the maximum term of 7 years.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "scope_of_deliverables",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Provide a modern, secure corporate LMS for about 1,500 employees and other learners, supporting onboarding, compliance/safety training, professional development, certifications, content delivery/creation, assessments, analytics/reporting, integrations with Microsoft 365/Azure AD and City enterprise systems, implementation/migration, training and ongoing support.",
+    "lift_present": true,
+    "lift_value": "City of Medicine Hat seeking a modern, user-friendly, and secure Corporate Learning Management System (LMS) to support corporate training, onboarding, compliance, safety, professional development, and certification tracking for employees, volunteers, and other external learners. The LMS will streamline end-to-end content delivery, automate assignments and reminders, standardize reporting, and integrate with the City's existing identity, collaboration, and human resources systems.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer partially addressed the number of users and omitted implementation/migration, training, and ongoing support.",
+    "likely_reason": "long narrative mismatch",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "pricing_structure",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Use the Proposal Compensation/Pricing form. Prices in CAD, exclusive of GST; separate one-time implementation costs from annual recurring costs. Include licensing, implementation/configuration/migration/testing/go-live, security/integration, training/documentation, support/maintenance and five-year costs. Pricing is worth 15 points.",
+    "lift_present": true,
+    "lift_value": "Pricing is worth 15 points of the total score. Pricing will be scored based on a relative pricing formula using the rates set out in the pricing form. Each proponent will receive a percentage of the total possible points allocated to price for the particular category it has submitted a proposal for, which will be calculated in accordance with the following formula: [formula image].",
+    "grade": "wrong",
+    "why": "llm-judge: The model's answer is missing several key facts, including the use of the specific pricing form, currency details, and cost separation requirements.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "insurance_requirements",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": [
+      {
+        "coverage": "Commercial General Liability",
+        "minimum": "CAD 2,000,000 per occurrence; property-damage deductible <= CAD 2,500"
+      },
+      {
+        "coverage": "Employer's Liability",
+        "minimum": "CAD 2,000,000 per employee per accidental injury/death (or contingent employer's liability)"
+      },
+      {
+        "coverage": "Professional Errors & Omissions",
+        "minimum": "CAD 1,000,000 per claim; aggregate >= CAD 2,000,000; deductible <= CAD 25,000; 12-month maintenance period"
+      },
+      {
+        "coverage": "Cyber Liability (where applicable)",
+        "minimum": "CAD 2,000,000 per occurrence"
+      },
+      {
+        "coverage": "Automobile Liability",
+        "minimum": "CAD 2,000,000 per occurrence"
+      }
+    ],
+    "lift_present": true,
+    "lift_value": [
+      {
+        "coverage_type": "Commercial General Liability Insurance",
+        "amount": 2000000,
+        "currency": "USD",
+        "basis": "per occurrence"
+      },
+      {
+        "coverage_type": "Employer's liability insurance",
+        "amount": 2000000,
+        "currency": "USD",
+        "basis": "per employee"
+      },
+      {
+        "coverage_type": "Professional Errors and Omissions Liability Insurance",
+        "amount": 1000000,
+        "currency": "USD",
+        "basis": "per claim"
+      },
+      {
+        "coverage_type": "Cyber Liability Insurance",
+        "amount": 2000000,
+        "currency": "USD",
+        "basis": "per occurrence"
+      },
+      {
+        "coverage_type": "Automobile Liability insurance",
+        "amount": 2000000,
+        "currency": "USD",
+        "basis": "per occurrence"
+      }
+    ],
+    "grade": "partial",
+    "why": "llm-judge: coverage=50% - The model's answer captures the coverage types but misses specific details like currency (CAD vs. USD), deductibles, and maintenance periods.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "vendor_experience_required",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "Relevant LMS experience, years providing the service, LMS implementations including municipal/government implementations, similar-scope references from the last 5 years, and resumes/roles for implementation and support teams. No explicit minimum years of vendor experience is stated.",
+    "lift_present": true,
+    "lift_value": "Relevant LMS experience: years providing this service, implementations, Municipal/government implementations, references similar in scope & size over last 5 years (minimum of 3), roles & responsibilities – both the implementation & support teams' resumes that will be assigned to this project.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer incorrectly specifies a minimum of 3 references and omits the fact that no explicit minimum years of vendor experience is stated.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "City of Medicine Hat - LMS tender",
+    "field": "data_hosting_residency",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "Vendor server / hosting in Canada is preferred to support PIPA compliance; Canadian residency is stated as a preference, not an absolute mandatory requirement.",
+    "lift_present": true,
+    "lift_value": "Vendor server preferred within Canada to comply with PIPA.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer misses the fact that Canadian residency is a preference, not a mandatory requirement.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "submission_deadline",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "April 14, 2025, 11:59:59 PM PST",
+    "lift_present": true,
+    "lift_value": "April 14, 2025 11:59:59 PM PST",
+    "grade": "partial",
+    "why": "right date, but INVENTED a time not in the source: 'April 14, 2025 11:59:59 PM PST'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "questions_deadline",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "March 17, 2025, 11:59:59 PM PST",
+    "lift_present": true,
+    "lift_value": "March 17, 2025 11:59:59 PM PST",
+    "grade": "partial",
+    "why": "right date, but INVENTED a time not in the source: 'March 17, 2025 11:59:59 PM PST'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "rfp_contact",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Jeremy Elliott; procurement@cowichantribes.com",
+    "lift_present": true,
+    "lift_value": null,
+    "grade": "partial",
+    "why": "expected 'Jeremy Elliott; procurement@cowichantribes.com' not clearly matched in {'present': True, 'name': 'Jeremy Elliott', 'email': 'procurement@cowichantribes.com', 'phone': None, 'title': None, 'page': 4, 'quote': 'Jeremy Elliott procurement@cowichantribes.com', 'confidence': 0.99, '_field_type': 'contact', '_evidence': {'status': 'verified', 'claimed_page': 4, 'found_on_page': 4, 'exact': True, 'best_score': 100.0}}",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "submission_method",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "Submit directly through the BCBid platform where the RFP is posted; no physical submission unless specifically requested.",
+    "lift_present": true,
+    "lift_value": "BCBid platform",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer lacks the details about the RFP being posted on BCBid and the exclusion of physical submissions unless requested.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "contract_term",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": "ERP implementation plus a 5-year licensing and support agreement, with an option for Cowichan Tribes to extend on the same terms and conditions; extension length is not specified.",
+    "lift_present": true,
+    "lift_value": "five years with an option in favour of Cowichan Tribes to extend the agreement on the same terms and conditions",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer omits the ERP implementation and does not specify that the extension length is unspecified.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "scope_of_deliverables",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Implement a commercially supported cloud ERP covering Finance, Procurement, HR, Payroll and Asset Management; include data conversion, integrations, implementation/change management, security, and transition to ongoing support. Other TIFIS functions such as housing/membership remain outside the replacement scope.",
+    "lift_present": true,
+    "lift_value": "Cowichan Tribes is procuring a cloud-based ERP system(s) to enhance operational efficiency across key functions including finance, procurement, human resources, payroll, and asset management. The scope includes replacing TIFIS functionality for finance, procurement, HR, payroll, and asset management, while retaining TIFIS for all other processes (housing, membership, etc.). Integration with TIFIS is not in scope for this RFP but will be assessed.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the fact about data conversion, integrations, implementation/change management, security, and transition to ongoing support, and partially misrepresents the scope exclusion of TIFIS functions.",
+    "likely_reason": "long narrative mismatch",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "evaluation_criteria",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": [
+      {
+        "criterion": "Functional Fit (Requirements Worksheet)",
+        "weight": 35,
+        "threshold": "28/35 (80%)"
+      },
+      {
+        "criterion": "Narrative Proposal",
+        "weight": 20,
+        "threshold": "14/20 (70%)"
+      },
+      {
+        "criterion": "Pricing",
+        "weight": 15,
+        "threshold": "10.5/15 (70%)"
+      },
+      {
+        "criterion": "Vendor Demonstration",
+        "weight": 30,
+        "threshold": "21/30 (70%)"
+      }
+    ],
+    "lift_present": true,
+    "lift_value": [
+      {
+        "category": "Functional Fit (Requirements Worksheet)",
+        "weight": 35,
+        "unit": "points"
+      },
+      {
+        "category": "Narrative Proposal",
+        "weight": 20,
+        "unit": "points"
+      },
+      {
+        "category": "Pricing (see Section G below)",
+        "weight": 15,
+        "unit": "points"
+      },
+      {
+        "category": "Vendor Demonstration",
+        "weight": 30,
+        "unit": "points"
+      }
+    ],
+    "grade": "partial",
+    "why": "llm-judge: coverage=75% - The model's answer captures all categories and weights but omits the threshold details for each criterion.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "minimum_score_threshold",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": [
+      "Functional Fit: 28/35 (80%)",
+      "Narrative Proposal: 14/20 (70%)",
+      "Pricing: 10.5/15 (70%)",
+      "Vendor Demonstration: 21/30 (70%)"
+    ],
+    "lift_present": true,
+    "lift_value": 28,
+    "grade": "wrong",
+    "why": "got non-numeric 28, want one of ['Functional Fit: 28/35 (80%)', 'Narrative Proposal: 14/20 (70%)', 'Pricing: 10.5/15 (70%)', 'Vendor Demonstration: 21/30 (70%)']",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "pricing_structure",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Complete the provided Pricing Sheet for implementation, licensing and support over five years; CAD, inclusive of applicable duties/taxes, and all-inclusive of labour, materials, travel, insurance, delivery, installation/setup and overhead. Also provide resource rates for additional scope. Pricing is worth 15 points.",
+    "lift_present": true,
+    "lift_value": "Pricing is worth 15 points of the total score. Pricing will be scored based on a pricing formula using the rates set out in the Proponent's submitted Pricing Sheet (Attachment 2). Each proponent will receive a percentage of the total possible points allocated to price, which will be calculated in accordance with the following formula: (price threshold÷ proponent's price) × weighting= proponent's pricing points. Note on Threshold: Cowichan Tribes will not be publishing the price threshold that will be used in this calculation. However, the threshold will be based upon the projected costs and budget available for the implementation, licensing, and support of their ERP for the next five years. Rates must be provided in Canadian funds, inclusive of all applicable duties and taxes. Unless otherwise indicated in the requested pricing information, rates quoted by the proponent must be all-inclusive and must include all labour and material costs, all travel and carriage costs, all insurance costs, all costs of delivery, all costs of installation and set-up, including any pre-delivery inspection charges, and all other overhead, including any fees or other charges required by law.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the fact about providing resource rates for additional scope.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "EN_-_ERP_RFP_24.25.04",
+    "field": "references_required",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "At least 2 and at most 5",
+    "lift_present": true,
+    "lift_value": 2,
+    "grade": "wrong",
+    "why": "got non-numeric 2, want 'At least 2 and at most 5'",
+    "likely_reason": "grader semantic mismatch",
+    "possible_grader_mismatch": true
+  },
+  {
+    "document": "RFP CP-730126 Generative AI RFP (4)",
+    "field": "submission_method",
+    "difficulty": "easy",
+    "ground_truth_present": true,
+    "ground_truth_value": "Submit through the USask Bonfire Portal at https://usask.bonfirehub.ca; other submission methods are not accepted.",
+    "lift_present": true,
+    "lift_value": "https://usask.bonfirehub.ca",
+    "grade": "wrong",
+    "why": "llm-judge: The model's answer only includes the URL, missing the named portal and the exclusion of other submission methods.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "RFP CP-730126 Generative AI RFP (4)",
+    "field": "scope_of_deliverables",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Establish a non-exclusive list of pre-qualified suppliers for Generative AI services across four categories: AI chat/data analysis, AI model customization/integration, AI consulting services, and AI enabling infrastructure. Proponents must be direct providers, not third-party resellers.",
+    "lift_present": false,
+    "lift_value": null,
+    "grade": "wrong",
+    "why": "model said absent, but the field is genuinely in the document",
+    "likely_reason": "present/absent classification error",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "RFP CP-730126 Generative AI RFP (4)",
+    "field": "mandatory_technical_requirements",
+    "difficulty": "hard",
+    "ground_truth_present": true,
+    "ground_truth_value": [
+      "Comply with applicable intellectual-property and privacy laws/regulations.",
+      "Proponent is directly responsible for protecting the infrastructure running offered services.",
+      "Meet or exceed USask security requirements; submit USask SaaS Form or HECVAT and demonstrate encryption, regular security audits and industry best practices.",
+      "Provide acceptable authorization/authentication integration, including SSO, user account management, role/access provisioning and enrolment management."
+    ],
+    "lift_present": false,
+    "lift_value": [],
+    "grade": "wrong",
+    "why": "model said absent, but the field is genuinely in the document",
+    "likely_reason": "present/absent classification error",
+    "possible_grader_mismatch": false
+  },
+  {
+    "document": "RFP CP-730126 Generative AI RFP (4)",
+    "field": "pricing_structure",
+    "difficulty": "medium",
+    "ground_truth_present": true,
+    "ground_truth_value": "Detailed pricing in CAD with GST/PST excluded; DDP Incoterms 2010 USask. Include subscription/token/enterprise-management pricing, implementation, training and other costs; pricing should be firm for the 5-year base term, with optional-extension pricing shown in the pricing schedule.",
+    "lift_present": true,
+    "lift_value": "Pricing structure must be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Pricing structure quoted should be DDP Incoterms 2010 USask. Costs should be inclusive of all relevant elements including, but not limited to the following: Pricing structure in Canadian funds. Taxes, shown separately if applicable. Duty, if applicable. Pricing formula(e). D.D.P. Incoterms 2010 terms. Installation charges. Maintenance fees. Upgrades. Training. Value added benefits. Pricing structure is exclusive of Goods and Services Tax (GST) and Provincial Sales Tax (PST). Pricing structure should be firm for five (5) Year(s) of this Contract. The Service Provider must be prepared to provide a complete pricing structure schedule to all departments and/or participating universities and affiliates per Appendix F – USask Affiliates and SAEC. a) Adjustments increasing pricing structure shall be permitted in accordance with substantiated changes in the Service Provider's costs. Increases in pricing structure shall be not greater than the rise in the Consumer Price Index (CPI). Adjustments decreasing pricing structure should be applied throughout the term of this Contract. The Service Provider shall notify USask in writing of any proposed pricing structure changes for Contract services, no less than thirty (30) days prior to planned implementation of pricing structure changes. Vendors should provide a detailed breakdown of the price per user subscription. Additionally, they should indicate whether any volume discounts are available based on the number of users. Pricing structure should be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Add additional line items to this Pricing Structure as necessary. *If costs are monthly, please include information within your Proposal's pricing structure. ** Provide usage examples of how many tokens an average user consumes in a given month. Attach detailed pricing model as necessary if additional cost or throttling would be incurred after certain token or usage thresholds. ***Attach alternative pricing models as necessary.",
+    "grade": "partial",
+    "why": "llm-judge: The model's answer is missing the fact about optional-extension pricing shown in the pricing schedule.",
+    "likely_reason": "under-extraction",
+    "possible_grader_mismatch": false
+  }
+]

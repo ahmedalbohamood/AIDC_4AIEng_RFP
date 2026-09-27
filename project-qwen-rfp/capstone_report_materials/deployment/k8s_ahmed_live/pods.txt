@@ -1,0 +1,8 @@
+NAME                           READY   STATUS      RESTARTS   AGE     IP           NODE       NOMINATED NODE   READINESS GATES
+grafana-5b66456c-gdqm2         1/1     Running     0          3h24m   10.42.1.97   aidc-t04   <none>           <none>
+k2-vllm-5cb4cdcf68-pwjd2       1/1     Running     0          5h7m    10.42.1.92   aidc-t04   <none>           <none>
+loadgen                        0/1     Completed   0          16d     10.42.1.26   aidc-t04   <none>           <none>
+prometheus-85fcdb4f79-w7mxr    1/1     Running     0          3h52m   10.42.1.96   aidc-t04   <none>           <none>
+rfp-backend-5689c49fc7-wcb7h   1/1     Running     0          5h56m   10.42.1.90   aidc-t04   <none>           <none>
+rfp-combined-bf7f95f65-cz5vs   1/1     Running     0          4h39m   10.42.1.94   aidc-t04   <none>           <none>
+rfp-frontend-69d89489d-s8ph9   1/1     Running     0          6h34m   10.42.1.88   aidc-t04   <none>           <none>

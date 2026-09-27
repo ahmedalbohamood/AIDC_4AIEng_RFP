@@ -1,0 +1,159 @@
+{
+  "doc_id": "01_Reference_Data_Management_Services_RFP",
+  "annotator": "Claude source-grounded review, 2026-09-25",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "April 29, 2025, 2:00 P.M.",
+      "difficulty": "hard",
+      "note": "The document states three different time zones for this same deadline: cover page (p1) says '2:00 P.M PDT', Section 1.4 RFP Timetable (p5) says '2:00 P.M EDT', and Section 1.5.3 (p6) says '2:00 p.m. Ottawa local time'. This is a genuine internal inconsistency in the source document, not an annotation error - credit any of PDT/EDT/Ottawa-local as correct, and do not penalize a model for picking one over another or for flagging the conflict."
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "April 15, 2025",
+      "difficulty": "easy",
+      "note": "Section 1.4 RFP Timetable, 'Deadline for Questions'. No time of day is stated for this deadline specifically."
+    },
+    "rfp_contact": {
+      "present": true,
+      "value": "Tim Webster; procurementsourcing@cmhc-schl.gc.ca (also listed: tjwebste@cmhc-schl.gc.ca)",
+      "difficulty": "medium",
+      "note": "Cover page and Section 1.2 RFP Contact. Two email addresses are given for the same contact; both are correct."
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Email the proposal to CMHC's electronic bid submission system (EBID) at EBID@cmhc-schl.gc.ca. The subject line must state 'RFP-003290, Reference Data Management Services'. EBID has a 10 MB size limit; proponents may submit in multiple smaller files. The technical proposal (PDF) must be a separate file from the financial proposal (Appendix B).",
+      "difficulty": "easy",
+      "note": "Section 1.5.2 Proposals to be Submitted at the Prescribed Location in Prescribed Manner."
+    },
+    "contract_term": {
+      "present": true,
+      "value": "One (1) year initial term, with options to extend on the same terms and conditions for four (4) additional one-year renewal periods, for a total term not to exceed five (5) years collectively.",
+      "difficulty": "medium",
+      "note": "Section 1.1 Objective of this RFP (p4). Confirmed by the Form of Agreement, Appendix E, Section 4.01-4.02 (One (1) year Initial Term plus Four (4) one (1) year Extension Terms, not to exceed a cumulative total of five (5) years)."
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Confirm and implement an Operating Model for Reference Data Management (RDM) across three streams: (1) Develop and Implement an Operating Model for RDM, (2) Adoption of RDM Governance and Policy, and (3) Implement a Sustainable Technical Solution - integrating CMHC's core systems (DB2 z/OS, Dynamics CRM, ERP, SuccessFactors, Azure Data Lake, SQL Server) using CMHC's existing Informatica IDMC, Collibra, and Azure deployment.",
+      "difficulty": "medium",
+      "note": "Section 1.1 Objective of this RFP (p3-4) and Appendix C Section B The Deliverables and SOW (p24-26)."
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Submission Form (Appendix A), completed and signed by an authorized representative.",
+        "Pricing Form (Appendix B), completed according to its instructions.",
+        "Response to R.1-R.4 (the rated criteria categories)."
+      ],
+      "difficulty": "medium",
+      "note": "Appendix C, Section H Mandatory Submission Requirements (p27)."
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "MTR.1 Data Residency: CMHC Data, while at rest or in transit, must stay within the geographical boundaries of Canada and be accessed from within Canada.",
+        "MTR.2 Data Security: proponents must demonstrate they have the required IT infrastructure in place to safeguard CMHC Data classified Protected B or higher, including personal information."
+      ],
+      "difficulty": "medium",
+      "note": "Appendix C, Section I Mandatory Technical Requirements (p28). Assessed on a pass/fail basis; proponents must state HOW they comply, not just yes/no."
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "criterion": "R.1 Vendor Experience and Diversity Certification",
+          "weight": 10
+        },
+        {
+          "criterion": "R.2 Proposed Approach and Execution Strategy",
+          "weight": 30
+        },
+        {
+          "criterion": "R.3 Team Experience & Qualifications",
+          "weight": 30
+        },
+        {
+          "criterion": "R.4 Performance and Excellence",
+          "weight": 10
+        },
+        {
+          "criterion": "Stage III - Pricing",
+          "weight": 20
+        }
+      ],
+      "difficulty": "medium",
+      "note": "Appendix C, Section K Rated Criteria (p29); total weighting 100%."
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "difficulty": "hard",
+      "note": "No explicit numeric minimum score to advance is stated anywhere in the document. Advancement instead depends on passing Stage I mandatory submission requirements and Stage II(A) mandatory technical requirements (MTR.1, MTR.2) on a pass/fail basis (Section 2.1); the rated criteria (R.1-R.4) and pricing are scored but no numeric cutoff is given."
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Complete the Pricing Form (Appendix B) with hourly rates for each of the three streams (RDM operating model, RDM governance/policy adoption, sustainable technical solution): resource name, estimated hours, hourly rate, total cost per deliverable, subtotal before taxes, HST 13%, and total cost. Pricing must be submitted as a separate document/file from the technical proposal. Pricing is worth 20% of the total score, scored as lowest price / proponent's price x weighting.",
+      "difficulty": "medium",
+      "note": "Appendix B Pricing Form (p20-23) and Appendix C Section K (p29)."
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage": "Commercial General Liability",
+          "minimum": "CAD 5,000,000 per occurrence"
+        },
+        {
+          "coverage": "Technology Errors & Omissions Liability",
+          "minimum": "CAD 5,000,000 per claim"
+        },
+        {
+          "coverage": "Professional Errors & Omissions Liability",
+          "minimum": "CAD 5,000,000 per claim"
+        },
+        {
+          "coverage": "Computer Security and Privacy Liability (Cyber Liability)",
+          "minimum": "CAD 10,000,000 per claim and aggregate"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "Appendix E Form of Agreement, Article 12 Insurance Obligations, Sections 12.02-12.05 (p42-43). Not stated in the main RFP body (Parts 1-3) itself; only appears in the Form of Agreement template that becomes binding on the awarded contract."
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "No hard minimum years stated as a disqualifying requirement. Scored under R.1 Vendor Experience and Diversity Certification: company years of operation tiered as 2-3 years = 0-5 pts, 4-6 years = 6-8 pts, 7+ years = 9-10 pts, plus references from at least two public-sector clients (R.1.1). Similarly scored under R.3 Team Experience & Qualifications: relevant experience of key personnel in data governance/RDM, tiered 2-3 years = 0-2 pts, 4-6 years = 3-5 pts, 7+ years = 6-10 pts.",
+      "difficulty": "hard",
+      "note": "Appendix C Section K, R.1 and R.3 criteria (p30-31). Experience is scored on a sliding scale, not a pass/fail minimum - a model reporting the tiered point structure or the '2 public-sector references' requirement should be credited."
+    },
+    "references_required": {
+      "present": true,
+      "value": 2,
+      "difficulty": "easy",
+      "note": "R.1.1: 'Submit references from at least two public-sector clients.' (Appendix C Section K, p30)."
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "MTR.2: proponents must demonstrate required IT infrastructure to safeguard CMHC Data classified Protected B or higher, including personal information (pass/fail mandatory requirement).",
+        "CMHC Data must reside in Canada at all times (Appendix C Section F).",
+        "Personnel may be required to undergo criminal records check and/or hold personnel security screening at the RELIABILITY level (Appendix C Section E; Form of Agreement Section 6.01(l): Government of Canada Reliability status).",
+        "Form of Agreement Section 6.01(h): CMHC Information must be encrypted while in transit and at rest at a minimum of 128-bit encryption throughout the Term.",
+        "Form of Agreement Section 6.01(f): Contractor shall conduct regular security assessments to ensure safeguards are working effectively."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix C Sections E and I (p27-28); Form of Agreement Article 6 Confidentiality (p39-40)."
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "CMHC Data must stay within the geographical boundaries of Canada while at rest or in transit, and must be accessed from within Canada (MTR.1, mandatory). Remote work must be performed from within Canada or a country with a bilateral security agreement with Canada, such as the United States.",
+      "difficulty": "medium",
+      "note": "Appendix C Section I MTR.1 (p28) and Section C Work Location (p27). Confirmed by Form of Agreement Section 6.02 Data Residency (p38): CMHC Information must always remain in/be accessed from within Canada, with no relocation of equipment/databases/documents outside Canada without CMHC's prior written consent."
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "value": null,
+      "difficulty": "medium",
+      "note": "Unlike other RFPs in this corpus, this document does not mention a vendor demonstration, presentation, or interview stage anywhere in the evaluation process (Part 2: Stage I mandatory requirements, Stage II(A) MTRs, Stage II(B) rated criteria R.1-R.4, Stage III pricing). No such stage is described in Appendix C either. A model reporting this field as not found/absent is correct; inventing a demonstration requirement is a fabrication trap."
+    }
+  }
+}

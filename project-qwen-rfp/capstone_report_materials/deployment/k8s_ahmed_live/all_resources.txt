@@ -1,0 +1,49 @@
+NAME                               READY   STATUS      RESTARTS   AGE     IP           NODE       NOMINATED NODE   READINESS GATES
+pod/grafana-5b66456c-gdqm2         1/1     Running     0          3h24m   10.42.1.97   aidc-t04   <none>           <none>
+pod/k2-vllm-5cb4cdcf68-pwjd2       1/1     Running     0          5h7m    10.42.1.92   aidc-t04   <none>           <none>
+pod/loadgen                        0/1     Completed   0          16d     10.42.1.26   aidc-t04   <none>           <none>
+pod/prometheus-85fcdb4f79-w7mxr    1/1     Running     0          3h52m   10.42.1.96   aidc-t04   <none>           <none>
+pod/rfp-backend-5689c49fc7-wcb7h   1/1     Running     0          5h56m   10.42.1.90   aidc-t04   <none>           <none>
+pod/rfp-combined-bf7f95f65-cz5vs   1/1     Running     0          4h39m   10.42.1.94   aidc-t04   <none>           <none>
+pod/rfp-frontend-69d89489d-s8ph9   1/1     Running     0          6h34m   10.42.1.88   aidc-t04   <none>           <none>
+
+NAME                   TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE     SELECTOR
+service/grafana        ClusterIP   10.43.114.137   <none>        3000/TCP   25h     app=grafana
+service/k2-vllm        ClusterIP   10.43.252.109   <none>        8000/TCP   26h     app=k2-vllm
+service/prometheus     ClusterIP   10.43.145.179   <none>        9090/TCP   25h     app=prometheus
+service/rfp-backend    ClusterIP   10.43.41.28     <none>        8420/TCP   25h     app=rfp-backend
+service/rfp-combined   ClusterIP   10.43.32.133    <none>        8420/TCP   4h39m   app=rfp-combined
+service/rfp-frontend   ClusterIP   10.43.184.82    <none>        80/TCP     25h     app=rfp-frontend
+
+NAME                           READY   UP-TO-DATE   AVAILABLE   AGE     CONTAINERS     IMAGES                    SELECTOR
+deployment.apps/grafana        1/1     1            1           25h     grafana        grafana/grafana:11.4.0    app=grafana
+deployment.apps/k2-vllm        1/1     1            1           26h     vllm           vllm/vllm-openai:latest   app=k2-vllm
+deployment.apps/prometheus     1/1     1            1           25h     prometheus     prom/prometheus:v2.55.1   app=prometheus
+deployment.apps/rfp-backend    1/1     1            1           25h     rfp-backend    rfp-backend:latest        app=rfp-backend
+deployment.apps/rfp-combined   1/1     1            1           4h39m   rfp-combined   rfp-combined:latest       app=rfp-combined
+deployment.apps/rfp-frontend   1/1     1            1           25h     rfp-frontend   rfp-frontend:latest       app=rfp-frontend
+
+NAME                                      DESIRED   CURRENT   READY   AGE     CONTAINERS     IMAGES                    SELECTOR
+replicaset.apps/grafana-5b66456c          1         1         1       3h24m   grafana        grafana/grafana:11.4.0    app=grafana,pod-template-hash=5b66456c
+replicaset.apps/grafana-5cc85dc49b        0         0         0       25h     grafana        grafana/grafana:11.4.0    app=grafana,pod-template-hash=5cc85dc49b
+replicaset.apps/grafana-7695c89f57        0         0         0       25h     grafana        grafana/grafana:11.4.0    app=grafana,pod-template-hash=7695c89f57
+replicaset.apps/grafana-7868d99594        0         0         0       25h     grafana        grafana/grafana:11.4.0    app=grafana,pod-template-hash=7868d99594
+replicaset.apps/k2-vllm-5cb4cdcf68        1         1         1       6h42m   vllm           vllm/vllm-openai:latest   app=k2-vllm,pod-template-hash=5cb4cdcf68
+replicaset.apps/k2-vllm-7dff994ff7        0         0         0       26h     vllm           vllm/vllm-openai:latest   app=k2-vllm,pod-template-hash=7dff994ff7
+replicaset.apps/prometheus-7b98d79665     0         0         0       4h8m    prometheus     prom/prometheus:v2.55.1   app=prometheus,pod-template-hash=7b98d79665
+replicaset.apps/prometheus-7df56cbcc      0         0         0       25h     prometheus     prom/prometheus:v2.55.1   app=prometheus,pod-template-hash=7df56cbcc
+replicaset.apps/prometheus-84766d5845     0         0         0       25h     prometheus     prom/prometheus:v2.55.1   app=prometheus,pod-template-hash=84766d5845
+replicaset.apps/prometheus-85fcdb4f79     1         1         1       3h52m   prometheus     prom/prometheus:v2.55.1   app=prometheus,pod-template-hash=85fcdb4f79
+replicaset.apps/prometheus-c4d8c5d6c      0         0         0       25h     prometheus     prom/prometheus:v2.55.1   app=prometheus,pod-template-hash=c4d8c5d6c
+replicaset.apps/rfp-backend-5689c49fc7    1         1         1       5h56m   rfp-backend    rfp-backend:latest        app=rfp-backend,pod-template-hash=5689c49fc7
+replicaset.apps/rfp-backend-59b48bc4fd    0         0         0       25h     rfp-backend    rfp-backend:latest        app=rfp-backend,pod-template-hash=59b48bc4fd
+replicaset.apps/rfp-backend-65c598d789    0         0         0       6h35m   rfp-backend    rfp-backend:latest        app=rfp-backend,pod-template-hash=65c598d789
+replicaset.apps/rfp-backend-b6d557677     0         0         0       6h      rfp-backend    rfp-backend:latest        app=rfp-backend,pod-template-hash=b6d557677
+replicaset.apps/rfp-backend-d7cc8cb4d     0         0         0       25h     rfp-backend    rfp-backend:latest        app=rfp-backend,pod-template-hash=d7cc8cb4d
+replicaset.apps/rfp-combined-58b5d5cbdf   0         0         0       4h39m   rfp-combined   rfp-combined:latest       app=rfp-combined,pod-template-hash=58b5d5cbdf
+replicaset.apps/rfp-combined-bf7f95f65    1         1         1       4h39m   rfp-combined   rfp-combined:latest       app=rfp-combined,pod-template-hash=bf7f95f65
+replicaset.apps/rfp-frontend-6575bd57cf   0         0         0       25h     rfp-frontend   rfp-frontend:latest       app=rfp-frontend,pod-template-hash=6575bd57cf
+replicaset.apps/rfp-frontend-69d89489d    1         1         1       6h34m   rfp-frontend   rfp-frontend:latest       app=rfp-frontend,pod-template-hash=69d89489d
+
+NAME                                               REFERENCE                 TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/team-serving   Deployment/team-serving   cpu: 1%/30%   1         5         1          16d

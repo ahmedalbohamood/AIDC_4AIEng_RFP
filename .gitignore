@@ -1,0 +1,10 @@
+# This repo is scoped to the RFP project only - this pod is a shared team
+# environment, and README.md / site-check.md / .claude / .vscode here belong
+# to the pod itself, not this project.
+/README.md
+/site-check.md
+/.claude/
+/.vscode/
+
+# Each project folder also has its own .gitignore for its own build
+# artifacts, caches, and secrets (.venv, node_modules, .env, docs/*.pdf, etc).

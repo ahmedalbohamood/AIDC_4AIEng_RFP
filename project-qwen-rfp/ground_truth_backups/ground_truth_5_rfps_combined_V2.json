@@ -1,0 +1,795 @@
+{
+  "schema_version": "clean_17_fields_v2",
+  "purpose": "High-quality, concise, source-grounded test ground truth. Revised after source verification; not tuned to any model output.",
+  "documents": [
+    {
+      "doc_id": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+      "annotator": "GPT-5.6 Sol source-grounded review, revised 2026-09-22",
+      "fields": {
+        "submission_deadline": {
+          "present": true,
+          "value": "May 14, 2025, 2:00 PM MST",
+          "difficulty": "hard",
+          "note": "Cover and RFP Timetable / Submission section."
+        },
+        "questions_deadline": {
+          "present": true,
+          "value": "April 17, 2025, 2:00 PM MST",
+          "difficulty": "easy",
+          "note": "Section 1.4 RFP Timetable."
+        },
+        "rfp_contact": {
+          "present": true,
+          "value": "Indra Ghosh, Supervisor of Purchasing and Treasury; PublicBids@rockyview.ca",
+          "difficulty": "medium",
+          "note": "Section 1.2 RFP Contact."
+        },
+        "submission_method": {
+          "present": true,
+          "value": "Electronic submission by email to PublicBids@rockyview.ca; proposal in PDF.",
+          "difficulty": "easy",
+          "note": "Section 1.5 Submission of Proposals."
+        },
+        "contract_term": {
+          "present": true,
+          "value": "From official acceptance until December 31, 2025; renewable in one-year increments, with total term not to exceed 3 years.",
+          "difficulty": "hard",
+          "note": "Section 1.3 Type of Contract for Deliverables."
+        },
+        "scope_of_deliverables": {
+          "present": true,
+          "value": "Consulting engagement to assess Rocky View County's ERP requirements and organizational/technology/data/process readiness, document functional and technical requirements, develop the future ERP RFP scope, and advise the County during ERP vendor evaluation and selection.",
+          "difficulty": "medium",
+          "note": "Appendix D, Sections A1-A3; project phases include readiness assessment, RFP development, and evaluation/advisory support."
+        },
+        "mandatory_submission_requirements": {
+          "present": true,
+          "value": [
+            "Completed and signed Submission Form (Appendix B).",
+            "Completed Pricing Schedule (Appendix D / Appendix C instructions).",
+            "Completed Mandatory Evaluation Table with Yes/No responses covering scope understanding, methodology, schedule, team, similar work, budgetary control, and required insurance/documents/references."
+          ],
+          "difficulty": "hard",
+          "note": "Appendix D Section B."
+        },
+        "mandatory_technical_requirements": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "No separate mandatory technical solution-requirements section is stated; this procurement is for ERP consulting/advisory services. Do not convert rated methodology/experience criteria into technical mandatories."
+        },
+        "evaluation_criteria": {
+          "present": true,
+          "value": [
+            {
+              "criterion": "Proponent Experience and Qualifications",
+              "weight": 10
+            },
+            {
+              "criterion": "Service Team Qualifications and Experience",
+              "weight": 25
+            },
+            {
+              "criterion": "Client References and Past Experience",
+              "weight": 10
+            },
+            {
+              "criterion": "Work Plan, Methodology, and Quality Assurance",
+              "weight": 30
+            },
+            {
+              "criterion": "Pricing",
+              "weight": 25
+            }
+          ],
+          "difficulty": "medium",
+          "note": "Appendix D Section C; total weighting 100%."
+        },
+        "minimum_score_threshold": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "No explicit numeric minimum score to advance. Mandatory Yes/No items may disqualify, but there is no numeric rated-score cutoff."
+        },
+        "pricing_structure": {
+          "present": true,
+          "value": "Complete the Pricing Schedule; provide unit prices and total/lump-sum bid in CAD. Rates are all-inclusive of labour, materials, travel, insurance, delivery/setup and overhead, with sales taxes itemized separately. Pricing is weighted 25%.",
+          "difficulty": "medium",
+          "note": "Appendix C Pricing and Appendix D Pricing/Professional Fees."
+        },
+        "insurance_requirements": {
+          "present": false,
+          "value": null,
+          "difficulty": "easy",
+          "note": "An insurance certificate is referenced as required, but the PDF does not state a minimum insurance coverage type/amount. Do not invent a dollar minimum."
+        },
+        "vendor_experience_required": {
+          "present": true,
+          "value": "Project Manager (and backup Project Manager) must have at least 5 years of experience on ERP-related projects and must have led at least 2 ERP projects from readiness assessment through implementation within the last 7 years. Project team members must have at least 3 years of experience on ERP-related projects, with readiness-assessment-through-implementation experience within the last 7 years. Relevant professional qualifications/certifications and public-sector/municipal ERP experience are evaluated.",
+          "difficulty": "hard",
+          "note": "Appendix D rated criteria, Team Qualifications and Experience. This RFP contains explicit minimum experience requirements for the Project Manager and project team."
+        },
+        "references_required": {
+          "present": true,
+          "value": 3,
+          "difficulty": "easy",
+          "note": "Minimum three similar/identical client references, preferably public sector, for services within the last seven years."
+        },
+        "data_security_requirements": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "The consultant must assess the County's data security/governance and cloud-security readiness, but the RFP does not impose a named security/privacy compliance standard on the consultant's own hosted solution."
+        },
+        "data_hosting_residency": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "The scope asks the consultant to assess data-residency requirements for a future ERP; it does not prescribe where the consultant must host/process County data."
+        },
+        "vendor_demonstration_required": {
+          "present": true,
+          "value": true,
+          "difficulty": "easy",
+          "note": "Section 2.6 states a second-level presentation/interview may be conducted for all or shortlisted proponents."
+        }
+      }
+    },
+    {
+      "doc_id": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+      "annotator": "GPT-5.6 Sol source-grounded review, revised 2026-09-22",
+      "fields": {
+        "submission_deadline": {
+          "present": true,
+          "value": "September 9, 2026, before 2:00 PM MT",
+          "difficulty": "hard",
+          "note": "Cover / Invitation and Section 6 Timeline."
+        },
+        "questions_deadline": {
+          "present": true,
+          "value": "September 2, 2026, before 2:00 PM MT",
+          "difficulty": "easy",
+          "note": "Cover / Invitation and Section 6 Timeline."
+        },
+        "rfp_contact": {
+          "present": true,
+          "value": "Olds College Purchasing Department; purchasing@oldscollege.ca",
+          "difficulty": "medium",
+          "note": "Section 4.5 Questions. No individual RFP-contact name is stated for inquiries."
+        },
+        "submission_method": {
+          "present": true,
+          "value": "Submit an electronic copy by email to submissions@oldscollege.ca.",
+          "difficulty": "easy",
+          "note": "Section 4.1 Submission of Proposal."
+        },
+        "contract_term": {
+          "present": true,
+          "value": "5-year base term starting approximately February 1, 2027, plus two separate 3-year renewal options; maximum 11 years.",
+          "difficulty": "hard",
+          "note": "Section 3.3 Contract Start Date and Contract Renewals."
+        },
+        "scope_of_deliverables": {
+          "present": true,
+          "value": "Enhance Olds College's LMS capabilities either through improved third-party support for its existing Moodle LMS or through a new LMS platform, including implementation/migration, integrations, accessibility, analytics, AI features, security, training and ongoing support.",
+          "difficulty": "medium",
+          "note": "Sections 3.1-3.2 and Section D Scope of Work."
+        },
+        "mandatory_submission_requirements": {
+          "present": true,
+          "value": [
+            "Completed and signed Proposal Certification Document (Section C, Item 9)."
+          ],
+          "difficulty": "hard",
+          "note": "Section 7.1 explicitly identifies the Certification document as the mandatory submission requirement."
+        },
+        "mandatory_technical_requirements": {
+          "present": true,
+          "value": [
+            "WCAG-accessible and usable LMS.",
+            "Mobile learning access.",
+            "Integration with Ellucian Banner and support for APIs/external integrations.",
+            "Security controls protecting learner data; safeguards against breaches; compliance with Alberta POPA; HECVAT cybersecurity/privacy assessment; SAML SSO and MFA support.",
+            "Data migration/import/export capability.",
+            "Cloud-based LMS.",
+            "Analytics/reporting capabilities.",
+            "Customer support and implementation/transition support."
+          ],
+          "difficulty": "hard",
+          "note": "Section B requires detailed responses to Section D; Section D lists the technical requirements. Canadian hosting is a preference, not a mandatory condition."
+        },
+        "evaluation_criteria": {
+          "present": true,
+          "value": [
+            {
+              "criterion": "Company Experience",
+              "weight": 15
+            },
+            {
+              "criterion": "Staff/Resource Experience",
+              "weight": 5
+            },
+            {
+              "criterion": "Proposed Solution and Approach",
+              "weight": 40
+            },
+            {
+              "criterion": "Pricing",
+              "weight": 40
+            },
+            {
+              "criterion": "Reference Checks and Interview",
+              "weight": "yes/no"
+            }
+          ],
+          "difficulty": "medium",
+          "note": "Section 7.2; scored points total 100, with reference checks/interview as satisfactory yes/no."
+        },
+        "minimum_score_threshold": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "No explicit numeric minimum score to advance is stated. References must be satisfactory for compliance but there is no numeric cutoff."
+        },
+        "pricing_structure": {
+          "present": true,
+          "value": "Pricing in CAD; prices must remain fixed for the 5-year base agreement. Provide implementation/enhancement one-time costs, training/data migration/implementation costs, and annual LMS licensing/support costs for Years 1-5 with modules/options separately priced; GST shown separately.",
+          "difficulty": "medium",
+          "note": "Section 4.17 and Section D Pricing Schedule."
+        },
+        "insurance_requirements": {
+          "present": true,
+          "value": [
+            {
+              "coverage": "Comprehensive General Liability",
+              "minimum": "CAD 2,000,000 per occurrence (RFP Section 5.1)"
+            },
+            {
+              "coverage": "General Liability in attached Services Agreement",
+              "minimum": "CAD 5,000,000 per occurrence unless waived/changed by Olds College"
+            }
+          ],
+          "difficulty": "easy",
+          "note": "The document contains two different general-liability minima: Section 5.1 says $2M; attached agreement Section 15 says $5M unless waived. Preserve the conflict rather than choosing one silently."
+        },
+        "vendor_experience_required": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "Company and staff experience are requested and scored (Company Experience 15 points; Staff/Resource Experience 5 points), but the RFP does not state a minimum number of years or another explicit pass/fail vendor-experience qualification."
+        },
+        "references_required": {
+          "present": true,
+          "value": 3,
+          "difficulty": "easy",
+          "note": "Section 8.6 requires three references for similar goods/services."
+        },
+        "data_security_requirements": {
+          "present": true,
+          "value": [
+            "Maintain data security and safeguards against breaches.",
+            "Comply with Alberta Protection of Privacy Act (POPA).",
+            "Provide a HECVAT cybersecurity & privacy assessment.",
+            "Support SAML-based SSO and state MFA support.",
+            "Protect sensitive learner information."
+          ],
+          "difficulty": "hard",
+          "note": "Section D Technical Requirements, Security."
+        },
+        "data_hosting_residency": {
+          "present": true,
+          "value": "Cloud-based system; Canadian host location is preferred, not mandatory.",
+          "difficulty": "hard",
+          "note": "Section D Technical Requirements, Cloud-Based System."
+        },
+        "vendor_demonstration_required": {
+          "present": true,
+          "value": true,
+          "difficulty": "easy",
+          "note": "Section 6 schedules product demos/vendor interviews, and Section 7.3 allows presentations from shortlisted proponents."
+        }
+      }
+    },
+    {
+      "doc_id": "City of Medicine Hat - LMS tender",
+      "annotator": "GPT-5.6 Sol source-grounded review, revised 2026-09-22",
+      "fields": {
+        "submission_deadline": {
+          "present": true,
+          "value": "May 28, 2026, 2:00 PM local time",
+          "difficulty": "hard",
+          "note": "Cover and Section 1.4 Key Dates."
+        },
+        "questions_deadline": {
+          "present": true,
+          "value": "May 21, 2026, 4:00 PM local time",
+          "difficulty": "easy",
+          "note": "Section 1.4 Key Dates."
+        },
+        "rfp_contact": {
+          "present": true,
+          "value": "Joanne Bruneau-Carter; joabru@medicinehat.ca. RFP communications must be initiated through the City's bids&tenders 'Submit a Question' function.",
+          "difficulty": "medium",
+          "note": "Section 1.2 RFP Contact."
+        },
+        "submission_method": {
+          "present": true,
+          "value": "Submit through the City of Medicine Hat online bidding system at medicinehat.bidsandtenders.ca; other submission methods are not accepted.",
+          "difficulty": "easy",
+          "note": "Section 1.5.1."
+        },
+        "contract_term": {
+          "present": true,
+          "value": "5-year base term plus annual extension options for an additional 2 years; maximum 7 years.",
+          "difficulty": "hard",
+          "note": "Section 1.3.2 Term of Contract."
+        },
+        "scope_of_deliverables": {
+          "present": true,
+          "value": "Provide a modern, secure corporate LMS for about 1,500 employees and other learners, supporting onboarding, compliance/safety training, professional development, certifications, content delivery/creation, assessments, analytics/reporting, integrations with Microsoft 365/Azure AD and City enterprise systems, implementation/migration, training and ongoing support.",
+          "difficulty": "medium",
+          "note": "Invitation and attached Scope of Work."
+        },
+        "mandatory_submission_requirements": {
+          "present": true,
+          "value": [
+            "Completed and signed Submission Form (Appendix B).",
+            "Pricing information compliant with Appendix C."
+          ],
+          "difficulty": "hard",
+          "note": "Appendix D Section D explicitly lists these mandatory submission requirements. Other proposal-content items are requested/rated but are not in the formal mandatory-submission section."
+        },
+        "mandatory_technical_requirements": {
+          "present": true,
+          "value": [
+            "Comply with the attached Functional Requirements / Scope of Work.",
+            "Encrypt sensitive data at rest and in transit.",
+            "Support SSO and/or MFA.",
+            "Follow industry security best practices such as SOC 2 / ISO.",
+            "Address PIPA/public-sector privacy obligations and maintain an incident-response plan.",
+            "Maintain business continuity/disaster recovery and data-retention controls.",
+            "Integrate with City systems including Azure AD/Entra ID, Microsoft 365 and ERP/Unit4."
+          ],
+          "difficulty": "hard",
+          "note": "Appendix D Section E makes technical requirements mandatory by reference; this list contains the technical obligations visible in the PDF itself and does not invent requirements from the external Excel appendix."
+        },
+        "evaluation_criteria": {
+          "present": true,
+          "value": [
+            {
+              "criterion": "Technical Capability (Stage 1)",
+              "weight": 50,
+              "threshold": "35/50"
+            },
+            {
+              "criterion": "Vendor Experience & References",
+              "weight": 15
+            },
+            {
+              "criterion": "Implementation & Support",
+              "weight": 20
+            },
+            {
+              "criterion": "Pricing",
+              "weight": 15
+            },
+            {
+              "criterion": "Product Demonstration (Stage 2)",
+              "weight": 30
+            }
+          ],
+          "difficulty": "medium",
+          "note": "Stage 1 subtotal is 100 points; Stage 2 demo adds 30, for 130 total."
+        },
+        "minimum_score_threshold": {
+          "present": true,
+          "value": 35,
+          "difficulty": "hard",
+          "note": "Minimum technical score is 35 out of 50 points (70%) in Stage 1. The numeric value remains 35 to preserve the benchmark field's number type."
+        },
+        "pricing_structure": {
+          "present": true,
+          "value": "Use the Proposal Compensation/Pricing form. Prices in CAD, exclusive of GST; separate one-time implementation costs from annual recurring costs. Include licensing, implementation/configuration/migration/testing/go-live, security/integration, training/documentation, support/maintenance and five-year costs. Pricing is worth 15 points.",
+          "difficulty": "medium",
+          "note": "Appendix C and Proposal Form."
+        },
+        "insurance_requirements": {
+          "present": true,
+          "value": [
+            {
+              "coverage": "Commercial General Liability",
+              "minimum": "CAD 2,000,000 per occurrence; property-damage deductible <= CAD 2,500"
+            },
+            {
+              "coverage": "Employer's Liability",
+              "minimum": "CAD 2,000,000 per employee per accidental injury/death (or contingent employer's liability)"
+            },
+            {
+              "coverage": "Professional Errors & Omissions",
+              "minimum": "CAD 1,000,000 per claim; aggregate >= CAD 2,000,000; deductible <= CAD 25,000; 12-month maintenance period"
+            },
+            {
+              "coverage": "Cyber Liability (where applicable)",
+              "minimum": "CAD 2,000,000 per occurrence"
+            },
+            {
+              "coverage": "Automobile Liability",
+              "minimum": "CAD 2,000,000 per occurrence"
+            }
+          ],
+          "difficulty": "easy",
+          "note": "Appendix D Pre-Conditions of Award, Certificate of Insurance."
+        },
+        "vendor_experience_required": {
+          "present": true,
+          "value": "Relevant LMS experience, years providing the service, LMS implementations including municipal/government implementations, similar-scope references from the last 5 years, and resumes/roles for implementation and support teams. No explicit minimum years of vendor experience is stated.",
+          "difficulty": "hard",
+          "note": "Rated criteria: Vendor Experience & References."
+        },
+        "references_required": {
+          "present": true,
+          "value": 3,
+          "difficulty": "easy",
+          "note": "Rated criteria require a minimum of 3 references similar in scope and size over the last 5 years."
+        },
+        "data_security_requirements": {
+          "present": true,
+          "value": [
+            "Encrypt sensitive data at rest and in transit.",
+            "SSO and/or MFA.",
+            "Industry security best practices / SOC 2 or ISO-type compliance.",
+            "PIPA/public-sector privacy compliance.",
+            "Incident response plan.",
+            "Business continuity/disaster recovery plan.",
+            "Clear data-retention policy.",
+            "Cybersecurity Vendor Assessment before award."
+          ],
+          "difficulty": "hard",
+          "note": "Scope of Work and pre-condition cybersecurity assessment."
+        },
+        "data_hosting_residency": {
+          "present": true,
+          "value": "Vendor server / hosting in Canada is preferred to support PIPA compliance; Canadian residency is stated as a preference, not an absolute mandatory requirement.",
+          "difficulty": "hard",
+          "note": "Scope of Work, Technical Requirements."
+        },
+        "vendor_demonstration_required": {
+          "present": true,
+          "value": true,
+          "difficulty": "easy",
+          "note": "Stage 2 is a scored product demonstration (30 points); up to six top-ranked proponents meeting the technical threshold may be invited."
+        }
+      }
+    },
+    {
+      "doc_id": "EN_-_ERP_RFP_24.25.04",
+      "annotator": "GPT-5.6 Sol source-grounded review, 2026-09-22",
+      "fields": {
+        "submission_deadline": {
+          "present": true,
+          "value": "April 14, 2025, 11:59:59 PM PST",
+          "difficulty": "hard",
+          "note": "Cover and Section 1.4 Key Dates."
+        },
+        "questions_deadline": {
+          "present": true,
+          "value": "March 17, 2025, 11:59:59 PM PST",
+          "difficulty": "easy",
+          "note": "Section 1.4 Key Dates."
+        },
+        "rfp_contact": {
+          "present": true,
+          "value": "Jeremy Elliott; procurement@cowichantribes.com",
+          "difficulty": "medium",
+          "note": "Section 1.2 RFP Contact."
+        },
+        "submission_method": {
+          "present": true,
+          "value": "Submit directly through the BCBid platform where the RFP is posted; no physical submission unless specifically requested.",
+          "difficulty": "easy",
+          "note": "Section 1.5.1."
+        },
+        "contract_term": {
+          "present": true,
+          "value": "ERP implementation plus a 5-year licensing and support agreement, with an option for Cowichan Tribes to extend on the same terms and conditions; extension length is not specified.",
+          "difficulty": "hard",
+          "note": "Section 1.3.2."
+        },
+        "scope_of_deliverables": {
+          "present": true,
+          "value": "Implement a commercially supported cloud ERP covering Finance, Procurement, HR, Payroll and Asset Management; include data conversion, integrations, implementation/change management, security, and transition to ongoing support. Other TIFIS functions such as housing/membership remain outside the replacement scope.",
+          "difficulty": "medium",
+          "note": "Invitation and Appendix B Narrative Response / Requirements."
+        },
+        "mandatory_submission_requirements": {
+          "present": true,
+          "value": [
+            "Submit by the deadline using the prescribed BCBid method.",
+            "Proposal in English.",
+            "Completed and signed Submission Form in PDF.",
+            "Completed Narrative Response in PDF following Appendix B Section A.",
+            "Completed Pricing Excel Workbook.",
+            "Completed Requirements Excel Workbook."
+          ],
+          "difficulty": "hard",
+          "note": "Appendix B Section C."
+        },
+        "mandatory_technical_requirements": {
+          "present": true,
+          "value": [
+            "Support Canadian organizations, including Canadian taxes and payroll.",
+            "Vendor experience implementing solutions for First Nations in Canada.",
+            "Solution hosted in Canada with all data stored in Canada.",
+            "Implementation vendor(s) with at least 5 years of experience implementing Finance, HR, Payroll and Asset Management solutions.",
+            "Cloud-based solution.",
+            "SOC 2 Type 2 compliant or equivalent."
+          ],
+          "difficulty": "hard",
+          "note": "Appendix B Section D; failure results in disqualification."
+        },
+        "evaluation_criteria": {
+          "present": true,
+          "value": [
+            {
+              "criterion": "Functional Fit (Requirements Worksheet)",
+              "weight": 35,
+              "threshold": "28/35 (80%)"
+            },
+            {
+              "criterion": "Narrative Proposal",
+              "weight": 20,
+              "threshold": "14/20 (70%)"
+            },
+            {
+              "criterion": "Pricing",
+              "weight": 15,
+              "threshold": "10.5/15 (70%)"
+            },
+            {
+              "criterion": "Vendor Demonstration",
+              "weight": 30,
+              "threshold": "21/30 (70%)"
+            }
+          ],
+          "difficulty": "medium",
+          "note": "Appendix B Section F; total 100 points."
+        },
+        "minimum_score_threshold": {
+          "present": true,
+          "value": [
+            "Functional Fit: 28/35 (80%)",
+            "Narrative Proposal: 14/20 (70%)",
+            "Pricing: 10.5/15 (70%)",
+            "Vendor Demonstration: 21/30 (70%)"
+          ],
+          "difficulty": "hard",
+          "note": "Explicit category thresholds are stated in Appendix B Section F."
+        },
+        "pricing_structure": {
+          "present": true,
+          "value": "Complete the provided Pricing Sheet for implementation, licensing and support over five years; CAD, inclusive of applicable duties/taxes, and all-inclusive of labour, materials, travel, insurance, delivery, installation/setup and overhead. Also provide resource rates for additional scope. Pricing is worth 15 points.",
+          "difficulty": "medium",
+          "note": "Appendix B Section G."
+        },
+        "insurance_requirements": {
+          "present": false,
+          "value": null,
+          "difficulty": "easy",
+          "note": "The RFP says pricing must include insurance costs but does not state a minimum insurance coverage type or dollar amount in the PDF."
+        },
+        "vendor_experience_required": {
+          "present": true,
+          "value": "Mandatory experience implementing solutions for First Nations in Canada, and implementation vendor(s) must have at least 5 years of experience implementing Finance, HR, Payroll and Asset Management solutions.",
+          "difficulty": "hard",
+          "note": "Appendix B Section D."
+        },
+        "references_required": {
+          "present": true,
+          "value": "At least 2 and at most 5",
+          "difficulty": "easy",
+          "note": "Narrative Response Section 11: implementations involving the proposed solutions in Canada; First Nations clients preferred."
+        },
+        "data_security_requirements": {
+          "present": true,
+          "value": [
+            "SOC 2 Type 2 compliant or equivalent (mandatory).",
+            "Describe compliance with industry security standards and management of privacy/cybersecurity risks.",
+            "Provide third-party cybersecurity-vendor information."
+          ],
+          "difficulty": "hard",
+          "note": "Appendix B Sections A8 and D."
+        },
+        "data_hosting_residency": {
+          "present": true,
+          "value": "The solution must be hosted in Canada and all data must be stored within Canada.",
+          "difficulty": "hard",
+          "note": "Appendix B Section D mandatory technical requirements."
+        },
+        "vendor_demonstration_required": {
+          "present": true,
+          "value": true,
+          "difficulty": "easy",
+          "note": "Stage V Vendor Demonstrations; demonstration is worth 30 points and has a 21/30 (70%) threshold."
+        }
+      }
+    },
+    {
+      "doc_id": "RFP CP-730126 Generative AI RFP (4)",
+      "annotator": "GPT-5.6 Sol source-grounded review, revised 2026-09-22",
+      "fields": {
+        "submission_deadline": {
+          "present": true,
+          "value": "August 12, 2025; no submission time is stated in the PDF.",
+          "difficulty": "hard",
+          "note": "Section 1.5 lists the proposals-due date. Section 1.6 says the portal controls Closing Time but the PDF does not state that time; do not invent one."
+        },
+        "questions_deadline": {
+          "present": true,
+          "value": "July 25, 2025",
+          "difficulty": "easy",
+          "note": "Section 1.5 Written inquiries."
+        },
+        "rfp_contact": {
+          "present": true,
+          "value": "Dennis Orellana, Procurement Services Lead; inquiries must be submitted through the Bonfire Opportunity Q&A.",
+          "difficulty": "medium",
+          "note": "Sections 1.3-1.4. Do not substitute the post-award procurement email found later in the contract notice section."
+        },
+        "submission_method": {
+          "present": true,
+          "value": "Submit through the USask Bonfire Portal at https://usask.bonfirehub.ca; other submission methods are not accepted.",
+          "difficulty": "easy",
+          "note": "Section 1.7."
+        },
+        "contract_term": {
+          "present": true,
+          "value": "Approximately September 1, 2025 through August 31, 2030 (5-year base), plus one 3-year extension and one 2-year extension; maximum potential term 10 years.",
+          "difficulty": "hard",
+          "note": "Section 1.1."
+        },
+        "scope_of_deliverables": {
+          "present": true,
+          "value": "Establish a non-exclusive list of pre-qualified suppliers for Generative AI services across four categories: AI chat/data analysis, AI model customization/integration, AI consulting services, and AI enabling infrastructure. Proponents must be direct providers, not third-party resellers.",
+          "difficulty": "medium",
+          "note": "Appendix B, B.2 Purpose."
+        },
+        "mandatory_submission_requirements": {
+          "present": true,
+          "value": [
+            "Table of contents.",
+            "Corporate structure/ownership and organizational chart.",
+            "Description of company experience, competence and reliability on similar projects.",
+            "Proposed personnel, roles, qualifications and experience.",
+            "Clear indication of services provided.",
+            "Pricing structure in CAD.",
+            "Sample service/maintenance agreement.",
+            "Minimum 3 relevant references.",
+            "Summary of sustainability initiatives.",
+            "Summary of value-added benefits/in-kind contributions.",
+            "Disclosure of services brokered to third parties / use of USask in-house services.",
+            "Completed Validation of Proposal and Acceptance of Contractual Provisions (Appendix A).",
+            "Completed pricing structure in electronic format (Appendix D).",
+            "Completed HECVAT or USask SaaS Vendor Form (Appendix E).",
+            "Disclosure of judgments/pending or expected litigation/material reversals, or statement that none are known."
+          ],
+          "difficulty": "hard",
+          "note": "Section 2.1 General Outline."
+        },
+        "mandatory_technical_requirements": {
+          "present": true,
+          "value": [
+            "Comply with applicable intellectual-property and privacy laws/regulations.",
+            "Proponent is directly responsible for protecting the infrastructure running offered services.",
+            "Meet or exceed USask security requirements; submit USask SaaS Form or HECVAT and demonstrate encryption, regular security audits and industry best practices.",
+            "Provide acceptable authorization/authentication integration, including SSO, user account management, role/access provisioning and enrolment management."
+          ],
+          "difficulty": "hard",
+          "note": "Appendix B, B.2."
+        },
+        "evaluation_criteria": {
+          "present": true,
+          "value": [
+            {
+              "criterion": "Technical & AI Platform Services",
+              "weight": 30
+            },
+            {
+              "criterion": "Optional Services",
+              "weight": 5
+            },
+            {
+              "criterion": "Professional Services",
+              "weight": 5
+            },
+            {
+              "criterion": "Proponent Qualifications",
+              "weight": 10
+            },
+            {
+              "criterion": "Support & Management",
+              "weight": 10
+            },
+            {
+              "criterion": "Cost",
+              "weight": 30
+            },
+            {
+              "criterion": "University Benefit & Sustainability",
+              "weight": 5
+            },
+            {
+              "criterion": "Indigenous Participation",
+              "weight": 5
+            }
+          ],
+          "difficulty": "medium",
+          "note": "Section 1.17; total 100 points."
+        },
+        "minimum_score_threshold": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "No explicit numeric pass/fail or advancement score threshold is stated."
+        },
+        "pricing_structure": {
+          "present": true,
+          "value": "Detailed pricing in CAD with GST/PST excluded; DDP Incoterms 2010 USask. Include subscription/token/enterprise-management pricing, implementation, training and other costs; pricing should be firm for the 5-year base term, with optional-extension pricing shown in the pricing schedule.",
+          "difficulty": "medium",
+          "note": "Section 2.4, Section 3.19 and Appendix D."
+        },
+        "insurance_requirements": {
+          "present": true,
+          "value": [
+            {
+              "coverage": "Commercial General Liability",
+              "minimum": "CAD 5,000,000 per occurrence"
+            },
+            {
+              "coverage": "Cybersecurity Liability",
+              "minimum": "CAD 5,000,000 per occurrence"
+            }
+          ],
+          "difficulty": "easy",
+          "note": "Section 3.11 Insurance."
+        },
+        "vendor_experience_required": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "Relevant experience and ability to work in a large university or similarly complex environment are rated under Proponent Qualifications, but no explicit minimum years/certification or other pass/fail vendor-experience qualification is stated."
+        },
+        "references_required": {
+          "present": true,
+          "value": 3,
+          "difficulty": "easy",
+          "note": "Section 2.1 requires a minimum of three references for similar services."
+        },
+        "data_security_requirements": {
+          "present": true,
+          "value": [
+            "Comply with applicable IP/privacy laws including the Copyright Act (Canada), PIPEDA, Saskatchewan LA FOIP and, where applicable, HIPA.",
+            "Protect service infrastructure.",
+            "Submit USask SaaS Vendor Form or HECVAT.",
+            "Use comprehensive data-protection controls including encryption, regular security audits and industry best practices.",
+            "Support SSO, user account management, role/access provisioning and enrolment management.",
+            "Contract privacy obligations require protection of personal information and notification/recovery steps for unauthorized access/use/disclosure."
+          ],
+          "difficulty": "hard",
+          "note": "Appendix B and Section 3.29."
+        },
+        "data_hosting_residency": {
+          "present": false,
+          "value": null,
+          "difficulty": "hard",
+          "note": "No explicit Canadian or other residency requirement is stated. The SaaS questionnaire asks where data centres are located and whether jurisdiction can be restricted; questions are not residency mandates."
+        },
+        "vendor_demonstration_required": {
+          "present": true,
+          "value": true,
+          "difficulty": "easy",
+          "note": "Section 1.13: proponents may be contacted after closing for presentations, product demonstrations and/or inspection; discretionary but explicitly possible."
+        }
+      }
+    }
+  ]
+}

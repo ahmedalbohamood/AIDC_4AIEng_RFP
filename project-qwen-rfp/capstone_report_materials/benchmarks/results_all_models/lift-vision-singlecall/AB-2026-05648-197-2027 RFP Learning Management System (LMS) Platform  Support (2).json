@@ -1,0 +1,266 @@
+{
+  "doc_id": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+  "backend": "lift-vision-singlecall",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "September 9, 2026 before 2:00:00 PM MT",
+      "raw": "September 9, 2026 before 2:00:00 PM MT",
+      "page": 1,
+      "quote": "Closing Date and Time: September 9, 2026 before 2:00:00 PM MT",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "September 2, 2026 before 2:00:00 PM MT",
+      "raw": "September 2, 2026 before 2:00:00 PM MT",
+      "page": 1,
+      "quote": "Question Closing Time: September 2, 2026 before 2:00:00 PM MT",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Olds College",
+      "email": "purchasing@oldscollge.ca",
+      "phone": null,
+      "title": null,
+      "page": 10,
+      "quote": "Olds College 4500 50 Street Olds, AB Purchasing Department purchasing@oldscollge.ca",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "electronically to the Alberta Purchasing Connection site",
+      "page": 10,
+      "quote": "All addenda related to this RFP will be issued by Olds College by the deadline indicated in Section 1 and will be posted electronically to the Alberta Purchasing Connection site where the RFP was originally posted.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "5 year agreement with options to renew for two further terms of 1 year each",
+      "page": 13,
+      "quote": "Prices must remain fixed and applicable to all goods and services, as detailed within this RFP, throughout the entire term of the 5 year agreement.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Learning Management System (LMS) Platform & Support for Olds College, including implementation, licensing, and ongoing support.",
+      "page": 1,
+      "quote": "Learning Management System (LMS) Platform & Support",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Proposal Certification Document (Section C)",
+        "Company Experience",
+        "Staff/Resources Experience",
+        "Proposed Project Solution and Approach",
+        "Pricing",
+        "References (Item 8.6)"
+      ],
+      "page": 12,
+      "quote": "1 Proposal Certification Document (Section C) Acceptance of Service Agreement Terms and Conditions (Section C - Item 9) 2 Company Experience 3 Staff/Resources Experience 4 Proposed Project Solution and Approach 5 Pricing 6 The Proponent should also provide: References (Item 8.6)",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Ability to integrate with existing College systems (Ellucian Banner)",
+        "Automated course enrolment and permission provisioning",
+        "Support for Application Programming Interface (APIs)",
+        "Maintaining data security standards to safeguard sensitive learning materials",
+        "Ability to adhere to Province of Alberta information privacy standards (POPA)",
+        "SAML based Single Sign-On (SSO) integration",
+        "Support for local Multi-Factor Authentication (MFA)",
+        "Cloud-based system with preference for Canadian host location",
+        "Robust data analytics on courses, programs and learners",
+        "Robust implementation support for any system transition"
+      ],
+      "page": 21,
+      "quote": "Integrations: Ability to integrate with existing College systems (Ellucian Banner), Automated course enrolment and permission provisioning, Support for Application Programming Interface (APIs). Security: Maintaining data security standards, POPA adherence, SAML SSO, MFA. Cloud-Based System: Cloud-based platform, Canadian host location preference. Data Analytics: Robust data analytics. Implementation: Robust implementation support.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Company Experience",
+          "weight": 15,
+          "unit": "points"
+        },
+        {
+          "category": "Staff/Resource Experience",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "Proposed Solution and Approach",
+          "weight": 40,
+          "unit": "points"
+        },
+        {
+          "category": "Pricing",
+          "weight": 40,
+          "unit": "points"
+        },
+        {
+          "category": "Reference Checks and Interview",
+          "weight": null,
+          "unit": "points"
+        }
+      ],
+      "page": 15,
+      "quote": "A. Company Experience 15; B. Staff/Resource Experience 5; C. Proposed Solution and Approach 40; D. Pricing 40; E. Reference Checks and Interview Outcome of reference checks - satisfactory yes/no; Total Points Available 100",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Fixed prices in Canadian dollars for the entire 5-year term; pricing must be submitted using the provided Pricing Schedule table.",
+      "page": 13,
+      "quote": "Prices must remain fixed and applicable to all goods and services, as detailed within this RFP, throughout the entire term of the 5 year agreement.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Comprehensive General Liability insurance",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        }
+      ],
+      "page": 13,
+      "quote": "Comprehensive General Liability insurance in an amount of not less than two million dollars ($2,000,000) inclusive per occurrence against third party claims for bodily injury, personal injury, and property damage",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "unit": "references",
+      "page": 17,
+      "quote": "Proponents should provide three references",
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 15,
+      "quote": "Olds College reserves the right to request presentations relating to a Proposal from short-listed Proponents as may be required.",
+      "confidence": 1.0,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Company Experience and Staff/Resource Experience are scored criteria, but no minimum number of years or projects is specified.",
+      "page": 15,
+      "quote": "A. Company Experience 15; B. Staff/Resource Experience 5",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Maintaining data security standards to safeguard sensitive learning materials",
+        "Safeguards against data breaches",
+        "Adherence to Province of Alberta information privacy standards (POPA)",
+        "HECVAT cybersecurity & privacy assessment",
+        "SAML based Single Sign-On (SSO) integration",
+        "Support for local Multi-Factor Authentication (MFA)"
+      ],
+      "page": 21,
+      "quote": "Security: Maintaining data security standards, Safeguards against data breaches, POPA adherence, HECVAT assessment, SAML SSO, MFA support.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "Preference will be given to a Canadian host location",
+      "page": 21,
+      "quote": "Preference will be given to a Canadian host location",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    }
+  },
+  "totals": {
+    "wall_clock_s": 55.2,
+    "prompt_tokens": 27573,
+    "completion_tokens": 1749,
+    "cost_usd": 0.0
+  }
+}

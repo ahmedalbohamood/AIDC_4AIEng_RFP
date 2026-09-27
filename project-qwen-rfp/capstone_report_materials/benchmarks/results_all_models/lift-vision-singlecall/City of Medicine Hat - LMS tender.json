@@ -1,0 +1,268 @@
+{
+  "doc_id": "City of Medicine Hat - LMS tender",
+  "backend": "lift-vision-singlecall",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "fields": {
+    "submission_deadline": {
+      "present": false,
+      "value": null,
+      "raw": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "questions_deadline": {
+      "present": false,
+      "value": null,
+      "raw": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "bids&tenders support",
+      "email": "support@bidsandtenders.ca",
+      "phone": null,
+      "title": null,
+      "page": 6,
+      "quote": "If experiencing technical issues when submitting a proposal, proponents should contract bids&tenders support at support@bidsandtenders.ca",
+      "confidence": 0.95,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Electronic submission via the bidding system at https://medicinehat.bidsandtenders.ca",
+      "page": 6,
+      "quote": "the onus is on the proponent to create a bidding system vendor account and register as a plan taker for the opportunity at https://medicinehat.bidsandtenders.ca",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "contract_term": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "The City of Medicine Hat is procuring a Learning Management System (LMS) to support training and development. The scope includes assessments, a learning catalog, learning paths, certifications, and integrations with systems like Azure AD, M365, and Unit4.",
+      "page": 31,
+      "quote": "Assessments & Quizzes: Create, deliver and manage assessments, quizzes, and surveys. Learning Catalog & Search: Browsable catalog, tags, filters, keyword search; configurable enrollment flows and approvals. Learning Path: Create learning paths either mandated or recommended (optional). Certifications & Compliance: Issuance and management of certifications... Integrations: integrate with other systems (e.g. content authoring tools, third-party apps like Microsoft Viva, SharePoint, Email/Outlook, Unit4 Enterprise Resource Planning System/HRIS and Finance System)",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Submission Form (Appendix B) completed and signed by an authorized representative",
+        "Pricing information that complies with the instructions contained in Appendix C - Pricing",
+        "Proposal Compensation Form – Appendix C",
+        "Transmittal Letter",
+        "Proponent Qualifications, Resumes, and Relevant Experience",
+        "Confirmation of receipt of any RFP Addenda",
+        "Any Assumptions section",
+        "Letters of reference from past clients",
+        "Vendor's agreement"
+      ],
+      "page": 26,
+      "quote": "Each proponent should provide the following in its proposal: A. Appendix B - Submission Form – Completed and signed (3 pages) B. Proposal Compensation Form – Appendix C... D. Transmittal Letter... E. Proponent Qualifications, Resumes, and Relevant Experience. F. Proponents are to confirm receipt of any RFP Addenda... G. Any Assumptions section... H. Letters of reference from past clients... The vendor's agreement must be included with the proposal submission for review.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Mandatory health & safety requirements (Appendix D, Section C)",
+        "Mandatory technical requirements (Appendix D, Section E)",
+        "City of Medicine Hat Business License",
+        "Cybersecurity Vendor Assessment (CVA)"
+      ],
+      "page": 21,
+      "quote": "The City will review the proposals to determine whether the mandatory technical requirements as set out in Appendix D (RFP Particulars), Section E have been met. Contractors performing work for the City within the city limits must have a valid City of Medicine Hat Business License. Cybersecurity Vendor Assessment (CVA) - a process executed by our Information Technology (IT) department to perform a technical assessment of your product and information security practices.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Technical Capability (Appendix E) – Initial",
+          "weight": 50,
+          "unit": "points"
+        },
+        {
+          "category": "Technical & Integration",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "Product Demonstration (Stage 2)",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "Pricing",
+          "weight": 15,
+          "unit": "points"
+        }
+      ],
+      "page": 24,
+      "quote": "Technical Capability (Appendix E) – Initial | 50 | 35; Total Points | 130; Pricing is worth 15 points of the total score.",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "value": 35,
+      "unit": "points",
+      "page": 24,
+      "quote": "Proponents must achieve a minimum technical score of 35 out of 50 points to meet the technical threshold.",
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Relative pricing formula: (Proponent's Price / Lowest Price) x 100 = Percentage. Pricing is worth 15 points of the total score.",
+      "page": 20,
+      "quote": "Pricing will be scored based on a relative pricing formula using the rates set out in the pricing form. Each proponent will receive a percentage of the total possible points allocated to price for the particular category it has submitted a proposal for, which will be calculated in accordance with the following formula: (Proponent's Price / Lowest Price) x 100 = Percentage. Pricing is worth 15 points of the total score.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability Insurance",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Employer's liability insurance",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per employee"
+        },
+        {
+          "coverage_type": "Professional Errors and Omissions Liability Insurance",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per claim"
+        }
+      ],
+      "page": 22,
+      "quote": "2.2.1. Commercial General Liability Insurance... Not less than Two Million Dollars ($2,000,000.00) per occurrence... 2.2.1.5 Employer's liability insurance with limits of liability of not less than two million dollars ($2,000,000.00) per employee... 2.2.2. Professional Errors and Omissions Liability Insurance... with policy limits of not less than One Million Dollars ($1,000,000.00) per claim",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 2,
+      "unit": "letters",
+      "page": 26,
+      "quote": "Letters of reference from past clients confirming the scope and performance of the proponent on those projects.",
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 24,
+      "quote": "Stage 2 will consist of a product demonstration. The top-ranked proponents that meet the technical threshold, up to a maximum of six, may be invited to participate in Stage 2.",
+      "confidence": 0.95,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "no stated minimum years or project count; qualitative requirements include Proponent Qualifications, Resumes, and Relevant Experience",
+      "page": 26,
+      "quote": "E. Proponent Qualifications, Resumes, and Relevant Experience.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Ensure all sensitive data is encrypted both at rest and in transit",
+        "Compliance with industry security best practices (SOC2, ISO, etc.)",
+        "Vendor server preferred within Canada to comply with PIPA",
+        "Vendor has an incident response plan"
+      ],
+      "page": 31,
+      "quote": "Security & Privacy: Ensure data security. Ensure all sensitive data is encrypted both at rest and in transit... Vendor Cybersecurity Compliance: Compliance with industry security best practices (SOC2, ISO, etc.) PIPA Compliance: Vendor server preferred within Canada to comply with PIPA. Incident Response Plan: Vendor has an incident response plan.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "Vendor server preferred within Canada",
+      "page": 31,
+      "quote": "PIPA Compliance: Vendor server preferred within Canada to comply with PIPA.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    }
+  },
+  "totals": {
+    "wall_clock_s": 61.6,
+    "prompt_tokens": 27543,
+    "completion_tokens": 2006,
+    "cost_usd": 0.0
+  }
+}

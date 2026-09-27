@@ -1,0 +1,489 @@
+{
+  "doc_id": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+  "doc_path": "benchmark_5rfp_v2/docs_selected/AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2).pdf",
+  "n_pages": 38,
+  "text_extractable": true,
+  "backend": "qwen3-vl-32b",
+  "backend_key": "qwen3-vl-32b:vision",
+  "model": "QuantTrio/Qwen3-VL-32B-Instruct-AWQ",
+  "modality": "vision",
+  "retrieval": "selected",
+  "started_at": "2026-09-22T12:29:48+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        29
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 54.99,
+      "prompt_tokens": 30273,
+      "completion_tokens": 495,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        25,
+        35
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 37.88,
+      "prompt_tokens": 23980,
+      "completion_tokens": 350,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        10,
+        11,
+        12,
+        13,
+        14,
+        19,
+        20,
+        28
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 34.17,
+      "prompt_tokens": 21872,
+      "completion_tokens": 346,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        14,
+        15,
+        16,
+        17,
+        21,
+        22
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 39.89,
+      "prompt_tokens": 23908,
+      "completion_tokens": 416,
+      "cost_usd": 0.0
+    },
+    "commercial_pricing": {
+      "pages_shown": [
+        1,
+        2,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        22,
+        27,
+        28,
+        29,
+        35
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 61.11,
+      "prompt_tokens": 30431,
+      "completion_tokens": 703,
+      "cost_usd": 0.0
+    },
+    "commercial_compliance": {
+      "pages_shown": [
+        1,
+        2,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        21,
+        29,
+        30,
+        31,
+        32,
+        34
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 76.32,
+      "prompt_tokens": 30436,
+      "completion_tokens": 1067,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "September 9, 2026 before 2:00:00 PM MT",
+      "raw": "September 9, 2026 before 2:00:00 PM MT",
+      "page": 1,
+      "quote": "Closing Date and Time: September 9, 2026 before 2:00:00 PM MT",
+      "confidence": 1,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 96.7
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "September 2, 2026 before 2:00:00 PM MT",
+      "raw": "September 2, 2026 before 2:00:00 PM MT",
+      "page": 1,
+      "quote": "Question Closing Time: September 2, 2026 before 2:00:00 PM MT",
+      "confidence": 1,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 96.7
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Olds College Purchasing Department",
+      "email": "purchasing@oldscollege.ca",
+      "phone": null,
+      "title": "Purchasing Department",
+      "page": 10,
+      "quote": "All questions shall be directed to: Olds College 4500 50 Street Olds, AB Purchasing Department purchasing@oldscollege.ca",
+      "confidence": 1,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "electronic copy by email to submissions@oldscollege.ca",
+      "page": 8,
+      "quote": "Proponents must submit an electronic copy by email. Submissions must be clearly marked with the Proponent’s name and address, the Proposal name and number and the Closing Date and Time. Proposals will NOT be accepted by facsimile transmission or in-person hard copy submissions. Proposals shall be addressed to: Olds College Purchasing Department 4500 - 50 Street Olds, AB T4H 1R6 submissions@oldscollege.ca",
+      "confidence": 1,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "5-year initial term with two optional 3-year renewals, for a maximum total term of 11 years",
+      "page": 8,
+      "quote": "Olds College will enter a contract for services for five (5) years. There will also be the opportunity to renew the contract for two (2) separate three (3) years renewals, based solely on the College’s discretion. The total contract term, if optional renewals are activated, may be up to a maximum of a eleven (11) years period.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Olds College of Agriculture & Technology is seeking a Learning Management System (LMS) Platform & Support. The scope is detailed in Section D – Scope of Work & Pricing Schedule (page 19, per Table of Contents on page 2), which includes requirements for LMS systems and support, with specific evaluation criteria in Section B (pages 16-17) such as company experience, staff/resources, proposed solution, pricing, and references.",
+      "page": 2,
+      "quote": "SECTION D – SCOPE OF WORK & PRICING SCHEDULE - SPECIFICATIONS\n19\nSCOPE OF WORK\n19\nPRICING SCHEDULE\n22\nSECTION E – OLDS COLLEGE SERVICES AGREEMENT\n23\nOLD COLLEGE SERVICES AGREEMENT\n24",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 2,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 80.5
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Proposal Certification Document (Section C) - Acceptance of Service Agreement Terms and Conditions (Section C - Item 9)",
+        "Company Experience",
+        "Staff/Resources Experience",
+        "Proposed Project Solution and Approach",
+        "Pricing",
+        "References (Item 8.6)"
+      ],
+      "page": 12,
+      "quote": "4.14 Format of Proposal\nProposals should be prepared concisely (edit as applicable: in 30 pages or less) and in the order below.\nAll Proposals should have every page numbered in sequential order.\n\n| | Description |\n|---|---|\n| 1 | Proposal Certification Document (Section C)\nAcceptance of Service Agreement Terms and Conditions (Section C - Item 9) |\n| 2 | Company Experience |\n| 3 | Staff/Resources Experience |\n| 4 | Proposed Project Solution and Approach |\n| 5 | Pricing |\n| 6 | The Proponent should also provide:\n• References (Item 8.6) |",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 12,
+        "found_on_page": 12,
+        "exact": false,
+        "best_score": 91.1
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Accessibility: System that prioritizes ease of use and straightforward navigation"
+      ],
+      "page": 20,
+      "quote": "Technical Requirements\n#1 Accessibility\n• System that prioritizes ease of use and straightforward navigation",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": false,
+        "best_score": 98.1
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Company Experience",
+          "weight": 15,
+          "unit": "points"
+        },
+        {
+          "category": "Staff/Resource Experience",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "Proposed Solution and Approach",
+          "weight": 40,
+          "unit": "points"
+        },
+        {
+          "category": "Pricing",
+          "weight": 40,
+          "unit": "points"
+        },
+        {
+          "category": "Reference Checks and Interview",
+          "weight": null,
+          "unit": "yes/no"
+        }
+      ],
+      "page": 15,
+      "quote": "Scored (Desirable) Criteria\nA. Company Experience 15\nB. Staff/Resource Experience 5\nC. Proposed Solution and Approach 40\nD. Pricing 40\n• Total Cost of Proposal (see Section D - Pricing Schedule for breakdown)\nE. Reference Checks and Interview\n• Outcome of reference checks - satisfactory yes/no\nTotal Points Available 100",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 15,
+        "found_on_page": 15,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": "points",
+      "page": 15,
+      "quote": "Scored (Desirable) Criteria\nA. Company Experience 15\nB. Staff/Resource Experience 5\nC. Proposed Solution and Approach 40\nD. Pricing 40\n• Total Cost of Proposal (see Section D - Pricing Schedule for breakdown)\nE. Reference Checks and Interview\n• Outcome of reference checks - satisfactory yes/no\nTotal Points Available 100",
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing is evaluated as a scored criterion with a maximum of 40 points, based on the Total Cost of Proposal (see Section D - Pricing Schedule for breakdown). The pricing submission must be in Canadian dollars, fixed for the entire 5-year term, and submitted in the format specified in Schedule D - Scope of Work and Pricing Schedule. There is no numeric pricing scoring formula provided; pricing is judged qualitatively within the 40-point category.",
+      "page": 15,
+      "quote": "Scored (Desirable) Criteria\nA. Company Experience\nB. Staff/Resource Experience\nC. Proposed Solution and Approach\nD. Pricing\n• Total Cost of Proposal (see Section D - Pricing Schedule for breakdown)\nE. Reference Checks and Interview\n• Outcome of reference checks - satisfactory\nTotal Points Available\n100",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 15,
+        "found_on_page": 15,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Comprehensive General Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence against third party claims for bodily injury, personal injury, and property damage (including loss of use thereof)"
+        },
+        {
+          "coverage_type": "Insurance on property of others",
+          "amount": null,
+          "currency": null,
+          "basis": "on an “all risks” basis, including theft, and in an amount sufficient to cover such property in the Contractor’s care, custody and control"
+        }
+      ],
+      "page": 13,
+      "quote": "Comprehensive General Liability insurance in an amount of not less than two million dollars ($2,000,000) inclusive per occurrence against third party claims for bodily injury, personal injury, and property damage (including loss of use thereof). Such insurance shall cover all operations of the insured and include, but not being limited to: products and completed operations liability, blanket written contractual liability, owners and contractors protective liability, owners and employees as additional insured, and\n• Insurance on property of others on an “all risks” basis, including theft, and in an amount sufficient to cover such property in the Contractor’s care, custody and control.",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 13,
+        "found_on_page": 13,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "unit": "references",
+      "page": 17,
+      "quote": "Proponents should provide three references, where their company has provided the goods and services similar to those outlined in this RFP, including: name and title; name of company; phone number and email address; types of goods and services provided; and duration and value of agreement.",
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 17,
+        "found_on_page": 17,
+        "exact": false,
+        "best_score": 94.8
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 14,
+      "quote": "RFP Evaluations & product demos\nSeptember 10 - November 15, 2026",
+      "confidence": 0.95,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 14,
+        "found_on_page": 14,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "no stated minimum years or project count; Proponents should provide: a brief company history including length of time in business and years providing requested goods/services; experience in providing LMS systems and support or support for existing Moodle LMS; experience working with post-secondary institutions, including those using Ellucian Banner; staff/resource experience and qualifications; proposed subcontracted resources experience and qualifications; staffing model with resumes for proposed staff and identification of any work to be subcontracted.",
+      "page": 16,
+      "quote": "8.1 Company Experience (15 Points)\nProponents should provide the following information in their Proposals:\na) a brief company history, including the length of time the company has been in business and the number of years providing the goods and services requested in this RFP;\nb) a copy of the Proponent’s organizational structure, reporting structure, number of employees, etc.;\nc) an outline of the Proponent’s experience in providing the goods and services set out in this RFP, including providing LMS systems and support; or support for the existing Moodle LMS (if applicable)\nd) the Proponent’s experience working with post-secondary institutions previously, including with institutions that utilize Ellucian Banner\n8.2 Staff/Resource Experience (5 points)\nProponents should provide the following information in their Proposals:\na) Staff and resource experience and qualifications,\nb) Proposed subcontracted resources - experience and qualifications (if applicable)\nc) A staffing model that designates personnel assigned to the project, including:\ni. resumes for any staff members proposed to work on the Project, and\nii. identification of any work to be subcontracted.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Maintaining data security standards to safeguard sensitive learning materials and learner information",
+        "Safeguards against data breaches",
+        "Ability to adhere to Province of Alberta information privacy standards (POPA)",
+        "Proponents must be able to provide a HECVAT cybersecurity & privacy assessment",
+        "SAML based Single Sign-On (SSO) integration",
+        "State whether the platform supports “local” Multi-Factor Authentication (MFA) support or whether MFA is dependent on the above SSO integration",
+        "The Contractor and each of its employees and sub-contractors shall keep all sensitive information strictly confidential and shall not disclose or release such information or any portion of it, to any person whatsoever, except to Olds College and except as may be required at law.",
+        "If requested by Olds College, execute and deliver Olds College’s standard vendor confidentiality Agreement including any variations, if any, as Olds College reasonably determines are advisable having regard to the nature of the Services.",
+        "In the event that the Contractor obtains or gains access to any sensitive information that was not required for the performance of this Agreement, sensitive information in any form that the Contractor once had in its possession or control is lost, or stolen or is otherwise acquired by a third party without the consent of Olds College, or the Contractor has reasonable cause to believe that trespassers, hackers or any other third party has, by theft, through electronic means or otherwise, gained access to sensitive information without the consent of Olds College, then the Contractor shall promptly so advise Olds College and, if requested, provide a written report concerning such incident in such detail as Olds College shall reasonably require.",
+        "In regards to the Services, where Olds College deems it practical and appropriate, the Contractor may be required to, and in such event shall, promptly advise Olds College in writing of each occasion that the Contractor accesses Olds College’s electronic files, records or systems outside of normal business hours or from any off site location and shall not in any event do so without prior authorization."
+      ],
+      "page": 21,
+      "quote": "Security\n• Maintaining data security standards to safeguard sensitive learning materials and learner information\n• Safeguards against data breaches\n• Ability to adhere to Province of Alberta information privacy standards (POPA)\n• Proponents must be able to provide a HECVAT cybersecurity & privacy assessment.\n• SAML based Single Sign-On (SSO) integration\n• State whether the platform supports “local” Multi-Factor Authentication (MFA) support or whether MFA is dependent on the above SSO integration",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "Preference will be given to a Canadian host location",
+      "page": 21,
+      "quote": "Cloud-Based System\n• Providing an LMS in a cloud-based, rather than on-premise, platform\n• Preference will be given to a Canadian host location\n• Describe your approach to server resourcing ensuring adequate scaling to deal with periods of heavy load (exam week), the approach you use to resolve slow system responsiveness",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 21,
+        "found_on_page": 21,
+        "exact": false,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 160900,
+    "completion_tokens": 3377,
+    "cost_usd": 0.0,
+    "latency_s": 304.36,
+    "errors": 0
+  },
+  "finished_at": "2026-09-22T12:35:02+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 16,
+    "fields_absent": 1,
+    "evidence": {
+      "verified": 15,
+      "wrong_page": 0,
+      "unverified": 1,
+      "no_quote": 0,
+      "absent": 1
+    },
+    "groundedness": 0.938,
+    "hallucination_rate": 0.062
+  }
+}

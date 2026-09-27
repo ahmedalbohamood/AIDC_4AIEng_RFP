@@ -1,0 +1,178 @@
+{
+  "doc_id": "RFP CP-730126 Generative AI RFP (4)",
+  "annotator": "GPT-5.6 Sol source-grounded review, revised 2026-09-22",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "August 12, 2025; no submission time is stated in the PDF.",
+      "difficulty": "hard",
+      "note": "Section 1.5 lists the proposals-due date. Section 1.6 says the portal controls Closing Time but the PDF does not state that time; do not invent one."
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "July 25, 2025",
+      "difficulty": "easy",
+      "note": "Section 1.5 Written inquiries."
+    },
+    "rfp_contact": {
+      "present": true,
+      "value": "Dennis Orellana, Procurement Services Lead; inquiries must be submitted through the Bonfire Opportunity Q&A.",
+      "difficulty": "medium",
+      "note": "Sections 1.3-1.4. Do not substitute the post-award procurement email found later in the contract notice section."
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Submit through the USask Bonfire Portal at https://usask.bonfirehub.ca; other submission methods are not accepted.",
+      "difficulty": "easy",
+      "note": "Section 1.7."
+    },
+    "contract_term": {
+      "present": true,
+      "value": "Approximately September 1, 2025 through August 31, 2030 (5-year base), plus one 3-year extension and one 2-year extension; maximum potential term 10 years.",
+      "difficulty": "hard",
+      "note": "Section 1.1."
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Establish a non-exclusive list of pre-qualified suppliers for Generative AI services across four categories: AI chat/data analysis, AI model customization/integration, AI consulting services, and AI enabling infrastructure. Proponents must be direct providers, not third-party resellers.",
+      "difficulty": "medium",
+      "note": "Appendix B, B.2 Purpose."
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Table of contents.",
+        "Corporate structure/ownership and organizational chart.",
+        "Description of company experience, competence and reliability on similar projects.",
+        "Proposed personnel, roles, qualifications and experience.",
+        "Clear indication of services provided.",
+        "Pricing structure in CAD.",
+        "Sample service/maintenance agreement.",
+        "Minimum 3 relevant references.",
+        "Summary of sustainability initiatives.",
+        "Summary of value-added benefits/in-kind contributions.",
+        "Disclosure of services brokered to third parties / use of USask in-house services.",
+        "Completed Validation of Proposal and Acceptance of Contractual Provisions (Appendix A).",
+        "Completed pricing structure in electronic format (Appendix D).",
+        "Completed HECVAT or USask SaaS Vendor Form (Appendix E).",
+        "Disclosure of judgments/pending or expected litigation/material reversals, or statement that none are known."
+      ],
+      "difficulty": "hard",
+      "note": "Section 2.1 General Outline."
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Comply with applicable intellectual-property and privacy laws/regulations.",
+        "Proponent is directly responsible for protecting the infrastructure running offered services.",
+        "Meet or exceed USask security requirements; submit USask SaaS Form or HECVAT and demonstrate encryption, regular security audits and industry best practices.",
+        "Provide acceptable authorization/authentication integration, including SSO, user account management, role/access provisioning and enrolment management."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix B, B.2."
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "criterion": "Technical & AI Platform Services",
+          "weight": 30
+        },
+        {
+          "criterion": "Optional Services",
+          "weight": 5
+        },
+        {
+          "criterion": "Professional Services",
+          "weight": 5
+        },
+        {
+          "criterion": "Proponent Qualifications",
+          "weight": 10
+        },
+        {
+          "criterion": "Support & Management",
+          "weight": 10
+        },
+        {
+          "criterion": "Cost",
+          "weight": 30
+        },
+        {
+          "criterion": "University Benefit & Sustainability",
+          "weight": 5
+        },
+        {
+          "criterion": "Indigenous Participation",
+          "weight": 5
+        }
+      ],
+      "difficulty": "medium",
+      "note": "Section 1.17; total 100 points."
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "difficulty": "hard",
+      "note": "No explicit numeric pass/fail or advancement score threshold is stated."
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Detailed pricing in CAD with GST/PST excluded; DDP Incoterms 2010 USask. Include subscription/token/enterprise-management pricing, implementation, training and other costs; pricing should be firm for the 5-year base term, with optional-extension pricing shown in the pricing schedule.",
+      "difficulty": "medium",
+      "note": "Section 2.4, Section 3.19 and Appendix D."
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage": "Commercial General Liability",
+          "minimum": "CAD 5,000,000 per occurrence"
+        },
+        {
+          "coverage": "Cybersecurity Liability",
+          "minimum": "CAD 5,000,000 per occurrence"
+        }
+      ],
+      "difficulty": "easy",
+      "note": "Section 3.11 Insurance."
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "No stated minimum years or project count. Qualitative experience required: duration/extent of experience in similar projects, ability to work in a large university environment, corporate structure, and a minimum of three references - scored under Proponent Qualifications.",
+      "difficulty": "hard",
+      "note": "REVISED (2026-09-25): was marked present=false despite the note already confirming experience is a rated criterion - a self-contradiction that flagged a grounded, verified model answer (citing Sections 2.1(c)/(d)/(h) and 1.17(d)) as a hallucination. Relevant experience and ability to work in a large university/complex environment are rated under Proponent Qualifications, but no explicit minimum years/certification is ever stated - that remains the real trap: a model inventing a specific year count is fabricating a threshold that doesn't exist."
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "difficulty": "easy",
+      "note": "Section 2.1 requires a minimum of three references for similar services."
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Comply with applicable IP/privacy laws including the Copyright Act (Canada), PIPEDA, Saskatchewan LA FOIP and, where applicable, HIPA.",
+        "Protect service infrastructure.",
+        "Submit USask SaaS Vendor Form or HECVAT.",
+        "Use comprehensive data-protection controls including encryption, regular security audits and industry best practices.",
+        "Support SSO, user account management, role/access provisioning and enrolment management.",
+        "Contract privacy obligations require protection of personal information and notification/recovery steps for unauthorized access/use/disclosure."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix B and Section 3.29."
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "difficulty": "hard",
+      "note": "No explicit Canadian or other residency requirement is stated. The SaaS questionnaire asks where data centres are located and whether jurisdiction can be restricted; questions are not residency mandates."
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "difficulty": "easy",
+      "note": "Section 1.13: proponents may be contacted after closing for presentations, product demonstrations and/or inspection; discretionary but explicitly possible."
+    }
+  }
+}

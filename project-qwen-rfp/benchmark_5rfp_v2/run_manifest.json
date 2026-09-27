@@ -1,0 +1,75 @@
+{
+  "run_type": "isolated_benchmark",
+  "frozen_at_utc": "2026-09-22T11:52:14+00:00",
+  "model": "datalab-to/lift",
+  "backend_key": "lift-vision",
+  "endpoint": "http://127.0.0.1:8200/v1",
+  "serving_framework": "vllm/vllm-openai:latest (docker container lift-vllm)",
+  "vllm_launch_args": {
+    "model": "datalab-to/lift",
+    "served_model_name": "datalab-to/lift",
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.85,
+    "trust_remote_code": true
+  },
+  "prompt_schema_version": "rfpbench (run.py/rfpbench/prompts.py, fields.py) as of this run; 17-field / 6-cluster schema, k_pages=8 default, vision_page_cap=14",
+  "extraction_command": "./.venv/bin/python run.py -m lift-vision --docs benchmark_5rfp_v2/docs_selected --out benchmark_5rfp_v2/results --lift-url http://127.0.0.1:8200/v1",
+  "extraction_log": "benchmark_5rfp_v2/logs/lift_extraction_run.log",
+  "documents": [
+    "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1).pdf",
+    "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2).pdf",
+    "City of Medicine Hat - LMS tender.pdf",
+    "EN_-_ERP_RFP_24.25.04.pdf",
+    "RFP CP-730126 Generative AI RFP (4).pdf"
+  ],
+  "document_sha256": {
+    "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1).pdf": "d8b6f77d3259ed48dc2f2bbeefaa6f54e3b6af4b3665a1736b224cbeeca3b278",
+    "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2).pdf": "54242ba49dad269b69b7f8f5f7ec41e8ebeef4b8b958afed893624b14160d590",
+    "City of Medicine Hat - LMS tender.pdf": "ae62fc425690d75768df4c7ba785690d643208d561a08b258bd76a9113313957",
+    "EN_-_ERP_RFP_24.25.04.pdf": "17b16083694ff7e82b6a38e618c2f61554ccb1ebdc8611fca5874f2f3784ed29",
+    "RFP CP-730126 Generative AI RFP (4).pdf": "c8fb73e96be3949ab6e0e3faa2ffde909847a54d4d292cd7f5157527f8dc2cb3"
+  },
+  "ground_truth_source_file": "ground_truth/ground_truth_5_rfps_combined_V2.json",
+  "ground_truth_source_sha256": "a26cd8378b680ea60555f59429c5c9750a449dd192b89c3ce78677d66868c03d",
+  "ground_truth_split_files_sha256": {
+    "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1).json": "34f805d5f68663395a8c5c3826ca75b2f401fca392002b3e8b6a45538c5da6e8",
+    "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2).json": "1c51a808373d6fbcde5aa1ee404011c628415b6caf3c386e8aff535591213717",
+    "City of Medicine Hat - LMS tender.json": "1adc5740b81101254d7e135284997eaf332fc100dc24902a4916b992aaced24c",
+    "EN_-_ERP_RFP_24.25.04.json": "0bd13e30b1f2a50823e04f2751582b82010d216cf3a5cf77b58d40cba781a854",
+    "RFP CP-730126 Generative AI RFP (4).json": "6dd14796750dd874b8b0c556fb4229ede10a403410b2603425b8b4c2c26bb475"
+  },
+  "result_files_sha256": {
+    "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1).json": "773e7eb0c3631dd5c0108bfd3feabdae7931112196c406700f80e0286abe6cb0",
+    "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2).json": "9a82d4c5373d385b18bbbadb83e86b0999baf8d2451c2b51f6a6073ba8fc5991",
+    "City of Medicine Hat - LMS tender.json": "df840d50dd0ceda00bdb57e1f006ae3b0c811e03abcebcb54e2041d51fa5cb1b",
+    "EN_-_ERP_RFP_24.25.04.json": "70e1b306809916bbf606af2ef4ef8ecd8eb9cca54fded32fefc89aba3f10017f",
+    "RFP CP-730126 Generative AI RFP (4).json": "f58e755bd0f7ede4b6188ba37a00334eb7355d10483a01f0c4ddee5bf5915bd0"
+  },
+  "benchmark_code": {
+    "note": "working directory is not a git repository; no commit hash available",
+    "grade_py_sha256": "5342092139506428f77d81209aff5e4a9e55ef0999c16caed5c9dff4b104198a",
+    "run_py_sha256": "9f7c699e0ff9a84fc1fd8a74ddcc5be95cd3d2e132d0e769b84552cb861bfb2a",
+    "rfpbench_runner_sha256": "4cdc6af2426df374f901a6346b7302cdead1afd5fe68f69c0b2c6a3373c7e62c",
+    "rfpbench_fields_sha256": "b9dbec709a082f8cf4e78972f378b6628a1d91e846db84029144c811bb08b50b",
+    "rfpbench_backends_sha256": "51f3d0a8103083e4b699ebda925e02158c90bb4c0c8f0ced7369b7d22bec84af"
+  },
+  "environment": {
+    "gpu": "NVIDIA RTX A6000",
+    "vram_total_mib": 49140,
+    "note": "Qwen (vllm-bench, QuantTrio/Qwen3-VL-32B-Instruct-AWQ) was stopped to free VRAM before starting Lift, per explicit user approval; Lift left running after this benchmark."
+  },
+  "totals_from_run": {
+    "total_latency_s": 840.9,
+    "cluster_errors": 1,
+    "cluster_error_detail": "AB-2025-02456-...: cluster 'requirements' -> unparseable JSON (malformed model output); fields mandatory_submission_requirements and mandatory_technical_requirements missing for that doc"
+  },
+  "integrity_rules_followed": {
+    "ground_truth_modified": false,
+    "pdfs_modified": false,
+    "old_results_modified": false,
+    "prompt_tuned": false,
+    "model_changed": false,
+    "manual_output_correction": false,
+    "ground_truth_used_during_inference": false
+  }
+}

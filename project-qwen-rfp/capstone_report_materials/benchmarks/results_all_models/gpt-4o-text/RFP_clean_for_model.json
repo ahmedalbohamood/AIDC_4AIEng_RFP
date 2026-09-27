@@ -1,0 +1,397 @@
+{
+  "doc_id": "RFP_clean_for_model",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/RFP_clean_for_model.pdf",
+  "n_pages": 36,
+  "text_extractable": true,
+  "backend": "gpt-4o",
+  "backend_key": "gpt-4o:text",
+  "model": "gpt-4o",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:34:03+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        14,
+        34
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.12,
+      "prompt_tokens": 5687,
+      "completion_tokens": 316,
+      "cost_usd": 0.017378
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        16,
+        25,
+        36
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.32,
+      "prompt_tokens": 4716,
+      "completion_tokens": 218,
+      "cost_usd": 0.01397
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        17,
+        24,
+        27,
+        28,
+        29
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 1.45,
+      "prompt_tokens": 4408,
+      "completion_tokens": 167,
+      "cost_usd": 0.01269
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        14,
+        18,
+        20,
+        23,
+        28
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 1.43,
+      "prompt_tokens": 4757,
+      "completion_tokens": 57,
+      "cost_usd": 0.012462
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        9,
+        13,
+        14,
+        16,
+        17,
+        21,
+        25,
+        27,
+        28,
+        29,
+        33,
+        34
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.86,
+      "prompt_tokens": 8640,
+      "completion_tokens": 361,
+      "cost_usd": 0.02521
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline: Thursday, September 17, 2026, 2:00PM local time",
+      "confidence": 1.0,
+      "value": "2026-09-17T14:00:00",
+      "raw": "Thursday, September 17, 2026, 2:00PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 5,
+      "quote": "Deadline for Questions\nThursday, September 10, 2026 12:00 PM local time",
+      "confidence": 1.0,
+      "value": "2026-09-10T12:00:00",
+      "raw": "Thursday, September 10, 2026 12:00 PM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "For the purposes of this procurement process, the “RFQ Contact” will be:   \nJulie Bittner, Junior Buyer, julie.bittner@niagararegion.ca",
+      "confidence": 1.0,
+      "name": "Julie Bittner",
+      "email": "julie.bittner@niagararegion.ca",
+      "phone": null,
+      "title": "Junior Buyer",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 6,
+      "quote": "Quotations must be submitted electronically through the bidding system at:   \nhttps://niagararegion.bidsandtenders.ca/Module/tenders/en",
+      "confidence": 1.0,
+      "value": "https://niagararegion.bidsandtenders.ca/Module/tenders/en",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "wrong_page",
+        "claimed_page": 6,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 5,
+      "quote": "The term of the Contract is to be until the completion of the deliverables in accordance with the contract to the satisfaction of Niagara Region and will conclude no later than December 31, 2026 unless it is terminated earlier in accordance with the terms of the Contract or otherwise by operation of law.",
+      "confidence": 1.0,
+      "value": "until the completion of the deliverables, no later than December 31, 2026",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 25,
+      "quote": "This provisional Quality Level B investigation extends the Quality Level C Subsurface Utility Engineering investigation completed under the base scope (Fee Schedule Item 1.3). The records research and Quality Level C correlation performed under the base scope shall serve as the starting point for the Level B designation and shall not repeated.",
+      "confidence": 1.0,
+      "value": "Topographic Survey and Level C SUE for Steele St. Class EA, including a provisional Quality Level B investigation extending the Quality Level C Subsurface Utility Engineering investigation.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 25,
+        "found_on_page": 25,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 28,
+      "quote": "C. MANDATORY SUBMISSION REQUIREMENTS\n1. Submission Form (Appendix C)\nRespondents should refer to the instructions attached to the solicitation for the Appendix C – Submission Form requirements and provide all required information in accordance with the instructions provided in the bidding system.\n2. Pricing\nEach quotation must include pricing information that complies with the instructions set out below in Section F of this Appendix B.\n3. Other Mandatory Submission Requirements\nNot applicable.",
+      "confidence": 1.0,
+      "value": [
+        "Submission Form (Appendix C)",
+        "Pricing"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 28,
+        "found_on_page": 28,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 28,
+      "quote": "D. MANDATORY TECHNICAL REQUIREMENTS\nNot applicable.",
+      "confidence": 1.0,
+      "value": [],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 28,
+        "found_on_page": 28,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": [],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 28,
+      "quote": "Each quotation must include pricing information that complies with the instructions set out below in Section F of this Appendix B.",
+      "confidence": 0.9,
+      "value": "Each quotation must include pricing information that complies with the instructions set out below in Section F of this Appendix B.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 28,
+        "found_on_page": 28,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 16,
+      "quote": "Commercial General Liability insurance for all Deliverables to a limit of not less than FIVE MILLION DOLLARS ($5,000,000) per occurrence.",
+      "confidence": 0.9,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability",
+          "amount": 5000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Non-owned Automobile",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": null
+        },
+        {
+          "coverage_type": "Professional/Errors and Omissions Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per claim"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": [],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 9,
+      "quote": "The respondent will bear all costs associated with or incurred in the preparation and presentation of its quotation, including, if applicable, costs incurred for interviews or demonstrations.",
+      "confidence": 0.9,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 28208,
+    "completion_tokens": 1119,
+    "cost_usd": 0.08171,
+    "latency_s": 11.18,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:34:15+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 11,
+    "fields_absent": 6,
+    "evidence": {
+      "verified": 10,
+      "wrong_page": 1,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 6
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

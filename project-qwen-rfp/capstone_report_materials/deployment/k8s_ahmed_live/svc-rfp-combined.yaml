@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"rfp-combined","namespace":"ahmed"},"spec":{"ports":[{"port":8420,"targetPort":8420}],"selector":{"app":"rfp-combined"}}}
+  creationTimestamp: "2026-09-27T02:36:51Z"
+  name: rfp-combined
+  namespace: ahmed
+  resourceVersion: "863190"
+  uid: 53c856c1-e769-4cdc-83e4-7e8dfc2d5e06
+spec:
+  clusterIP: 10.43.32.133
+  clusterIPs:
+  - 10.43.32.133
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - port: 8420
+    protocol: TCP
+    targetPort: 8420
+  selector:
+    app: rfp-combined
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

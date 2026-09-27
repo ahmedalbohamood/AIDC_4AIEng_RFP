@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"prometheus","namespace":"ahmed"},"spec":{"ports":[{"port":9090,"targetPort":9090}],"selector":{"app":"prometheus"}}}
+  creationTimestamp: "2026-09-26T05:27:58Z"
+  name: prometheus
+  namespace: ahmed
+  resourceVersion: "830696"
+  uid: 0a0969ea-f32b-4309-9fdc-eb058e1f2525
+spec:
+  clusterIP: 10.43.145.179
+  clusterIPs:
+  - 10.43.145.179
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - port: 9090
+    protocol: TCP
+    targetPort: 9090
+  selector:
+    app: prometheus
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

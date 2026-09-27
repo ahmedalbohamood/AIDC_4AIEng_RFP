@@ -1,0 +1,467 @@
+{
+  "doc_id": "02_Certification_Testing_Platform_and_Services_RFP",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/19e7c1f3-0506-42aa-a91b-c2ce8d3e92e9/scratchpad/dev_doc3/02_Certification_Testing_Platform_and_Services_RFP.pdf",
+  "n_pages": 15,
+  "text_extractable": true,
+  "backend": "qwen3-vl-32b",
+  "backend_key": "qwen3-vl-32b:vision",
+  "model": "QuantTrio/Qwen3-VL-32B-Instruct-AWQ",
+  "modality": "vision",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T23:00:19+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 40.89,
+      "prompt_tokens": 23975,
+      "completion_tokens": 472,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 34.43,
+      "prompt_tokens": 21864,
+      "completion_tokens": 366,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 36.01,
+      "prompt_tokens": 17660,
+      "completion_tokens": 563,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 39.74,
+      "prompt_tokens": 17612,
+      "completion_tokens": 693,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 65.35,
+      "prompt_tokens": 26621,
+      "completion_tokens": 974,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "2:00:00 PM – Pacific Time on May 7, 2025",
+      "raw": "2:00:00 PM – Pacific Time on May 7, 2025",
+      "page": 1,
+      "quote": "Request for Proposals #019-2025\nSubmission Closing Time and Date:\n2:00:00 PM – Pacific Time on\nMay 7, 2025",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "not less than five business days before the Closing Date and Time",
+      "raw": "not less than five business days before the Closing Date and Time",
+      "page": 5,
+      "quote": "2.7 ENQUIRIES. All enquiries regarding any aspect of this RFP should be directed to the Contact Person by email (each an “Enquiry”) not less than five business days before the Closing Date and Time.",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Widya Dhani",
+      "email": "procurement@worksafebc.com",
+      "phone": null,
+      "title": "Procurement Services",
+      "page": 2,
+      "quote": "CONTACT PERSON\nWidya Dhani\nProcurement Services\nEmail: procurement@worksafebc.com",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "electronic submission through BC Bid (https://www.bcbid.gov.bc.ca/)",
+      "page": 2,
+      "quote": "SUBMISSION THROUGH BC BID\nTo access BC Bid, you will need to register for an account. To register, you will need a Business BCEID, a process which could take up to several weeks. For more information, please go to https://www.bcbid.gov.bc.ca/",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "3-year initial term with up to two further 3-year renewal terms",
+      "page": 5,
+      "quote": "2.4 TERM. The initial term of the Contract is expected to be for three years. WorkSafeBC will have the right in its sole discretion to renew the Contract for up to two further three-year term.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "WorkSafeBC is seeking an end-to-end solution for exam development and administration, including a web-based testing platform, online invigilation, competency framework development, exam psychometric support services, and related implementation, support, and maintenance services. The scope is detailed in Section 3.1 'SCOPE OF SERVICES' on page 6, which outlines the required services under the 'Test Platform' category, such as supporting various assessment types, participant registration, and invigilation with real-time support.",
+      "page": 6,
+      "quote": "3.1 SCOPE OF SERVICES. The scope of services shall include the following (collectively, the “Services”): (a) Test Platform: An integrated web-based test platform (the “Solution”) that: (i) Supports various types of assessments (i.e., multiple choice, simulations) securely and efficiently; (ii) Provides participant (i.e., exam takers) registration into the Solution; (iii) Provides invigilation and proctoring of online assessments with real-time support for exam takers and training providers;",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 6,
+        "found_on_page": 6,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "submissions must be made using Microsoft Office 2007 or later or Adobe PDF format",
+        "each file should be less than 20MB",
+        "ZIP or like files will not be accepted",
+        "All information in a Proposal must be provided as part of the Proposal submission. Respondents may not include hyperlinks or website addresses in their Proposal to information that forms part of their Proposal.",
+        "A Respondent must complete all of the Form of Proposal and supply all of the information requested by the Appendices and should submit their Proposals in the English language on copies of the Form of Proposal, with applicable Appendices, as set out in this Section 4."
+      ],
+      "page": 8,
+      "quote": "4.2 PROPOSAL SUBMISSION REQUIREMENTS AND INSTRUCTIONS. Respondents must provide their submission to WorkSafeBC via BC Bid as follows: (a) Electronic submissions via BC Bid must meet the following requirements: (i) submissions must be made using Microsoft Office 2007 or later or Adobe PDF format; (ii) each file should be less than 20MB. Failure by any Respondent to comply with this restriction may result in information not being received by WorkSafeBC and may result in a non-compliant Proposal by the Respondent; and (iii) ZIP or like files will not be accepted. (b) All information in a Proposal must be provided as part of the Proposal submission. Respondents may not include hyperlinks or website addresses in their Proposal to information that forms part of their Proposal. WorkSafeBC reserves the right not to review any information provided by this means, and may result in a non-compliant Proposal by the Respondent.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "value": [
+        "The document does not specify any mandatory technical requirements for the solution. The requirements listed in Section 3 (e.g., Invigilation Services, Competency Framework Development, Exam Psychometric Support, Implementation, Support and Maintenance) are functional or service-based, not technical specifications such as hosting, security protocols, or integration standards. The only technical mention is the requirement to integrate with Microsoft Dynamics 365 (page 7, section 3.1(v)), but this is part of the functional requirement for data transfer, not a standalone technical requirement. No section titled 'Technical Requirements' exists in the provided pages."
+      ],
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Company Profile, Qualifications, and Experience",
+          "weight": 10,
+          "unit": "%"
+        },
+        {
+          "category": "Competency Framework Development & Exam Psychometric Capabilities",
+          "weight": 25,
+          "unit": "%"
+        },
+        {
+          "category": "Solution Capabilities",
+          "weight": 15,
+          "unit": "%"
+        },
+        {
+          "category": "Onboarding and Implementation",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "Support and Maintenance",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "Innovation and Value-Add Features and Functionalities",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "IT Security Requirements",
+          "weight": 15,
+          "unit": "%"
+        },
+        {
+          "category": "Pricing",
+          "weight": 20,
+          "unit": "%"
+        },
+        {
+          "category": "Admin User Experience",
+          "weight": 30,
+          "unit": "%"
+        },
+        {
+          "category": "Reporting and Data Analytics Capabilities",
+          "weight": 25,
+          "unit": "%"
+        },
+        {
+          "category": "End User Experience",
+          "weight": 30,
+          "unit": "%"
+        },
+        {
+          "category": "Innovative and Value-add Features and Functionalities",
+          "weight": 15,
+          "unit": "%"
+        },
+        {
+          "category": "Phase two – Evaluated Service Requirements",
+          "weight": 60,
+          "unit": "%"
+        },
+        {
+          "category": "Phase three – Demonstration",
+          "weight": 40,
+          "unit": "%"
+        }
+      ],
+      "page": 9,
+      "quote": "Evaluation Criteria\nWeight\nCompany Profile, Qualifications, and Experience\n10%\nCompetency Framework Development & Exam Psychometric Capabilities\n25%\nSolution Capabilities\n15%\nOnboarding and Implementation\n5%\nSupport and Maintenance\n5%\nInnovation and Value-Add Features and Functionalities\n5%\nIT Security Requirements\n15%\nPricing\n20%\nTotal:\n100%\nEvaluation Criteria\nWeight\nAdmin User Experience\n30%\nReporting and Data Analytics Capabilities\n25%\nEnd User Experience\n30%\nInnovative and Value-add Features and Functionalities\n15%\nTotal:\n100%\nEvaluation Criteria\nWeight\nPhase two – Evaluated Service Requirements\n60%\nPhase three – Demonstration\n40%\nTotal:\n100%",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing is evaluated as part of the overall proposal scoring, with a weight of 20% in Phase two - Evaluation. There is no explicit pricing scoring formula provided; the evaluation is based on the 'Pricing' criterion within the overall evaluation criteria table.",
+      "page": 9,
+      "quote": "Evaluation Criteria\nWeight\nCompany Profile, Qualifications, and Experience\n10%\nCompetency Framework Development & Exam Psychometric Capabilities\n25%\nSolution Capabilities\n15%\nOnboarding and Implementation\n5%\nSupport and Maintenance\n5%\nInnovation and Value-Add Features and Functionalities\n5%\nIT Security Requirements\n15%\nPricing\n20%\nTotal:\n100%",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "No stated minimum years or project count. The required experience is described qualitatively under the 'Company Profile, Qualifications, and Experience' criterion, which includes the ability to deliver an end-to-end solution for exam development and administration, including a web-based testing platform, online invigilation, competency framework development, and exam psychometric support services.",
+      "page": 9,
+      "quote": "Evaluation Criteria\nWeight\nCompany Profile, Qualifications, and Experience\n10%\nCompetency Framework Development & Exam Psychometric Capabilities\n25%\nSolution Capabilities\n15%\nOnboarding and Implementation\n5%\nSupport and Maintenance\n5%\nInnovation and Value-Add Features and Functionalities\n5%\nIT Security Requirements\n15%\nPricing\n20%\nTotal:\n100%",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 2,
+      "unit": "references",
+      "page": 11,
+      "quote": "5.5 REFERENCE CHECKS. WorkSafeBC reserves the right to undertake checks to confirm a Respondent’s credentials and experience at any time.",
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 11,
+        "found_on_page": 11,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "WorkSafeBC is subject to FIPPA, and all service providers are also subject to FIPPA in the performance of services. Respondents must comply with FIPPA obligations.",
+        "Respondents must satisfy themselves as to the applicability of GDPR to data processing services and, if applicable, their legal authority to process personal data on behalf of WorkSafeBC under GDPR and local Member State laws, including transferring personal data to WorkSafeBC in Canada.",
+        "Compliance with GDPR is not sufficient for compliance with FIPPA, as FIPPA does not include adequacy provisions.",
+        "Proposals are provided by Respondents in confidence, and WorkSafeBC will hold the Proposals in confidence, subject to the provisions of FIPPA."
+      ],
+      "page": 7,
+      "quote": "3.4 PRIVACY REQUIREMENTS. WorkSafeBC is a public body subject to FIPPA. All service providers to WorkSafeBC are also subject to FIPPA in the performance of services, regardless of their jurisdiction or privacy policies otherwise in place. Respondents should carefully review Appendix C to the Form of Proposal prior to determining whether to submit a Proposal. Appendix C must be comprehensively answered in any Proposal.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 9,
+      "quote": "Phase three - Demonstration: Based on the results of the phase two evaluation, WorkSafeBC will select and invite the top two scoring Respondents from phase two evaluation to participate in phase three. In the event that there are two or more tied scores, WorkSafeBC reserves the right to increase or decrease the number of Respondents invited to present.",
+      "confidence": 0.95,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 107732,
+    "completion_tokens": 3068,
+    "cost_usd": 0.0,
+    "latency_s": 216.41,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T23:04:07+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 13,
+    "fields_absent": 4,
+    "evidence": {
+      "verified": 13,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 4
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

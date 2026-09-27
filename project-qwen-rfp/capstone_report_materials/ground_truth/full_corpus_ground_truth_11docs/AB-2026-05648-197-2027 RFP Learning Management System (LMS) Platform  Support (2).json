@@ -1,0 +1,155 @@
+{
+  "doc_id": "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2)",
+  "annotator": "GPT-5.6 Sol source-grounded review, revised 2026-09-22",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "September 9, 2026, before 2:00 PM MT",
+      "difficulty": "hard",
+      "note": "Cover / Invitation and Section 6 Timeline."
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "September 2, 2026, before 2:00 PM MT",
+      "difficulty": "easy",
+      "note": "Cover / Invitation and Section 6 Timeline."
+    },
+    "rfp_contact": {
+      "present": true,
+      "value": "Olds College Purchasing Department; purchasing@oldscollege.ca",
+      "difficulty": "medium",
+      "note": "Section 4.5 Questions. No individual RFP-contact name is stated for inquiries."
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Submit an electronic copy by email to submissions@oldscollege.ca.",
+      "difficulty": "easy",
+      "note": "Section 4.1 Submission of Proposal."
+    },
+    "contract_term": {
+      "present": true,
+      "value": "5-year base term starting approximately February 1, 2027, plus two separate 3-year renewal options; maximum 11 years.",
+      "difficulty": "hard",
+      "note": "Section 3.3 Contract Start Date and Contract Renewals."
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Enhance Olds College's LMS capabilities either through improved third-party support for its existing Moodle LMS or through a new LMS platform, including implementation/migration, integrations, accessibility, analytics, AI features, security, training and ongoing support.",
+      "difficulty": "medium",
+      "note": "Sections 3.1-3.2 and Section D Scope of Work."
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Completed and signed Proposal Certification Document (Section C, Item 9)."
+      ],
+      "difficulty": "hard",
+      "note": "Section 7.1 explicitly identifies the Certification document as the mandatory submission requirement."
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "WCAG-accessible and usable LMS.",
+        "Mobile learning access.",
+        "Integration with Ellucian Banner and support for APIs/external integrations.",
+        "Security controls protecting learner data; safeguards against breaches; compliance with Alberta POPA; HECVAT cybersecurity/privacy assessment; SAML SSO and MFA support.",
+        "Data migration/import/export capability.",
+        "Cloud-based LMS.",
+        "Analytics/reporting capabilities.",
+        "Customer support and implementation/transition support."
+      ],
+      "difficulty": "hard",
+      "note": "Section B requires detailed responses to Section D; Section D lists the technical requirements. Canadian hosting is a preference, not a mandatory condition."
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "criterion": "Company Experience",
+          "weight": 15
+        },
+        {
+          "criterion": "Staff/Resource Experience",
+          "weight": 5
+        },
+        {
+          "criterion": "Proposed Solution and Approach",
+          "weight": 40
+        },
+        {
+          "criterion": "Pricing",
+          "weight": 40
+        },
+        {
+          "criterion": "Reference Checks and Interview",
+          "weight": "yes/no"
+        }
+      ],
+      "difficulty": "medium",
+      "note": "Section 7.2; scored points total 100, with reference checks/interview as satisfactory yes/no."
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "difficulty": "hard",
+      "note": "No explicit numeric minimum score to advance is stated. References must be satisfactory for compliance but there is no numeric cutoff."
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing in CAD; prices must remain fixed for the 5-year base agreement. Provide implementation/enhancement one-time costs, training/data migration/implementation costs, and annual LMS licensing/support costs for Years 1-5 with modules/options separately priced; GST shown separately.",
+      "difficulty": "medium",
+      "note": "Section 4.17 and Section D Pricing Schedule."
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage": "Comprehensive General Liability",
+          "minimum": "CAD 2,000,000 per occurrence (RFP Section 5.1)"
+        },
+        {
+          "coverage": "General Liability in attached Services Agreement",
+          "minimum": "CAD 5,000,000 per occurrence unless waived/changed by Olds College"
+        }
+      ],
+      "difficulty": "easy",
+      "note": "The document contains two different general-liability minima: Section 5.1 says $2M; attached agreement Section 15 says $5M unless waived. Preserve the conflict rather than choosing one silently."
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "No stated minimum years or project count. Qualitative experience required: company history and years providing similar goods/services, organizational structure, LMS/Moodle support experience, and experience with post-secondary institutions (including Ellucian Banner) - scored under Company Experience (15 points) and Staff/Resource Experience (5 points).",
+      "difficulty": "hard",
+      "note": "REVISED (2026-09-25): was marked present=false despite the note itself already saying experience info is requested and scored - a self-contradiction that flagged a grounded, verified model answer as a hallucination. Company and staff experience are requested and scored (Company Experience 15 points; Staff/Resource Experience 5 points, Section 8.1, p16), but the RFP never states a minimum number of years - that's still the real trap: a model inventing a specific year count is fabricating a threshold that doesn't exist."
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "difficulty": "easy",
+      "note": "Section 8.6 requires three references for similar goods/services."
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Maintain data security and safeguards against breaches.",
+        "Comply with Alberta Protection of Privacy Act (POPA).",
+        "Provide a HECVAT cybersecurity & privacy assessment.",
+        "Support SAML-based SSO and state MFA support.",
+        "Protect sensitive learner information."
+      ],
+      "difficulty": "hard",
+      "note": "Section D Technical Requirements, Security."
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "Cloud-based system; Canadian host location is preferred, not mandatory.",
+      "difficulty": "hard",
+      "note": "Section D Technical Requirements, Cloud-Based System."
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "difficulty": "easy",
+      "note": "Section 6 schedules product demos/vendor interviews, and Section 7.3 allows presentations from shortlisted proponents."
+    }
+  }
+}

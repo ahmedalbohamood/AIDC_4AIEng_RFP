@@ -1,0 +1,503 @@
+{
+  "doc_id": "01_Reference_Data_Management_Services_RFP",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/01_Reference_Data_Management_Services_RFP.pdf",
+  "n_pages": 57,
+  "text_extractable": true,
+  "backend": "qwen3.5-9b",
+  "backend_key": "qwen3.5-9b:text",
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-25T15:21:39+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.94,
+      "prompt_tokens": 10111,
+      "completion_tokens": 455,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        11,
+        12,
+        25,
+        36,
+        37,
+        38
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.45,
+      "prompt_tokens": 7259,
+      "completion_tokens": 291,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        12,
+        16,
+        27,
+        28,
+        32
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.29,
+      "prompt_tokens": 5017,
+      "completion_tokens": 487,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        8,
+        9,
+        15,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 5.82,
+      "prompt_tokens": 4944,
+      "completion_tokens": 389,
+      "cost_usd": 0.0
+    },
+    "commercial_pricing": {
+      "pages_shown": [
+        1,
+        2,
+        8,
+        9,
+        10,
+        11,
+        14,
+        20,
+        21,
+        28,
+        29,
+        30,
+        31,
+        32,
+        36,
+        37,
+        38,
+        46,
+        47,
+        48
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 14.3,
+      "prompt_tokens": 11061,
+      "completion_tokens": 936,
+      "cost_usd": 0.0
+    },
+    "commercial_compliance": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        27,
+        28,
+        29,
+        30,
+        31,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        50
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 8.31,
+      "prompt_tokens": 9131,
+      "completion_tokens": 547,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "April 29, 2025, 2:00 P.M PDT",
+      "raw": "April 29, 2025, 2:00 P.M PDT",
+      "page": 1,
+      "quote": "Submission Deadline: April 29, 2025, 2:00 P.M PDT",
+      "confidence": 0.99,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "April 15, 2025",
+      "raw": "April 15, 2025",
+      "page": 5,
+      "quote": "Deadline for Questions April 15, 2025",
+      "confidence": 0.99,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Tim Webster",
+      "email": "procurementsourcing@cmhc-schl.gc.ca, tjwebste@cmhc-schl.gc.ca",
+      "phone": null,
+      "title": null,
+      "page": 1,
+      "quote": "Address Inquiries to RFP Contact: Tim Webster Email: procurementsourcing@cmhc-schl.gc.ca tjwebste@cmhc-schl.gc.ca",
+      "confidence": 0.99,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Email to EBID@cmhc-schl.gc.ca",
+      "page": 5,
+      "quote": "Proposal submissions must be emailed to CMHC's electronic bid submission system (\"EBID\") to the address indicated below: Email Address: EBID@cmhc-schl.gc.ca (\"Submission Location\")",
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": false,
+        "best_score": 97.2
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "1-year initial term with options to extend for four additional 1-year renewal periods, total term not to exceed 5 years",
+      "page": 4,
+      "quote": "The term of the agreement resulting from this RFP is to be for a period of one (1) year, with options to extend the agreement on the same terms and conditions for four (4) additional 1-year renewal periods for a total term not to exceed five (5) years collectively.",
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "CMHC is seeking Reference Data Management Services across three streams: (1) Develop and Implement an Operating Model for RDM, (2) Adoption of RDM Governance and Policy, and (3) Implement a Sustainable Technical Solution, utilizing existing Informatica IDMC, Collibra, and Azure deployments.",
+      "page": 4,
+      "quote": "The Three stream are: 1. Develop and Implement an Operating Model for Reference Data Management (RDM) 2. Adoption of RDM Governance and Policy 3. Implement a Sustainable Technical Solution",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Submission Form (Appendix A) completed and signed by an authorized representative of the proponent.",
+        "Pricing Form (Appendix B) completed according to the instructions contained in the form.",
+        "Response to the rated criteria categories (R.1 - R.4)."
+      ],
+      "page": 27,
+      "quote": "H. MANDATORY SUBMISSION REQUIREMENTS 1. SUBMISSION FORM (APPENDIX A) Each proposal must include a Submission Form (Appendix A) completed and signed by an authorized representative of the proponent. 2. PRICING FORM (APPENDIX B) Each proposal must include a Pricing Form (Appendix B) completed according to the instructions contained in the form. 3. RESPONSE TO R.1 - R.4 Each proposal must include the response to the rated criteria categories.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 27,
+        "found_on_page": 27,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Data Residency: The selected proponent must comply with the following: CMHC Data, while at rest or in transit must stay within the geographical boundaries of Canada and accessed from within Canada.",
+        "Data Security: Proponents must demonstrate that they have the required IT infrastructure in place to safeguard CMHC Data classified Protected B or higher, including personal information."
+      ],
+      "page": 28,
+      "quote": "I. MANDATORY TECHNICAL REQUIREMENTS The following will be assessed on a pass/fail basis: Mandatory Technical Requirement (MTR) MTR Description 1Proponent's response on how they will comply. MTR. 1 Data Residency. The selected proponent must comply with the following: CMHC Data, while at rest or in transit must stay within the geographical boundaries of Canada and accessed from within Canada. MTR. 2 Data Security. Proponents must demonstrate that they have the required IT infrastructure in place to safeguard CMHC Data classified Protected B or higher, including personal information.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 28,
+        "found_on_page": 28,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "R.1 Vendor Experience and Diversity Certification",
+          "weight": 10,
+          "unit": "% or points"
+        },
+        {
+          "category": "R.2 Proposed Approach and Execution Strategy",
+          "weight": 30,
+          "unit": "% or points"
+        },
+        {
+          "category": "R.3 Team Experience & Qualifications",
+          "weight": 30,
+          "unit": "% or points"
+        },
+        {
+          "category": "R.4 Performance and Excellence",
+          "weight": 10,
+          "unit": "% or points"
+        },
+        {
+          "category": "Stage III - Pricing",
+          "weight": 20,
+          "unit": "% or points"
+        }
+      ],
+      "page": 29,
+      "quote": "Rated Criteria Category Weighting (%) R.1 Vendor Experience and Diversity Certification 10% R.2 Proposed Approach and Execution Strategy 30% R.3 Team Experience & Qualifications 30% R.4 Performance and Excellence 10% Stage III - Pricing (See Appendix B for details) 20% Total 100%",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 29,
+        "found_on_page": 29,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": "% or points",
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing is worth 20 points of the total score. Pricing will be scored based on a relative pricing formula using the rates set out in the Pricing Form. Each proponent will receive a percentage of the total possible points allocated to price for the particular category it has bid on, which will be calculated in accordance with the following formula: Lowest price ÷ proponent's price x weighting = proponent's pricing points. Submission format: The proponent must provide a response relative to the pricing of its proposed solution. The proponent's pricing should include hourly rates as per Stream#1, #2, and #3– Hourly Rates below. Pricing is worth 20 points of the total score. Pricing will be scored based on a relative pricing formula using the rates set out in the Pricing Form. Each proponent will receive a percentage of the total possible points allocated to price for the particular category it has bid on, which will be calculated in accordance with the following formula: Lowest price ÷ proponent's price x weighting = proponent's pricing points.",
+      "page": 20,
+      "quote": "Pricing is worth 20 points of the total score. Pricing will be scored based on a relative pricing formula using the rates set out in the Pricing Form. Each proponent will receive a percentage of the total possible points allocated to price for the particular category it has bid on, which will be calculated in accordance with the following formula: Lowest price ÷ proponent's price x weighting = proponent's pricing points.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability Insurance",
+          "amount": 5000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Technology Errors & Omissions Liability",
+          "amount": 5000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Professional Errors & Omissions Liability",
+          "amount": 5000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Computer Security and Privacy Liability",
+          "amount": 10000000,
+          "currency": "USD",
+          "basis": "per claim and aggregate"
+        }
+      ],
+      "page": 46,
+      "quote": "Commercial General Liability insurance with an insurer licensed to do business in Canada with a limit of not less than five million dollars ($5,000,000) inclusive for personal injury, bodily injury (including death) and property damage for any one occurrence or series of occurrences arising from one cause. Technology Errors & Omissions Liability insurance with an insurer licensed to do business in Canada with a limit of not less than five million dollars ($5,000,000) per claim. Professional Errors & Omissions Liability insurance with an insurer licensed to do business in Canada with a limit of not less than five million dollars ($5,000,000) per claim. Computer Security and Privacy Liability with an insurer licensed to do business in Canada with a limit of not less than ten million dollars ($10,000,000) per claim and aggregate.",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 46,
+        "found_on_page": 46,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 2,
+      "unit": "public-sector clients",
+      "page": 30,
+      "quote": "R.1.1: Submit references from at least two public-sector clients.",
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 30,
+        "found_on_page": 30,
+        "exact": false,
+        "best_score": 98.5
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "no stated minimum years or project count; qualitative requirements include demonstrated experience in data governance initiatives, experience with public sector or Crown corporations, and relevant experience of key personnel in data governance and RDM with leadership experience in similar-sized projects",
+      "page": 30,
+      "quote": "• Demonstrated experience in data governance initiatives. • Experience with public sector or Crown corporations ... • Relevant experience of key personnel in data governance and RDM. • Leadership experience in similar-sized projects.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 30,
+        "found_on_page": 30,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "CMHC Data classified Protected B or higher, including personal information, must be safeguarded with required IT infrastructure",
+        "CMHC Information must be encrypted while in transit and at rest at a minimum 128-bit encryption throughout the Term",
+        "Contractor Personnel and its facilities must be security cleared with Government of Canada Reliability status at the start date of this Agreement",
+        "CMHC Information shall always remain and be accessed from/within Canada and by individuals who have obtained the appropriate security screening as per Government of Canada security screening classification",
+        "Contractor shall conduct regular security assessments to ensure safeguards are working effectively",
+        "Contractor shall ensure all CMHC Information is encrypted while in transit and at rest at a minimum 128-bit encryption throughout the Term",
+        "Contractor Personnel may be required to undergo criminal records check or hold a valid personnel security screening at the level required in writing by CMHC prior to commencement of any Services",
+        "Contractor shall ensure that all CMHC Data will reside in Canada at all times"
+      ],
+      "page": 28,
+      "quote": "Proponents must demonstrate that they have the required IT infrastructure in place to safeguard CMHC Data classified Protected B or higher, including personal information.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 28,
+        "found_on_page": 28,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "CMHC Data must reside in Canada at all times; CMHC Information shall always remain and be accessed from/within Canada",
+      "page": 27,
+      "quote": "The proponent shall: ensure that all CMHC Data will reside in Canada at all times.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 27,
+        "found_on_page": 27,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 47523,
+    "completion_tokens": 3105,
+    "cost_usd": 0.0,
+    "latency_s": 47.12,
+    "errors": 0
+  },
+  "finished_at": "2026-09-25T15:22:37+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 15,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

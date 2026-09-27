@@ -1,0 +1,423 @@
+{
+  "doc_id": "03_Asset_Management_GIS_IT_Consulting_RFP",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/19e7c1f3-0506-42aa-a91b-c2ce8d3e92e9/scratchpad/gt_docs/03_Asset_Management_GIS_IT_Consulting_RFP.pdf",
+  "n_pages": 24,
+  "text_extractable": true,
+  "backend": "gpt-4o",
+  "backend_key": "gpt-4o:text",
+  "model": "gpt-4o",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T12:10:24+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.92,
+      "prompt_tokens": 4766,
+      "completion_tokens": 357,
+      "cost_usd": 0.015485
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        13,
+        18,
+        19,
+        20,
+        21
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.08,
+      "prompt_tokens": 4415,
+      "completion_tokens": 152,
+      "cost_usd": 0.012557
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        16,
+        19,
+        23
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.75,
+      "prompt_tokens": 4474,
+      "completion_tokens": 809,
+      "cost_usd": 0.019275
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        16,
+        17,
+        18,
+        19
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.12,
+      "prompt_tokens": 3782,
+      "completion_tokens": 169,
+      "cost_usd": 0.011145
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19,
+        21,
+        23,
+        24
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.13,
+      "prompt_tokens": 7791,
+      "completion_tokens": 570,
+      "cost_usd": 0.025177
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Submission Deadline: Friday May 9, 2025, 11:00:00 AM local time",
+      "confidence": 1.0,
+      "value": "2025-05-09T11:00:00",
+      "raw": "Friday May 9, 2025, 11:00:00 AM local time",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 3,
+      "quote": "Deadline for Questions Friday April 25, 2025, 11:00:00 AM",
+      "confidence": 1.0,
+      "value": "2025-04-25T11:00:00",
+      "raw": "Friday April 25, 2025, 11:00:00 AM",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 3,
+      "quote": "For the purposes of this procurement process, the “RFP Contact” will be: Matthew Miller Manager of Public Works Summer Villages on Sylvan Lake mmiller@sylvansummervillages.ca",
+      "confidence": 1.0,
+      "name": "Matthew Miller",
+      "email": "mmiller@sylvansummervillages.ca",
+      "phone": null,
+      "title": "Manager of Public Works",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 4,
+      "quote": "Proposals must be submitted with the project clearly identified in the subject line of an email. Hard copy submissions will not be accepted. Each submission must be in PDF format. RFP: Implementation of Asset Management Submissions by other methods will not be accepted. The proposal and any supplementary documents must be emailed to: mmiller@sylvansummervillages.ca",
+      "confidence": 1.0,
+      "value": "Email to mmiller@sylvansummervillages.ca",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 20,
+      "quote": "Provide ongoing Software support and consulting of the PuWorks and ESTI ArcGIS for a period of two (2) years.",
+      "confidence": 1.0,
+      "value": "2 years",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 20,
+      "quote": "The Villages are requesting responses to select a consultant to both implement and update data within the Villages Asset Management Software (AMS), consisting of Munisoft PubWorks and ESRI ArcGIS.",
+      "confidence": 1.0,
+      "value": "The Villages are requesting responses to select a consultant to both implement and update data within the Villages Asset Management Software (AMS), consisting of Munisoft PubWorks and ESRI ArcGIS.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 20,
+        "found_on_page": 20,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 23,
+      "quote": "1. \nSubmission Form (Appendix B) \nEach quotation must include a Submission Form (Appendix B) completed and signed by an \nauthorized representative of the respondent. \n2. \nPricing (Appendix C) \nEach quotation must include pricing information that complies with the instructions contained in \nPricing (Appendix C). Proponents are encouraged to view the proposed locations before \nsubmission of pricing. Use Bid Form attached as a separate document (Annex B). \n3. \nOther Mandatory Submission Requirements Evidence of Safety Program and \nInsurance \nUpon notice of intent to negotiate, the Proponent will be required to supply: \nA valid copy of a current WCB clearance letter with the executed contract and with each invoice \nsubmitted for payment. \nProvide evidence of an active safety program such as providing a valid copy of an Alberta \nCertificate of Recognition (COR or SECOR or other Industry Partner certificate) or other \nevidence of an active workplace safety program. \nA valid certificate of insurance with coverage not less than Two (2) Million dollars from an \ninsurance company legally capable of carrying on business within the province of Alberta, names \nthe Village as an additional insured with cross liability, and provides an minimum 30 days notice \nof any changes to the policy. \nBoth WCB and Insurance documentation MUST indicate coverage for the type of work being \nrequested in this competition and carried out in the resulting agreement.",
+      "confidence": 1.0,
+      "value": [
+        "Submission Form (Appendix B) completed and signed by an authorized representative of the respondent.",
+        "Pricing information that complies with the instructions contained in Pricing (Appendix C).",
+        "A valid copy of a current WCB clearance letter with the executed contract and with each invoice submitted for payment.",
+        "Evidence of an active safety program such as providing a valid copy of an Alberta Certificate of Recognition (COR or SECOR or other Industry Partner certificate) or other evidence of an active workplace safety program.",
+        "A valid certificate of insurance with coverage not less than Two (2) Million dollars from an insurance company legally capable of carrying on business within the province of Alberta, names the Village as an additional insured with cross liability, and provides an minimum 30 days notice of any changes to the policy."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 23,
+      "quote": "M-1 \nProponent must confirm employees working on the City’s network are willing to sign a \nNon-Disclosure Agreement and complete a security clearance. \nM-2 \nProponent must confirm they will use Microsoft Teams or Virtual Private Network \n(VPN) to access any software on the City’s network. \nM-3 \nProponent must disclose whether their company and/or software has ever had a \nsecurity breach or experienced a cybersecurity event that compromised the system or \nclient base. If yes, describe the nature of the breach(es) or event and how it was \nresolved. \nM-4 \nProponent must confirm all mandatory requirements which apply to the Proponent will \nalso apply to any sub-contractors or 3rd Party and that the amount of information",
+      "confidence": 1.0,
+      "value": [
+        "Proponent must confirm employees working on the City’s network are willing to sign a Non-Disclosure Agreement and complete a security clearance.",
+        "Proponent must confirm they will use Microsoft Teams or Virtual Private Network (VPN) to access any software on the City’s network.",
+        "Proponent must disclose whether their company and/or software has ever had a security breach or experienced a cybersecurity event that compromised the system or client base. If yes, describe the nature of the breach(es) or event and how it was resolved.",
+        "Proponent must confirm all mandatory requirements which apply to the Proponent will also apply to any sub-contractors or 3rd Party."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 17,
+      "quote": "RATED CRITERIA SCALE 0-5 WEIGHT Project Price - As per appendix C 35% Project Understanding/Approach/ Schedule 20% Team Members Qualifications & Expertise 30% Relevant Past Experience 15%",
+      "confidence": 1.0,
+      "value": [
+        {
+          "category": "Project Price - As per appendix C",
+          "weight": 35,
+          "unit": "percent"
+        },
+        {
+          "category": "Project Understanding/Approach/ Schedule",
+          "weight": 20,
+          "unit": "percent"
+        },
+        {
+          "category": "Team Members Qualifications & Expertise",
+          "weight": 30,
+          "unit": "percent"
+        },
+        {
+          "category": "Relevant Past Experience",
+          "weight": 15,
+          "unit": "percent"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 17,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 77.5
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 18,
+      "quote": "Pricing is worth 35 points of the total score. The Proponent submitting the lowest price shall receive the full point value available for the price score. All other Proponent pricing shall be divided into the lowest compliant price received in order to obtain the ratio. That ratio shall be used to determine the points to be allocated to the submission.",
+      "confidence": 1.0,
+      "value": "(lowest price / proponent's price) x weighting",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 18,
+        "found_on_page": 18,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 23,
+      "quote": "A valid certificate of insurance with coverage not less than Two (2) Million dollars from an insurance company legally capable of carrying on business within the province of Alberta, names the Village as an additional insured with cross liability, and provides an minimum 30 days notice of any changes to the policy.",
+      "confidence": 1.0,
+      "value": [
+        {
+          "coverage_type": "General Liability",
+          "amount": 2000000,
+          "currency": "CAD",
+          "basis": "per occurrence"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 24,
+      "quote": "M-1 Proponent must confirm employees working on the City’s network are willing to sign a Non-Disclosure Agreement and complete a security clearance. M-2 Proponent must confirm they will use Microsoft Teams or Virtual Private Network (VPN) to access any software on the City’s network. M-3 Proponent must disclose whether their company and/or software has ever had a security breach or experienced a cybersecurity event that compromised the system or client base. If yes, describe the nature of the breach(es) or event and how it was resolved. M-4 Proponent must confirm all mandatory requirements which apply to the Proponent will also apply to any sub-contractors or 3rd Party and that the amount of information shared with sub-contractors must be limited to the minimum amount required for the specific purpose.",
+      "confidence": 1.0,
+      "value": [
+        "Non-Disclosure Agreement and security clearance for employees",
+        "Use of Microsoft Teams or VPN",
+        "Disclosure of past security breaches",
+        "Mandatory requirements apply to sub-contractors"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "wrong_page",
+        "claimed_page": 24,
+        "found_on_page": 23,
+        "exact": false,
+        "best_score": 93.4
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "page": 24,
+      "quote": "M-5 Villages data stored on the Proponent’s servers must be on Canadian data centers.",
+      "confidence": 1.0,
+      "value": "Villages data stored on the Proponent’s servers must be on Canadian data centers.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 25228,
+    "completion_tokens": 2057,
+    "cost_usd": 0.08364,
+    "latency_s": 23.0,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T12:10:49+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 13,
+    "fields_absent": 4,
+    "evidence": {
+      "verified": 11,
+      "wrong_page": 1,
+      "unverified": 1,
+      "no_quote": 0,
+      "absent": 4
+    },
+    "groundedness": 0.923,
+    "hallucination_rate": 0.077
+  }
+}

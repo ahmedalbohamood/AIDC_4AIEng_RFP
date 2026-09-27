@@ -1,0 +1,502 @@
+{
+  "doc_id": "02_Certification_Testing_Platform_and_Services_RFP",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/16130bdd-dd8a-487f-b340-f16eeecad45f/scratchpad/lift_docs/02_Certification_Testing_Platform_and_Services_RFP.pdf",
+  "n_pages": 15,
+  "text_extractable": true,
+  "backend": "lift",
+  "backend_key": "lift:vision",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "retrieval": "selected",
+  "started_at": "2026-09-22T10:19:11+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 20.72,
+      "prompt_tokens": 28178,
+      "completion_tokens": 427,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 13.34,
+      "prompt_tokens": 23975,
+      "completion_tokens": 268,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 15.4,
+      "prompt_tokens": 19771,
+      "completion_tokens": 404,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 16.22,
+      "prompt_tokens": 19723,
+      "completion_tokens": 474,
+      "cost_usd": 0.0
+    },
+    "commercial_pricing": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 15.72,
+      "prompt_tokens": 28333,
+      "completion_tokens": 318,
+      "cost_usd": 0.0
+    },
+    "commercial_compliance": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 17.29,
+      "prompt_tokens": 22063,
+      "completion_tokens": 450,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "2:00:00 PM – Pacific Time on May 7, 2025",
+      "raw": "2:00:00 PM – Pacific Time on May 7, 2025",
+      "page": 1,
+      "quote": "Submission Closing Time and Date: 2:00:00 PM – Pacific Time on May 7, 2025",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "not less than five business days before the Closing Date and Time",
+      "raw": "not less than five business days before the Closing Date and Time",
+      "page": 2,
+      "quote": "All enquiries regarding any aspect of this RFP should be directed to the Contact Person by email not less than five business days before the Closing Date and Time.",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Widya Dhani",
+      "email": "procurement@worksafebc.com",
+      "phone": "604.276.3344",
+      "title": "Procurement Services",
+      "page": 2,
+      "quote": "Widya Dhani Procurement Services Email: procurement@worksafebc.com",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "BC Bid (https://www.bcbid.gov.bc.ca/)",
+      "page": 2,
+      "quote": "SUBMISSION THROUGH BC BID To access BC Bid, you will need to register for an account. To register, you will need a Business BCeID, a process which could take up to several weeks. For more information, please go to https://www.bcbid.gov.bc.ca/",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "The initial term of the Contract is expected to be for three years. WorkSafeBC will have the right in its sole discretion to renew the Contract for up to two further three-year term.",
+      "page": 5,
+      "quote": "2.4 TERM. The initial term of the Contract is expected to be for three years. WorkSafeBC will have the right in its sole discretion to renew the Contract for up to two further three-year term.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "An end-to-end solution for exam development and administration that includes a web-based testing platform, online invigilation, competency framework development and exam psychometric support services, as well as related implementation, support and maintenance services to WorkSafeBC.",
+      "page": 1,
+      "quote": "The purpose of this RFP is to invite Respondents to submit their Proposal for delivering an end-to-end solution for exam development and administration that includes a web-based testing platform, online invigilation, competency framework development and exam psychometric support services, as well as related implementation, support and maintenance services to WorkSafeBC.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Complete all of the Form of Proposal and supply all of the information requested by the Appendices",
+        "Submit proposals in the English language",
+        "Electronic submissions via BC Bid",
+        "Microsoft Office 2007 or later or Adobe PDF format",
+        "Each file should be less than 20MB",
+        "ZIP or like files will not be accepted",
+        "No hyperlinks or website addresses in the Proposal",
+        "Submission through BC Bid by 2:00:00 PM – Pacific Time on May 7, 2025"
+      ],
+      "page": 7,
+      "quote": "A Respondent must complete all of the Form of Proposal and supply all of the information requested by the Appendices and should submit their Proposals in the English language on copies of the Form of Proposal, with applicable Appendices, as set out in this Section 4.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Fulfilling all of the mandatory requirements (collectively, the “Mandatory Requirements”) set out in section 3.0 of Appendix A, section 1.0 of Appendix B, and Appendix C of the Form of Proposal",
+        "Privacy review under Appendix C – Privacy Protection Requirements"
+      ],
+      "page": 9,
+      "quote": "The Respondent must be capable of fulfilling all of the mandatory requirements (collectively, the “Mandatory Requirements”) set out in section 3.0 of Appendix A, section 1.0 of Appendix B, and Appendix C of the Form of Proposal and in the privacy review under Appendix C – Privacy Protection Requirements.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Company Profile, Qualifications, and Experience",
+          "weight": 10,
+          "unit": "%"
+        },
+        {
+          "category": "Competency Framework Development & Exam Psychometric Capabilities",
+          "weight": 25,
+          "unit": "%"
+        },
+        {
+          "category": "Solution Capabilities",
+          "weight": 15,
+          "unit": "%"
+        },
+        {
+          "category": "Onboarding and Implementation",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "Support and Maintenance",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "Innovation and Value-Add Features and Functionalities",
+          "weight": 5,
+          "unit": "%"
+        },
+        {
+          "category": "IT Security Requirements",
+          "weight": 15,
+          "unit": "%"
+        },
+        {
+          "category": "Pricing",
+          "weight": 20,
+          "unit": "%"
+        },
+        {
+          "category": "Admin User Experience",
+          "weight": 30,
+          "unit": "%"
+        },
+        {
+          "category": "Reporting and Data Analytics Capabilities",
+          "weight": 25,
+          "unit": "%"
+        },
+        {
+          "category": "End User Experience",
+          "weight": 30,
+          "unit": "%"
+        },
+        {
+          "category": "Innovative and Value-add Features and Functionalities",
+          "weight": 15,
+          "unit": "%"
+        },
+        {
+          "category": "Phase two – Evaluated Service Requirements",
+          "weight": 60,
+          "unit": "%"
+        },
+        {
+          "category": "Phase three - Demonstration",
+          "weight": 40,
+          "unit": "%"
+        }
+      ],
+      "page": 9,
+      "quote": "Evaluation Criteria: Company Profile, Qualifications, and Experience (10%), Competency Framework Development & Exam Psychometric Capabilities (25%), Solution Capabilities (15%), Onboarding and Implementation (5%), Support and Maintenance (5%), Innovation and Value-Add Features and Functionalities (5%), IT Security Requirements (15%), Pricing (20%). Total: 100%.",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing is evaluated as 20% of the total score. Proposals must be submitted electronically via BC Bid in Microsoft Office 2007 or later or Adobe PDF format, with each file less than 20MB. No numeric scoring formula is provided.",
+      "page": 9,
+      "quote": "Pricing 20% ... (a) Electronic submissions via BC Bid must meet the following requirements: (i) submissions must be made using Microsoft Office 2007 or later or Adobe PDF format; (ii) each file should be less than 20MB.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "wrong_page",
+        "claimed_page": 9,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": null,
+      "unit": null,
+      "page": 11,
+      "quote": "WorkSafeBC reserves the right to undertake checks to confirm a Respondent's credentials and experience at any time.",
+      "confidence": 0.8,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 11,
+        "found_on_page": 11,
+        "exact": false,
+        "best_score": 99.1
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 10,
+      "quote": "Phase three will consist of an up to 45-minute demonstration of the proposed Solution's required capabilities and functionalities followed by a 10-minute questions and answers session (the \"Demonstration\").",
+      "confidence": 0.95,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": false,
+        "best_score": 98.5
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Company Profile, Qualifications, and Experience (10% weight); Respondent must have the appropriate qualifications and experience (disqualification criterion).",
+      "page": 9,
+      "quote": "Company Profile, Qualifications, and Experience 10% ... WorkSafeBC determines that a Respondent does not have the appropriate qualifications and experience ... the Respondent is disqualified from the RFP process.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 9,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 68.6
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Subject to FIPPA",
+        "GDPR compliance",
+        "Privacy Impact Assessment",
+        "Security features and supporting hardware infrastructure",
+        "IT Security Requirements (15% weight)"
+      ],
+      "page": 7,
+      "quote": "WorkSafeBC is a public body subject to FIPPA. All service providers to WorkSafeBC are also subject to FIPPA in the performance of services, regardless of their jurisdiction or privacy policies otherwise in place. Respondents should carefully review Appendix C to the Form of Proposal prior to determining whether to submit a Proposal. Appendix C must be comprehensively answered in any Proposal. ... Maintenance services include the maintenance and continuous improvement of the Solution, including security features and supporting hardware infrastructure. ... IT Security Requirements 15% ... Phase four – Privacy Impact Assessment: Prior to selection as the Preferred Respondent, the lead Respondent will be required to complete a Privacy Impact Assessment as described in Appendix C to the Form of Proposal. Phase four will be evaluated on a pass or fail basis. A pass must be achieved on both the Privacy Impact Assessment and the SAQ (as defined in Appendix C to the Form of Proposal). A Respondent who fails to complete the Privacy Impact Assessment or SAQ, or that WorkSafeBC determines in its sole discretion does not meet WorkSafeBC's privacy standards or security standards, will fail phase four and be disqualified from the RFP process.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 7,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 72.5
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 142043,
+    "completion_tokens": 2341,
+    "cost_usd": 0.0,
+    "latency_s": 98.68,
+    "errors": 0
+  },
+  "finished_at": "2026-09-22T10:20:56+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 14,
+    "fields_absent": 3,
+    "evidence": {
+      "verified": 11,
+      "wrong_page": 1,
+      "unverified": 2,
+      "no_quote": 0,
+      "absent": 3
+    },
+    "groundedness": 0.857,
+    "hallucination_rate": 0.143
+  }
+}

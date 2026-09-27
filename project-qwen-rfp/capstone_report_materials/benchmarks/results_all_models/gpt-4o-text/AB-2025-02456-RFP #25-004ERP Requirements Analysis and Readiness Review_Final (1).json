@@ -1,0 +1,472 @@
+{
+  "doc_id": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1).pdf",
+  "n_pages": 39,
+  "text_extractable": true,
+  "backend": "gpt-4o",
+  "backend_key": "gpt-4o:text",
+  "model": "gpt-4o",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-26T02:14:42+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        26,
+        31,
+        34,
+        35
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.69,
+      "prompt_tokens": 10244,
+      "completion_tokens": 329,
+      "cost_usd": 0.0289
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        15,
+        16,
+        33,
+        34
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.63,
+      "prompt_tokens": 7748,
+      "completion_tokens": 270,
+      "cost_usd": 0.02207
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        6,
+        16,
+        19,
+        23,
+        24,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.56,
+      "prompt_tokens": 7413,
+      "completion_tokens": 428,
+      "cost_usd": 0.022812
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        7,
+        11,
+        19,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 1.9,
+      "prompt_tokens": 6982,
+      "completion_tokens": 246,
+      "cost_usd": 0.019915
+    },
+    "commercial_pricing": {
+      "pages_shown": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        12,
+        13,
+        19,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.23,
+      "prompt_tokens": 10522,
+      "completion_tokens": 417,
+      "cost_usd": 0.030475
+    },
+    "commercial_compliance": {
+      "pages_shown": [
+        1,
+        2,
+        8,
+        11,
+        12,
+        13,
+        18,
+        22,
+        23,
+        24,
+        25,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.75,
+      "prompt_tokens": 9749,
+      "completion_tokens": 418,
+      "cost_usd": 0.028553
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "2025-05-14T14:00:00-07:00",
+      "raw": "May 14, 2025, 2.00 PM MST Alberta Time",
+      "page": 1,
+      "quote": "Submission Deadline:   May 14, 2025, 2.00 PM MST Alberta Time",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "2025-04-17T14:00:00-07:00",
+      "raw": "April 17, 2025, 2 PM MST",
+      "page": 4,
+      "quote": "Deadline for Questions \n April 17, 2025, 2 PM MST",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Indra Ghosh",
+      "email": "PublicBids@rockyview.ca",
+      "phone": null,
+      "title": "Supervisor of Purchasing and Treasury",
+      "page": 4,
+      "quote": "For the purposes of this procurement process, the “RFP Contact” will be  Indra Ghosh, Supervisor \nof Purchasing and Treasury.  \nPublicBids@rockyview.ca",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Proposals must be submitted electronically to PublicBids@rockyview.ca",
+      "page": 5,
+      "quote": "Proposals must be received electronically on or before the Submission Deadline May 14, 2025, \n2:00 PM MST. Subject to the process described below, proposals submitted after the Submission \nDeadline will be rejected.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "Agreement in effect until December 31, 2025, with an option to renew for up to one additional year, total period not to exceed three years.",
+      "page": 4,
+      "quote": "The agreement resulting from this RFP shall be in effect from the date of official acceptance by the County until December 31, 2025, subject to the following: (a) When mutually agreeable between the County and the successful proponent, this agreement may be renewed under the same terms and conditions for a period of up to one (1) additional year and said option to renew this agreement for an additional one (1) year period, shall be in effect for each year thereafter for a total period not to exceed three (3) years.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Rocky View County seeks proposals for ERP Requirements Analysis and Readiness Review. The work is described in Section A of Appendix D.",
+      "page": 3,
+      "quote": "This Request for Proposals (the “RFP”) is an invitation by Rocky View County (the “County”) to qualified prospective proponents to submit proposals for the County’s ERP Requirements Analysis and Readiness Review, as further described in Section A of Appendix D of this RFP.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Submission Form: Proponents are instructed to complete the Submission Form set out in Appendix B of this RFP and include it in their proposal submission. The Submission Form is to be signed by an authorized representative of the proponent.",
+        "Pricing: Proponents are instructed to complete the Pricing Schedule as set out in Section F of Appendix D of this RFP and include it in their proposal submission.",
+        "Other Mandatory Submission Requirements: Proponents are instructed to complete and submit the Mandatory Evaluation Table below for their proposal. Proponents will be evaluated based on their responses to the criteria listed within the Mandatory Evaluation Table below. Any ‘No’ answers within the table will result in automatic disqualification unless the included justification satisfies the evaluation committee."
+      ],
+      "page": 29,
+      "quote": "B. MANDATORY SUBMISSION REQUIREMENTS\nB.1 \n Submission Form  \nProponents are instructed to complete the Submission Form set out in Appendix B of this RFP and include it in their proposal submission. The Submission Form is to be signed by an authorized representative of the proponent.  \nB.2  \nPricing  \nProponents are instructed to complete the Pricing Schedule as set out in Section F of Appendix D of this RFP and include it in their proposal submission.  Instructions on how to complete the Pricing Schedule are set out in Appendix C of this RFP.  \nB.3  Other Mandatory Submission Requirements \nProponents are instructed to complete and submit the Mandatory Evaluation Table below for their proposal. Proponents will be evaluated based on their responses to the criteria listed within the Mandatory Evaluation Table below. Any ‘No’ answers within the table will result in automatic disqualification unless the included justification satisfies the evaluation committee.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 29,
+        "found_on_page": 29,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Technical requirements for stand-alone applications must be determined to ensure secure connectivity to the final ERP solution."
+      ],
+      "page": 23,
+      "quote": "Technical requirements for stand-alone applications must be determined to ensure secure connectivity to the final ERP solution.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "PROPONENT’S EXPERIENCE AND QUALIFICATIONS",
+          "weight": 10,
+          "unit": "percent"
+        },
+        {
+          "category": "SERVICE TEAM QUALIFICATIONS AND EXPERIENCE",
+          "weight": 25,
+          "unit": "percent"
+        },
+        {
+          "category": "CLIENT REFERENCES AND PAST EXPERIENCE",
+          "weight": 10,
+          "unit": "percent"
+        },
+        {
+          "category": "WORK PLAN, METHODOLOGY, AND QUALITY ASSURANCE",
+          "weight": 30,
+          "unit": "percent"
+        },
+        {
+          "category": "PRICING",
+          "weight": 25,
+          "unit": "percent"
+        }
+      ],
+      "page": 30,
+      "quote": "The table below sets out the categories, weightings, and descriptions of the rated criteria of the RFP. Rated Criteria Category Points The countyighting (%) PROPONENT’S EXPERIENCE AND QUALIFICATIONS 0 - 5 10 SERVICE TEAM QUALIFICATIONS AND EXPERIENCE: 0 - 5 25 CLIENT REFERENCES AND PAST EXPERIENCE: 0 - 5 10 WORK PLAN, METHODOLOGY, AND QUALITY ASSURANCE 0 - 5 30 PRICING 0 - 5 25",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 30,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 69.7
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing is one of five (5) criteria of the RFP that proponents will be evaluated on for which points will be awarded on a scale of 0 to 5 and will carry a weighting of 25% of the total RFP score. Pricing Evaluation will be on the Unit rate and the total cost basis pricing formula: {(Submitted cost /Lowest cost) *Weight i.e. 25%} A modular pricing template has been provided in the Appendix “C”",
+      "page": 31,
+      "quote": "Pricing is one of five (5) criteria of the RFP that proponents will be evaluated on for which points will be awarded on a scale of 0 to 5 and will carry a weighting of 25% of the total RFP score. A complete list of the rated criteria including description, maximum number of points, and weighting for each criterion is set out in Section C of Appendix D of this RFP. Pricing Evaluation will be on the Unit rate and the total cost basis pricing formula: {(Submitted cost /Lowest cost) *Weight i.e. 25%} A modular pricing template has been provided in the Appendix “C”",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 31,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 79.0
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.8,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "unit": "references",
+      "page": 33,
+      "quote": "Proponents shall provide a MINIMUM OF THREE (3) (preferably PUBLIC SECTOR) client references for whom they have provided SIMILAR/ IDENTICAL SERVICES WITHIN THE LAST SEVEN (7) YEARS.",
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 33,
+        "found_on_page": 33,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 26,
+      "quote": "Vendor Shortlisting and Demonstration Preparation: The RFP Evaluation Committee will select the Vendors that will be shortlisted to provide a product demonstration and assist the County in clarifying any outstanding queries with shortlisted Vendors prior to the product demonstration process.",
+      "confidence": 1.0,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 26,
+        "found_on_page": 26,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Project Manager must have a minimum of five (5) years of experience on ERP-related projects, with demonstrated experience in having led a minimum of two (2) ERP projects from readiness assessment through to implementation within the last seven (7) year period. Project team members must have a minimum of three (3) years of experience on ERP-related projects, with demonstrated experience in readiness assessment through to implementation within the last seven (7) year period.",
+      "page": 32,
+      "quote": "(a) The Proponent’s appointed Project Manager (and back-up Project Manager) shall have a minimum of five (5) years of experience on ERP-related projects, with demonstrated experience in having led a minimum of two (2) ERP projects from readiness assessment through to implementation within the last seven (7) year period. Preference will be given to Project Managers with professional project management certification(s) from recognized, accredited 3rd party organizations (i.e. the Project Management Institute (PMI)) or post-secondary academic institutions.\n\n(b) Project team members must have a minimum of three (3) years of experience on ERP-related projects, with demonstrated experience in readiness assessment through to implementation within the last seven (7) year period.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 32,
+        "found_on_page": 32,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Security protocols and measures necessary to safeguard sensitive information stored within the ERP system, including role-based access controls, data encryption, audit trails, and compliance with data protection regulations."
+      ],
+      "page": 24,
+      "quote": "Security Protocols: Define the security protocols and measures necessary to safeguard sensitive information stored within the ERP system. This encompasses role-based access controls, data encryption, audit trails, and compliance with data protection regulations.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 24,
+        "found_on_page": 24,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "Assessment of data residency requirements and compliance with relevant regulations for cloud-stored data.",
+      "page": 22,
+      "quote": "Assessment of data residency requirements and compliance with relevant regulations for cloud-stored data",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 52658,
+    "completion_tokens": 2108,
+    "cost_usd": 0.152725,
+    "latency_s": 16.77,
+    "errors": 0,
+    "wall_clock_s": 9.33
+  },
+  "finished_at": "2026-09-26T02:14:51+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 13,
+      "wrong_page": 0,
+      "unverified": 2,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 0.867,
+    "hallucination_rate": 0.133
+  }
+}

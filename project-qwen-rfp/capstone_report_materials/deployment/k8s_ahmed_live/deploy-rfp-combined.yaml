@@ -1,0 +1,79 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "2"
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"rfp-combined","namespace":"ahmed"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"rfp-combined"}},"template":{"metadata":{"labels":{"app":"rfp-combined"}},"spec":{"containers":[{"env":[{"name":"VLLM_URL","value":"http://k2-vllm:8000/v1"}],"image":"rfp-combined:latest","imagePullPolicy":"Never","name":"rfp-combined","ports":[{"containerPort":8420}],"resources":{"limits":{"cpu":"1","memory":"1Gi"},"requests":{"cpu":"500m","memory":"512Mi"}}}]}}}}
+  creationTimestamp: "2026-09-27T02:36:51Z"
+  generation: 2
+  name: rfp-combined
+  namespace: ahmed
+  resourceVersion: "863255"
+  uid: 232975fb-ec47-4afd-98d3-67a97b817c1a
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: rfp-combined
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: rfp-combined
+    spec:
+      containers:
+      - env:
+        - name: VLLM_URL
+          value: http://k2-vllm:8000/v1
+        - name: OPENAI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              key: api-key
+              name: openai-key
+        image: rfp-combined:latest
+        imagePullPolicy: Never
+        name: rfp-combined
+        ports:
+        - containerPort: 8420
+          protocol: TCP
+        resources:
+          limits:
+            cpu: "1"
+            memory: 1Gi
+          requests:
+            cpu: 500m
+            memory: 512Mi
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2026-09-27T02:36:53Z"
+    lastUpdateTime: "2026-09-27T02:36:53Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  - lastTransitionTime: "2026-09-27T02:36:51Z"
+    lastUpdateTime: "2026-09-27T02:37:10Z"
+    message: ReplicaSet "rfp-combined-bf7f95f65" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  observedGeneration: 2
+  readyReplicas: 1
+  replicas: 1
+  terminatingReplicas: 0
+  updatedReplicas: 1

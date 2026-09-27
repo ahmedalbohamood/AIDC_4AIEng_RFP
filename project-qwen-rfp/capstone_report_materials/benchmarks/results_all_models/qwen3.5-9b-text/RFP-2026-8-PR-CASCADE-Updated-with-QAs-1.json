@@ -1,0 +1,368 @@
+{
+  "doc_id": "RFP-2026-8-PR-CASCADE-Updated-with-QAs-1",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/19e7c1f3-0506-42aa-a91b-c2ce8d3e92e9/scratchpad/dev_doc2/RFP-2026-8-PR-CASCADE-Updated-with-QAs-1.pdf",
+  "n_pages": 13,
+  "text_extractable": true,
+  "backend": "qwen3.5-9b",
+  "backend_key": "qwen3.5-9b:text",
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T17:46:51+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.82,
+      "prompt_tokens": 4359,
+      "completion_tokens": 253,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        12
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.76,
+      "prompt_tokens": 4669,
+      "completion_tokens": 247,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.82,
+      "prompt_tokens": 2480,
+      "completion_tokens": 254,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 3.67,
+      "prompt_tokens": 4320,
+      "completion_tokens": 244,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 50.03,
+      "prompt_tokens": 11704,
+      "completion_tokens": 3322,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "18 th September 2026",
+      "raw": "18 th September 2026",
+      "page": 4,
+      "quote": "18 th September 2026 Applications deadline All applications must be submitted via this form .",
+      "confidence": 0.99,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": false,
+        "best_score": 97.8
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "4 th September 2026",
+      "raw": "4 th September 2026",
+      "page": 4,
+      "quote": "4 th September 2026 Questions deadline. All questions must be sent only to tender@bettercotton.org with the RFP Reference in the Subject line.",
+      "confidence": 0.99,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": false,
+        "best_score": 98.6
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "tender@bettercotton.org",
+      "email": "tender@bettercotton.org",
+      "phone": null,
+      "title": null,
+      "page": 4,
+      "quote": "All questions must be sent only to tender@bettercotton.org with the RFP Reference in the Subject line.",
+      "confidence": 0.99,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "via this form",
+      "page": 4,
+      "quote": "All applications must be submitted via this form .",
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Better Cotton Initiative (BCI) seeks a consultant to review the training cascade model for delivering capacity strengthening to BCI farmers, including benchmarking against other ISEAL standards, co-designing and running an online survey of Programme Partners, and conducting consultations with Programme Partners and Country Teams to inform options for enhancing the cascade model and integrating behaviour change approaches.",
+      "page": 3,
+      "quote": "This review will enable BCI, as part of its ISEAL five-year review of capacity strengthening, to decide what to retain, adapt, or redesign in the training cascade model - recognising that the answer may differ by country - and how the Behaviour Change Wheel or similar behaviour change approach should be integrated. ... The expected outputs of this project will be: - A benchmarking review of existing CS models for other ISEAL standards... - Co-design and run an online survey of Programme Partners... - Conduct webinars and up to two face-to-face consultations: with Programme Partners... and separately with Country Teams...",
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Proposals responding to this Request for Proposals should be a maximum of 5 pages (excluding CVs)",
+        "Proposals must include an Overview of relevant experience",
+        "Proposals must include a Proposed methodology and timeline",
+        "Proposals must include a Detailed and transparent budget, in EUROS, including time allocation and day rates"
+      ],
+      "page": 5,
+      "quote": "Proposals responding to this Request for Proposals should be a maximum of 5 pages (excluding CVs), and include the following:\n\n- Overview of relevant experience\n- Proposed methodology and timeline\n- Detailed and transparent budget, in EUROS, including time allocation and day rates",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Technical Evaluation Criteria",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Financial Evaluation Criteria",
+          "weight": null,
+          "unit": null
+        }
+      ],
+      "page": 6,
+      "quote": "Proposals will be evaluated based on the following criteria:\n\n## Technical Evaluation Criteria\n- Demonstrated understanding of this RFP\n- Quality and clarity of the proposed approach and methodology\n- Feasibility of the proposed activity plan and timeline, and appropriateness of time allocated to delivering each task\n- Relevant professional experience of the proposed consultant(s)\n- Quality and relevance of the sample work submitted\n\n## Financial Evaluation Criteria\n- Quality and clarity of budget provided, and level of detail included\n- Alignment of the budget to the activity timeline detailed in the technical proposal\n- Value for money\n- Adherence to the available budget",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 6,
+        "found_on_page": 6,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "At least 5 years' experience evaluating or designing farmer training, extension, or training-of-trainers programmes in smallholder and medium farm agriculture",
+      "page": 5,
+      "quote": "At least 5 years' experience evaluating or designing farmer training, extension, or training-of-trainers programmes in smallholder and medium farm agriculture",
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": false,
+      "value": [],
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 27532,
+    "completion_tokens": 4320,
+    "cost_usd": 0.0,
+    "latency_s": 65.1,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T17:48:02+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 8,
+    "fields_absent": 9,
+    "evidence": {
+      "verified": 8,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 9
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

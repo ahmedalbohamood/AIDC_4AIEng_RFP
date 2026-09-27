@@ -1,0 +1,246 @@
+{
+  "doc_id": "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1)",
+  "backend": "lift-vision-singlecall",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "May 14, 2025, 2:00 PM MST",
+      "raw": "May 14, 2025, 2:00 PM MST Alberta Time",
+      "page": 1,
+      "quote": "Submission Deadline: May 14, 2025, 2.00 PM MST Alberta Time",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "April 17, 2025, 2 PM MST",
+      "raw": "April 17, 2025, 2 PM MST",
+      "page": 4,
+      "quote": "Deadline for Questions April 17, 2025, 2 PM MST",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Indra Ghosh",
+      "email": "PublicBids@rockyview.ca",
+      "phone": null,
+      "title": "Supervisor of Purchasing and Treasury",
+      "page": 4,
+      "quote": "the “RFP Contact” will be Indra Ghosh, Supervisor of Purchasing and Treasury. PublicBids@rockyview.ca",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "electronically via email to PublicBids@rockyview.ca",
+      "page": 5,
+      "quote": "Proposals must be submitted in PDF and received electronically and should be prominently marked with the RFP title and number (see RFP cover), with the full legal name and return address of the proponent. Proponent to complete Submission Form set out in Appendix B of this RFP and include it as part of the proposal submission.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "until December 31, 2025, with an option to renew for one additional year for a total period not to exceed three (3) years",
+      "page": 4,
+      "quote": "The agreement resulting from this RFP shall be in effect from the date of official acceptance by the County until December 31, 2025... this agreement may be renewed under the same terms and conditions for a period of up to one (1) additional year... for a total period not to exceed three (3) years.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "ERP Requirements Analysis and Readiness Review for Rocky View County, including functional/operational requirements, data migration, security protocols, and benchmarking.",
+      "page": 24,
+      "quote": "Identification of Functional and Operational Requirements... Data Migration Requirements... Security Protocols... Benchmarking and Peer Consultation",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Submission Form (Appendix B)",
+        "Pricing Schedule (Section F of Appendix D)",
+        "Mandatory Evaluation Table",
+        "Insurance Certificate",
+        "Past references"
+      ],
+      "page": 29,
+      "quote": "Proponents are instructed to complete the Submission Form set out in Appendix B... complete the Pricing Schedule as set out in Section F of Appendix D... complete and submit the Mandatory Evaluation Table... All required Insurance and Documents and References: Insurance Certificate and Past references.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Understanding of Scope",
+        "Proposed Methodology",
+        "Proposed Schedule",
+        "Proposed Team",
+        "Previous Similar Work",
+        "Budgetary Control"
+      ],
+      "page": 29,
+      "quote": "Mandatory Evaluation Table: Understanding of Scope, Proposed Methodology, Proposed Schedule, Proposed Team, Previous Similar Work, Budgetary Control",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Proponent's Qualifications and Experience",
+          "weight": 10,
+          "unit": "%"
+        },
+        {
+          "category": "Team Qualifications and Experience",
+          "weight": 25,
+          "unit": "%"
+        },
+        {
+          "category": "Pricing",
+          "weight": 25,
+          "unit": "%"
+        }
+      ],
+      "page": 31,
+      "quote": "Proponent's Qualifications and Experience (VALUE: 10%)... Team Qualifications and Experience (VALUE: 25%)... pricing formula: {(Submitted cost /Lowest cost) *Weight i.e. 25%}",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing Evaluation will be on the Unit rate and the total cost basis; pricing formula: {(Submitted cost /Lowest cost) *Weight i.e. 25%}; submitted as a separate digital file.",
+      "page": 31,
+      "quote": "Pricing Evaluation will be on the Unit rate and the total cost basis; pricing formula: {(Submitted cost /Lowest cost) *Weight i.e. 25%}; A modular pricing template has been provided in the Appendix “C”",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Insurance Certificate",
+          "amount": null,
+          "currency": null,
+          "basis": null
+        }
+      ],
+      "page": 29,
+      "quote": "All required Insurance and Documents and References: Insurance Certificate and Past references.",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 2,
+      "unit": "references",
+      "page": 29,
+      "quote": "All required Insurance and Documents and References: Insurance Certificate and Past references.",
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 26,
+      "quote": "Vendor Shortlisting and Demonstration Preparation: The RFP Evaluation Committee will select the Vendors that will be shortlisted to provide a product demonstration",
+      "confidence": 1.0,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Project Manager: minimum of five (5) years of experience on ERP-related projects, with demonstrated experience in having led a minimum of two (2) ERP projects from readiness assessment through to implementation within the last seven (7) year period. Project team members: minimum of three (3) years of experience on ERP-related projects.",
+      "page": 32,
+      "quote": "(a) The Proponent's appointed Project Manager (and back-up Project Manager) shall have a minimum of five (5) years of experience on ERP-related projects... (b) Project team members must have a minimum of three (3) years of experience on ERP-related projects",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Security Protocols: Define the security protocols and measures necessary to safeguard sensitive information stored within the ERP system. This encompasses role-based access controls, data encryption, audit trails, and compliance with data protection regulations."
+      ],
+      "page": 24,
+      "quote": "Security Protocols: Define the security protocols and measures necessary to safeguard sensitive information stored within the ERP system. This encompasses role-based access controls, data encryption, audit trails, and compliance with data protection regulations.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "wall_clock_s": 53.71,
+    "prompt_tokens": 27561,
+    "completion_tokens": 1698,
+    "cost_usd": 0.0
+  }
+}

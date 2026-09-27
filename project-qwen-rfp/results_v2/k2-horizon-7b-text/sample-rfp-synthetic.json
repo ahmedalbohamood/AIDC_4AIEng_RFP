@@ -1,0 +1,436 @@
+{
+  "doc_id": "sample-rfp-synthetic",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/40d4e0e3-55b7-4205-8f85-c4a551f22edb/scratchpad/new4_docs/sample-rfp-synthetic.pdf",
+  "n_pages": 6,
+  "text_extractable": true,
+  "backend": "k2-horizon-7b",
+  "backend_key": "k2-horizon-7b:text",
+  "model": "IFM/K2-Horizon-7B",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-20T12:51:01+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 11.24,
+      "prompt_tokens": 1126,
+      "completion_tokens": 436,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        6
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.07,
+      "prompt_tokens": 813,
+      "completion_tokens": 236,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 10.69,
+      "prompt_tokens": 1166,
+      "completion_tokens": 414,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.19,
+      "prompt_tokens": 1140,
+      "completion_tokens": 277,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 21.11,
+      "prompt_tokens": 1631,
+      "completion_tokens": 816,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "Proposals must be received no later than 4:00 PM Central Time on March 10, 2026.",
+      "confidence": 1.0,
+      "value": "March 10, 2026 at 4:00 PM Central Time",
+      "raw": "Proposals must be received no later than 4:00 PM Central Time on March 10, 2026.",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "All questions and requests for clarification must be submitted in writing no later than February 6, 2026 at 5:00 PM Central Time.",
+      "confidence": 1.0,
+      "value": "February 6, 2026 at 5:00 PM Central Time",
+      "raw": "All questions and requests for clarification must be submitted in writing no later than February 6, 2026 at 5:00 PM Central Time.",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 1,
+      "quote": "Direct all inquiries to:\n    Marcia Delacroix, Senior Procurement Officer\n    City of Northfield Purchasing Division\n    mdelacroix@northfieldcity.gov\n    (507) 555-0142",
+      "confidence": 1.0,
+      "name": "Marcia Delacroix",
+      "email": "mdelacroix@northfieldcity.gov",
+      "phone": "(507) 555-0142",
+      "title": "Senior Procurement Officer",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 2,
+      "quote": "All proposals shall be submitted electronically through the City's e-procurement portal, BidExpress, at https://bidexpress.northfieldcity.gov. Proposals submitted by email, fax, or hard copy will not be accepted.",
+      "confidence": 1.0,
+      "value": "BidExpress e-procurement portal at https://bidexpress.northfieldcity.gov",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 2,
+      "quote": "The initial contract term shall be three (3) years from the date of award, with two (2) optional one-year renewal periods exercisable at the sole discretion of the City.",
+      "confidence": 100.0,
+      "value": "3 years with two optional 1-year renewals",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 2,
+      "quote": "The selected vendor shall provide a cloud-hosted enterprise document management system serving approximately 1,200 City staff across 14 departments, including document capture and OCR, records retention scheduling, full-text search, workflow routing for approvals, and migration of approximately 4.2 million existing documents from the City's legacy Documentum repository.",
+      "confidence": 100.0,
+      "value": "Cloud-hosted enterprise document management system for ~1,200 staff across 14 departments, including document capture and OCR, records retention scheduling, full-text search, workflow routing for approvals, and migration of ~4.2 million documents from the legacy Documentum repository.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 2,
+        "found_on_page": 2,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 3,
+      "quote": "Each proposal must include all of the following. Proposals missing any item will be deemed non-responsive: a) Completed and signed Proposal Cover Sheet (Attachment A) b) Completed Pricing Schedule (Attachment C) in a separate sealed file c) Signed Non-Collusion Affidavit (Attachment D) d) Certificate of Insurance evidencing the coverages required in Section 5 e) Three (3) client references on Attachment E f) Technical proposal not exceeding forty (40) pages, excluding attachments",
+      "confidence": 1.0,
+      "value": [
+        "Completed and signed Proposal Cover Sheet (Attachment A)",
+        "Completed Pricing Schedule (Attachment C) in a separate sealed file",
+        "Signed Non-Collusion Affidavit (Attachment D)",
+        "Certificate of Insurance evidencing the coverages required in Section 5",
+        "Three (3) client references on Attachment E",
+        "Technical proposal not exceeding forty (40) pages, excluding attachments"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 3,
+      "quote": "The proposed solution must: a) Support single sign-on via SAML 2.0 and SCIM user provisioning b) Provide role-based access control at the folder and document level c) Retain a complete, immutable audit trail of all document access events d) Support bulk import of at least 500,000 documents per 24-hour period e) Provide a documented REST API for integration with the City's ERP",
+      "confidence": 1.0,
+      "value": [
+        "Support single sign-on via SAML 2.0 and SCIM user provisioning",
+        "Provide role-based access control at the folder and document level",
+        "Retain a complete, immutable audit trail of all document access events",
+        "Support bulk import of at least 500,000 documents per 24-hour period",
+        "Provide a documented REST API for integration with the City's ERP"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 4,
+      "quote": "    Technical Solution and Functionality .................... 35 points\n    Vendor Experience and Qualifications .................... 20 points\n    Implementation Approach and Project Plan ................ 15 points\n    Cost Proposal ........................................... 20 points\n    References and Past Performance ......................... 10 points\n                                                             ----------\n    TOTAL                                                    100 points",
+      "confidence": 1.0,
+      "value": [
+        {
+          "category": "Technical Solution and Functionality",
+          "weight": 35,
+          "unit": "points"
+        },
+        {
+          "category": "Vendor Experience and Qualifications",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "Implementation Approach and Project Plan",
+          "weight": 15,
+          "unit": "points"
+        },
+        {
+          "category": "Cost Proposal",
+          "weight": 20,
+          "unit": "points"
+        },
+        {
+          "category": "References and Past Performance",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "TOTAL",
+          "weight": 100,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 6,
+      "quote": "Pricing shall be submitted on Attachment C only, as a firm fixed price for the initial three-year term, with separately stated pricing for each optional renewal year. Implementation and migration services shall be priced separately from recurring subscription fees.",
+      "confidence": 0.99,
+      "value": "Pricing submitted on Attachment C only, as a firm fixed price for the initial three-year term, with separately stated pricing for each optional renewal year. Implementation and migration services shall be priced separately from recurring subscription fees.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 6,
+        "found_on_page": 6,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 5,
+      "quote": "Commercial General Liability ........ $2,000,000 per occurrence\nProfessional Liability (E&O) ........ $1,000,000 per claim\nCyber Liability ..................... $5,000,000 aggregate\nWorkers' Compensation ............... as required by Minnesota statute",
+      "confidence": 0.99,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Professional Liability (E&O)",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Cyber Liability",
+          "amount": 5000000,
+          "currency": "USD",
+          "basis": "aggregate"
+        },
+        {
+          "coverage_type": "Workers' Compensation",
+          "amount": null,
+          "currency": null,
+          "basis": "as required by Minnesota statute"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "page": 5,
+      "quote": "Proposers must have a minimum of five (5) years of experience implementing enterprise document management systems for public sector clients of comparable size, and must have completed at least two (2) such implementations within the past thirty-six (36) months.",
+      "confidence": 0.99,
+      "value": "Minimum five (5) years of experience implementing enterprise document management systems for public sector clients of comparable size, plus at least two (2) such implementations completed within the past thirty-six (36) months.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 3,
+      "quote": "Three (3) client references on Attachment E",
+      "confidence": 0.99,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 3,
+        "found_on_page": 3,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 5,
+      "quote": "The vendor shall maintain SOC 2 Type II certification throughout the contract term and shall provide its most recent audit report annually.\nAll data shall be encrypted in transit using TLS 1.2 or higher and at rest using AES-256.\nThe vendor shall notify the City of any suspected data breach within twenty-four (24) hours of discovery.",
+      "confidence": 0.99,
+      "value": [
+        "Maintain SOC 2 Type II certification throughout the contract term and provide the most recent audit report annually",
+        "Encrypt all data in transit using TLS 1.2 or higher and at rest using AES-256",
+        "Notify the City of any suspected data breach within twenty-four (24) hours of discovery"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 4,
+      "quote": "The City reserves the right to invite up to three (3) finalist vendors to deliver an on-site product demonstration. Demonstrations, if requested, will be held during the week of April 6, 2026.",
+      "confidence": 0.99,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 5876,
+    "completion_tokens": 2179,
+    "cost_usd": 0.0,
+    "latency_s": 56.3,
+    "errors": 0
+  },
+  "finished_at": "2026-09-20T12:51:57+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 15,
+    "fields_absent": 2,
+    "evidence": {
+      "verified": 15,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 2
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

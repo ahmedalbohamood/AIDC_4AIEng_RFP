@@ -1,0 +1,265 @@
+{
+  "doc_id": "EN_-_ERP_RFP_24.25.04",
+  "backend": "lift-vision-singlecall",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "April 14, 2025 11:59:59 PM PST",
+      "raw": "Submission Deadline: April 14, 2025 11:59:59 PM PST",
+      "page": 1,
+      "quote": "Submission Deadline: April 14, 2025 11:59:59 PM PST",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "March 17, 2025 11:59:59 PM PST",
+      "raw": "Deadline for Questions March 17, 2025 11:59:59 PM PST",
+      "page": 5,
+      "quote": "Deadline for Questions March 17, 2025 11:59:59 PM PST",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "rfp_contact": {
+      "present": false,
+      "name": null,
+      "email": null,
+      "phone": null,
+      "title": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "BCBid platform",
+      "page": 5,
+      "quote": "Proposals are to be submitted directly through the BCBid platform where the RFP is posted.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "5 years with an option to extend",
+      "page": 5,
+      "quote": "The term of the licensing and support agreement is to be for a period of five years, with an option in favour of Cowichan Tribes to extend the agreement on the same terms and conditions.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Enterprise Resource Planning (ERP) System implementation and licensing for Cowichan Tribes.",
+      "page": 1,
+      "quote": "Request for Proposals for Enterprise Resource Planning (ERP) System",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "The Proposal must be received by the Submission Deadline indicated in 1.4 RFP Timetable and must be submitted using the submission method set out in 1.5 Submission of Proposals.",
+        "The Proposal must be in English.",
+        "A completed Submission Form in PDF format which is signed by an authorized representative of the proponent described in Appendix C.",
+        "A completed Narrative Response in PDF format which follows the table contents in Appendix B – Section A.",
+        "A completed Pricing Excel Workbook described in Appendix B – Section G. Template for workbook provided.",
+        "A completed Requirements Excel Workbook. Instructions are in the provided requirements workbook."
+      ],
+      "page": 22,
+      "quote": "Each Proposal must also consist of the following components: 1. The Proposal must be received by the Submission Deadline indicated in 1.4 RFP Timetable and must be submitted using the submission method set out in 1.5 Submission of Proposals. 2. The Proposal must be in English. 3. A completed Submission Form in PDF format which is signed by an authorized representative of the proponent described in Appendix C. 4. A completed Narrative Response in PDF format which follows the table contents in Appendix B – Section A. 5. A completed Pricing Excel Workbook described in Appendix B – Section G. Template for workbook provided. 6. A completed Requirements Excel Workbook. Instructions are in the provided requirements workbook.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Support for organizations operating in Canada including support for Canadian taxes and Canadian Payroll.",
+        "Vendor has experience implementing solutions for First Nations in Canada.",
+        "The solution must be hosted in Canada and stores all data within Canada.",
+        "Implementation vendor(s) can demonstrate they have at least five years' experience implementing Finance, HR, Payroll, and Asset Management solutions.",
+        "Solution is cloud based.",
+        "The solutions are SOC2 Type 2 compliant or equivalent."
+      ],
+      "page": 22,
+      "quote": "1. Support for organizations operating in Canada including support for Canadian taxes and Canadian Payroll. 2. Vendor has experience implementing solutions for First Nations in Canada. 3. The solution must be hosted in Canada and stores all data within Canada. 4. Implementation vendor(s) can demonstrate they have at least five years' experience implementing Finance, HR, Payroll, and Asset Management solutions. 5. Solution is cloud based. 6. The solutions are SOC2 Type 2 compliant or equivalent.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "Functional Fit (Requirements Worksheet)",
+          "weight": 35,
+          "unit": "Points"
+        },
+        {
+          "category": "Narrative Proposal",
+          "weight": 20,
+          "unit": "Points"
+        },
+        {
+          "category": "Pricing (see Section G below)",
+          "weight": 15,
+          "unit": "Points"
+        },
+        {
+          "category": "Vendor Demonstration",
+          "weight": 30,
+          "unit": "Points"
+        }
+      ],
+      "page": 23,
+      "quote": "Functional Fit (Requirements Worksheet) 35 28 (80%); Narrative Proposal 20 14 (70%); Pricing (see Section G below) 15 10.5 (70%); Vendor Demonstration 30 21 (70%); Total Points 100",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "value": 28,
+      "unit": "points",
+      "page": 23,
+      "quote": "Functional Fit (Requirements Worksheet) 35 28 (80%)",
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing is worth 15 points of the total score. Formula: (price threshold ÷ proponent's price) x weighting = proponent's pricing points. Rates must be provided in Canadian funds, inclusive of all applicable duties and taxes.",
+      "page": 23,
+      "quote": "Pricing is worth 15 points of the total score. Pricing will be scored based on a pricing formula using the rates set out in the Proponent's submitted Pricing Sheet (Attachment 2). Each proponent will receive a percentage of the total possible points allocated to price, which will be calculated in accordance with the following formula: (price threshold ÷ proponent's price) x weighting = proponent's pricing points. Rates must be provided in Canadian funds, inclusive of all applicable duties and taxes.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": [
+        {
+          "coverage_type": "General Liability",
+          "amount": null,
+          "currency": null,
+          "basis": null
+        },
+        {
+          "coverage_type": "Professional Indemnity",
+          "amount": null,
+          "currency": null,
+          "basis": null
+        },
+        {
+          "coverage_type": "Cyber Liability",
+          "amount": null,
+          "currency": null,
+          "basis": null
+        }
+      ],
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": null,
+      "unit": null,
+      "page": 22,
+      "quote": "Reference Checks: Cowichan Tribes will follow up with the references you submitted. Details on reference submission requirements are in section 10 of the Narrative response.",
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 8,
+      "quote": "Vendors selected for the demonstration stage will be required to present their proposed solutions in accordance with the demo script that will be provided by Cowichan Tribes.",
+      "confidence": 1.0,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "at least five years' experience implementing Finance, HR, Payroll, and Asset Management solutions",
+      "page": 22,
+      "quote": "Implementation vendor(s) can demonstrate they have at least five years' experience implementing Finance, HR, Payroll, and Asset Management solutions.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "The solutions are SOC2 Type 2 compliant or equivalent.",
+        "The solution must be hosted in Canada and stores all data within Canada."
+      ],
+      "page": 22,
+      "quote": "3. The solution must be hosted in Canada and stores all data within Canada. 6. The solutions are SOC2 Type 2 compliant or equivalent.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "hosted in Canada and stores all data within Canada",
+      "page": 22,
+      "quote": "The solution must be hosted in Canada and stores all data within Canada.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    }
+  },
+  "totals": {
+    "wall_clock_s": 61.66,
+    "prompt_tokens": 27545,
+    "completion_tokens": 1988,
+    "cost_usd": 0.0
+  }
+}

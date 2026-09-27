@@ -1,0 +1,10 @@
+{
+  "description": "Efficiently extract and analyze key features from RFP documents, enabling bidders and clients to streamline submissions and enhance decision-making.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

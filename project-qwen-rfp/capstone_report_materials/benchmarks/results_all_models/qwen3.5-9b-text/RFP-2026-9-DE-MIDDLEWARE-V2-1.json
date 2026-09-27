@@ -1,0 +1,391 @@
+{
+  "doc_id": "RFP-2026-9-DE-MIDDLEWARE-V2-1",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/RFP-2026-9-DE-MIDDLEWARE-V2-1.pdf",
+  "n_pages": 15,
+  "text_extractable": true,
+  "backend": "qwen3.5-9b",
+  "backend_key": "qwen3.5-9b:text",
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:50:03+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        9,
+        11,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.3,
+      "prompt_tokens": 3803,
+      "completion_tokens": 448,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        11,
+        13
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.62,
+      "prompt_tokens": 3690,
+      "completion_tokens": 270,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 7.43,
+      "prompt_tokens": 2010,
+      "completion_tokens": 480,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 6.11,
+      "prompt_tokens": 3635,
+      "completion_tokens": 371,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        12,
+        14,
+        15
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 9.09,
+      "prompt_tokens": 5110,
+      "completion_tokens": 551,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "All applications must be submitted via this form. You may submit questions to tender@bettercotton.org - with reference \"RFP 2026-9-DE-MIDDLEWARE\" until 20th September 2026, noting that the final submission deadline for bids is the 27th September 2026.",
+      "confidence": 0.95,
+      "value": "27 September 2026",
+      "raw": "27 September 2026",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 98.8
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 1,
+      "quote": "You may submit questions to tender@bettercotton.org - with reference \"RFP 2026-9-DE-MIDDLEWARE\" until 20th September 2026",
+      "confidence": 0.95,
+      "value": "20th September 2026",
+      "raw": "20th September 2026",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": false,
+        "best_score": 97.5
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 1,
+      "quote": "You may submit questions to tender@bettercotton.org",
+      "confidence": 0.95,
+      "name": null,
+      "email": "tender@bettercotton.org",
+      "phone": null,
+      "title": null,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 1,
+      "quote": "All applications must be submitted via this form.",
+      "confidence": 0.95,
+      "value": "via this form",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 4,
+      "quote": "Tier 1 middleware / iPaaS: Governed integration backbone, API management, data transformation, workflow orchestration, messaging, monitoring, and external partner integration. Tier 2 / optional middleware: Optional alternative for open standards, commercial flexibility, or API/integration architecture comparison. Low-code / application platform track: Potential companion layer for portals, onboarding workflows, validations, business rules and process orchestration.",
+      "confidence": 0.95,
+      "value": "Tier 1 middleware / iPaaS: Governed integration backbone, API management, data transformation, workflow orchestration, messaging, monitoring, and external partner integration. Tier 2 / optional middleware: Optional alternative for open standards, commercial flexibility, or API/integration architecture comparison. Low-code / application platform track: Potential companion layer for portals, onboarding workflows, validations, business rules and process orchestration.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 5,
+      "quote": "Provide one consolidated response document and one completed requirements response matrix.",
+      "confidence": 0.95,
+      "value": [
+        "Provide one consolidated response document and one completed requirements response matrix."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 5,
+      "quote": "Data governance\nCanonical model management, schema versioning, lineage,\naudit logs, data classification, retention, data residency, and\ndata portability.\nPartner onboarding\nSelf-service documentation, API tokens, role-based access,\nonboarding workflows, validation steps, dashboards, and\ncommunication protocols.\nOperations\nCentralized monitoring, alerting, root-cause diagnostics,\nrunbooks, rollback, deployment governance, support model,\nand service outage communication.\nSecurity\nCredential/secrets management, encryption in transit, least-\nprivilege administration, role-based controls, auditability, and\nsecurity protocol disclosure.\nImplementation\nPhased rollout, migration from legacy integrations,\ncoexistence approach, testing/UAT scripts, training,\nknowledge transfer, and operating model transition.",
+      "confidence": 0.95,
+      "value": [
+        "Data governance: Canonical model management, schema versioning, lineage, audit logs, data classification, retention, data residency, and data portability.",
+        "Partner onboarding: Self-service documentation, API tokens, role-based access, onboarding workflows, validation steps, dashboards, and communication protocols.",
+        "Operations: Centralized monitoring, alerting, root-cause diagnostics, runbooks, rollback, deployment governance, support model, and service outage communication.",
+        "Security: Credential/secrets management, encryption in transit, least-privilege administration, role-based controls, auditability, and security protocol disclosure.",
+        "Implementation: Phased rollout, migration from legacy integrations, coexistence approach, testing/UAT scripts, training, knowledge transfer, and operating model transition."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 15,
+      "quote": "Proposals will be evaluated based on the following criteria:\nTechnical Evaluation Criteria\n• Demonstrated understanding of this RFP\n• Quality and clarity of the proposed approach and methodology\n• Resource requirements, migration approach, and risk\n• Validate RFP response claims through scripted scenarios, architecture review, security review, data model discussion, and operating model review.\n• Feasibility of the proposed activity plan and timeline, and appropriateness of time allocated to delivering each task\n• Relevant professional experience of the proposed vendor and implementation team\n• Quality and relevance of the sample work, references, and case studies submitted\n\nFinancial Evaluation Criteria\n• Quality and clarity of budget provided, and level of detail included\n• Alignment of the budget to the activity timeline detailed in the technical proposal\n• Assess license/subscription model, implementation cost, support costs, and overall value\n• Adherence to the available budget",
+      "confidence": 0.95,
+      "value": [
+        {
+          "category": "Technical Evaluation Criteria",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Financial Evaluation Criteria",
+          "weight": null,
+          "unit": null
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 15,
+        "found_on_page": 15,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 14,
+      "quote": "Provide pricing in the commercial response template, including software/subscription, implementation services, support, training, and optional modules.",
+      "confidence": 0.95,
+      "value": "Provide pricing in the commercial response template, including software/subscription, implementation services, support, training, and optional modules.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "wrong_page",
+        "claimed_page": 14,
+        "found_on_page": 6,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": [],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "unit": "count",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 5,
+      "quote": "Credential/secrets management, encryption in transit, least-privilege administration, role-based controls, auditability, and security protocol disclosure.",
+      "confidence": 0.9,
+      "value": [
+        "Credential/secrets management",
+        "encryption in transit",
+        "least-privilege administration",
+        "role-based controls",
+        "auditability",
+        "security protocol disclosure"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": false,
+        "best_score": 99.4
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 1,
+      "quote": "only shortlisted suppliers will be provided a further detailed RFP with additional information regarding the next steps for demonstrations.",
+      "confidence": 0.85,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 1,
+        "found_on_page": 1,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 18248,
+    "completion_tokens": 2120,
+    "cost_usd": 0.0,
+    "latency_s": 34.56,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:50:38+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 11,
+    "fields_absent": 6,
+    "evidence": {
+      "verified": 10,
+      "wrong_page": 1,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 6
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

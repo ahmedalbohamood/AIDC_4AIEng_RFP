@@ -1,0 +1,443 @@
+{
+  "doc_id": "RFP CP-730126 Generative AI RFP (4)",
+  "doc_path": "/tmp/claude-1000/-home-ubuntu-aidc/40d4e0e3-55b7-4205-8f85-c4a551f22edb/scratchpad/gt_docs/RFP CP-730126 Generative AI RFP (4).pdf",
+  "n_pages": 33,
+  "text_extractable": true,
+  "backend": "k2-horizon-7b",
+  "backend_key": "k2-horizon-7b:text",
+  "model": "IFM/K2-Horizon-7B",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-20T11:31:24+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        24,
+        28
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 8.67,
+      "prompt_tokens": 5167,
+      "completion_tokens": 299,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        14,
+        15,
+        22,
+        26
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 12.97,
+      "prompt_tokens": 4896,
+      "completion_tokens": 464,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        7,
+        9,
+        11,
+        15,
+        22
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 5.41,
+      "prompt_tokens": 5421,
+      "completion_tokens": 174,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        9,
+        11,
+        22
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 14.27,
+      "prompt_tokens": 5703,
+      "completion_tokens": 505,
+      "cost_usd": 0.0
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        22,
+        23,
+        26,
+        28,
+        29
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 20.83,
+      "prompt_tokens": 11777,
+      "completion_tokens": 674,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 5,
+      "quote": "d) Proposals due August 12, 2025",
+      "confidence": 0.95,
+      "value": "August 12, 2025",
+      "raw": "d) Proposals due August 12, 2025",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 5,
+      "quote": "b) Written inquiries up to July 25, 2025",
+      "confidence": 0.95,
+      "value": "July 25, 2025",
+      "raw": "b) Written inquiries up to July 25, 2025",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 4,
+      "quote": "Attention: Dennis Orellana Procurement Services Lead",
+      "confidence": 0.95,
+      "name": "Dennis Orellana",
+      "email": null,
+      "phone": null,
+      "title": "Procurement Services Lead",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 5,
+      "quote": "Proposals must be submitted through the online Bonfire Portal at: https://usask.bonfirehub.ca Submissions by other methods will not be accepted.",
+      "confidence": 0.95,
+      "value": "Bonfire Portal at https://usask.bonfirehub.ca",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "page": 4,
+      "quote": "The term of Contract shall commence on or around September 1, 2025 and shall remain in effect until August 31, 2030, unless otherwise terminated in accordance with the terms outlined herein.  USask reserves the right to extend the Contract for one additional three year and one additional two year extension, for a maximum potential Contract period of ten (10) years, or for subsequent project stages, or re-tender the Generative Artificial Intelligence (AI) Software.",
+      "confidence": 0.99,
+      "value": "Base term: September 1, 2025 to August 31, 2030 (5 years). Renewal/extension options: one additional 3-year extension and one additional 2-year extension, for a maximum potential contract period of 10 years, or for subsequent project stages, or re-tender.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 22,
+      "quote": "This RFP is to establish multiple master service agreements to accommodate the broad range of AI use by the University. It will serve various Colleges, Administrative groups, University Affiliates and Alumni. These Departments have distinct requirements, and for this reason, it is crucial for the University to identify Suppliers capable of meeting the unique and diverse expectations of each group.",
+      "confidence": 0.99,
+      "value": "The University of Saskatchewan seeks to establish a non-exclusive list of Pre-Qualified Suppliers who can provide AI platform services on an as-needed basis, including: (1) AI Chat and Data Analysis Services (advanced chat, data storage/analysis, NLP, data interrogation, insight generation); (2) AI Model Customization and Integration (agents, MCP, fine-tuning, enterprise integration, AI APIs); (3) AI Consulting Services (planning, deploying, managing AI solutions, best practices, compliance); and (4) AI Enabling Infrastructure (VMs for model development/deployment, PaaS, serverless functions, graph/vector databases). The Proponent must be the direct provider of the services; third-party resellers, intermediaries, or distributors will not be considered. The RFP also seeks to consolidate existing ad-hoc AI subscriptions into a managed AI environment.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 11,
+      "quote": "l) Completed Validation of Proposal and Acceptance of Contractual Provisions (see Appendix A).",
+      "confidence": 0.99,
+      "value": [
+        "Completed Validation of Proposal and Acceptance of Contractual Provisions (see Appendix A)."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 11,
+        "found_on_page": 11,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 22,
+      "quote": "Proponents must demonstrate the capacity to meet the following requirements during the anticipated term of the Master Services Agreement (if awarded), expected to be 5 years:",
+      "confidence": 0.99,
+      "value": [
+        "Proponents must demonstrate the capacity to meet the following requirements during the anticipated term of the Master Services Agreement (if awarded), expected to be 5 years:"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 22,
+        "found_on_page": 22,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 8,
+      "quote": "Proposals shall be evaluated based on the following criteria: \n \n \nPoint Weighting \n \n\na) TECHNICAL & AI PLATFORM SERVICES \n30 \n \n• \nAI Chat and Data Analysis Services \n• \nCompliance with Intellectual Property and Privacy Regulations \n• \nInfrastructure Protection \n• \nSecurity and Data Protection Requirements \n• \nCompatibility with USask’s digital infrastructure \n• \nAbility to support desired agreement options and user management strategies \n \nb) OPTIONAL SERVICES \n5 \n• \nAI Model Customization and Integration \n• \nAI Enabling Infrastructure \n \nc) PROFESSIONAL SERVICES \n5 \n• \nAI Consulting and Support Services \n \nd) PROPONENT QUALIFICATIONS \n10 \n• \nDemonstrated corporate structure and ownership \n• \nWillingness to accommodate USask requirements & acceptance of preferred contractual provisions.",
+      "confidence": 0.99,
+      "value": [
+        {
+          "category": "a) TECHNICAL & AI PLATFORM SERVICES",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "b) OPTIONAL SERVICES",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "c) PROFESSIONAL SERVICES",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "d) PROPONENT QUALIFICATIONS",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "e) SUPPORT & MANAGEMENT",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "f) COST",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "g) UNIVERSITY BENEFIT & SUSTAINABILITY",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "h) INDIGENOUS PARTICIPATION",
+          "weight": 5,
+          "unit": "points"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 12,
+      "quote": "Pricing structure must be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Pricing structure quoted should be DDP Incoterms 2010 USask.",
+      "confidence": 0.99,
+      "value": "Pricing structure must be shown in Canadian dollars, Goods and Services Tax (GST) and Provincial Sales Tax (PST) excluded. Pricing structure quoted should be DDP Incoterms 2010 USask.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 12,
+        "found_on_page": 12,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 15,
+      "quote": "Commercial General Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for bodily injury (including death) and damage to property including loss of use thereof. Such insurance shall include coverage for broad form property damage, contractual liability, completed operations, product liability and non-owned automobiles. Such insurance shall also include USask as an additional insured and shall contain a cross liability clause.",
+      "confidence": 0.99,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability Insurance",
+          "amount": 5000000,
+          "currency": "CAD",
+          "basis": "per occurrence"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 15,
+        "found_on_page": 15,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 11,
+      "quote": "Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available.",
+      "confidence": 0.99,
+      "value": 3,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 11,
+        "found_on_page": 11,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 23,
+      "quote": "Security and Data Protection Requirements: The ability to meet or exceed the University of Saskatchewan’s security requirements. Proponents must provide a completed USask SaaS Form or alternatively a Higher Education Community Vendor Assessment Toolkit (HECVAT) with their proposal. This includes demonstrating comprehensive data protection strategies such as encryption, regular security audits, and compliance with industry best practices for data security.",
+      "confidence": 0.99,
+      "value": [
+        "Provide a completed USask SaaS Form or alternatively a Higher Education Community Vendor Assessment Toolkit (HECVAT) with their proposal",
+        "Demonstrating comprehensive data protection strategies such as encryption, regular security audits, and compliance with industry best practices for data security"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.99,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 7,
+      "quote": "Proponents may be contacted after the RFP closing to arrange for presentations to clarify Proposals, product demonstrations and/or an inspection of their operations. This may or may not be requested.",
+      "confidence": 0.99,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 32964,
+    "completion_tokens": 2116,
+    "cost_usd": 0.0,
+    "latency_s": 62.15,
+    "errors": 0
+  },
+  "finished_at": "2026-09-20T11:32:27+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 14,
+    "fields_absent": 3,
+    "evidence": {
+      "verified": 14,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 3
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

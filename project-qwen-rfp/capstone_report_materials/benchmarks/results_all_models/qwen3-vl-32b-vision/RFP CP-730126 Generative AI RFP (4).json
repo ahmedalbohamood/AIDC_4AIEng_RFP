@@ -1,0 +1,503 @@
+{
+  "doc_id": "RFP CP-730126 Generative AI RFP (4)",
+  "doc_path": "docs/RFP CP-730126 Generative AI RFP (4).pdf",
+  "n_pages": 33,
+  "text_extractable": true,
+  "backend": "qwen3-vl-32b",
+  "backend_key": "qwen3-vl-32b:vision",
+  "model": "QuantTrio/Qwen3-VL-32B-Instruct-AWQ",
+  "modality": "vision",
+  "retrieval": "selected",
+  "started_at": "2026-09-25T03:16:18+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        16,
+        21,
+        24
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 50.08,
+      "prompt_tokens": 29751,
+      "completion_tokens": 399,
+      "cost_usd": 0.0
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        14,
+        15,
+        16,
+        21,
+        26
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 34.77,
+      "prompt_tokens": 21532,
+      "completion_tokens": 371,
+      "cost_usd": 0.0
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 83.99,
+      "prompt_tokens": 29718,
+      "completion_tokens": 1295,
+      "cost_usd": 0.0
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        23,
+        26
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 45.44,
+      "prompt_tokens": 25560,
+      "completion_tokens": 511,
+      "cost_usd": 0.0
+    },
+    "commercial_pricing": {
+      "pages_shown": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        26,
+        27
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 70.61,
+      "prompt_tokens": 29911,
+      "completion_tokens": 960,
+      "cost_usd": 0.0
+    },
+    "commercial_compliance": {
+      "pages_shown": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        19,
+        20,
+        28,
+        29
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 83.57,
+      "prompt_tokens": 29914,
+      "completion_tokens": 1272,
+      "cost_usd": 0.0
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "August 12, 2025",
+      "raw": "August 12, 2025",
+      "page": 5,
+      "quote": "d) Proposals due August 12, 2025",
+      "confidence": 0.99,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "July 25, 2025",
+      "raw": "July 25, 2025",
+      "page": 5,
+      "quote": "b) Written inquiries up to July 25, 2025",
+      "confidence": 0.99,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Dennis Orellana",
+      "email": null,
+      "phone": null,
+      "title": "Procurement Services Lead",
+      "page": 4,
+      "quote": "Procurement\nUniversity of Saskatchewan\n110 Maintenance Rd,\nSaskatoon, SK S7N 5C5\nAttention: Dennis Orellana\nProcurement Services Lead",
+      "confidence": 0.99,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Proposals must be submitted through the online Bonfire Portal at https://usask.bonfirehub.ca. Submissions by other methods will not be accepted.",
+      "page": 5,
+      "quote": "Proposals must be submitted through the online Bonfire Portal at https://usask.bonfirehub.ca. Submissions by other methods will not be accepted.",
+      "confidence": 0.99,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 5,
+        "found_on_page": 5,
+        "exact": false,
+        "best_score": 99.3
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "5-year initial term (September 1, 2025 to August 31, 2030) with options to extend for one additional three-year and one additional two-year extension, for a maximum potential Contract period of ten (10) years.",
+      "page": 4,
+      "quote": "The term of Contract shall commence on or around September 1, 2025 and shall remain in effect until August 31, 2030, unless otherwise terminated in accordance with the terms outlined herein. USask reserves the right to extend the Contract for one additional three year and one additional two year extension, for a maximum potential Contract period of ten (10) years, or for subsequent project stages, or re-tender the Generative Artificial Intelligence (AI) Software.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 4,
+        "found_on_page": 4,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "The University of Saskatchewan is seeking proposals for the provision and/or installation of Generative Artificial Intelligence (AI) Software. The scope of service is to be negotiated based on the Service Provider's Proposal, as stated in Section 3.15 on page 16. The RFP references Appendix B for details on the services, which is titled 'BACKGROUND/ SCOPE OF SERVICE' and is located on page 22 (not shown in provided pages).",
+      "page": 16,
+      "quote": "3.15 SCOPE OF SERVICE\nTo be negotiated on the basis of the Service Provider’s Proposal.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": false,
+        "best_score": 98.9
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "A table of contents of all presented material.",
+        "An outline of your corporate structure and ownership, complete with a list of the names of all the owners of the company and/or officers of the corporation, and a company organizational chart.",
+        "A complete description of the duration and extent of your company's experience, competence and reliability in handling similar projects.",
+        "A list of proposed personnel, corresponding job function, title, qualifications and experience required to facilitate any subsequent Contract.",
+        "A clear indication of services that will be provided.",
+        "The pricing structure, in Canadian dollars (see Section 2.4 – Pricing structure), for all proposed equipment and/or services.",
+        "A sample of Proponent's service/maintenance agreement.",
+        "Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available.",
+        "A summary of sustainability initiatives (see Section 2.3 – Sustainability).",
+        "A summary of any value added benefits or in-kind contributions, any opportunities for recognition, must be approved under University Policy #5.07 see website: https://policies.usask.ca/policies/advancement/gift-in-kind-identification-and-appraisal.php#OrganizationandApproval Discounts, \"in-kind\" contributions, value added benefits or incentives in the form of laboratory consumables and/or chemicals cannot be considered as the University has contracts in place for these commodities.",
+        "A clear indication of services that will be brokered to third parties, including usage of any USask in-house services.",
+        "Completed Validation of Proposal and Acceptance of Contractual Provisions (see Appendix A). Proposals shall automatically be deemed to include Proponent’s agreement to the preferred Contractual Provisions which shall be incorporated by reference in the Contract, unless expressly and specifically indicated otherwise.",
+        "Completed pricing structure in electronic format (Appendix D – Pricing Structure).",
+        "Completed HECVAT or Software As A Service Form (Appendix E – Software as a Service Vendor Form).",
+        "Disclosure of any and all judgments, pending or expected litigation, or other real or potential reversals which might materially affect the viability or stability of the Proponent’s organization; or warrant that no such condition is known to exist."
+      ],
+      "page": 11,
+      "quote": "In order to receive a uniform format of responses from all Proponents, the following guidelines for formatting the Proposal have been outlined. 2.1 GENERAL OUTLINE a) A table of contents of all presented material. b) An outline of your corporate structure and ownership, complete with a list of the names of all the owners of the company and/or officers of the corporation, and a company organizational chart. c) A complete description of the duration and extent of your company's experience, competence and reliability in handling similar projects. d) A list of proposed personnel, corresponding job function, title, qualifications and experience required to facilitate any subsequent Contract. e) A clear indication of services that will be provided. f) The pricing structure, in Canadian dollars (see Section 2.4 – Pricing structure), for all proposed equipment and/or services. g) A sample of Proponent's service/maintenance agreement. h) Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available. i) A summary of sustainability initiatives (see Section 2.3 – Sustainability). j) A summary of any value added benefits or in-kind contributions, any opportunities for recognition, must be approved under University Policy #5.07 see website: https://policies.usask.ca/policies/advancement/gift-in-kind-identification-and-appraisal.php#OrganizationandApproval Discounts, \"in-kind\" contributions, value added benefits or incentives in the form of laboratory consumables and/or chemicals cannot be considered as the University has contracts in place for these commodities. k) A clear indication of services that will be brokered to third parties, including usage of any USask in-house services. l) Completed Validation of Proposal and Acceptance of Contractual Provisions (see Appendix A). Proposals shall automatically be deemed to include Proponent’s agreement to the preferred Contractual Provisions which shall be incorporated by reference in the Contract, unless expressly and specifically indicated otherwise. m) Completed pricing structure in electronic format (Appendix D – Pricing Structure). n) Completed HECVAT or Software As A Service Form (Appendix E – Software as a Service Vendor Form) o) Disclosure of any and all judgments, pending or expected litigation, or other real or potential reversals which might materially affect the viability or stability of the Proponent’s organization; or warrant that no such condition is known to exist.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 11,
+        "found_on_page": 11,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": false,
+      "value": [
+        "The document does not contain a section explicitly titled 'Mandatory Technical Requirements'. The closest relevant section is 'TECHNICAL & AI PLATFORM SERVICES' under 'SELECTION PROCESS AND CRITERIA' (Section 1.17) on page 8, which lists evaluation criteria such as 'AI Chat and Data Analysis Services', 'Compliance with Intellectual Property and Privacy Regulations', 'Infrastructure Protection', 'Security and Data Protection Requirements', 'Compatibility with USask’s digital infrastructure', and 'Ability to support desired agreement options and user management strategies'. However, these are evaluation criteria, not mandatory technical requirements for the proposal. The document does not specify any technical requirements that the solution must have to be considered compliant."
+      ],
+      "page": 8,
+      "quote": "Proposals shall be evaluated based on the following criteria: Point Weighting a) TECHNICAL & AI PLATFORM SERVICES 30 • AI Chat and Data Analysis Services • Compliance with Intellectual Property and Privacy Regulations • Infrastructure Protection • Security and Data Protection Requirements • Compatibility with USask’s digital infrastructure • Ability to support desired agreement options and user management strategies",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "TECHNICAL & AI PLATFORM SERVICES",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "OPTIONAL SERVICES",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "PROFESSIONAL SERVICES",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "PROPOONENT QUALIFICATIONS",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "SUPPORT & MANAGEMENT",
+          "weight": 10,
+          "unit": "points"
+        },
+        {
+          "category": "COST",
+          "weight": 30,
+          "unit": "points"
+        },
+        {
+          "category": "UNIVERSITY BENEFIT & SUSTAINABILITY",
+          "weight": 5,
+          "unit": "points"
+        },
+        {
+          "category": "INDIGENOUS PARTICIPATION",
+          "weight": 5,
+          "unit": "points"
+        }
+      ],
+      "page": 8,
+      "quote": "Proposals shall be evaluated based on the following criteria:\n\nPoint Weighting\n\na) TECHNICAL & AI PLATFORM SERVICES 30\n• AI Chat and Data Analysis Services\n• Compliance with Intellectual Property and Privacy Regulations\n• Infrastructure Protection\n• Security and Data Protection Requirements\n• Compatibility with USask’s digital infrastructure\n• Ability to support desired agreement options and user management strategies\n\nb) OPTIONAL SERVICES 5\n• AI Model Customization and Integration\n• AI Enabling Infrastructure\nc) PROFESSIONAL SERVICES 5\n• AI Consulting and Support Services\nd) PROPONENT QUALIFICATIONS 10\n• Demonstrated corporate structure and ownership\n• Willingness to accommodate USask requirements & acceptance of preferred contractual provisions.",
+      "confidence": 0.95,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": "points",
+      "page": 9,
+      "quote": "TOTAL OF 100 Points",
+      "confidence": 0.95,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "No numeric pricing scoring formula is provided. Pricing is evaluated as part of the 'COST' criterion in the selection process, which is weighted at 30 points out of 100. The evaluation considers 'Cost of the Services' and 'Transparent and/or fixed pricing structure (with reasonable and supported exceptions)'. Proposals must include a pricing structure in Canadian dollars, excluding GST and PST, and must be submitted in a completed electronic format (Appendix D – Pricing Structure). The pricing structure should be DDP Incoterms 2010 USask and inclusive of all relevant elements such as taxes, duties, pricing formulae, installation charges, maintenance fees, upgrades, training, and value-added benefits. Pricing structure is to be negotiated based on the Service Provider's Proposal and should be firm for five (5) years of the Contract, with adjustments permitted only in accordance with substantiated changes in costs, not exceeding the rise in the Consumer Price Index (CPI).",
+      "page": 8,
+      "quote": "Proposals shall be evaluated based on the following criteria: Point Weighting a) TECHNICAL & AI PLATFORM SERVICES 30 • AI Chat and Data Analysis Services • Compliance with Intellectual Property and Privacy Regulations • Infrastructure Protection • Security and Data Protection Requirements • Compatibility with USask’s digital infrastructure • Ability to support desired agreement options and user management strategies b) OPTIONAL SERVICES 5 • AI Model Customization and Integration • AI Enabling Infrastructure c) PROFESSIONAL SERVICES 5 • AI Consulting and Support Services d) PROPONENT QUALIFICATIONS 10 • Demonstrated corporate structure and ownership • Willingness to accommodate USask requirements & acceptance of preferred contractual provisions.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability Insurance",
+          "amount": 5000000,
+          "currency": "CAD",
+          "basis": "per occurrence for bodily injury (including death) and damage to property including loss of use thereof"
+        },
+        {
+          "coverage_type": "Cybersecurity Liability Insurance",
+          "amount": 5000000,
+          "currency": "CAD",
+          "basis": "per occurrence for cybercrime hacking, viruses, worms, denial of service attacks, data breach and ransomware liability insurance"
+        }
+      ],
+      "page": 15,
+      "quote": "3.11 INSURANCE The Service Provider shall meet the insurance requirements as set forth below and which shall be valid for the duration of the Contract. The Service Provider shall provide certificates of insurance, duly signed by an authorized representative of the insurer, as evidence of coverage, upon request. 1. Commercial General Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for bodily injury (including death) and damage to property including loss of use thereof. Such insurance shall include coverage for broad form property damage, contractual liability, completed operations, product liability and non-owned automobiles. Such insurance shall also include USask as an additional insured and shall contain a cross liability clause. 2. Cybersecurity Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for cybercrime hacking, viruses, worms, denial of service attacks, data breach and ransomware liability insurance.",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 15,
+        "found_on_page": 15,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "unit": "references",
+      "page": 11,
+      "quote": "h) Submission of relevant references. Provide a minimum of three (3) references for similar services, to include: company name, contact name, title, telephone number and email address if available.",
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 11,
+        "found_on_page": 11,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "page": 7,
+      "quote": "1.13 PROPONENT PRESENTATIONS Proponents may be contacted after the RFP closing to arrange for presentations to clarify Proposals, product demonstrations and/or an inspection of their operations. This may or may not be requested.",
+      "confidence": 1.0,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "No stated minimum years or project count. Qualitative requirements include: demonstrated corporate structure and ownership, willingness to accommodate USask requirements and acceptance of preferred contractual provisions, demonstrated ability to work in a large university environment or an organization of similar complexity, and relevant experience, competence, and reliability in handling similar projects.",
+      "page": 8,
+      "quote": "d) PROPONENT QUALIFICATIONS\n• Demonstrated corporate structure and ownership\n• Willingness to accommodate USask requirements & acceptance of preferred contractual provisions.\n\n• Demonstrated ability to work in a large university environment or an organization of similar complexity.\n• Relevant experience, competence, and reliability in handling similar projects.",
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "The Service Provider agrees to maintain in confidence and use only on behalf of USask in furtherance of its contractual duties and obligations, or in the enforcement of the terms of this Contract, any and all Confidential Information provided to it by USask or developed by the Service Provider in connection with performance of this Contract. Confidential Information shall not be disclosed by the Service Provider unless authorized in writing by USask.",
+        "The Service Provider shall take all reasonable measures to protect the personal information, and will immediately notify USask in the event of unauthorized access, use or disclosure of personal information and take all reasonable steps to recover the information and prevent a recurrence. All personal information shall be returned to USask or destroyed upon request, and shall, at minimum, be destroyed upon the completion of the Contract.",
+        "The Service Provider shall meet the insurance requirements as set forth below and which shall be valid for the duration of the Contract. The Service Provider shall provide certificates of insurance, duly signed by an authorized representative of the insurer, as evidence of coverage, upon request. Commercial General Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for bodily injury (including death) and damage to property including loss of use thereof. Cybersecurity Liability Insurance: With a limit of not less than FIVE MILLION CANADIAN DOLLARS ($5,000,000.00 CAD) inclusive per occurrence for cybercrime hacking, viruses, worms, denial of service attacks, data breach and ransomware liability insurance.",
+        "The Service Provider shall comply with all applicable provincial and federal regulations. The Service Provider shall obtain and cover the costs for all permits, licenses and certificates of inspection necessary for the execution of the Service, including liability for all applicable taxes; shall give notices and comply with all laws, ordinances, codes, rules and regulations bearing on the conduct of the Service; and shall pay all fees required by law."
+      ],
+      "page": 19,
+      "quote": "3.29 CONFIDENTIALITY AND PRIVACY **\nFor the purposes of this section, Confidential Information means information in any form disclosed by one party (the “Discloser”) to the other (the “Recipient”) that is (i) marked as confidential, (b) is identified at the time of disclosure as being confidential, or (c) should be reasonably understood by the parties to be confidential or proprietary. The Service Provider, during and after the term of this Contract, agrees that it shall maintain in confidence and use only on behalf of USask in furtherance of its contractual duties and obligations, or in the enforcement of the terms of this Contract, any and all Confidential Information provided to it by USask or developed by the Service Provider in connection with performance of this Contract. Confidential Information shall not be disclosed by the Service Provider unless authorized in writing by USask. Confidential information does not include information in the public domain or that comes into the public domain through no fault of the Recipient; information that was previously known to the Recipient; information independently developed by the Recipient; or information acquired by the Recipient from a third party which is not, to its knowledge, under an obligation of confidence with respect to such information.\n\nThe Service Provider acknowledges that USask is a public body subject to “The Local Authority Freedom of Information and Protection of Privacy Act” (the “Act”) and that records in the possession or under the control of USask may be accessed pursuant to the Act. USask shall use all reasonable efforts to withhold from disclosure information demonstrated by the Service Provider to be protected third party information, as defined in section 18 of the Act, but shall not be liable for disclosures of non-protected third party information as may be required by the Act.\n\nThe Service Provider further acknowledges that it is an Information Management Service Provider (“IMSP”) as defined by the Act, and agrees to meet the requirements of IMSPs pursuant to subsections 23.2(3) and 23.2(4) of the Act. All personal information obtained by or disclosed to the Service Provider by USask for the purpose of providing the Service under the terms of this Contract shall be used for the purpose(s) for which it is obtained or disclosed, and shall not be used or further disclosed by the Service Provider, except as required by law, or as authorized in writing by USask. The Service Provider will take all reasonable measures to protect the personal information, and will immediately notify USask in the event of unauthorized access, use or disclosure of personal information and take all reasonable steps to recover the information and prevent a recurrence. All personal information shall be returned to USask or destroyed upon request, and shall, at minimum, be destroyed upon the completion of the Contract. It is agreed that these obligations of non-disclosure and privacy will survive the termination of this Contract.",
+      "confidence": 0.95,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 19,
+        "found_on_page": 19,
+        "exact": false,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 0.95,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 166386,
+    "completion_tokens": 4808,
+    "cost_usd": 0.0,
+    "latency_s": 368.46,
+    "errors": 0
+  },
+  "finished_at": "2026-09-25T03:22:58+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 14,
+    "fields_absent": 3,
+    "evidence": {
+      "verified": 14,
+      "wrong_page": 0,
+      "unverified": 0,
+      "no_quote": 0,
+      "absent": 3
+    },
+    "groundedness": 1.0,
+    "hallucination_rate": 0.0
+  }
+}

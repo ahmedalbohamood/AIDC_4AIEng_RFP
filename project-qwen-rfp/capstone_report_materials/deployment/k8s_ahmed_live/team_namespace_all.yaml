@@ -1,0 +1,3345 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-26T05:16:13Z"
+    generateName: alert-inbox-6fd9bd597f-
+    generation: 1
+    labels:
+      app: alert-inbox
+      pod-template-hash: 6fd9bd597f
+    name: alert-inbox-6fd9bd597f-4fpwn
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: alert-inbox-6fd9bd597f
+      uid: c6a165bc-2e3d-4717-b01b-60dcadfaaa07
+    resourceVersion: "830465"
+    uid: a9d5e10d-88c2-4948-b758-96bfbffb40f6
+  spec:
+    containers:
+    - command:
+      - python3
+      - -u
+      - /app/inbox.py
+      image: python:3.12-alpine
+      imagePullPolicy: IfNotPresent
+      name: inbox
+      ports:
+      - containerPort: 8080
+        protocol: TCP
+      readinessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8080
+          scheme: HTTP
+        initialDelaySeconds: 2
+        periodSeconds: 5
+        successThreshold: 1
+        timeoutSeconds: 1
+      resources:
+        limits:
+          cpu: 200m
+          memory: 96Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      securityContext:
+        allowPrivilegeEscalation: false
+        capabilities:
+          drop:
+          - ALL
+        readOnlyRootFilesystem: true
+        runAsNonRoot: true
+        runAsUser: 10001
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /app
+        name: code
+        readOnly: true
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-pzzrl
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: alert-inbox-code
+      name: code
+    - name: kube-api-access-pzzrl
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    allocatedResources:
+      cpu: 25m
+      memory: 32Mi
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:09Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:07Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:23Z"
+      observedGeneration: 1
+      status: "True"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:23Z"
+      observedGeneration: 1
+      status: "True"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:07Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - allocatedResources:
+        cpu: 25m
+        memory: 32Mi
+      containerID: containerd://cbc51f95665402a267a5a1eba6bb78f9f6cc2059d4b01477040ea2da927d6418
+      image: docker.io/library/python:3.12-alpine
+      imageID: docker.io/library/python@sha256:4c47124a8391cb7a9f571164147d154777cf012a4ece5f86097130d7a4478111
+      lastState: {}
+      name: inbox
+      ready: true
+      resources:
+        limits:
+          cpu: 200m
+          memory: 96Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      restartCount: 0
+      started: true
+      state:
+        running:
+          startedAt: "2026-09-26T05:23:18Z"
+      user:
+        linux:
+          gid: 0
+          supplementalGroups:
+          - 0
+          uid: 10001
+      volumeMounts:
+      - mountPath: /app
+        name: code
+        readOnly: true
+        recursiveReadOnly: Disabled
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-pzzrl
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    observedGeneration: 1
+    phase: Running
+    podIP: 10.42.1.70
+    podIPs:
+    - ip: 10.42.1.70
+    qosClass: Burstable
+    resources:
+      limits:
+        cpu: 200m
+        memory: 96Mi
+      requests:
+        memory: 32Mi
+    startTime: "2026-09-26T05:23:07Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-14T08:52:35Z"
+    generateName: alert-inbox-6fd9bd597f-
+    generation: 1
+    labels:
+      app: alert-inbox
+      pod-template-hash: 6fd9bd597f
+    name: alert-inbox-6fd9bd597f-lsm4r
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: alert-inbox-6fd9bd597f
+      uid: c6a165bc-2e3d-4717-b01b-60dcadfaaa07
+    resourceVersion: "809468"
+    uid: 88432ccd-00a8-4934-89df-1bc30ad162c5
+  spec:
+    containers:
+    - command:
+      - python3
+      - -u
+      - /app/inbox.py
+      image: python:3.12-alpine
+      imagePullPolicy: IfNotPresent
+      name: inbox
+      ports:
+      - containerPort: 8080
+        protocol: TCP
+      readinessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8080
+          scheme: HTTP
+        initialDelaySeconds: 2
+        periodSeconds: 5
+        successThreshold: 1
+        timeoutSeconds: 1
+      resources:
+        limits:
+          cpu: 200m
+          memory: 96Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      securityContext:
+        allowPrivilegeEscalation: false
+        capabilities:
+          drop:
+          - ALL
+        readOnlyRootFilesystem: true
+        runAsNonRoot: true
+        runAsUser: 10001
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /app
+        name: code
+        readOnly: true
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-lb94j
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: alert-inbox-code
+      name: code
+    - name: kube-api-access-lb94j
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    allocatedResources:
+      cpu: 25m
+      memory: 32Mi
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:32Z"
+      message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+        10512078185, available: 13535252Ki. Container inbox was using 136Ki, request
+        is 0, has larger consumption of ephemeral-storage. '
+      observedGeneration: 1
+      reason: TerminationByKubelet
+      status: "True"
+      type: DisruptionTarget
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:32Z"
+      observedGeneration: 1
+      status: "False"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-14T08:52:35Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:32Z"
+      observedGeneration: 1
+      reason: PodFailed
+      status: "False"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:32Z"
+      observedGeneration: 1
+      reason: PodFailed
+      status: "False"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-14T08:52:35Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - allocatedResources:
+        cpu: 25m
+        memory: 32Mi
+      containerID: containerd://2d8f96c02a588128b67e70278d9436a6c6e1ba8e29db21c81cf1c15cc3168cc1
+      image: docker.io/library/python:3.12-alpine
+      imageID: docker.io/library/python@sha256:b64631e04e4920160c50fbe8d8df828f7f35f06f425cb44aa09bca53e708a35a
+      lastState: {}
+      name: inbox
+      ready: false
+      resources:
+        limits:
+          cpu: 200m
+          memory: 96Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      restartCount: 0
+      started: false
+      state:
+        terminated:
+          containerID: containerd://2d8f96c02a588128b67e70278d9436a6c6e1ba8e29db21c81cf1c15cc3168cc1
+          exitCode: 137
+          finishedAt: "2026-09-25T15:33:32Z"
+          reason: Error
+          startedAt: "2026-09-14T08:52:37Z"
+      user:
+        linux:
+          gid: 0
+          supplementalGroups:
+          - 0
+          uid: 10001
+      volumeMounts:
+      - mountPath: /app
+        name: code
+        readOnly: true
+        recursiveReadOnly: Disabled
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-lb94j
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+      10512078185, available: 13535252Ki. Container inbox was using 136Ki, request
+      is 0, has larger consumption of ephemeral-storage. '
+    observedGeneration: 1
+    phase: Failed
+    podIP: 10.42.1.62
+    podIPs:
+    - ip: 10.42.1.62
+    qosClass: Burstable
+    reason: Evicted
+    resources:
+      limits:
+        cpu: 200m
+        memory: 96Mi
+      requests:
+        memory: 32Mi
+    startTime: "2026-09-14T08:52:35Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-25T15:33:32Z"
+    generateName: alert-inbox-6fd9bd597f-
+    generation: 1
+    labels:
+      app: alert-inbox
+      pod-template-hash: 6fd9bd597f
+    name: alert-inbox-6fd9bd597f-qgh57
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: alert-inbox-6fd9bd597f
+      uid: c6a165bc-2e3d-4717-b01b-60dcadfaaa07
+    resourceVersion: "830165"
+    uid: a1106c24-6259-47ec-87b5-728471091a76
+  spec:
+    containers:
+    - command:
+      - python3
+      - -u
+      - /app/inbox.py
+      image: python:3.12-alpine
+      imagePullPolicy: IfNotPresent
+      name: inbox
+      ports:
+      - containerPort: 8080
+        protocol: TCP
+      readinessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8080
+          scheme: HTTP
+        initialDelaySeconds: 2
+        periodSeconds: 5
+        successThreshold: 1
+        timeoutSeconds: 1
+      resources:
+        limits:
+          cpu: 200m
+          memory: 96Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      securityContext:
+        allowPrivilegeEscalation: false
+        capabilities:
+          drop:
+          - ALL
+        readOnlyRootFilesystem: true
+        runAsNonRoot: true
+        runAsUser: 10001
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /app
+        name: code
+        readOnly: true
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-8vtkd
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: alert-inbox-code
+      name: code
+    - name: kube-api-access-8vtkd
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    allocatedResources:
+      cpu: 25m
+      memory: 32Mi
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:16:13Z"
+      message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+        10512078185, available: 3872756Ki. Container inbox was using 28Ki, request
+        is 0, has larger consumption of ephemeral-storage. '
+      observedGeneration: 1
+      reason: TerminationByKubelet
+      status: "True"
+      type: DisruptionTarget
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:16:13Z"
+      observedGeneration: 1
+      status: "False"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T01:09:56Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:16:13Z"
+      observedGeneration: 1
+      reason: PodFailed
+      status: "False"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:16:13Z"
+      observedGeneration: 1
+      reason: PodFailed
+      status: "False"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T01:09:56Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - allocatedResources:
+        cpu: 25m
+        memory: 32Mi
+      containerID: containerd://da998c42c3dde13591347b32616a87e15c979ec2a1e80cf95d3e8d3244ffc7f2
+      image: docker.io/library/python:3.12-alpine
+      imageID: docker.io/library/python@sha256:4c47124a8391cb7a9f571164147d154777cf012a4ece5f86097130d7a4478111
+      lastState: {}
+      name: inbox
+      ready: false
+      resources:
+        limits:
+          cpu: 200m
+          memory: 96Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      restartCount: 0
+      started: false
+      state:
+        terminated:
+          containerID: containerd://da998c42c3dde13591347b32616a87e15c979ec2a1e80cf95d3e8d3244ffc7f2
+          exitCode: 137
+          finishedAt: "2026-09-26T05:16:12Z"
+          reason: Error
+          startedAt: "2026-09-26T01:10:00Z"
+      user:
+        linux:
+          gid: 0
+          supplementalGroups:
+          - 0
+          uid: 10001
+      volumeMounts:
+      - mountPath: /app
+        name: code
+        readOnly: true
+        recursiveReadOnly: Disabled
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-8vtkd
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+      10512078185, available: 3872756Ki. Container inbox was using 28Ki, request is
+      0, has larger consumption of ephemeral-storage. '
+    observedGeneration: 1
+    phase: Failed
+    podIP: 10.42.1.67
+    podIPs:
+    - ip: 10.42.1.67
+    qosClass: Burstable
+    reason: Evicted
+    resources:
+      limits:
+        cpu: 200m
+        memory: 96Mi
+      requests:
+        memory: 32Mi
+    startTime: "2026-09-26T01:09:56Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-13T08:25:03Z"
+    generateName: grafana-7575fbf844-
+    generation: 1
+    labels:
+      app: grafana
+      pod-template-hash: 7575fbf844
+    name: grafana-7575fbf844-5dpmd
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: grafana-7575fbf844
+      uid: ec658036-75bc-4c35-843b-86709b74e183
+    resourceVersion: "809414"
+    uid: ae1adebc-9ab4-4752-8497-42dc27659311
+  spec:
+    containers:
+    - env:
+      - name: GF_AUTH_ANONYMOUS_ENABLED
+        value: "true"
+      - name: GF_AUTH_ANONYMOUS_ORG_ROLE
+        value: Viewer
+      - name: GF_SECURITY_ADMIN_PASSWORD
+        valueFrom:
+          secretKeyRef:
+            key: api-key
+            name: serving-keys
+      image: grafana/grafana:11.4.0
+      imagePullPolicy: IfNotPresent
+      name: grafana
+      ports:
+      - containerPort: 3000
+        protocol: TCP
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/grafana/provisioning/datasources
+        name: datasource
+      - mountPath: /etc/grafana/provisioning/dashboards
+        name: provider
+      - mountPath: /var/lib/grafana/dashboards
+        name: dashboards
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-rrdsg
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: grafana-datasource
+      name: datasource
+    - configMap:
+        defaultMode: 420
+        name: grafana-provider
+      name: provider
+    - configMap:
+        defaultMode: 420
+        name: slo-dashboard
+        optional: true
+      name: dashboards
+    - name: kube-api-access-rrdsg
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:04Z"
+      message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+        10512078185, available: 12817308Ki. Container grafana was using 20724Ki, request
+        is 0, has larger consumption of ephemeral-storage. '
+      observedGeneration: 1
+      reason: TerminationByKubelet
+      status: "True"
+      type: DisruptionTarget
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:04Z"
+      observedGeneration: 1
+      status: "False"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-13T08:25:03Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:04Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "False"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:04Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "False"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-13T08:25:03Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - containerID: containerd://da77d82321e9a56c399dfc33a880a75261d03a73ed449edfc63b9483f7deeede
+      image: docker.io/grafana/grafana:11.4.0
+      imageID: docker.io/grafana/grafana@sha256:d8ea37798ccc41061a62ab080f2676dda6bf7815558499f901bdb0f533a456fb
+      lastState: {}
+      name: grafana
+      ready: false
+      resources: {}
+      restartCount: 0
+      started: false
+      state:
+        terminated:
+          containerID: containerd://da77d82321e9a56c399dfc33a880a75261d03a73ed449edfc63b9483f7deeede
+          exitCode: 0
+          finishedAt: "2026-09-25T15:33:04Z"
+          reason: Completed
+          startedAt: "2026-09-13T08:25:08Z"
+      user:
+        linux:
+          gid: 0
+          supplementalGroups:
+          - 0
+          uid: 472
+      volumeMounts:
+      - mountPath: /etc/grafana/provisioning/datasources
+        name: datasource
+      - mountPath: /etc/grafana/provisioning/dashboards
+        name: provider
+      - mountPath: /var/lib/grafana/dashboards
+        name: dashboards
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-rrdsg
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    observedGeneration: 1
+    phase: Succeeded
+    podIP: 10.42.1.61
+    podIPs:
+    - ip: 10.42.1.61
+    qosClass: BestEffort
+    resources: {}
+    startTime: "2026-09-13T08:25:03Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-25T15:33:05Z"
+    generateName: grafana-7575fbf844-
+    generation: 1
+    labels:
+      app: grafana
+      pod-template-hash: 7575fbf844
+    name: grafana-7575fbf844-c74m5
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: grafana-7575fbf844
+      uid: ec658036-75bc-4c35-843b-86709b74e183
+    resourceVersion: "830134"
+    uid: 72dafb12-06b0-4a05-b234-fd08117a8e6a
+  spec:
+    containers:
+    - env:
+      - name: GF_AUTH_ANONYMOUS_ENABLED
+        value: "true"
+      - name: GF_AUTH_ANONYMOUS_ORG_ROLE
+        value: Viewer
+      - name: GF_SECURITY_ADMIN_PASSWORD
+        valueFrom:
+          secretKeyRef:
+            key: api-key
+            name: serving-keys
+      image: grafana/grafana:11.4.0
+      imagePullPolicy: IfNotPresent
+      name: grafana
+      ports:
+      - containerPort: 3000
+        protocol: TCP
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/grafana/provisioning/datasources
+        name: datasource
+      - mountPath: /etc/grafana/provisioning/dashboards
+        name: provider
+      - mountPath: /var/lib/grafana/dashboards
+        name: dashboards
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-pmgv9
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: grafana-datasource
+      name: datasource
+    - configMap:
+        defaultMode: 420
+        name: grafana-provider
+      name: provider
+    - configMap:
+        defaultMode: 420
+        name: slo-dashboard
+        optional: true
+      name: dashboards
+    - name: kube-api-access-pmgv9
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:15:47Z"
+      message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+        10512078185, available: 3873028Ki. Container grafana was using 14652Ki, request
+        is 0, has larger consumption of ephemeral-storage. '
+      observedGeneration: 1
+      reason: TerminationByKubelet
+      status: "True"
+      type: DisruptionTarget
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:15:47Z"
+      observedGeneration: 1
+      status: "False"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T01:09:56Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:15:47Z"
+      observedGeneration: 1
+      reason: PodFailed
+      status: "False"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:15:47Z"
+      observedGeneration: 1
+      reason: PodFailed
+      status: "False"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T01:09:56Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - image: grafana/grafana:11.4.0
+      imageID: ""
+      lastState:
+        terminated:
+          exitCode: 137
+          finishedAt: null
+          message: The container could not be located when the pod was deleted.  The
+            container used to be Running
+          reason: ContainerStatusUnknown
+          startedAt: null
+      name: grafana
+      ready: false
+      restartCount: 1
+      started: false
+      state:
+        terminated:
+          exitCode: 137
+          finishedAt: null
+          message: The container could not be located when the pod was terminated
+          reason: ContainerStatusUnknown
+          startedAt: null
+      volumeMounts:
+      - mountPath: /etc/grafana/provisioning/datasources
+        name: datasource
+      - mountPath: /etc/grafana/provisioning/dashboards
+        name: provider
+      - mountPath: /var/lib/grafana/dashboards
+        name: dashboards
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-pmgv9
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+      10512078185, available: 3873028Ki. Container grafana was using 14652Ki, request
+      is 0, has larger consumption of ephemeral-storage. '
+    observedGeneration: 1
+    phase: Failed
+    podIP: 10.42.1.66
+    podIPs:
+    - ip: 10.42.1.66
+    qosClass: BestEffort
+    reason: Evicted
+    resources: {}
+    startTime: "2026-09-26T01:09:56Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-26T05:15:48Z"
+    generateName: grafana-7575fbf844-
+    generation: 1
+    labels:
+      app: grafana
+      pod-template-hash: 7575fbf844
+    name: grafana-7575fbf844-tvw8x
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: grafana-7575fbf844
+      uid: ec658036-75bc-4c35-843b-86709b74e183
+    resourceVersion: "830447"
+    uid: c4ded6b2-1ee3-4be9-a8f8-e5cb78ba4687
+  spec:
+    containers:
+    - env:
+      - name: GF_AUTH_ANONYMOUS_ENABLED
+        value: "true"
+      - name: GF_AUTH_ANONYMOUS_ORG_ROLE
+        value: Viewer
+      - name: GF_SECURITY_ADMIN_PASSWORD
+        valueFrom:
+          secretKeyRef:
+            key: api-key
+            name: serving-keys
+      image: grafana/grafana:11.4.0
+      imagePullPolicy: IfNotPresent
+      name: grafana
+      ports:
+      - containerPort: 3000
+        protocol: TCP
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/grafana/provisioning/datasources
+        name: datasource
+      - mountPath: /etc/grafana/provisioning/dashboards
+        name: provider
+      - mountPath: /var/lib/grafana/dashboards
+        name: dashboards
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-sfgjv
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: grafana-datasource
+      name: datasource
+    - configMap:
+        defaultMode: 420
+        name: grafana-provider
+      name: provider
+    - configMap:
+        defaultMode: 420
+        name: slo-dashboard
+        optional: true
+      name: dashboards
+    - name: kube-api-access-sfgjv
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:09Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:07Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:15Z"
+      observedGeneration: 1
+      status: "True"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:15Z"
+      observedGeneration: 1
+      status: "True"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:07Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - containerID: containerd://1f318fca338447d55acace3787b021984483abb6d251e98a17f7b1f7b6fffa7e
+      image: docker.io/grafana/grafana:11.4.0
+      imageID: docker.io/grafana/grafana@sha256:d8ea37798ccc41061a62ab080f2676dda6bf7815558499f901bdb0f533a456fb
+      lastState: {}
+      name: grafana
+      ready: true
+      resources: {}
+      restartCount: 0
+      started: true
+      state:
+        running:
+          startedAt: "2026-09-26T05:23:15Z"
+      user:
+        linux:
+          gid: 0
+          supplementalGroups:
+          - 0
+          uid: 472
+      volumeMounts:
+      - mountPath: /etc/grafana/provisioning/datasources
+        name: datasource
+      - mountPath: /etc/grafana/provisioning/dashboards
+        name: provider
+      - mountPath: /var/lib/grafana/dashboards
+        name: dashboards
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-sfgjv
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    observedGeneration: 1
+    phase: Running
+    podIP: 10.42.1.71
+    podIPs:
+    - ip: 10.42.1.71
+    qosClass: BestEffort
+    resources: {}
+    startTime: "2026-09-26T05:23:07Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-25T15:33:17Z"
+    generateName: health-shim-84864658b-
+    generation: 1
+    labels:
+      app: health-shim
+      pod-template-hash: 84864658b
+    name: health-shim-84864658b-4swdv
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: health-shim-84864658b
+      uid: 86578360-d944-4d7c-95af-23a067027c20
+    resourceVersion: "830153"
+    uid: 4c282e36-110f-4224-ba02-144601ac5332
+  spec:
+    containers:
+    - image: nginx:1.27-alpine
+      imagePullPolicy: IfNotPresent
+      livenessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8000
+          scheme: HTTP
+        initialDelaySeconds: 10
+        periodSeconds: 10
+        successThreshold: 1
+        timeoutSeconds: 1
+      name: nginx
+      ports:
+      - containerPort: 8000
+        protocol: TCP
+      readinessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8000
+          scheme: HTTP
+        periodSeconds: 5
+        successThreshold: 1
+        timeoutSeconds: 1
+      resources:
+        limits:
+          cpu: 200m
+          memory: 128Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/nginx/nginx.conf
+        name: conf
+        subPath: nginx.conf
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-nggvn
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: health-shim-conf
+      name: conf
+    - name: kube-api-access-nggvn
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    allocatedResources:
+      cpu: 25m
+      memory: 32Mi
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:15:59Z"
+      message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+        10512078185, available: 3785776Ki. Container nginx was using 96Ki, request
+        is 0, has larger consumption of ephemeral-storage. '
+      observedGeneration: 1
+      reason: TerminationByKubelet
+      status: "True"
+      type: DisruptionTarget
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:15:59Z"
+      observedGeneration: 1
+      status: "False"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T01:09:56Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:15:59Z"
+      observedGeneration: 1
+      reason: PodFailed
+      status: "False"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:15:59Z"
+      observedGeneration: 1
+      reason: PodFailed
+      status: "False"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T01:09:56Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - image: nginx:1.27-alpine
+      imageID: ""
+      lastState:
+        terminated:
+          exitCode: 137
+          finishedAt: null
+          message: The container could not be located when the pod was deleted.  The
+            container used to be Running
+          reason: ContainerStatusUnknown
+          startedAt: null
+      name: nginx
+      ready: false
+      restartCount: 1
+      started: false
+      state:
+        terminated:
+          exitCode: 137
+          finishedAt: null
+          message: The container could not be located when the pod was terminated
+          reason: ContainerStatusUnknown
+          startedAt: null
+      volumeMounts:
+      - mountPath: /etc/nginx/nginx.conf
+        name: conf
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-nggvn
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+      10512078185, available: 3785776Ki. Container nginx was using 96Ki, request is
+      0, has larger consumption of ephemeral-storage. '
+    observedGeneration: 1
+    phase: Failed
+    podIP: 10.42.1.65
+    podIPs:
+    - ip: 10.42.1.65
+    qosClass: Burstable
+    reason: Evicted
+    resources:
+      requests:
+        memory: 32Mi
+    startTime: "2026-09-26T01:09:56Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-10T12:48:10Z"
+    generateName: health-shim-84864658b-
+    generation: 1
+    labels:
+      app: health-shim
+      pod-template-hash: 84864658b
+    name: health-shim-84864658b-f2x2s
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: health-shim-84864658b
+      uid: 86578360-d944-4d7c-95af-23a067027c20
+    resourceVersion: "809441"
+    uid: 63de83d6-d228-47ae-b9b8-3efc619ed677
+  spec:
+    containers:
+    - image: nginx:1.27-alpine
+      imagePullPolicy: IfNotPresent
+      livenessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8000
+          scheme: HTTP
+        initialDelaySeconds: 10
+        periodSeconds: 10
+        successThreshold: 1
+        timeoutSeconds: 1
+      name: nginx
+      ports:
+      - containerPort: 8000
+        protocol: TCP
+      readinessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8000
+          scheme: HTTP
+        periodSeconds: 5
+        successThreshold: 1
+        timeoutSeconds: 1
+      resources:
+        limits:
+          cpu: 200m
+          memory: 128Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/nginx/nginx.conf
+        name: conf
+        subPath: nginx.conf
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-ttm6x
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: health-shim-conf
+      name: conf
+    - name: kube-api-access-ttm6x
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    allocatedResources:
+      cpu: 25m
+      memory: 32Mi
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:17Z"
+      message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+        10512078185, available: 12832016Ki. Container nginx was using 96Ki, request
+        is 0, has larger consumption of ephemeral-storage. '
+      observedGeneration: 1
+      reason: TerminationByKubelet
+      status: "True"
+      type: DisruptionTarget
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:17Z"
+      observedGeneration: 1
+      status: "False"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-10T12:48:10Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:17Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "False"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:17Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "False"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-10T12:48:10Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - allocatedResources:
+        cpu: 25m
+        memory: 32Mi
+      containerID: containerd://deb38ec1bd1a4958c1634f2a3a606f5ade3da9a93ae3f88ab01ef903150304d1
+      image: docker.io/library/nginx:1.27-alpine
+      imageID: docker.io/library/nginx@sha256:65645c7bb6a0661892a8b03b89d0743208a18dd2f3f17a54ef4b76fb8e2f2a10
+      lastState: {}
+      name: nginx
+      ready: false
+      resources:
+        limits:
+          cpu: 200m
+          memory: 128Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      restartCount: 0
+      started: false
+      state:
+        terminated:
+          containerID: containerd://deb38ec1bd1a4958c1634f2a3a606f5ade3da9a93ae3f88ab01ef903150304d1
+          exitCode: 0
+          finishedAt: "2026-09-25T15:33:17Z"
+          reason: Completed
+          startedAt: "2026-09-10T12:48:13Z"
+      user:
+        linux:
+          gid: 0
+          supplementalGroups:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 6
+          - 10
+          - 11
+          - 20
+          - 26
+          - 27
+          uid: 0
+      volumeMounts:
+      - mountPath: /etc/nginx/nginx.conf
+        name: conf
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-ttm6x
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    observedGeneration: 1
+    phase: Succeeded
+    podIP: 10.42.1.55
+    podIPs:
+    - ip: 10.42.1.55
+    qosClass: Burstable
+    resources:
+      requests:
+        memory: 32Mi
+    startTime: "2026-09-10T12:48:10Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-26T05:15:59Z"
+    generateName: health-shim-84864658b-
+    generation: 1
+    labels:
+      app: health-shim
+      pod-template-hash: 84864658b
+    name: health-shim-84864658b-xvgqr
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: health-shim-84864658b
+      uid: 86578360-d944-4d7c-95af-23a067027c20
+    resourceVersion: "830443"
+    uid: 7e08f0f4-207b-4a3c-962e-1536ba8e129a
+  spec:
+    containers:
+    - image: nginx:1.27-alpine
+      imagePullPolicy: IfNotPresent
+      livenessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8000
+          scheme: HTTP
+        initialDelaySeconds: 10
+        periodSeconds: 10
+        successThreshold: 1
+        timeoutSeconds: 1
+      name: nginx
+      ports:
+      - containerPort: 8000
+        protocol: TCP
+      readinessProbe:
+        failureThreshold: 3
+        httpGet:
+          path: /health
+          port: 8000
+          scheme: HTTP
+        periodSeconds: 5
+        successThreshold: 1
+        timeoutSeconds: 1
+      resources:
+        limits:
+          cpu: 200m
+          memory: 128Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/nginx/nginx.conf
+        name: conf
+        subPath: nginx.conf
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-92gfm
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: health-shim-conf
+      name: conf
+    - name: kube-api-access-92gfm
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    allocatedResources:
+      cpu: 25m
+      memory: 32Mi
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:09Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:07Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:13Z"
+      observedGeneration: 1
+      status: "True"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:13Z"
+      observedGeneration: 1
+      status: "True"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:07Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - allocatedResources:
+        cpu: 25m
+        memory: 32Mi
+      containerID: containerd://550767f335c8174ee61e1e17417aa74a0ba9be2f5d78a6bb8b7e0aad84bdd850
+      image: docker.io/library/nginx:1.27-alpine
+      imageID: docker.io/library/nginx@sha256:65645c7bb6a0661892a8b03b89d0743208a18dd2f3f17a54ef4b76fb8e2f2a10
+      lastState: {}
+      name: nginx
+      ready: true
+      resources:
+        limits:
+          cpu: 200m
+          memory: 128Mi
+        requests:
+          cpu: 25m
+          memory: 32Mi
+      restartCount: 0
+      started: true
+      state:
+        running:
+          startedAt: "2026-09-26T05:23:12Z"
+      user:
+        linux:
+          gid: 0
+          supplementalGroups:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 6
+          - 10
+          - 11
+          - 20
+          - 26
+          - 27
+          uid: 0
+      volumeMounts:
+      - mountPath: /etc/nginx/nginx.conf
+        name: conf
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-92gfm
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    observedGeneration: 1
+    phase: Running
+    podIP: 10.42.1.73
+    podIPs:
+    - ip: 10.42.1.73
+    qosClass: Burstable
+    resources:
+      limits:
+        cpu: 200m
+        memory: 128Mi
+      requests:
+        memory: 32Mi
+    startTime: "2026-09-26T05:23:07Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-26T05:16:14Z"
+    generateName: prometheus-7c4bdd8885-
+    generation: 1
+    labels:
+      app: prometheus
+      pod-template-hash: 7c4bdd8885
+    name: prometheus-7c4bdd8885-5wsnd
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: prometheus-7c4bdd8885
+      uid: 05033169-a071-400f-b86e-319f62a2b3fe
+    resourceVersion: "830434"
+    uid: 25bc4592-eb40-4fe3-b451-272f7e0a3ddd
+  spec:
+    containers:
+    - args:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.retention.time=30d
+      image: prom/prometheus:v2.55.1
+      imagePullPolicy: IfNotPresent
+      name: prometheus
+      ports:
+      - containerPort: 9090
+        protocol: TCP
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/prometheus
+        name: config
+      - mountPath: /prometheus
+        name: data
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-8qfdk
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: prom-config
+      name: config
+    - name: data
+      persistentVolumeClaim:
+        claimName: prom-data
+    - name: kube-api-access-8qfdk
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:09Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:07Z"
+      observedGeneration: 1
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:13Z"
+      observedGeneration: 1
+      status: "True"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:13Z"
+      observedGeneration: 1
+      status: "True"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:23:07Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - containerID: containerd://cfcad770cd8588e229d66100d52db64e6bffd0fd0ba00d26bc3b95e1a118e107
+      image: docker.io/prom/prometheus:v2.55.1
+      imageID: docker.io/prom/prometheus@sha256:2659f4c2ebb718e7695cb9b25ffa7d6be64db013daba13e05c875451cf51b0d3
+      lastState: {}
+      name: prometheus
+      ready: true
+      resources: {}
+      restartCount: 0
+      started: true
+      state:
+        running:
+          startedAt: "2026-09-26T05:23:13Z"
+      user:
+        linux:
+          gid: 65534
+          supplementalGroups:
+          - 65534
+          uid: 65534
+      volumeMounts:
+      - mountPath: /etc/prometheus
+        name: config
+      - mountPath: /prometheus
+        name: data
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-8qfdk
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    observedGeneration: 1
+    phase: Running
+    podIP: 10.42.1.72
+    podIPs:
+    - ip: 10.42.1.72
+    qosClass: BestEffort
+    resources: {}
+    startTime: "2026-09-26T05:23:07Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-10T11:03:54Z"
+    generateName: prometheus-7c4bdd8885-
+    generation: 1
+    labels:
+      app: prometheus
+      pod-template-hash: 7c4bdd8885
+    name: prometheus-7c4bdd8885-7bnlh
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: prometheus-7c4bdd8885
+      uid: 05033169-a071-400f-b86e-319f62a2b3fe
+    resourceVersion: "809450"
+    uid: 18f2d89b-385a-43bc-b416-08f0688ff82f
+  spec:
+    containers:
+    - args:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.retention.time=30d
+      image: prom/prometheus:v2.55.1
+      imagePullPolicy: IfNotPresent
+      name: prometheus
+      ports:
+      - containerPort: 9090
+        protocol: TCP
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/prometheus
+        name: config
+      - mountPath: /prometheus
+        name: data
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-4rd9c
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: prom-config
+      name: config
+    - name: data
+      persistentVolumeClaim:
+        claimName: prom-data
+    - name: kube-api-access-4rd9c
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:28Z"
+      message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+        10512078185, available: 13463308Ki. Container prometheus was using 216Ki,
+        request is 0, has larger consumption of ephemeral-storage. '
+      observedGeneration: 1
+      reason: TerminationByKubelet
+      status: "True"
+      type: DisruptionTarget
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:28Z"
+      observedGeneration: 1
+      status: "False"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-10T11:04:00Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:28Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "False"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-25T15:33:28Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "False"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-10T11:04:00Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - containerID: containerd://f525cbb5e1474e6bd2155c53d4ae72e260a3b6bd08dc367ac8dc98ae569bcf1b
+      image: docker.io/prom/prometheus:v2.55.1
+      imageID: docker.io/prom/prometheus@sha256:2659f4c2ebb718e7695cb9b25ffa7d6be64db013daba13e05c875451cf51b0d3
+      lastState: {}
+      name: prometheus
+      ready: false
+      resources: {}
+      restartCount: 0
+      started: false
+      state:
+        terminated:
+          containerID: containerd://f525cbb5e1474e6bd2155c53d4ae72e260a3b6bd08dc367ac8dc98ae569bcf1b
+          exitCode: 0
+          finishedAt: "2026-09-25T15:33:28Z"
+          reason: Completed
+          startedAt: "2026-09-10T11:04:03Z"
+      user:
+        linux:
+          gid: 65534
+          supplementalGroups:
+          - 65534
+          uid: 65534
+      volumeMounts:
+      - mountPath: /etc/prometheus
+        name: config
+      - mountPath: /prometheus
+        name: data
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-4rd9c
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    observedGeneration: 1
+    phase: Succeeded
+    podIP: 10.42.1.54
+    podIPs:
+    - ip: 10.42.1.54
+    qosClass: BestEffort
+    resources: {}
+    startTime: "2026-09-10T11:04:00Z"
+- apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: "2026-09-25T15:33:28Z"
+    generateName: prometheus-7c4bdd8885-
+    generation: 1
+    labels:
+      app: prometheus
+      pod-template-hash: 7c4bdd8885
+    name: prometheus-7c4bdd8885-qnkh9
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ReplicaSet
+      name: prometheus-7c4bdd8885
+      uid: 05033169-a071-400f-b86e-319f62a2b3fe
+    resourceVersion: "830180"
+    uid: 35bb9ffe-7723-4a4b-a3af-b8c63554194f
+  spec:
+    containers:
+    - args:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.retention.time=30d
+      image: prom/prometheus:v2.55.1
+      imagePullPolicy: IfNotPresent
+      name: prometheus
+      ports:
+      - containerPort: 9090
+        protocol: TCP
+      resources: {}
+      terminationMessagePath: /dev/termination-log
+      terminationMessagePolicy: File
+      volumeMounts:
+      - mountPath: /etc/prometheus
+        name: config
+      - mountPath: /prometheus
+        name: data
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-9jbl9
+        readOnly: true
+    dnsPolicy: ClusterFirst
+    enableServiceLinks: true
+    nodeName: aidc-t04
+    preemptionPolicy: PreemptLowerPriority
+    priority: 0
+    restartPolicy: Always
+    schedulerName: default-scheduler
+    securityContext: {}
+    serviceAccount: default
+    serviceAccountName: default
+    terminationGracePeriodSeconds: 30
+    tolerations:
+    - effect: NoExecute
+      key: node.kubernetes.io/not-ready
+      operator: Exists
+      tolerationSeconds: 300
+    - effect: NoExecute
+      key: node.kubernetes.io/unreachable
+      operator: Exists
+      tolerationSeconds: 300
+    volumes:
+    - configMap:
+        defaultMode: 420
+        name: prom-config
+      name: config
+    - name: data
+      persistentVolumeClaim:
+        claimName: prom-data
+    - name: kube-api-access-9jbl9
+      projected:
+        defaultMode: 420
+        sources:
+        - serviceAccountToken:
+            expirationSeconds: 3607
+            path: token
+        - configMap:
+            items:
+            - key: ca.crt
+              path: ca.crt
+            name: kube-root-ca.crt
+        - downwardAPI:
+            items:
+            - fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+              path: namespace
+  status:
+    conditions:
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:16:14Z"
+      message: 'The node was low on resource: ephemeral-storage. Threshold quantity:
+        10512078185, available: 3944808Ki. Container prometheus was using 40Ki, request
+        is 0, has larger consumption of ephemeral-storage. '
+      observedGeneration: 1
+      reason: TerminationByKubelet
+      status: "True"
+      type: DisruptionTarget
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:16:14Z"
+      observedGeneration: 1
+      status: "False"
+      type: PodReadyToStartContainers
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T01:09:56Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "True"
+      type: Initialized
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:16:14Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "False"
+      type: Ready
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T05:16:14Z"
+      observedGeneration: 1
+      reason: PodCompleted
+      status: "False"
+      type: ContainersReady
+    - lastProbeTime: null
+      lastTransitionTime: "2026-09-26T01:09:56Z"
+      observedGeneration: 1
+      status: "True"
+      type: PodScheduled
+    containerStatuses:
+    - containerID: containerd://d7a865bec557c26c01d7637e6896f5f7ec502b2639f5bf9c2e5fa19dcd13ffde
+      image: docker.io/prom/prometheus:v2.55.1
+      imageID: docker.io/prom/prometheus@sha256:2659f4c2ebb718e7695cb9b25ffa7d6be64db013daba13e05c875451cf51b0d3
+      lastState: {}
+      name: prometheus
+      ready: false
+      resources: {}
+      restartCount: 0
+      started: false
+      state:
+        terminated:
+          containerID: containerd://d7a865bec557c26c01d7637e6896f5f7ec502b2639f5bf9c2e5fa19dcd13ffde
+          exitCode: 0
+          finishedAt: "2026-09-26T05:16:14Z"
+          reason: Completed
+          startedAt: "2026-09-26T01:10:00Z"
+      user:
+        linux:
+          gid: 65534
+          supplementalGroups:
+          - 65534
+          uid: 65534
+      volumeMounts:
+      - mountPath: /etc/prometheus
+        name: config
+      - mountPath: /prometheus
+        name: data
+      - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+        name: kube-api-access-9jbl9
+        readOnly: true
+        recursiveReadOnly: Disabled
+    hostIP: 10.0.0.159
+    hostIPs:
+    - ip: 10.0.0.159
+    observedGeneration: 1
+    phase: Succeeded
+    podIP: 10.42.1.64
+    podIPs:
+    - ip: 10.42.1.64
+    qosClass: BestEffort
+    resources: {}
+    startTime: "2026-09-26T01:09:56Z"
+- apiVersion: v1
+  kind: Service
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"alert-inbox","namespace":"team"},"spec":{"ports":[{"port":8080,"targetPort":8080}],"selector":{"app":"alert-inbox"},"type":"ClusterIP"}}
+    creationTimestamp: "2026-09-14T08:52:34Z"
+    name: alert-inbox
+    namespace: team
+    resourceVersion: "377097"
+    uid: e1681c2e-8d98-4dcc-a486-12ebe8d91859
+  spec:
+    clusterIP: 10.43.29.244
+    clusterIPs:
+    - 10.43.29.244
+    internalTrafficPolicy: Cluster
+    ipFamilies:
+    - IPv4
+    ipFamilyPolicy: SingleStack
+    ports:
+    - port: 8080
+      protocol: TCP
+      targetPort: 8080
+    selector:
+      app: alert-inbox
+    sessionAffinity: None
+    type: ClusterIP
+  status:
+    loadBalancer: {}
+- apiVersion: v1
+  kind: Service
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"grafana","namespace":"team"},"spec":{"ports":[{"nodePort":30300,"port":3000,"targetPort":3000}],"selector":{"app":"grafana"},"type":"NodePort"}}
+    creationTimestamp: "2026-09-13T08:25:03Z"
+    name: grafana
+    namespace: team
+    resourceVersion: "335993"
+    uid: 1ace369d-ba05-4eb9-a2e3-0cb5b97d458b
+  spec:
+    clusterIP: 10.43.32.80
+    clusterIPs:
+    - 10.43.32.80
+    externalTrafficPolicy: Cluster
+    internalTrafficPolicy: Cluster
+    ipFamilies:
+    - IPv4
+    ipFamilyPolicy: SingleStack
+    ports:
+    - nodePort: 30300
+      port: 3000
+      protocol: TCP
+      targetPort: 3000
+    selector:
+      app: grafana
+    sessionAffinity: None
+    type: NodePort
+  status:
+    loadBalancer: {}
+- apiVersion: v1
+  kind: Service
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"prometheus","namespace":"team"},"spec":{"ports":[{"port":9090,"targetPort":9090}],"selector":{"app":"prometheus"}}}
+    creationTimestamp: "2026-09-10T11:03:54Z"
+    name: prometheus
+    namespace: team
+    resourceVersion: "221428"
+    uid: 3f7a13e9-ce78-49cc-a9a2-4905975812b9
+  spec:
+    clusterIP: 10.43.67.104
+    clusterIPs:
+    - 10.43.67.104
+    internalTrafficPolicy: Cluster
+    ipFamilies:
+    - IPv4
+    ipFamilyPolicy: SingleStack
+    ports:
+    - port: 9090
+      protocol: TCP
+      targetPort: 9090
+    selector:
+      app: prometheus
+    sessionAffinity: None
+    type: ClusterIP
+  status:
+    loadBalancer: {}
+- apiVersion: v1
+  kind: Service
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"team-serving","namespace":"team"},"spec":{"ports":[{"name":"http","port":8000,"targetPort":8000}],"selector":{"app":"vllm"}}}
+    creationTimestamp: "2026-09-08T13:41:14Z"
+    name: team-serving
+    namespace: team
+    resourceVersion: "376764"
+    uid: a7a5cf43-bea3-4ecf-9041-a66f623cde99
+  spec:
+    clusterIP: 10.43.190.66
+    clusterIPs:
+    - 10.43.190.66
+    externalTrafficPolicy: Cluster
+    internalTrafficPolicy: Cluster
+    ipFamilies:
+    - IPv4
+    ipFamilyPolicy: SingleStack
+    ports:
+    - name: http
+      nodePort: 30800
+      port: 8000
+      protocol: TCP
+      targetPort: 8000
+    selector:
+      app: vllm
+    sessionAffinity: None
+    type: NodePort
+  status:
+    loadBalancer: {}
+- apiVersion: v1
+  kind: Service
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"vllm-engine","namespace":"team"},"spec":{"ports":[{"name":"http","port":8000,"targetPort":8000}],"selector":{"app":"vllm"}}}
+    creationTimestamp: "2026-09-10T12:48:10Z"
+    name: vllm-engine
+    namespace: team
+    resourceVersion: "224313"
+    uid: 5814d621-45b9-4500-acbb-11021c78141f
+  spec:
+    clusterIP: 10.43.34.228
+    clusterIPs:
+    - 10.43.34.228
+    internalTrafficPolicy: Cluster
+    ipFamilies:
+    - IPv4
+    ipFamilyPolicy: SingleStack
+    ports:
+    - name: http
+      port: 8000
+      protocol: TCP
+      targetPort: 8000
+    selector:
+      app: vllm
+    sessionAffinity: None
+    type: ClusterIP
+  status:
+    loadBalancer: {}
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+      deployment.kubernetes.io/revision: "1"
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"alert-inbox","namespace":"team"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"alert-inbox"}},"template":{"metadata":{"labels":{"app":"alert-inbox"}},"spec":{"containers":[{"command":["python3","-u","/app/inbox.py"],"image":"python:3.12-alpine","name":"inbox","ports":[{"containerPort":8080}],"readinessProbe":{"httpGet":{"path":"/health","port":8080},"initialDelaySeconds":2,"periodSeconds":5},"resources":{"limits":{"cpu":"200m","memory":"96Mi"},"requests":{"cpu":"25m","memory":"32Mi"}},"securityContext":{"allowPrivilegeEscalation":false,"capabilities":{"drop":["ALL"]},"readOnlyRootFilesystem":true,"runAsNonRoot":true,"runAsUser":10001},"volumeMounts":[{"mountPath":"/app","name":"code","readOnly":true}]}],"volumes":[{"configMap":{"name":"alert-inbox-code"},"name":"code"}]}}}}
+    creationTimestamp: "2026-09-14T08:52:34Z"
+    generation: 1
+    name: alert-inbox
+    namespace: team
+    resourceVersion: "830466"
+    uid: 028e8ba6-e110-465e-866c-c4dbb08947bd
+  spec:
+    progressDeadlineSeconds: 600
+    replicas: 1
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        app: alert-inbox
+    strategy:
+      rollingUpdate:
+        maxSurge: 25%
+        maxUnavailable: 25%
+      type: RollingUpdate
+    template:
+      metadata:
+        labels:
+          app: alert-inbox
+      spec:
+        containers:
+        - command:
+          - python3
+          - -u
+          - /app/inbox.py
+          image: python:3.12-alpine
+          imagePullPolicy: IfNotPresent
+          name: inbox
+          ports:
+          - containerPort: 8080
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /health
+              port: 8080
+              scheme: HTTP
+            initialDelaySeconds: 2
+            periodSeconds: 5
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: 200m
+              memory: 96Mi
+            requests:
+              cpu: 25m
+              memory: 32Mi
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+              - ALL
+            readOnlyRootFilesystem: true
+            runAsNonRoot: true
+            runAsUser: 10001
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /app
+            name: code
+            readOnly: true
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: alert-inbox-code
+          name: code
+  status:
+    availableReplicas: 1
+    conditions:
+    - lastTransitionTime: "2026-09-14T08:52:34Z"
+      lastUpdateTime: "2026-09-14T08:52:42Z"
+      message: ReplicaSet "alert-inbox-6fd9bd597f" has successfully progressed.
+      reason: NewReplicaSetAvailable
+      status: "True"
+      type: Progressing
+    - lastTransitionTime: "2026-09-26T05:23:23Z"
+      lastUpdateTime: "2026-09-26T05:23:23Z"
+      message: Deployment has minimum availability.
+      reason: MinimumReplicasAvailable
+      status: "True"
+      type: Available
+    observedGeneration: 1
+    readyReplicas: 1
+    replicas: 1
+    terminatingReplicas: 0
+    updatedReplicas: 1
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+      deployment.kubernetes.io/revision: "1"
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"grafana","namespace":"team"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"grafana"}},"template":{"metadata":{"labels":{"app":"grafana"}},"spec":{"containers":[{"env":[{"name":"GF_AUTH_ANONYMOUS_ENABLED","value":"true"},{"name":"GF_AUTH_ANONYMOUS_ORG_ROLE","value":"Viewer"},{"name":"GF_SECURITY_ADMIN_PASSWORD","valueFrom":{"secretKeyRef":{"key":"api-key","name":"serving-keys"}}}],"image":"grafana/grafana:11.4.0","name":"grafana","ports":[{"containerPort":3000}],"volumeMounts":[{"mountPath":"/etc/grafana/provisioning/datasources","name":"datasource"},{"mountPath":"/etc/grafana/provisioning/dashboards","name":"provider"},{"mountPath":"/var/lib/grafana/dashboards","name":"dashboards"}]}],"volumes":[{"configMap":{"name":"grafana-datasource"},"name":"datasource"},{"configMap":{"name":"grafana-provider"},"name":"provider"},{"configMap":{"name":"slo-dashboard","optional":true},"name":"dashboards"}]}}}}
+    creationTimestamp: "2026-09-13T08:25:03Z"
+    generation: 1
+    name: grafana
+    namespace: team
+    resourceVersion: "830451"
+    uid: 72071d55-5fa9-4978-a187-464016038495
+  spec:
+    progressDeadlineSeconds: 600
+    replicas: 1
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        app: grafana
+    strategy:
+      rollingUpdate:
+        maxSurge: 25%
+        maxUnavailable: 25%
+      type: RollingUpdate
+    template:
+      metadata:
+        labels:
+          app: grafana
+      spec:
+        containers:
+        - env:
+          - name: GF_AUTH_ANONYMOUS_ENABLED
+            value: "true"
+          - name: GF_AUTH_ANONYMOUS_ORG_ROLE
+            value: Viewer
+          - name: GF_SECURITY_ADMIN_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                key: api-key
+                name: serving-keys
+          image: grafana/grafana:11.4.0
+          imagePullPolicy: IfNotPresent
+          name: grafana
+          ports:
+          - containerPort: 3000
+            protocol: TCP
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /etc/grafana/provisioning/datasources
+            name: datasource
+          - mountPath: /etc/grafana/provisioning/dashboards
+            name: provider
+          - mountPath: /var/lib/grafana/dashboards
+            name: dashboards
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: grafana-datasource
+          name: datasource
+        - configMap:
+            defaultMode: 420
+            name: grafana-provider
+          name: provider
+        - configMap:
+            defaultMode: 420
+            name: slo-dashboard
+            optional: true
+          name: dashboards
+  status:
+    availableReplicas: 1
+    conditions:
+    - lastTransitionTime: "2026-09-13T08:25:03Z"
+      lastUpdateTime: "2026-09-13T08:25:08Z"
+      message: ReplicaSet "grafana-7575fbf844" has successfully progressed.
+      reason: NewReplicaSetAvailable
+      status: "True"
+      type: Progressing
+    - lastTransitionTime: "2026-09-26T05:23:15Z"
+      lastUpdateTime: "2026-09-26T05:23:15Z"
+      message: Deployment has minimum availability.
+      reason: MinimumReplicasAvailable
+      status: "True"
+      type: Available
+    observedGeneration: 1
+    readyReplicas: 1
+    replicas: 1
+    terminatingReplicas: 0
+    updatedReplicas: 1
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+      deployment.kubernetes.io/revision: "1"
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"labels":{"app":"health-shim"},"name":"health-shim","namespace":"team"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"health-shim"}},"template":{"metadata":{"labels":{"app":"health-shim"}},"spec":{"containers":[{"image":"nginx:1.27-alpine","livenessProbe":{"httpGet":{"path":"/health","port":8000},"initialDelaySeconds":10,"periodSeconds":10},"name":"nginx","ports":[{"containerPort":8000}],"readinessProbe":{"httpGet":{"path":"/health","port":8000},"periodSeconds":5},"resources":{"limits":{"cpu":"200m","memory":"128Mi"},"requests":{"cpu":"25m","memory":"32Mi"}},"volumeMounts":[{"mountPath":"/etc/nginx/nginx.conf","name":"conf","subPath":"nginx.conf"}]}],"volumes":[{"configMap":{"name":"health-shim-conf"},"name":"conf"}]}}}}
+    creationTimestamp: "2026-09-10T12:48:10Z"
+    generation: 1
+    labels:
+      app: health-shim
+    name: health-shim
+    namespace: team
+    resourceVersion: "830441"
+    uid: 2d3e4a71-7f10-4523-baa7-253d4b70742b
+  spec:
+    progressDeadlineSeconds: 600
+    replicas: 1
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        app: health-shim
+    strategy:
+      rollingUpdate:
+        maxSurge: 25%
+        maxUnavailable: 25%
+      type: RollingUpdate
+    template:
+      metadata:
+        labels:
+          app: health-shim
+      spec:
+        containers:
+        - image: nginx:1.27-alpine
+          imagePullPolicy: IfNotPresent
+          livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          name: nginx
+          ports:
+          - containerPort: 8000
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            periodSeconds: 5
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: 200m
+              memory: 128Mi
+            requests:
+              cpu: 25m
+              memory: 32Mi
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /etc/nginx/nginx.conf
+            name: conf
+            subPath: nginx.conf
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: health-shim-conf
+          name: conf
+  status:
+    availableReplicas: 1
+    conditions:
+    - lastTransitionTime: "2026-09-10T12:48:10Z"
+      lastUpdateTime: "2026-09-10T12:48:13Z"
+      message: ReplicaSet "health-shim-84864658b" has successfully progressed.
+      reason: NewReplicaSetAvailable
+      status: "True"
+      type: Progressing
+    - lastTransitionTime: "2026-09-26T05:23:13Z"
+      lastUpdateTime: "2026-09-26T05:23:13Z"
+      message: Deployment has minimum availability.
+      reason: MinimumReplicasAvailable
+      status: "True"
+      type: Available
+    observedGeneration: 1
+    readyReplicas: 1
+    replicas: 1
+    terminatingReplicas: 0
+    updatedReplicas: 1
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+      deployment.kubernetes.io/revision: "1"
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"prometheus","namespace":"team"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"prometheus"}},"strategy":{"type":"Recreate"},"template":{"metadata":{"labels":{"app":"prometheus"}},"spec":{"containers":[{"args":["--config.file=/etc/prometheus/prometheus.yml","--storage.tsdb.retention.time=30d"],"image":"prom/prometheus:v2.55.1","name":"prometheus","ports":[{"containerPort":9090}],"volumeMounts":[{"mountPath":"/etc/prometheus","name":"config"},{"mountPath":"/prometheus","name":"data"}]}],"volumes":[{"configMap":{"name":"prom-config"},"name":"config"},{"name":"data","persistentVolumeClaim":{"claimName":"prom-data"}}]}}}}
+    creationTimestamp: "2026-09-10T11:03:54Z"
+    generation: 1
+    name: prometheus
+    namespace: team
+    resourceVersion: "830438"
+    uid: e5765dbe-4baf-4ce0-80ff-862dc33ee1b0
+  spec:
+    progressDeadlineSeconds: 600
+    replicas: 1
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        app: prometheus
+    strategy:
+      type: Recreate
+    template:
+      metadata:
+        labels:
+          app: prometheus
+      spec:
+        containers:
+        - args:
+          - --config.file=/etc/prometheus/prometheus.yml
+          - --storage.tsdb.retention.time=30d
+          image: prom/prometheus:v2.55.1
+          imagePullPolicy: IfNotPresent
+          name: prometheus
+          ports:
+          - containerPort: 9090
+            protocol: TCP
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /etc/prometheus
+            name: config
+          - mountPath: /prometheus
+            name: data
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: prom-config
+          name: config
+        - name: data
+          persistentVolumeClaim:
+            claimName: prom-data
+  status:
+    availableReplicas: 1
+    conditions:
+    - lastTransitionTime: "2026-09-10T11:03:54Z"
+      lastUpdateTime: "2026-09-10T11:04:03Z"
+      message: ReplicaSet "prometheus-7c4bdd8885" has successfully progressed.
+      reason: NewReplicaSetAvailable
+      status: "True"
+      type: Progressing
+    - lastTransitionTime: "2026-09-26T05:23:13Z"
+      lastUpdateTime: "2026-09-26T05:23:13Z"
+      message: Deployment has minimum availability.
+      reason: MinimumReplicasAvailable
+      status: "True"
+      type: Available
+    observedGeneration: 1
+    readyReplicas: 1
+    replicas: 1
+    terminatingReplicas: 0
+    updatedReplicas: 1
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+      deployment.kubernetes.io/revision: "1"
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"vllm","namespace":"team"},"spec":{"replicas":1,"selector":{"matchLabels":{"app":"vllm"}},"template":{"metadata":{"labels":{"app":"vllm"}},"spec":{"containers":[{"args":["--model=Qwen/Qwen2.5-1.5B-Instruct-AWQ","--quantization=awq","--dtype=half","--max-model-len=4096","--gpu-memory-utilization=0.85","--enable-auto-tool-choice","--tool-call-parser=hermes"],"env":[{"name":"VLLM_API_KEY","valueFrom":{"secretKeyRef":{"key":"api-key","name":"serving-keys"}}}],"image":"vllm/vllm-openai:v0.27.1","name":"vllm","ports":[{"containerPort":8000}],"readinessProbe":{"httpGet":{"path":"/health","port":8000},"periodSeconds":5},"resources":{"limits":{"cpu":"4","memory":"16Gi","nvidia.com/gpu":1},"requests":{"cpu":"4","memory":"16Gi","nvidia.com/gpu":1}},"startupProbe":{"failureThreshold":60,"httpGet":{"path":"/health","port":8000},"periodSeconds":10},"volumeMounts":[{"mountPath":"/root/.cache/huggingface","name":"hf-cache"}]}],"volumes":[{"hostPath":{"path":"/var/lib/hf-cache","type":"DirectoryOrCreate"},"name":"hf-cache"}]}}}}
+    creationTimestamp: "2026-09-08T13:41:14Z"
+    generation: 4
+    name: vllm
+    namespace: team
+    resourceVersion: "862412"
+    uid: 7f4aae20-7cae-4c43-bd13-594f163c3ed5
+  spec:
+    progressDeadlineSeconds: 600
+    replicas: 0
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        app: vllm
+    strategy:
+      rollingUpdate:
+        maxSurge: 25%
+        maxUnavailable: 25%
+      type: RollingUpdate
+    template:
+      metadata:
+        labels:
+          app: vllm
+      spec:
+        containers:
+        - args:
+          - --model=Qwen/Qwen2.5-1.5B-Instruct-AWQ
+          - --quantization=awq
+          - --dtype=half
+          - --max-model-len=4096
+          - --gpu-memory-utilization=0.85
+          - --enable-auto-tool-choice
+          - --tool-call-parser=hermes
+          env:
+          - name: VLLM_API_KEY
+            valueFrom:
+              secretKeyRef:
+                key: api-key
+                name: serving-keys
+          image: vllm/vllm-openai:v0.27.1
+          imagePullPolicy: IfNotPresent
+          name: vllm
+          ports:
+          - containerPort: 8000
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            periodSeconds: 5
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: "4"
+              memory: 16Gi
+              nvidia.com/gpu: "1"
+            requests:
+              cpu: "4"
+              memory: 16Gi
+              nvidia.com/gpu: "1"
+          startupProbe:
+            failureThreshold: 60
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /root/.cache/huggingface
+            name: hf-cache
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - hostPath:
+            path: /var/lib/hf-cache
+            type: DirectoryOrCreate
+          name: hf-cache
+  status:
+    conditions:
+    - lastTransitionTime: "2026-09-08T13:41:14Z"
+      lastUpdateTime: "2026-09-08T13:44:36Z"
+      message: ReplicaSet "vllm-699b8896bc" has successfully progressed.
+      reason: NewReplicaSetAvailable
+      status: "True"
+      type: Progressing
+    - lastTransitionTime: "2026-09-27T01:54:58Z"
+      lastUpdateTime: "2026-09-27T01:54:58Z"
+      message: Deployment has minimum availability.
+      reason: MinimumReplicasAvailable
+      status: "True"
+      type: Available
+    observedGeneration: 4
+    terminatingReplicas: 0
+- apiVersion: apps/v1
+  kind: ReplicaSet
+  metadata:
+    annotations:
+      deployment.kubernetes.io/desired-replicas: "1"
+      deployment.kubernetes.io/max-replicas: "2"
+      deployment.kubernetes.io/revision: "1"
+    creationTimestamp: "2026-09-14T08:52:34Z"
+    generation: 1
+    labels:
+      app: alert-inbox
+      pod-template-hash: 6fd9bd597f
+    name: alert-inbox-6fd9bd597f
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Deployment
+      name: alert-inbox
+      uid: 028e8ba6-e110-465e-866c-c4dbb08947bd
+    resourceVersion: "830464"
+    uid: c6a165bc-2e3d-4717-b01b-60dcadfaaa07
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: alert-inbox
+        pod-template-hash: 6fd9bd597f
+    template:
+      metadata:
+        labels:
+          app: alert-inbox
+          pod-template-hash: 6fd9bd597f
+      spec:
+        containers:
+        - command:
+          - python3
+          - -u
+          - /app/inbox.py
+          image: python:3.12-alpine
+          imagePullPolicy: IfNotPresent
+          name: inbox
+          ports:
+          - containerPort: 8080
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /health
+              port: 8080
+              scheme: HTTP
+            initialDelaySeconds: 2
+            periodSeconds: 5
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: 200m
+              memory: 96Mi
+            requests:
+              cpu: 25m
+              memory: 32Mi
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+              - ALL
+            readOnlyRootFilesystem: true
+            runAsNonRoot: true
+            runAsUser: 10001
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /app
+            name: code
+            readOnly: true
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: alert-inbox-code
+          name: code
+  status:
+    availableReplicas: 1
+    fullyLabeledReplicas: 1
+    observedGeneration: 1
+    readyReplicas: 1
+    replicas: 1
+    terminatingReplicas: 0
+- apiVersion: apps/v1
+  kind: ReplicaSet
+  metadata:
+    annotations:
+      deployment.kubernetes.io/desired-replicas: "1"
+      deployment.kubernetes.io/max-replicas: "2"
+      deployment.kubernetes.io/revision: "1"
+    creationTimestamp: "2026-09-13T08:25:03Z"
+    generation: 1
+    labels:
+      app: grafana
+      pod-template-hash: 7575fbf844
+    name: grafana-7575fbf844
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Deployment
+      name: grafana
+      uid: 72071d55-5fa9-4978-a187-464016038495
+    resourceVersion: "830449"
+    uid: ec658036-75bc-4c35-843b-86709b74e183
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: grafana
+        pod-template-hash: 7575fbf844
+    template:
+      metadata:
+        labels:
+          app: grafana
+          pod-template-hash: 7575fbf844
+      spec:
+        containers:
+        - env:
+          - name: GF_AUTH_ANONYMOUS_ENABLED
+            value: "true"
+          - name: GF_AUTH_ANONYMOUS_ORG_ROLE
+            value: Viewer
+          - name: GF_SECURITY_ADMIN_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                key: api-key
+                name: serving-keys
+          image: grafana/grafana:11.4.0
+          imagePullPolicy: IfNotPresent
+          name: grafana
+          ports:
+          - containerPort: 3000
+            protocol: TCP
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /etc/grafana/provisioning/datasources
+            name: datasource
+          - mountPath: /etc/grafana/provisioning/dashboards
+            name: provider
+          - mountPath: /var/lib/grafana/dashboards
+            name: dashboards
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: grafana-datasource
+          name: datasource
+        - configMap:
+            defaultMode: 420
+            name: grafana-provider
+          name: provider
+        - configMap:
+            defaultMode: 420
+            name: slo-dashboard
+            optional: true
+          name: dashboards
+  status:
+    availableReplicas: 1
+    fullyLabeledReplicas: 1
+    observedGeneration: 1
+    readyReplicas: 1
+    replicas: 1
+    terminatingReplicas: 0
+- apiVersion: apps/v1
+  kind: ReplicaSet
+  metadata:
+    annotations:
+      deployment.kubernetes.io/desired-replicas: "1"
+      deployment.kubernetes.io/max-replicas: "2"
+      deployment.kubernetes.io/revision: "1"
+    creationTimestamp: "2026-09-10T12:48:10Z"
+    generation: 1
+    labels:
+      app: health-shim
+      pod-template-hash: 84864658b
+    name: health-shim-84864658b
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Deployment
+      name: health-shim
+      uid: 2d3e4a71-7f10-4523-baa7-253d4b70742b
+    resourceVersion: "830440"
+    uid: 86578360-d944-4d7c-95af-23a067027c20
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: health-shim
+        pod-template-hash: 84864658b
+    template:
+      metadata:
+        labels:
+          app: health-shim
+          pod-template-hash: 84864658b
+      spec:
+        containers:
+        - image: nginx:1.27-alpine
+          imagePullPolicy: IfNotPresent
+          livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          name: nginx
+          ports:
+          - containerPort: 8000
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            periodSeconds: 5
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: 200m
+              memory: 128Mi
+            requests:
+              cpu: 25m
+              memory: 32Mi
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /etc/nginx/nginx.conf
+            name: conf
+            subPath: nginx.conf
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: health-shim-conf
+          name: conf
+  status:
+    availableReplicas: 1
+    fullyLabeledReplicas: 1
+    observedGeneration: 1
+    readyReplicas: 1
+    replicas: 1
+    terminatingReplicas: 0
+- apiVersion: apps/v1
+  kind: ReplicaSet
+  metadata:
+    annotations:
+      deployment.kubernetes.io/desired-replicas: "1"
+      deployment.kubernetes.io/max-replicas: "1"
+      deployment.kubernetes.io/revision: "1"
+    creationTimestamp: "2026-09-10T11:03:54Z"
+    generation: 1
+    labels:
+      app: prometheus
+      pod-template-hash: 7c4bdd8885
+    name: prometheus-7c4bdd8885
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Deployment
+      name: prometheus
+      uid: e5765dbe-4baf-4ce0-80ff-862dc33ee1b0
+    resourceVersion: "830437"
+    uid: 05033169-a071-400f-b86e-319f62a2b3fe
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: prometheus
+        pod-template-hash: 7c4bdd8885
+    template:
+      metadata:
+        labels:
+          app: prometheus
+          pod-template-hash: 7c4bdd8885
+      spec:
+        containers:
+        - args:
+          - --config.file=/etc/prometheus/prometheus.yml
+          - --storage.tsdb.retention.time=30d
+          image: prom/prometheus:v2.55.1
+          imagePullPolicy: IfNotPresent
+          name: prometheus
+          ports:
+          - containerPort: 9090
+            protocol: TCP
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /etc/prometheus
+            name: config
+          - mountPath: /prometheus
+            name: data
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 420
+            name: prom-config
+          name: config
+        - name: data
+          persistentVolumeClaim:
+            claimName: prom-data
+  status:
+    availableReplicas: 1
+    fullyLabeledReplicas: 1
+    observedGeneration: 1
+    readyReplicas: 1
+    replicas: 1
+    terminatingReplicas: 0
+- apiVersion: apps/v1
+  kind: ReplicaSet
+  metadata:
+    annotations:
+      deployment.kubernetes.io/desired-replicas: "0"
+      deployment.kubernetes.io/max-replicas: "0"
+      deployment.kubernetes.io/revision: "1"
+    creationTimestamp: "2026-09-08T13:41:14Z"
+    generation: 4
+    labels:
+      app: vllm
+      pod-template-hash: 699b8896bc
+    name: vllm-699b8896bc
+    namespace: team
+    ownerReferences:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Deployment
+      name: vllm
+      uid: 7f4aae20-7cae-4c43-bd13-594f163c3ed5
+    resourceVersion: "862410"
+    uid: f0999efd-bf97-4804-b431-f40a72960853
+  spec:
+    replicas: 0
+    selector:
+      matchLabels:
+        app: vllm
+        pod-template-hash: 699b8896bc
+    template:
+      metadata:
+        labels:
+          app: vllm
+          pod-template-hash: 699b8896bc
+      spec:
+        containers:
+        - args:
+          - --model=Qwen/Qwen2.5-1.5B-Instruct-AWQ
+          - --quantization=awq
+          - --dtype=half
+          - --max-model-len=4096
+          - --gpu-memory-utilization=0.85
+          - --enable-auto-tool-choice
+          - --tool-call-parser=hermes
+          env:
+          - name: VLLM_API_KEY
+            valueFrom:
+              secretKeyRef:
+                key: api-key
+                name: serving-keys
+          image: vllm/vllm-openai:v0.27.1
+          imagePullPolicy: IfNotPresent
+          name: vllm
+          ports:
+          - containerPort: 8000
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            periodSeconds: 5
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources:
+            limits:
+              cpu: "4"
+              memory: 16Gi
+              nvidia.com/gpu: "1"
+            requests:
+              cpu: "4"
+              memory: 16Gi
+              nvidia.com/gpu: "1"
+          startupProbe:
+            failureThreshold: 60
+            httpGet:
+              path: /health
+              port: 8000
+              scheme: HTTP
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /root/.cache/huggingface
+            name: hf-cache
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - hostPath:
+            path: /var/lib/hf-cache
+            type: DirectoryOrCreate
+          name: hf-cache
+  status:
+    observedGeneration: 4
+    replicas: 0
+    terminatingReplicas: 0
+kind: List
+metadata:
+  resourceVersion: ""

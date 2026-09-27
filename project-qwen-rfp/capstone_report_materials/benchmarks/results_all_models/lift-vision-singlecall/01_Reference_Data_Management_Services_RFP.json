@@ -1,0 +1,263 @@
+{
+  "doc_id": "01_Reference_Data_Management_Services_RFP",
+  "backend": "lift-vision-singlecall",
+  "model": "datalab-to/lift",
+  "modality": "vision",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "April 29, 2025, 2:00 P.M. EDT",
+      "raw": "April 29, 2025, 2:00 P.M. EDT",
+      "page": 5,
+      "quote": "Submission Deadline of proposals April 29, 2025, 2:00 P.M. EDT",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "April 15, 2025",
+      "raw": "April 15, 2025",
+      "page": 5,
+      "quote": "Deadline for Questions April 15, 2025",
+      "confidence": 1.0,
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "name": "Tim Webster",
+      "email": "procurementsourcing@cmhc-schl.gc.ca; tjwebste@cmhc-schl.gc.ca",
+      "phone": null,
+      "title": null,
+      "page": 4,
+      "quote": "Tim Webster procurementsourcing@cmhc-schl.gc.ca tjwebste@cmhc-schl.gc.ca",
+      "confidence": 1.0,
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Email to EBID@cmhc-schl.gc.ca via CMHC's electronic bid submission system (EBID)",
+      "page": 5,
+      "quote": "Proposal submissions must be emailed to CMHC’s electronic bid submission system (“EBID”) to the address indicated below: Email Address: EBID@cmhc-schl.gc.ca (“Submission Location”)",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "contract_term": {
+      "present": true,
+      "value": "1 year initial term with options to extend for four additional 1-year renewal periods, total term not to exceed 5 years",
+      "page": 4,
+      "quote": "The term of the agreement resulting from this RFP is to be for a period of one (1) year, with options to extend the agreement on the same terms and conditions for four (4) additional 1-year renewal periods for a total term not to exceed five (5) years collectively.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "CMHC is seeking proposals for Reference Data Management (RDM) Services, divided into three streams: 1. Develop and Implement an Operating Model for RDM, 2. Adoption of RDM Governance and Policy, and 3. Implement a Sustainable Technical Solution.",
+      "page": 4,
+      "quote": "The Three stream are: 1. Develop and Implement an Operating Model for Reference Data Management (RDM) 2. Adoption of RDM Governance and Policy 3. Implement a Sustainable Technical Solution",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Submission Form (Appendix A) completed and signed by an authorized representative",
+        "Pricing Form (Appendix B) completed according to instructions",
+        "Response to rated criteria categories R.1 - R.4"
+      ],
+      "page": 27,
+      "quote": "1. SUBMISSION FORM (APPENDIX A) Each proposal must include a Submission Form (Appendix A) completed and signed by an authorized representative of the proponent. 2. PRICING FORM (APPENDIX B) Each proposal must include a Pricing Form (Appendix B) completed according to the instructions contained in the form. 3. RESPONSE TO R.1 - R.4 Each proposal must include the response to the rated criteria categories.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "MTR. 1: Data Residency. CMHC Data, while at rest or in transit must stay within the geographical boundaries of Canada and accessed from within Canada.",
+        "MTR. 2: Data Security. Proponents must demonstrate that they have the required IT infrastructure in place to safeguard CMHC Data classified Protected B or higher, including personal information."
+      ],
+      "page": 28,
+      "quote": "MTR. 1 Data Residency. The selected proponent must comply with the following: CMHC Data, while at rest or in transit must stay within the geographical boundaries of Canada and accessed from within Canada. MTR. 2 Data Security. Proponents must demonstrate that they have the required IT infrastructure in place to safeguard CMHC Data classified Protected B or higher, including personal information.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "category": "R.1 Vendor Experience and Diversity Certification",
+          "weight": 10,
+          "unit": "%"
+        },
+        {
+          "category": "R.2 Proposed Approach and Execution Strategy",
+          "weight": 30,
+          "unit": "%"
+        },
+        {
+          "category": "R.3 Team Experience & Qualifications",
+          "weight": 30,
+          "unit": "%"
+        },
+        {
+          "category": "R.4 Performance and Excellence",
+          "weight": 10,
+          "unit": "%"
+        },
+        {
+          "category": "Stage III - Pricing",
+          "weight": 20,
+          "unit": "%"
+        }
+      ],
+      "page": 29,
+      "quote": "R.1 Vendor Experience and Diversity Certification 10% R.2 Proposed Approach and Execution Strategy 30% R.3 Team Experience & Qualifications 30% R.4 Performance and Excellence 10% Stage III - Pricing (See Appendix B for details) 20% Total 100%",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "value": null,
+      "unit": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Pricing is worth 20 points of the total score. Formula: Lowest price ÷ proponent's price x weighting = proponent's pricing points. Submission format: Pricing Form (Appendix B).",
+      "page": 20,
+      "quote": "Pricing is worth 20 points of the total score. Pricing will be scored based on a relative pricing formula using the rates set out in the Pricing Form. Each proponent will receive a percentage of the total possible points allocated to price for the particular category it has bid on, which will be calculated in accordance with the following formula: Lowest price ÷ proponent's price x weighting = proponent's pricing points",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "value": [
+        {
+          "coverage_type": "Technology Errors & Omissions Liability",
+          "amount": 5000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Professional Errors & Omissions Liability",
+          "amount": 5000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Computer Security and Privacy Liability (Cyber Liability)",
+          "amount": 10000000,
+          "currency": "USD",
+          "basis": "per claim and aggregate"
+        }
+      ],
+      "page": 47,
+      "quote": "Technology Errors & Omissions Liability insurance... limit of not less than five million dollars ($5,000,000) per claim... Professional Errors & Omissions Liability insurance... limit of not less than five million dollars ($5,000,000) per claim... Computer Security and Privacy Liability... limit of not less than ten million dollars ($10,000,000) per claim and aggregate",
+      "confidence": 1.0,
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "value": 3,
+      "unit": "client references",
+      "page": 31,
+      "quote": "R.4: Provide three client references from similar engagements in the past 5 years.",
+      "confidence": 1.0,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": false,
+      "value": null,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "R.1: Vendor Experience and Diversity Certification (10% weight). No specific minimum years or project count is stated.",
+      "page": 29,
+      "quote": "R.1 Vendor Experience and Diversity Certification 10%",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "Data classified Protected B or higher, including personal information, must be safeguarded.",
+        "CMHC Data must reside in Canada at all times."
+      ],
+      "page": 28,
+      "quote": "Data Security. Proponents must demonstrate that they have the required IT infrastructure in place to safeguard CMHC Data classified Protected B or higher, including personal information. The proponent shall: ensure that all CMHC Data will reside in Canada at all times.",
+      "confidence": 1.0,
+      "_field_type": "list",
+      "_evidence": {
+        "status": "unverified"
+      }
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "CMHC Data must reside in Canada at all times.",
+      "page": 27,
+      "quote": "The proponent shall: ensure that all CMHC Data will reside in Canada at all times.",
+      "confidence": 1.0,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified"
+      }
+    }
+  },
+  "totals": {
+    "wall_clock_s": 63.8,
+    "prompt_tokens": 27544,
+    "completion_tokens": 2052,
+    "cost_usd": 0.0
+  }
+}

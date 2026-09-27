@@ -1,0 +1,497 @@
+{
+  "doc_id": "Shafter_RFP_Final_201802011144290034",
+  "doc_path": "/home/ubuntu/aidc/project-qwen-rfp/docs/Shafter_RFP_Final_201802011144290034.pdf",
+  "n_pages": 40,
+  "text_extractable": true,
+  "backend": "gpt-4o",
+  "backend_key": "gpt-4o:text",
+  "model": "gpt-4o",
+  "modality": "text",
+  "retrieval": "selected",
+  "started_at": "2026-09-21T07:34:15+00:00",
+  "clusters": {
+    "timeline_contact": {
+      "pages_shown": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        16,
+        17
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.94,
+      "prompt_tokens": 6286,
+      "completion_tokens": 388,
+      "cost_usd": 0.019595
+    },
+    "scope_term": {
+      "pages_shown": [
+        1,
+        2,
+        9,
+        12,
+        13,
+        17,
+        18,
+        21
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.14,
+      "prompt_tokens": 4872,
+      "completion_tokens": 205,
+      "cost_usd": 0.01423
+    },
+    "requirements": {
+      "pages_shown": [
+        1,
+        2,
+        10,
+        11,
+        13,
+        14,
+        22,
+        23
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.94,
+      "prompt_tokens": 4986,
+      "completion_tokens": 420,
+      "cost_usd": 0.016665
+    },
+    "evaluation": {
+      "pages_shown": [
+        1,
+        2,
+        9,
+        21,
+        25
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 2.97,
+      "prompt_tokens": 3784,
+      "completion_tokens": 388,
+      "cost_usd": 0.01334
+    },
+    "commercial": {
+      "pages_shown": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        13,
+        14,
+        16,
+        21,
+        23,
+        24,
+        25,
+        28,
+        29,
+        31,
+        35,
+        36,
+        37
+      ],
+      "ok": true,
+      "error": null,
+      "latency_s": 4.03,
+      "prompt_tokens": 11630,
+      "completion_tokens": 557,
+      "cost_usd": 0.034645
+    }
+  },
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "page": 8,
+      "quote": "Proposals due – 5:00 PM (PST)",
+      "confidence": 1.0,
+      "value": "2018-03-01T17:00:00-08:00",
+      "raw": "03/01/2018 5:00 PM (PST)",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 8,
+        "found_on_page": 8,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "questions_deadline": {
+      "present": true,
+      "page": 7,
+      "quote": "Additional inquires or requests for clarification will be accepted until February 16, 2018 at 5:00 PM (PST).",
+      "confidence": 1.0,
+      "value": "2018-02-16T17:00:00-08:00",
+      "raw": "February 16, 2018 at 5:00 PM (PST)",
+      "_field_type": "datetime",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "rfp_contact": {
+      "present": true,
+      "page": 7,
+      "quote": "Contact:  \nJames L. Zervis \nTitle:   \n \nDirector of Administrative Services \nEmail:    \njzervis@shafter.com  \nPhone:   \n(661) 746-5043",
+      "confidence": 1.0,
+      "name": "James L. Zervis",
+      "email": "jzervis@shafter.com",
+      "phone": "(661) 746-5043",
+      "title": "Director of Administrative Services",
+      "_field_type": "contact",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 7,
+        "found_on_page": 7,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "submission_method": {
+      "present": true,
+      "page": 10,
+      "quote": "Proposals are to be submitted in sealed packages by March 1, 2018 at 5:00 PM PST.\n\nSubmittal Address:   \n \n \nCity of Shafter \nJames Zervis, Director of Administrative Services \n336 Pacific Avenue \nShafter, CA 93263",
+      "confidence": 1.0,
+      "value": "City of Shafter, James Zervis, Director of Administrative Services, 336 Pacific Avenue, Shafter, CA 93263",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "unverified",
+        "claimed_page": 10,
+        "found_on_page": null,
+        "exact": false,
+        "best_score": 80.8
+      }
+    },
+    "contract_term": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 0.9,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "page": 17,
+      "quote": "The project scope for procurement and implementation of software solutions is briefly described in the chart below. Specific functionality within each category listed below is more thoroughly described in Attachment 13 (Functional Requirements). Functional Scope Financials Human Resources/Payroll • General Ledger • Purchasing / Contracts • Accounts Payable • Accounts Receivable/Misc. Billing • Utility Billing • Cashiering • Project/Grant Accounting • Fixed Assets • Budget Prep • Vendor Self Service • Personnel Administration • Applicant Tracking & Hiring (optional) • Position Control • Benefit Administration • Leave Management • Time Entry/Scheduling • Payroll • Employee Self-Service • Employee/Travel Reimbursement",
+      "confidence": 0.95,
+      "value": "Procurement and implementation of an ERP system covering Financials and Human Resources/Payroll functionalities, including General Ledger, Accounts Payable, Payroll, and more.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 17,
+        "found_on_page": 17,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "page": 10,
+      "quote": "A.13.1 Proposals are to be submitted in sealed packages by March 1, 2018 at 5:00 PM PST. Late submissions will not be accepted.",
+      "confidence": 1.0,
+      "value": [
+        "Proposals are to be submitted in sealed packages by March 1, 2018 at 5:00 PM PST.",
+        "Proposers are required to separate their proposals into two sections, a technical proposal and a price proposal.",
+        "Proposers are required to submit TWO (2) hard copies and TWO (2) electronic copies of the proposal (including both technical and cost proposal) in a sealed package that is clearly labeled with the proposer’s company name and the RFP name.",
+        "Hard copies of the proposal must include a submittal letter signed by an authorized agent of each firm involved in the proposal.",
+        "Use Attachment 1 (RFP Submittal Checklist) to ensure that all required documents, forms, and attachments have been completed and submitted as instructed.",
+        "Emailed and faxed proposals will not be accepted."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 10,
+        "found_on_page": 10,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "page": 13,
+      "quote": "B.3.1 Submit Attachment 13 (Functional Requirements)",
+      "confidence": 1.0,
+      "value": [
+        "Submit Attachment 13 (Functional Requirements)",
+        "Proposers are expected to warrant both software and implementation of all positive responses (every response except “N” and “I”).",
+        "Proposers must be ready to demonstrate any requirements listed as “Y” during software demos.",
+        "Proposers should indicated a response code of Y-ND and answer column J for functionality that is not currently available and not available for viewing at a demo, but that will be in scope for the project either as generally available features in a future release or as a customization, modification, or enhancement specific for this project.",
+        "Proposers are also required to respond if the feature will be supported in the product as part of the proposed maintenance and support offering and the proposed provider of support."
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 13,
+        "found_on_page": 13,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "page": 9,
+      "quote": "The criteria that will be used to evaluate proposals may include, but are not limited to the following:  \n \n \nCost \n \nResponse to Attachment 13 (Functional Requirements) \n \nSoftware Demonstrations \n \nImplementation Approach \n \nPast Experience with Similar Organizations and References \n \nProposed Integration to Other Modules / Systems in RFP Scope \n \nTechnical Compatibility \n \nProposed Hosting Services and Service Level Guarantees \n \nOverall Understanding of the City’s Needs and Project Risk Mitigation \n \nProject Management Approach \n \nCompliance with Contract Terms and Conditions",
+      "confidence": 1.0,
+      "value": [
+        {
+          "category": "Cost",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Response to Attachment 13 (Functional Requirements)",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Software Demonstrations",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Implementation Approach",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Past Experience with Similar Organizations and References",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Proposed Integration to Other Modules / Systems in RFP Scope",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Technical Compatibility",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Proposed Hosting Services and Service Level Guarantees",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Overall Understanding of the City’s Needs and Project Risk Mitigation",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Project Management Approach",
+          "weight": null,
+          "unit": null
+        },
+        {
+          "category": "Compliance with Contract Terms and Conditions",
+          "weight": null,
+          "unit": null
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 9,
+        "found_on_page": 9,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "minimum_score_threshold": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": null,
+      "unit": null,
+      "_field_type": "number",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "pricing_structure": {
+      "present": true,
+      "page": 16,
+      "quote": "Proposers should submit their price proposal in a separate and sealed packet according to the format provided in Attachment 14 (Cost) to this RFP.",
+      "confidence": 1.0,
+      "value": "Proposers should submit their price proposal in a separate and sealed packet according to the format provided in Attachment 14 (Cost) to this RFP.",
+      "_field_type": "text",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 16,
+        "found_on_page": 16,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "insurance_requirements": {
+      "present": true,
+      "page": 23,
+      "quote": "Vendor shall maintain commercial general liability insurance with coverage at least as broad as Insurance Services Office form CG 00 01, in an amount not less than one million dollars ($1,000,000) per occurrence, two million dollars ($2,000,000) general aggregate, for bodily injury, personal injury, and property damage, including without limitation, blanket contractual liability.",
+      "confidence": 1.0,
+      "value": [
+        {
+          "coverage_type": "Commercial General Liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Commercial General Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "aggregate"
+        },
+        {
+          "coverage_type": "Auto Liability",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per accident"
+        },
+        {
+          "coverage_type": "Workers’ Compensation",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per occurrence"
+        },
+        {
+          "coverage_type": "Professional Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "per claim"
+        },
+        {
+          "coverage_type": "Professional Liability",
+          "amount": 2000000,
+          "currency": "USD",
+          "basis": "aggregate"
+        },
+        {
+          "coverage_type": "Cyber Liability Insurance",
+          "amount": 1000000,
+          "currency": "USD",
+          "basis": "per claim"
+        }
+      ],
+      "_field_type": "table",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 23,
+        "found_on_page": 23,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "vendor_experience_required": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "references_required": {
+      "present": true,
+      "page": 35,
+      "quote": "Please provide at least five (5) references for past projects that include products and services similar to those proposed for this RFP, including at least one city in California.",
+      "confidence": 1.0,
+      "value": 5,
+      "unit": "references",
+      "_field_type": "number",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 35,
+        "found_on_page": 35,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_security_requirements": {
+      "present": true,
+      "page": 36,
+      "quote": "Identify data encryption approach used",
+      "confidence": 1.0,
+      "value": [
+        "Identify data encryption approach used"
+      ],
+      "_field_type": "list",
+      "_evidence": {
+        "status": "verified",
+        "claimed_page": 36,
+        "found_on_page": 36,
+        "exact": true,
+        "best_score": 100.0
+      }
+    },
+    "data_hosting_residency": {
+      "present": false,
+      "page": null,
+      "quote": null,
+      "confidence": 1.0,
+      "value": null,
+      "_field_type": "text",
+      "_evidence": {
+        "status": "absent"
+      }
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "page": 9,
+      "quote": "Software demonstrations and implementation presentations will be held on-site at the City’s offices and can cover all functional areas listed in this RFP. The City expects to elevate up to three (3) proposers for demonstrations.",
+      "confidence": 1.0,
+      "value": true,
+      "_field_type": "boolean",
+      "_evidence": {
+        "status": "wrong_page",
+        "claimed_page": 9,
+        "found_on_page": 8,
+        "exact": true,
+        "best_score": 100.0
+      }
+    }
+  },
+  "totals": {
+    "prompt_tokens": 31558,
+    "completion_tokens": 1958,
+    "cost_usd": 0.098475,
+    "latency_s": 15.01,
+    "errors": 0
+  },
+  "finished_at": "2026-09-21T07:34:30+00:00",
+  "summary": {
+    "fields_returned": 17,
+    "fields_asserted_present": 13,
+    "fields_absent": 4,
+    "evidence": {
+      "verified": 11,
+      "wrong_page": 1,
+      "unverified": 1,
+      "no_quote": 0,
+      "absent": 4
+    },
+    "groundedness": 0.923,
+    "hallucination_rate": 0.077
+  }
+}

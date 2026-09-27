@@ -1,0 +1,45 @@
+{
+  "run_type": "isolated_benchmark",
+  "frozen_at_utc": "2026-09-22T12:10:05+00:00",
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "backend_key": "qwen3.5-9b-text",
+  "endpoint": "http://localhost:8100/v1",
+  "serving_framework": "vllm/vllm-openai:latest (docker container vllm-bench)",
+  "vllm_launch_args": {
+    "model": "QuantTrio/Qwen3.5-9B-AWQ",
+    "served_model_name": "QuantTrio/Qwen3.5-9B-AWQ",
+    "quantization": "awq_marlin",
+    "dtype": "half",
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.9
+  },
+  "extraction_command": "./.venv/bin/python run.py -m qwen3.5-9b --docs benchmark_5rfp_v2/docs_selected --out benchmark_5rfp_v2/results --vllm-url http://localhost:8100/v1",
+  "extraction_log": "benchmark_5rfp_v2/logs/qwen35_9b_extraction_run.log",
+  "ground_truth_source_file": "ground_truth/ground_truth_5_rfps_combined_V2.json",
+  "ground_truth_source_sha256": "a26cd8378b680ea60555f59429c5c9750a449dd192b89c3ce78677d66868c03d",
+  "result_files_sha256": {
+    "AB-2025-02456-RFP #25-004ERP Requirements Analysis and Readiness Review_Final (1).json": "1c31057ea2a3c074d7b9bf2fe50a8c928e2c2da41bdc2cd42966babfcf15f6d4",
+    "AB-2026-05648-197-2027 RFP Learning Management System (LMS) Platform  Support (2).json": "0247511adac68a1c396d3d771a8e9ac5b283aaae00189f502f0639e9f3226397",
+    "City of Medicine Hat - LMS tender.json": "874bbdf0407b68ae9252f6a37f2039df14f6d8412290c1058980739c19862391",
+    "EN_-_ERP_RFP_24.25.04.json": "54c0209519f02e51a9e41ae3e8e556cf6bf3c6dcdaa4349b38931ab64d273019",
+    "RFP CP-730126 Generative AI RFP (4).json": "83c2fc9ceb991373c08a7d7e44dcc3913299900d73fd2d5f9550f8cf60f5f4aa"
+  },
+  "environment": {
+    "gpu": "NVIDIA RTX A6000",
+    "vram_total_mib": 49140,
+    "note": "Lift (lift-vllm) was stopped to free VRAM before starting qwen3.5-9b (vllm-bench), matching the same swap pattern approved earlier for the Lift benchmark."
+  },
+  "totals_from_run": {
+    "total_latency_s": 295.8,
+    "cluster_errors": 0
+  },
+  "integrity_rules_followed": {
+    "ground_truth_modified": false,
+    "pdfs_modified": false,
+    "old_results_modified": false,
+    "prompt_tuned": false,
+    "model_changed": false,
+    "manual_output_correction": false,
+    "ground_truth_used_during_inference": false
+  }
+}

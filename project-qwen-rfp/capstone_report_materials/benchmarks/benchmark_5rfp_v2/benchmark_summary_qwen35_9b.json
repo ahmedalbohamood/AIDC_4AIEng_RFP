@@ -1,0 +1,59 @@
+{
+  "model": "QuantTrio/Qwen3.5-9B-AWQ",
+  "backend_key": "qwen3.5-9b-text",
+  "endpoint": "http://localhost:8100/v1",
+  "documents": 5,
+  "fields_per_document": 17,
+  "total_fields": 85,
+  "correct": 42,
+  "partial": 30,
+  "wrong": 13,
+  "missing": 0,
+  "accuracy": 0.4941,
+  "adjusted_accuracy": 0.6706,
+  "groundedness": 0.887,
+  "hallucination_rate": 0.113,
+  "prompt_tokens": 241863,
+  "completion_tokens": 17043,
+  "total_tokens": 258906,
+  "average_latency_seconds": 59.17,
+  "median_latency_seconds": 55.44,
+  "difficulty_breakdown": {
+    "easy": {
+      "total": 25,
+      "correct": 13,
+      "partial": 9,
+      "wrong": 3,
+      "missing": 0,
+      "accuracy": 0.52
+    },
+    "medium": {
+      "total": 20,
+      "correct": 6,
+      "partial": 11,
+      "wrong": 3,
+      "missing": 0,
+      "accuracy": 0.3
+    },
+    "hard": {
+      "total": 40,
+      "correct": 23,
+      "partial": 10,
+      "wrong": 7,
+      "missing": 0,
+      "accuracy": 0.575
+    }
+  },
+  "cluster_failures": 0,
+  "malformed_json_errors": 0,
+  "possible_grader_mismatches": 12,
+  "fastest_document": "EN_-_ERP_RFP_24.25.04",
+  "slowest_document": "RFP CP-730126 Generative AI RFP (4)",
+  "ground_truth_modified": false,
+  "old_results_modified": false,
+  "prompt_tuned": false,
+  "manual_corrections": false,
+  "qwen35_9b_left_running": true,
+  "lift_left_running": false,
+  "note": "Lift (lift-vllm) was stopped to free VRAM before this run; vllm-bench (QuantTrio/Qwen3.5-9B-AWQ) is running after this benchmark instead."
+}

@@ -1,0 +1,152 @@
+{
+  "doc_id": "EN_-_ERP_RFP_24.25.04",
+  "annotator": "GPT-5.6 Sol source-grounded review, 2026-09-22",
+  "fields": {
+    "submission_deadline": {
+      "present": true,
+      "value": "April 14, 2025, 11:59:59 PM PST",
+      "difficulty": "hard",
+      "note": "Cover and Section 1.4 Key Dates."
+    },
+    "questions_deadline": {
+      "present": true,
+      "value": "March 17, 2025, 11:59:59 PM PST",
+      "difficulty": "easy",
+      "note": "Section 1.4 Key Dates."
+    },
+    "rfp_contact": {
+      "present": true,
+      "value": "Jeremy Elliott; procurement@cowichantribes.com",
+      "difficulty": "medium",
+      "note": "Section 1.2 RFP Contact."
+    },
+    "submission_method": {
+      "present": true,
+      "value": "Submit directly through the BCBid platform where the RFP is posted; no physical submission unless specifically requested.",
+      "difficulty": "easy",
+      "note": "Section 1.5.1."
+    },
+    "contract_term": {
+      "present": true,
+      "value": "ERP implementation plus a 5-year licensing and support agreement, with an option for Cowichan Tribes to extend on the same terms and conditions; extension length is not specified.",
+      "difficulty": "hard",
+      "note": "Section 1.3.2."
+    },
+    "scope_of_deliverables": {
+      "present": true,
+      "value": "Implement a commercially supported cloud ERP covering Finance, Procurement, HR, Payroll and Asset Management; include data conversion, integrations, implementation/change management, security, and transition to ongoing support. Other TIFIS functions such as housing/membership remain outside the replacement scope.",
+      "difficulty": "medium",
+      "note": "Invitation and Appendix B Narrative Response / Requirements."
+    },
+    "mandatory_submission_requirements": {
+      "present": true,
+      "value": [
+        "Submit by the deadline using the prescribed BCBid method.",
+        "Proposal in English.",
+        "Completed and signed Submission Form in PDF.",
+        "Completed Narrative Response in PDF following Appendix B Section A.",
+        "Completed Pricing Excel Workbook.",
+        "Completed Requirements Excel Workbook."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix B Section C."
+    },
+    "mandatory_technical_requirements": {
+      "present": true,
+      "value": [
+        "Support Canadian organizations, including Canadian taxes and payroll.",
+        "Vendor experience implementing solutions for First Nations in Canada.",
+        "Solution hosted in Canada with all data stored in Canada.",
+        "Implementation vendor(s) with at least 5 years of experience implementing Finance, HR, Payroll and Asset Management solutions.",
+        "Cloud-based solution.",
+        "SOC 2 Type 2 compliant or equivalent."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix B Section D; failure results in disqualification."
+    },
+    "evaluation_criteria": {
+      "present": true,
+      "value": [
+        {
+          "criterion": "Functional Fit (Requirements Worksheet)",
+          "weight": 35,
+          "threshold": "28/35 (80%)"
+        },
+        {
+          "criterion": "Narrative Proposal",
+          "weight": 20,
+          "threshold": "14/20 (70%)"
+        },
+        {
+          "criterion": "Pricing",
+          "weight": 15,
+          "threshold": "10.5/15 (70%)"
+        },
+        {
+          "criterion": "Vendor Demonstration",
+          "weight": 30,
+          "threshold": "21/30 (70%)"
+        }
+      ],
+      "difficulty": "medium",
+      "note": "Appendix B Section F; total 100 points."
+    },
+    "minimum_score_threshold": {
+      "present": true,
+      "value": [
+        "Functional Fit: 28/35 (80%)",
+        "Narrative Proposal: 14/20 (70%)",
+        "Pricing: 10.5/15 (70%)",
+        "Vendor Demonstration: 21/30 (70%)"
+      ],
+      "difficulty": "hard",
+      "note": "Explicit category thresholds are stated in Appendix B Section F."
+    },
+    "pricing_structure": {
+      "present": true,
+      "value": "Complete the provided Pricing Sheet for implementation, licensing and support over five years; CAD, inclusive of applicable duties/taxes, and all-inclusive of labour, materials, travel, insurance, delivery, installation/setup and overhead. Also provide resource rates for additional scope. Pricing is worth 15 points.",
+      "difficulty": "medium",
+      "note": "Appendix B Section G."
+    },
+    "insurance_requirements": {
+      "present": false,
+      "value": null,
+      "difficulty": "easy",
+      "note": "The RFP says pricing must include insurance costs but does not state a minimum insurance coverage type or dollar amount in the PDF."
+    },
+    "vendor_experience_required": {
+      "present": true,
+      "value": "Mandatory experience implementing solutions for First Nations in Canada, and implementation vendor(s) must have at least 5 years of experience implementing Finance, HR, Payroll and Asset Management solutions.",
+      "difficulty": "hard",
+      "note": "Appendix B Section D."
+    },
+    "references_required": {
+      "present": true,
+      "value": "At least 2 and at most 5",
+      "difficulty": "easy",
+      "note": "Narrative Response Section 11: implementations involving the proposed solutions in Canada; First Nations clients preferred."
+    },
+    "data_security_requirements": {
+      "present": true,
+      "value": [
+        "SOC 2 Type 2 compliant or equivalent (mandatory).",
+        "Describe compliance with industry security standards and management of privacy/cybersecurity risks.",
+        "Provide third-party cybersecurity-vendor information."
+      ],
+      "difficulty": "hard",
+      "note": "Appendix B Sections A8 and D."
+    },
+    "data_hosting_residency": {
+      "present": true,
+      "value": "The solution must be hosted in Canada and all data must be stored within Canada.",
+      "difficulty": "hard",
+      "note": "Appendix B Section D mandatory technical requirements."
+    },
+    "vendor_demonstration_required": {
+      "present": true,
+      "value": true,
+      "difficulty": "easy",
+      "note": "Stage V Vendor Demonstrations; demonstration is worth 30 points and has a 21/30 (70%) threshold."
+    }
+  }
+}
