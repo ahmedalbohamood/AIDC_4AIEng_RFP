@@ -1,0 +1,15 @@
+{{- bos_token }}
+{%- for message in messages %}
+{{- '<|ifm|im_start|>' + message['role'] + '\n' }}
+{%- if message['content'] is string %}
+{{- message['content'] }}
+{%- else %}
+{%- for part in message['content'] %}
+{{- part.text if part.text is defined else part }}
+{%- endfor %}
+{%- endif %}
+{{- '<|ifm|im_end|>\n' }}
+{%- endfor %}
+{%- if add_generation_prompt %}
+{{- '<|ifm|im_start|>assistant\n' }}
+{%- endif %}

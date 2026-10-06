@@ -1,0 +1,17 @@
+# Frontend build artifacts/deps - rebuilt fresh inside the Docker image.
+# The local node_modules has Windows-native binaries (lightningcss,
+# @tailwindcss/oxide) that would break a Linux build if copied in.
+AI RFP System Interface (1)/node_modules/
+AI RFP System Interface (1)/dist/
+AI RFP System Interface (1)/.vite/
+
+# Backend local state - not part of the image.
+project-qwen-rfp/.venv/
+project-qwen-rfp/__pycache__/
+project-qwen-rfp/uploads/
+project-qwen-rfp/.env
+project-qwen-rfp/.env.*
+project-qwen-rfp/docs/
+project-qwen-rfp/results/
+
+.git/

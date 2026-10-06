@@ -22,27 +22,30 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 import pymupdf as fitz
-from openai import OpenAI
 
 from .fields import FieldSpec, FieldType, fields_in, keywords_for
 
-EMBED_MODEL = "text-embedding-3-small"
+# Local, CPU-only embedding model (no API key, no external service) - swapped in
+# when neither the OpenAI, DeepSeek, nor Claude keys available to this project
+# offer an embeddings endpoint. Weights cache under fastembed's default HF cache
+# dir on first use (~130MB download).
+EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
-_embed_client: Optional[OpenAI] = None
+_embed_model = None
 _query_embed_cache: Dict[str, List[float]] = {}
 
 
-def _client() -> OpenAI:
-    global _embed_client
-    if _embed_client is None:
-        _embed_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    return _embed_client
+def _model():
+    global _embed_model
+    if _embed_model is None:
+        from fastembed import TextEmbedding
+        _embed_model = TextEmbedding(model_name=EMBED_MODEL)
+    return _embed_model
 
 
 def _embed(texts: List[str]) -> List[List[float]]:
     """Raw embeddings, one per input text, same order. Caller handles caching."""
-    resp = _client().embeddings.create(model=EMBED_MODEL, input=texts)
-    return [d.embedding for d in resp.data]
+    return [vec.tolist() for vec in _model().embed(texts)]
 
 
 def _cosine(a: List[float], b: List[float]) -> float:
@@ -164,11 +167,15 @@ class Document:
     def page_embeddings(self) -> Dict[int, List[float]]:
         """Embed every page once, in a single batch call, cached for the life of
         this Document. Empty pages are skipped (no query is ever meaningfully
-        close to nothing)."""
+        close to nothing). Returns {} if no embeddings-capable key is configured -
+        callers fall back to keyword-only ranking (see _score_pages_hybrid)."""
         if not self._page_embed_cache:
             numbered = [(p.number, p.text.strip()) for p in self.pages if p.text.strip()]
             if numbered:
-                vectors = _embed([f"Page {n}: {text[:8000]}" for n, text in numbered])
+                try:
+                    vectors = _embed([f"Page {n}: {text[:8000]}" for n, text in numbered])
+                except Exception:
+                    return {}
                 for (n, _), vec in zip(numbered, vectors):
                     self._page_embed_cache[n] = vec
         return self._page_embed_cache
@@ -216,9 +223,14 @@ def _score_pages_embedding(doc: Document, spec: FieldSpec) -> List[tuple]:
     anticipated (a real, not hypothetical, gap: keyword scoring only fires on
     literal string matches, so a page saying 'the vendor must carry two million
     in coverage' is invisible to it if the keyword list doesn't have that exact
-    phrasing)."""
-    query = _field_query_embedding(spec)
+    phrasing). Returns [] if no embeddings-capable key is configured."""
+    try:
+        query = _field_query_embedding(spec)
+    except Exception:
+        return []
     pages = doc.page_embeddings()
+    if not pages:
+        return []
     scored = [(_cosine(query, vec), doc.page(n)) for n, vec in pages.items()]
     scored.sort(key=lambda sp: (-sp[0], sp[1].number))
     return scored

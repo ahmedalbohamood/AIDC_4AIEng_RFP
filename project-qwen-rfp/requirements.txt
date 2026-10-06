@@ -5,3 +5,4 @@ python-dotenv>=1.0
 tenacity>=8.5
 rapidfuzz>=3.9
 tqdm>=4.66
+fastembed>=0.8

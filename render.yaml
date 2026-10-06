@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ai-rfp-system
+    runtime: docker
+    dockerfilePath: ./project-qwen-rfp/Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: VLLM_URL
+        sync: false

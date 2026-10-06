@@ -390,7 +390,12 @@ async def run_agent(document_id: str):
     return {"findings": findings}
 
 
-# ── Chat / RAG - stays on OpenAI throughout, per instruction ───────────────────
+# ── Chat / RAG - via engy.ai (deepseek-v4.1-flash), swapped in when the direct
+# OpenAI key expired the night before the presentation. engy.ai speaks the same
+# OpenAI-compatible chat-completions API, so only the base_url and model changed.
+
+CHAT_MODEL = os.environ.get("CHAT_MODEL", "deepseek-v4.1-flash")
+CHAT_BASE_URL = os.environ.get("CHAT_BASE_URL", "https://api.engy.ai/v1")
 
 _openai_client: Optional[OpenAI] = None
 _doc_cache: dict[str, Document] = {}
@@ -399,7 +404,7 @@ _doc_cache: dict[str, Document] = {}
 def _openai() -> OpenAI:
     global _openai_client
     if _openai_client is None:
-        _openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+        _openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"), base_url=CHAT_BASE_URL)
     return _openai_client
 
 
@@ -417,12 +422,15 @@ _STOPWORDS = {"what", "happens", "if", "cannot", "the", "with", "to", "a", "an",
 
 
 def _retrieve(doc: Document, question: str, top_k: int = 5) -> list:
-    q_vec = _embed([question])[0]
     pages_emb = doc.page_embeddings()
-    emb_scored = sorted(
-        ((_cosine(q_vec, vec), doc.page(n)) for n, vec in pages_emb.items()),
-        key=lambda sp: (-sp[0], sp[1].number),
-    )
+    if pages_emb:
+        q_vec = _embed([question])[0]
+        emb_scored = sorted(
+            ((_cosine(q_vec, vec), doc.page(n)) for n, vec in pages_emb.items()),
+            key=lambda sp: (-sp[0], sp[1].number),
+        )
+    else:
+        emb_scored = []
     keywords = [w for w in question.lower().replace("?", "").split() if w not in _STOPWORDS]
     kw_scored = _score_pages(doc, keywords)
     emb_rank = {p.number: i for i, (_, p) in enumerate(emb_scored)}
@@ -466,7 +474,7 @@ async def chat(req: ChatRequestModel):
         messages.append({"role": "user" if turn.role == "user" else "assistant", "content": turn.text})
     messages.append({"role": "user", "content": f"PAGES:\n{context}\n\nQUESTION: {req.message}"})
 
-    resp = _openai().chat.completions.create(model="gpt-4o", messages=messages, temperature=0)
+    resp = _openai().chat.completions.create(model=CHAT_MODEL, messages=messages, temperature=0)
     text = resp.choices[0].message.content
     refs = [f"Page {p.number}" for p in pages[:3]]
     return {"text": text, "refs": refs}
