@@ -11,3 +11,7 @@ services:
         sync: false
       - key: VLLM_URL
         sync: false
+      # The 512MB free instance OOMs loading the local embedding model
+      # (onnxruntime + bge-small); see rfpbench/document.py's _model().
+      - key: DISABLE_EMBEDDINGS
+        value: "1"

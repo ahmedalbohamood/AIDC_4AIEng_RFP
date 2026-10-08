@@ -38,6 +38,14 @@ _query_embed_cache: Dict[str, List[float]] = {}
 def _model():
     global _embed_model
     if _embed_model is None:
+        # Loading onnxruntime + the model weights is the single heaviest thing
+        # in this process's memory footprint - too much for a 512MB hosted
+        # instance on top of everything else already loaded. Callers already
+        # treat a failure here as "no embeddings available" and fall back to
+        # keyword-only retrieval, so this reuses that existing path instead of
+        # OOM-crashing the whole process.
+        if os.environ.get("DISABLE_EMBEDDINGS"):
+            raise RuntimeError("embeddings disabled via DISABLE_EMBEDDINGS")
         from fastembed import TextEmbedding
         _embed_model = TextEmbedding(model_name=EMBED_MODEL)
     return _embed_model
